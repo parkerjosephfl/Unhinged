@@ -1,4 +1,4 @@
-Log file open, 09/16/14 09:26:28
+Log file open, 09/16/14 16:19:27
 LogInit:Display: Running engine for game: Phobophobia
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,579 +7,359 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.16-13.26.28:107][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.16-13.26.28:147][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.16-13.26.28:166][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.16-13.26.28:179][  0]LogInit: Object subsystem initialized
-[2014.09.16-13.26.28:183][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.16-13.26.28:183][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.16-13.26.28:193][  0]LogInit: Computer: PAIGE
-[2014.09.16-13.26.28:194][  0]LogInit: User: Rodrigo
-[2014.09.16-13.26.28:196][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.09.16-13.26.28:196][  0]LogInit: High frequency timer resolution =2.046955 MHz
-[2014.09.16-13.26.28:196][  0]LogMemory: Memory total: Physical=7.2GB (8GB approx) Virtual=131072.0GB
-[2014.09.16-13.26.28:197][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.16-13.26.28:197][  0]LogMemory: Process Physical Memory: 53.16 MB used, 53.16 MB peak
-[2014.09.16-13.26.28:197][  0]LogMemory: Process Virtual Memory: 29.56 MB used, 29.56 MB peak
-[2014.09.16-13.26.28:197][  0]LogMemory: Physical Memory: 2481.34 MB used, 7365.01 MB total
-[2014.09.16-13.26.28:197][  0]LogMemory: Virtual Memory: 242.57 MB used, 134217728.00 MB total
-[2014.09.16-13.26.28:238][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8610G (Feature Level 11_0)
-[2014.09.16-13.26.28:238][  0]LogD3D11RHI: Adapter has 735MB of dedicated video memory, 0MB of dedicated system memory, and 3456MB of shared system memory, 1 output[s]
-[2014.09.16-13.26.28:241][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.09.16-13.26.28:241][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.09.16-13.26.28:241][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.16-13.26.28:251][  0]LogRHI: Texture pool is 514 MB (70% of 735 MB)
-[2014.09.16-13.26.28:265][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.09.16-13.26.28:411][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.16-13.26.30:139][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-13.26.30:385][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.16-13.26.30:461][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.16-13.26.30:571][  0]LogDerivedDataCache: Loaded boot cache 0.11s 39MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.16-13.26.30:571][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.09.16-13.26.30:571][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.16-13.26.30:571][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.16-13.26.30:588][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.16-13.26.30:607][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.09.16-13.26.31:014][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.16-13.26.31:014][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.16-13.26.31:672][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.16-13.26.32:485][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.09.16-13.26.32:486][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.09.16-13.26.32:495][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.09.16-13.26.32:495][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.09.16-13.26.33:055][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.16-13.26.33:194][  0]SourceControl: Info Source control is disabled
-[2014.09.16-13.26.33:195][  0]SourceControl: Info Source control is disabled
-[2014.09.16-13.26.33:213][  0]SourceControl: Info Source control is disabled
-[2014.09.16-13.26.33:443][  0]BlueprintLog: New page: Editor Load
-[2014.09.16-13.26.33:527][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.09.16-13.26.33:527][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
-[2014.09.16-13.26.33:990][  0]LogEngine: Initializing Engine...
-[2014.09.16-13.26.34:199][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.09.16-13.26.34:217][  0]LogInit: FAudioDevice initialized.
-[2014.09.16-13.26.34:272][  0]LogDerivedDataCache: Saved boot cache 0.05s 39MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.16-13.26.34:285][  0]LogInit: Texture streaming: Enabled
-[2014.09.16-13.26.34:344][  0]LogInit: Transaction tracking system initialized
-[2014.09.16-13.26.34:575][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2014.09.16-13.26.34:973][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.16-13.26.34:986][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.16-13.26.35:112][  0]LogConsoleResponse:Display: 
-[2014.09.16-13.26.35:612][  0]SourceControl: Info Source control is disabled
-[2014.09.16-13.26.35:757][  0]LogCollectionManager: Loaded 0 collections in 0.002619 seconds
-[2014.09.16-13.26.35:956][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.09.16-13.26.35:958][  0]Cmd: MODE PLACEMENT
-[2014.09.16-13.26.36:010][  0]LogLoad: Full Startup: 9.53 seconds (BP compile: 0.00 seconds)
-[2014.09.16-13.26.36:030][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.09.16-13.26.36:200][  0]LogRenderer:Warning: Reallocating scene render targets to support 776x584.
-[2014.09.16-13.26.36:689][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AAAAE2EB5F608499</RequestId><HostId>mViyVaxsxcqGsqFjHOMg2FXxaxcrirT6A6hVGMu3D+/iph2TqacM01Ti7519CCOqQd3z7+vTzjw=</HostId></Error>
-[2014.09.16-13.26.36:736][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9D8C4B187FB977EF</RequestId><HostId>CdX4fL5ZsIma3u1vPHZoFIyyitiz/3kZ++GW18QJJdZfHKwxJ/mQlcIOPOjDb8Lp00j1ayqw4EA=</HostId></Error>
-[2014.09.16-13.26.36:790][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A9164E9CEF05289D</RequestId><HostId>hnhAF7U5IyAxC4bCNQsH38TW8IHQNTA4y758IX1QvUZU94dSorZVhyMpapcBE1kvO8jso32KFHk=</HostId></Error>
-[2014.09.16-13.26.36:804][  3]LogAssetRegistry: Asset discovery search completed in 2.2405 seconds
-[2014.09.16-13.26.36:829][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>A0EF0CBFD586D7FF</RequestId><HostId>peqlplNvpn0JWawokH8AdBPcIsOJTcgCGekYJr0YUTQRMiY/9oXLkUWoxFXQdzUch42L2tC1pE0=</HostId></Error>
-[2014.09.16-13.26.36:907][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-13.26.36:910][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-13.27.22:678][629]Cmd: MAP LOAD FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.16-13.27.22:679][629]LightingResults: New page: Lighting Build
-[2014.09.16-13.27.22:700][629]Cmd: MODE PLACEMENT
-[2014.09.16-13.27.22:752][629]LoadErrors: New page: Loading map: Swimming.umap
-[2014.09.16-13.27.22:753][629]MapCheck: New page: Map Check
-[2014.09.16-13.27.22:753][629]LightingResults: New page: Lighting Build
-[2014.09.16-13.27.22:778][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009F96B85E0
-[2014.09.16-13.27.23:987][629]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.16-13.27.24:032][629]Cmd: MAP CHECKDEP
-[2014.09.16-13.27.24:033][629]MapCheck: New page: Swimming - Sep 16, 2014, 5:27:24 AM
-[2014.09.16-13.27.24:197][629]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [163.758ms] ==========
-[2014.09.16-13.27.24:197][629]LogFileHelpers: Loading map 'Swimming' took 1.518
-[2014.09.16-13.28.48:580][102]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2014.09.16-13.28.55:121][163]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:\Fear\small crate.fbx)
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: Material, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: Texture, ItemCount : 3
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: Model, ItemCount : 1
-[2014.09.16-13.28.55:842][163]LogFbx: ItemName: Video, ItemCount : 3
-[2014.09.16-13.28.59:916][163]LogFbx: Loading FBX Scene from F:\Fear\small crate.fbx
-[2014.09.16-13.29.00:836][163]LogFbx: FBX Scene Loaded Succesfully
-[2014.09.16-13.29.00:850][163]LogFbx:Warning: Triangulating static mesh pCube6
-[2014.09.16-13.29.01:419][163]LogFbx: == Initial material list:
-[2014.09.16-13.29.01:419][163]LogFbx: 0: phongE1
-[2014.09.16-13.29.01:419][163]LogFbx: == After sorting:
-[2014.09.16-13.29.01:419][163]LogFbx: 0: phongE1
-[2014.09.16-13.29.01:419][163]LogFbx: == Mapping table:
-[2014.09.16-13.29.01:419][163]LogFbx:   sort 0 -> 0
-[2014.09.16-13.29.01:423][163]LogStaticMesh: Building static mesh small_crate...
-[2014.09.16-13.29.01:445][163]LogStaticMesh: Built static mesh [23.895494ms] /Game/Meshes/small_crate.small_crate
-[2014.09.16-13.29.01:471][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-13.29.01:471][163]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2014.09.16-13.29.03:823][188]LogActorFactory: Actor Factory created small_crate
-[2014.09.16-13.29.04:787][200]LogActorFactory: Actor Factory created small_crate
-[2014.09.16-13.29.23:061][542]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes/Materials'
-[2014.09.16-13.29.37:832][739]Cmd: DELETE
-[2014.09.16-13.29.37:833][739]Cmd: ACTOR DELETE
-[2014.09.16-13.29.37:834][739]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.09.16-13.29.37:835][739]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.09.16-13.29.37:902][739]LogEditorActor: Deleted 1 Actors (0.069 secs)
-[2014.09.16-13.29.39:356][759]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2014.09.16-13.29.43:678][851]LogRenderer:Warning: Reallocating scene render targets to support 824x584.
-[2014.09.16-13.29.46:383][887]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A9442660
-[2014.09.16-13.29.51:658][887]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'TransBuffer_0' or package '/Engine/Transient'.
-[2014.09.16-13.29.54:576][919]LogSavePackage: Save=243.331192ms
-[2014.09.16-13.29.54:576][919]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/SwimmingD5547F7841928365D9720DB7933190CF.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap'
-[2014.09.16-13.29.54:643][919]LogFileHelpers: Saving map 'Swimming' took 0.628
-[2014.09.16-13.32.47:945][387]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 F:\Fear\small crate.fbx)
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: Geometry, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: Material, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: Texture, ItemCount : 3
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: Model, ItemCount : 1
-[2014.09.16-13.32.48:018][387]LogFbx: ItemName: Video, ItemCount : 3
-[2014.09.16-13.32.55:915][387]LogFbx: Loading FBX Scene from F:\Fear\small crate.fbx
-[2014.09.16-13.32.57:046][387]LogFbx: FBX Scene Loaded Succesfully
-[2014.09.16-13.32.57:115][387]LogLinker:Warning: Can't find file '/Game/Meshes/phongE1'
-[2014.09.16-13.32.57:115][387]LogLinker:Warning: Can't find file '/Game/Meshes/phongE1'
-[2014.09.16-13.32.57:115][387]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Game/Meshes/phongE1.phongE1'
-[2014.09.16-13.32.57:130][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture'
-[2014.09.16-13.32.57:130][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture'
-[2014.09.16-13.32.57:130][387]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/crate_texture.crate_texture'
-[2014.09.16-13.32.57:881][387]LogTexture:Display: Building textures: crate_texture (AutoDXT)
-[2014.09.16-13.33.06:694][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture_specular_map'
-[2014.09.16-13.33.06:694][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture_specular_map'
-[2014.09.16-13.33.06:694][387]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map'
-[2014.09.16-13.33.07:360][387]LogTexture:Display: Building textures: crate_texture_specular_map (AutoDXT)
-[2014.09.16-13.33.11:876][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture_bump_map'
-[2014.09.16-13.33.11:876][387]LogLinker:Warning: Can't find file '/Game/Meshes/crate_texture_bump_map'
-[2014.09.16-13.33.11:876][387]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map'
-[2014.09.16-13.33.12:518][387]LogTexture:Display: Building textures: crate_texture_bump_map (BC5)
-[2014.09.16-13.33.13:711][387]LogMaterial: Missing cached shader map for material phongE1, compiling.
-[2014.09.16-13.33.13:731][387]LogFbx:Warning: Triangulating static mesh pCube6
-[2014.09.16-13.33.14:357][387]LogFbx: == Initial material list:
-[2014.09.16-13.33.14:357][387]LogFbx: 0: phongE1
-[2014.09.16-13.33.14:357][387]LogFbx: == After sorting:
-[2014.09.16-13.33.14:357][387]LogFbx: 0: phongE1
-[2014.09.16-13.33.14:357][387]LogFbx: == Mapping table:
-[2014.09.16-13.33.14:357][387]LogFbx:   sort 0 -> 0
-[2014.09.16-13.33.14:360][387]LogStaticMesh: Building static mesh small_crate...
-[2014.09.16-13.33.14:384][387]LogStaticMesh: Built static mesh [24.807091ms] /Game/Meshes/small_crate.small_crate
-[2014.09.16-13.33.14:396][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.16-13.33.14:396][387]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
-[2014.09.16-13.33.16:789][411]LogActorFactory: Actor Factory created small_crate
-[2014.09.16-13.33.17:818][424]LogActorFactory: Actor Factory created small_crate
-[2014.09.16-13.33.19:858][446]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.16-13.33.19:858][446]Aligned camera to fit all selected actors.
-[2014.09.16-13.33.27:820][558]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate)
-[2014.09.16-13.33.44:851][795]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.16-13.33.44:851][795]PIE: New page: PIE session: Swimming (Sep 16, 2014, 5:33:44 AM)
-[2014.09.16-13.33.44:899][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047441s)
-[2014.09.16-13.33.44:900][795]LogPlayLevel: PIE: World Init took: (0.001379s)
-[2014.09.16-13.33.44:900][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.049142s)
-[2014.09.16-13.33.44:900][795]LogWorld: Game class is 'MyGame_C'
-[2014.09.16-13.33.44:951][795]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-09.33.44
-[2014.09.16-13.33.44:952][795]LogWorld: Bringing up level for play took: 0.007511
-[2014.09.16-13.33.44:953][795]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.09.16-13.33.44:953][795]LogGameMode: RestartPlayer 256
-[2014.09.16-13.33.44:955][795]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_0
-[2014.09.16-13.33.44:955][795]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_0
-[2014.09.16-13.33.44:960][795]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.446
-[2014.09.16-13.33.45:111][796]LogRenderer:Warning: Reallocating scene render targets to support 824x592.
-[2014.09.16-13.34.14:768][311]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009F4F589A0
-[2014.09.16-13.40.24:385][948]LogSavePackage: Save=207.151596ms
-[2014.09.16-13.40.24:385][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto153C652904125CBA97DC776A00A54D13E.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto1.umap'
-[2014.09.16-13.40.24:412][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.449
-[2014.09.16-13.40.24:412][948]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.449
-[2014.09.16-13.40.24:422][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-13.40.24:480][948]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-13.40.24:480][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-13.40.24:906][948]LogSavePackage: Save=398.255951ms
-[2014.09.16-13.40.24:906][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto1B15E78A34C198C2B83DDE58CDE13A8D4.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto1.uasset'
-[2014.09.16-13.40.24:947][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-13.40.25:000][948]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-13.40.25:000][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-13.40.25:288][948]LogSavePackage: Save=244.870056ms
-[2014.09.16-13.40.25:289][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto190239261482A6E9E96BD979750F277D5.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto1.uasset'
-[2014.09.16-13.40.25:332][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-13.40.25:360][948]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-13.40.25:360][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-13.40.34:318][948]LogSavePackage: Save=8928.150391ms
-[2014.09.16-13.40.34:318][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto1382514E24D431BEC06FCCF83E3D1636B.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto1.uasset'
-[2014.09.16-13.40.34:355][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-13.40.34:387][948]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-13.40.34:387][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-13.40.46:299][948]LogSavePackage: Save=11883.825195ms
-[2014.09.16-13.40.46:299][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto1CA1BD99B4324E214ABBBA58F9DDBC7B0.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto1.uasset'
-[2014.09.16-13.40.46:336][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-13.40.46:364][948]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-13.40.46:364][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-13.40.59:973][948]LogSavePackage: Save=13579.332031ms
-[2014.09.16-13.40.59:973][948]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto1965DE3714AEF7C7BCFBF1CA8E42C3038.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto1.uasset'
-[2014.09.16-13.41.00:016][948]LogFileHelpers: Auto-saving content packages took 35.604
-[2014.09.16-13.41.36:655][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-13.41.36:664][301]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-13.51.00:728][714]LogSavePackage: Save=218.119110ms
-[2014.09.16-13.51.00:728][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto299CE5B5749A1AC1EB50A2288BC731D56.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto2.umap'
-[2014.09.16-13.51.00:761][714]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.507
-[2014.09.16-13.51.00:761][714]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.507
-[2014.09.16-13.51.00:772][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-13.51.00:830][714]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-13.51.00:830][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-13.51.01:275][714]LogSavePackage: Save=415.633453ms
-[2014.09.16-13.51.01:275][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto2950F1F3C4BDCDD8402E26482C9E69341.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto2.uasset'
-[2014.09.16-13.51.01:315][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-13.51.01:371][714]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-13.51.01:372][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-13.51.01:677][714]LogSavePackage: Save=267.803162ms
-[2014.09.16-13.51.01:677][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto22DAAC339493DA2733558099B43202932.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto2.uasset'
-[2014.09.16-13.51.01:721][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-13.51.01:760][714]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-13.51.01:760][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-13.51.02:202][714]LogSavePackage: Save=409.146271ms
-[2014.09.16-13.51.02:203][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto223AE1EAB465E99328723EAB8C2657D82.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto2.uasset'
-[2014.09.16-13.51.02:242][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-13.51.02:279][714]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-13.51.02:279][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-13.51.02:567][714]LogSavePackage: Save=257.703766ms
-[2014.09.16-13.51.02:567][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto28DF5EE8849A7DE0842D5E6BD07082A80.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto2.uasset'
-[2014.09.16-13.51.02:609][714]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-13.51.02:647][714]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-13.51.02:647][714]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-13.51.03:032][714]LogSavePackage: Save=337.424133ms
-[2014.09.16-13.51.03:032][714]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto2552FDE9B4A5235A2D1FEF8B3D20DB966.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto2.uasset'
-[2014.09.16-13.51.03:142][714]LogFileHelpers: Auto-saving content packages took 2.381
-[2014.09.16-13.56.36:736][951]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-13.56.36:745][951]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.01.03:755][405]LogSavePackage: Save=247.221359ms
-[2014.09.16-14.01.03:755][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto3D9C34E694FF8889BFAE256A124160F97.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto3.umap'
-[2014.09.16-14.01.03:791][405]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.509
-[2014.09.16-14.01.03:791][405]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.509
-[2014.09.16-14.01.03:802][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-14.01.03:859][405]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-14.01.03:859][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-14.01.04:343][405]LogSavePackage: Save=441.917877ms
-[2014.09.16-14.01.04:343][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto3017E7DB94F9B3BCC0063C4802598038D.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto3.uasset'
-[2014.09.16-14.01.04:387][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-14.01.04:445][405]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-14.01.04:445][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-14.01.04:760][405]LogSavePackage: Save=276.118927ms
-[2014.09.16-14.01.04:760][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto34621985B483AB3D42A5B95AA2B52910C.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto3.uasset'
-[2014.09.16-14.01.04:804][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-14.01.04:834][405]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-14.01.04:835][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-14.01.05:243][405]LogSavePackage: Save=377.790436ms
-[2014.09.16-14.01.05:243][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto3E5088E6448F495AFEEB4DB8ED1BB6A42.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto3.uasset'
-[2014.09.16-14.01.05:284][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-14.01.05:317][405]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-14.01.05:317][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-14.01.05:625][405]LogSavePackage: Save=276.377838ms
-[2014.09.16-14.01.05:625][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto34120CB8849869971D18572A0E411A8BE.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto3.uasset'
-[2014.09.16-14.01.05:666][405]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-14.01.05:701][405]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-14.01.05:701][405]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-14.01.06:059][405]LogSavePackage: Save=328.148895ms
-[2014.09.16-14.01.06:059][405]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto38C8BEA2A4A632AE6FBFA679363ED6C88.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto3.uasset'
-[2014.09.16-14.01.06:090][405]LogFileHelpers: Auto-saving content packages took 2.300
-[2014.09.16-14.11.06:895][533]LogSavePackage: Save=252.442780ms
-[2014.09.16-14.11.06:895][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto4C272B5D44E914F2B3C4FA9B661D811A1.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto4.umap'
-[2014.09.16-14.11.06:932][533]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.572
-[2014.09.16-14.11.06:932][533]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.572
-[2014.09.16-14.11.06:944][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-14.11.07:003][533]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-14.11.07:003][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-14.11.07:491][533]LogSavePackage: Save=451.493073ms
-[2014.09.16-14.11.07:491][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto430039B8B43B19F776F1BA08927107375.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto4.uasset'
-[2014.09.16-14.11.07:544][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-14.11.07:604][533]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-14.11.07:604][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-14.11.07:915][533]LogSavePackage: Save=276.646057ms
-[2014.09.16-14.11.07:915][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto4988A77C64D24D9B69AF8FFA69B73412F.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto4.uasset'
-[2014.09.16-14.11.07:959][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-14.11.07:991][533]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-14.11.07:991][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-14.11.08:380][533]LogSavePackage: Save=359.111938ms
-[2014.09.16-14.11.08:380][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto4A605FD4140824275627EED9534DE3D94.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto4.uasset'
-[2014.09.16-14.11.08:425][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-14.11.08:456][533]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-14.11.08:456][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-14.11.08:740][533]LogSavePackage: Save=252.022644ms
-[2014.09.16-14.11.08:740][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto45D4853A44C21EA1E16DF1B8760064979.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto4.uasset'
-[2014.09.16-14.11.08:784][533]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-14.11.08:824][533]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-14.11.08:824][533]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-14.11.09:181][533]LogSavePackage: Save=327.159119ms
-[2014.09.16-14.11.09:181][533]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto4D953A15A4AF39C571C41D497218E1089.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto4.uasset'
-[2014.09.16-14.11.09:210][533]LogFileHelpers: Auto-saving content packages took 2.279
-[2014.09.16-14.11.36:590][901]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.11.36:594][901]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.21.10:030][ 44]LogSavePackage: Save=278.234741ms
-[2014.09.16-14.21.10:030][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto5A14609D847176E0ED400BCA46C01EA74.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto5.umap'
-[2014.09.16-14.21.10:051][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.641
-[2014.09.16-14.21.10:051][ 44]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.641
-[2014.09.16-14.21.10:064][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-14.21.10:128][ 44]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-14.21.10:129][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-14.21.10:633][ 44]LogSavePackage: Save=474.950348ms
-[2014.09.16-14.21.10:633][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto54C5FD85D4B93A02F849A36995EC444A8.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto5.uasset'
-[2014.09.16-14.21.10:666][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-14.21.10:727][ 44]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-14.21.10:727][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-14.21.11:037][ 44]LogSavePackage: Save=277.769653ms
-[2014.09.16-14.21.11:037][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto5E494FC49477D9A68342E9E8DBDAA79F4.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto5.uasset'
-[2014.09.16-14.21.11:063][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-14.21.11:098][ 44]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-14.21.11:098][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-14.21.11:522][ 44]LogSavePackage: Save=398.280853ms
-[2014.09.16-14.21.11:522][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto53EC44E4949562466104884A609F1820F.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto5.uasset'
-[2014.09.16-14.21.11:552][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-14.21.11:580][ 44]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-14.21.11:580][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-14.21.11:864][ 44]LogSavePackage: Save=255.278214ms
-[2014.09.16-14.21.11:864][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto5CD46FA4D423D9FA4DB5E35A080DD6CA2.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto5.uasset'
-[2014.09.16-14.21.11:891][ 44]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-14.21.11:931][ 44]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-14.21.11:931][ 44]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-14.21.12:292][ 44]LogSavePackage: Save=333.751343ms
-[2014.09.16-14.21.12:292][ 44]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto5FB7A37784096D4C85F28BA9B336594DD.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto5.uasset'
-[2014.09.16-14.21.12:306][ 44]LogFileHelpers: Auto-saving content packages took 2.255
-[2014.09.16-14.26.36:553][111]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.26.36:564][111]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.31.13:097][666]LogSavePackage: Save=247.793915ms
-[2014.09.16-14.31.13:097][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto64F6DDB4E4E251A937BFC90A08E56EC46.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto6.umap'
-[2014.09.16-14.31.13:114][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.499
-[2014.09.16-14.31.13:114][666]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.499
-[2014.09.16-14.31.13:125][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-14.31.13:179][666]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-14.31.13:179][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-14.31.13:646][666]LogSavePackage: Save=446.831512ms
-[2014.09.16-14.31.13:646][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto63E47D0A9458F705A26A6D0A6C0FD18FC.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto6.uasset'
-[2014.09.16-14.31.13:674][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-14.31.13:730][666]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-14.31.13:730][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-14.31.14:044][666]LogSavePackage: Save=279.341278ms
-[2014.09.16-14.31.14:044][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto677901EF94303D44D2510CE8AA4EFBC50.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto6.uasset'
-[2014.09.16-14.31.14:071][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-14.31.14:103][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-14.31.14:103][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-14.31.14:483][666]LogSavePackage: Save=351.333069ms
-[2014.09.16-14.31.14:483][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto65529B3614B3311FC8428B2946FA2BD82.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto6.uasset'
-[2014.09.16-14.31.14:509][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-14.31.14:537][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-14.31.14:537][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-14.31.14:822][666]LogSavePackage: Save=258.458038ms
-[2014.09.16-14.31.14:822][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto6928B2E134E1F4E8FB209C49EBA7BDFD3.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto6.uasset'
-[2014.09.16-14.31.14:848][666]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-14.31.14:886][666]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-14.31.14:887][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-14.31.15:246][666]LogSavePackage: Save=332.688324ms
-[2014.09.16-14.31.15:246][666]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto62C082F6A4C56CEB4B7B1A192059BDBF0.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto6.uasset'
-[2014.09.16-14.31.15:262][666]LogFileHelpers: Auto-saving content packages took 2.147
-[2014.09.16-14.41.16:172][415]LogSavePackage: Save=275.500916ms
-[2014.09.16-14.41.16:172][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming_Auto751EA42BD4ABCD3674CCAC89A9A960BCA.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Maps/Swimming_Auto7.umap'
-[2014.09.16-14.41.16:211][415]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.598
-[2014.09.16-14.41.16:211][415]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.598
-[2014.09.16-14.41.16:223][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/small_crate] ([1] browsable assets)...
-[2014.09.16-14.41.16:288][415]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshes/small_crate.small_crate]
-[2014.09.16-14.41.16:288][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/small_crate]
-[2014.09.16-14.41.16:799][415]LogSavePackage: Save=474.790588ms
-[2014.09.16-14.41.16:799][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crate_Auto7E07AA2914190AD03C179EBAABEEB01CA.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/small_crate_Auto7.uasset'
-[2014.09.16-14.41.16:845][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/phongE1] ([1] browsable assets)...
-[2014.09.16-14.41.16:904][415]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Meshes/phongE1.phongE1]
-[2014.09.16-14.41.16:904][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/phongE1]
-[2014.09.16-14.41.17:254][415]LogSavePackage: Save=313.565277ms
-[2014.09.16-14.41.17:254][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1_Auto71C01B24C46CFA70421845C93196ECDD4.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/phongE1_Auto7.uasset'
-[2014.09.16-14.41.17:304][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture] ([1] browsable assets)...
-[2014.09.16-14.41.17:346][415]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture.crate_texture]
-[2014.09.16-14.41.17:346][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture]
-[2014.09.16-14.41.17:741][415]LogSavePackage: Save=369.172760ms
-[2014.09.16-14.41.17:742][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_Auto7DCD7410E466C8050254EE18DD9BDE71E.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_Auto7.uasset'
-[2014.09.16-14.41.17:788][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_specular_map] ([1] browsable assets)...
-[2014.09.16-14.41.17:826][415]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_specular_map.crate_texture_specular_map]
-[2014.09.16-14.41.17:826][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_specular_map]
-[2014.09.16-14.41.18:125][415]LogSavePackage: Save=267.808044ms
-[2014.09.16-14.41.18:125][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map_Auto752DA217C4861ED78F33F9A95FA93FFEA.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_specular_map_Auto7.uasset'
-[2014.09.16-14.41.18:166][415]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshes/crate_texture_bump_map] ([1] browsable assets)...
-[2014.09.16-14.41.18:193][415]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Meshes/crate_texture_bump_map.crate_texture_bump_map]
-[2014.09.16-14.41.18:194][415]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshes/crate_texture_bump_map]
-[2014.09.16-14.41.18:555][415]LogSavePackage: Save=332.441589ms
-[2014.09.16-14.41.18:555][415]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_map_Auto7FD400BBF4A2C10F469EDC2AB002C4AB1.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Autosaves/Game/Meshes/crate_texture_bump_map_Auto7.uasset'
-[2014.09.16-14.41.18:581][415]LogFileHelpers: Auto-saving content packages took 2.370
-[2014.09.16-14.41.37:245][663]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.41.37:290][663]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.16-14.45.03:885][309]LogSavePackage: Save=221.832428ms
-[2014.09.16-14.45.03:885][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming64E61BA84A3BE58B405ADC983B3A5602.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap'
-[2014.09.16-14.45.03:953][309]LogFileHelpers: Saving map 'Swimming' took 0.656
-[2014.09.16-14.45.03:978][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/crate_texture" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/crate_texture.uasset" SILENT=true
-[2014.09.16-14.45.04:350][309]LogSavePackage: Save=362.342102ms
-[2014.09.16-14.45.04:350][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_textureD73A300746AA32E200367A97F57F119B.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/crate_texture.uasset'
-[2014.09.16-14.45.04:402][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/crate_texture_bump_map" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/crate_texture_bump_map.uasset" SILENT=true
-[2014.09.16-14.45.04:740][309]LogSavePackage: Save=328.902191ms
-[2014.09.16-14.45.04:740][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_bump_mapEF736775466C3B55E99453A4CC2453BD.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/crate_texture_bump_map.uasset'
-[2014.09.16-14.45.05:040][309]LogSavePackage: Save=241.046341ms
-[2014.09.16-14.45.05:040][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/crate_texture_specular_map59583A77482E166C73AE4E96317B6956.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/crate_texture_specular_map.uasset'
-[2014.09.16-14.45.05:112][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/phongE1" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/phongE1.uasset" SILENT=true
-[2014.09.16-14.45.05:376][309]LogSavePackage: Save=254.625046ms
-[2014.09.16-14.45.05:376][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/phongE1D9CB2C254BBD146A639EC1BFBCE43432.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/phongE1.uasset'
-[2014.09.16-14.45.05:449][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/small_crate" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/small_crate.uasset" SILENT=true
-[2014.09.16-14.45.05:881][309]LogSavePackage: Save=422.716675ms
-[2014.09.16-14.45.05:881][309]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crateEDFF370844E357C62A79F19F6F882F02.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/small_crate.uasset'
-[2014.09.16-14.45.06:477][310]Cmd: QUIT_EDITOR
-[2014.09.16-14.45.06:697][310]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.09.16-14.45.06:719][310]LogExit: Preparing to exit.
-[2014.09.16-14.45.07:485][310]LogExit: Editor shut down
-[2014.09.16-14.45.07:486][310]LogExit: Transaction tracking system shut down
-[2014.09.16-14.45.07:499][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000009A4132AC0
-[2014.09.16-14.45.07:500][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000981A78360
-[2014.09.16-14.45.07:501][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000987D5A660
-[2014.09.16-14.45.07:503][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000987D5A5C0
-[2014.09.16-14.45.07:504][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000987D5A700
-[2014.09.16-14.45.07:619][310]LogExit: Object subsystem successfully closed.
-[2014.09.16-14.45.07:752][310]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (165)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module DesktopPlatform (163)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module HTTP (160)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module NewsFeed (159)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
-[2014.09.16-14.45.07:753][310]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module BspMode (149)
-[2014.09.16-14.45.07:763][310]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.09.16-14.45.07:764][310]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module AutomationController (126)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module Layers (124)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
-[2014.09.16-14.45.07:765][310]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
-[2014.09.16-14.45.07:767][310]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.09.16-14.45.07:918][310]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module Sequencer (111)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module AssetTools (110)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.09.16-14.45.07:919][310]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.09.16-14.45.08:027][310]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.09.16-14.45.08:029][310]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.09.16-14.45.08:032][310]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.09.16-14.45.08:067][310]LogDerivedDataCache: Shutdown
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.09.16-14.45.08:067][310]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.09.16-14.45.08:068][310]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.09.16-14.45.08:076][310]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.09.16-14.45.08:076][310]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.09.16-14.45.08:076][310]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.09.16-14.45.08:076][310]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.09.16-14.45.08:076][310]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.09.16-14.45.08:177][310]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.09.16-14.45.08:178][310]LogExit: Exiting.
-[2014.09.16-14.45.08:182][310]Log file closed, 09/16/14 10:45:08
+[2014.09.16-20.19.27:735][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.16-20.19.27:776][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.16-20.19.27:924][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.16-20.19.27:986][  0]LogInit: Object subsystem initialized
+[2014.09.16-20.19.28:209][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.16-20.19.28:209][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.16-20.19.28:292][  0]LogInit: Computer: PAIGE
+[2014.09.16-20.19.28:292][  0]LogInit: User: Rodrigo
+[2014.09.16-20.19.28:295][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.16-20.19.28:295][  0]LogInit: High frequency timer resolution =2.046955 MHz
+[2014.09.16-20.19.28:295][  0]LogMemory: Memory total: Physical=7.2GB (8GB approx) Virtual=131072.0GB
+[2014.09.16-20.19.28:295][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.16-20.19.28:295][  0]LogMemory: Process Physical Memory: 56.03 MB used, 56.03 MB peak
+[2014.09.16-20.19.28:295][  0]LogMemory: Process Virtual Memory: 31.56 MB used, 31.56 MB peak
+[2014.09.16-20.19.28:295][  0]LogMemory: Physical Memory: 2123.54 MB used, 7365.01 MB total
+[2014.09.16-20.19.28:295][  0]LogMemory: Virtual Memory: 244.51 MB used, 134217728.00 MB total
+[2014.09.16-20.19.28:387][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8610G (Feature Level 11_0)
+[2014.09.16-20.19.28:387][  0]LogD3D11RHI: Adapter has 735MB of dedicated video memory, 0MB of dedicated system memory, and 3456MB of shared system memory, 1 output[s]
+[2014.09.16-20.19.28:426][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.16-20.19.28:426][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.16-20.19.28:426][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.16-20.19.28:459][  0]LogRHI: Texture pool is 514 MB (70% of 735 MB)
+[2014.09.16-20.19.28:474][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.16-20.19.29:487][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.16-20.19.32:680][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-20.19.33:298][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.16-20.19.33:528][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.16-20.19.34:642][  0]LogDerivedDataCache: Loaded boot cache 1.11s 43MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.16-20.19.34:642][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.16-20.19.34:643][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.16-20.19.34:643][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.16-20.19.34:678][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.16-20.19.34:713][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.16-20.19.36:807][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.16-20.19.36:807][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.16-20.19.39:947][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.16-20.19.51:957][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.16-20.19.51:989][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.16-20.19.52:198][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.16-20.19.52:198][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.16-20.20.02:385][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.16-20.20.03:090][  0]SourceControl: Info Source control is disabled
+[2014.09.16-20.20.03:111][  0]SourceControl: Info Source control is disabled
+[2014.09.16-20.20.03:145][  0]SourceControl: Info Source control is disabled
+[2014.09.16-20.20.05:260][  0]BlueprintLog: New page: Editor Load
+[2014.09.16-20.20.06:206][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.09.16-20.20.06:220][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
+[2014.09.16-20.20.07:999][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 1.46s
+[2014.09.16-20.20.08:042][  0]LogEngine: Initializing Engine...
+[2014.09.16-20.20.09:059][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.16-20.20.09:556][  0]LogInit: FAudioDevice initialized.
+[2014.09.16-20.20.10:842][  0]LogDerivedDataCache: Saved boot cache 0.17s 39MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.16-20.20.10:860][  0]LogInit: Texture streaming: Enabled
+[2014.09.16-20.20.11:565][  0]LogInit: Transaction tracking system initialized
+[2014.09.16-20.20.13:414][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2014.09.16-20.20.17:205][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.16-20.20.17:231][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.16-20.20.17:718][  0]LogConsoleResponse:Display: 
+[2014.09.16-20.20.21:767][  0]SourceControl: Info Source control is disabled
+[2014.09.16-20.20.23:109][  0]LogCollectionManager: Loaded 0 collections in 0.005084 seconds
+[2014.09.16-20.20.26:238][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.16-20.20.26:312][  0]Cmd: MODE PLACEMENT
+[2014.09.16-20.20.27:099][  0]LogLoad: Full Startup: 63.76 seconds (BP compile: 0.11 seconds)
+[2014.09.16-20.20.27:254][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.16-20.20.28:238][  0]LogRenderer:Warning: Reallocating scene render targets to support 776x584.
+[2014.09.16-20.20.29:522][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>243AE777DFB44795</RequestId><HostId>6oTvcMwW8+2umKSwrvsoBTIXyOnKbV6J/pDWH3PgEZLr9Mdw44dwT860eIQwyekyj637Tq9C264=</HostId></Error>
+[2014.09.16-20.20.29:839][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F532E171C1F73819</RequestId><HostId>WrjeGFMUgXXMAm8nKXqkPfg8dIPNwjhB8YPCtSmX9BnusaMW+Bb2X7P5usToPIkw</HostId></Error>
+[2014.09.16-20.20.29:899][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>9B51D7D914BCEFE0</RequestId><HostId>RNaAKEjwxAzTCKqaGmmpGrWO6Z4AuLVncFISOmbfuBx0xaRtxKLVDRhPuQVfn6NwFUZVzFBqkRU=</HostId></Error>
+[2014.09.16-20.20.29:962][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>13F7B3CF02A980C2</RequestId><HostId>pgsHrCipkHICZfKELb7MWTjqCWTqc70V42XNR6fJfiqOGGDg7w+dAeH37oJux505nJ1pjnl8jOw=</HostId></Error>
+[2014.09.16-20.20.29:982][  4]LogAssetRegistry: Asset discovery search completed in 16.5934 seconds
+[2014.09.16-20.20.30:316][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.16-20.20.30:349][  7]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.16-20.21.14:550][ 74]Cmd: MAP LOAD FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.16-20.21.14:623][ 74]LightingResults: New page: Lighting Build
+[2014.09.16-20.21.14:705][ 74]Cmd: MODE PLACEMENT
+[2014.09.16-20.21.14:857][ 74]LoadErrors: New page: Loading map: Swimming.umap
+[2014.09.16-20.21.14:858][ 74]MapCheck: New page: Map Check
+[2014.09.16-20.21.14:858][ 74]LightingResults: New page: Lighting Build
+[2014.09.16-20.21.14:909][ 74]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E823C785E0
+[2014.09.16-20.21.21:271][ 74]LogEditorServer: Finished looking for orphan Actors (0.012 secs)
+[2014.09.16-20.21.21:360][ 74]Cmd: MAP CHECKDEP
+[2014.09.16-20.21.21:361][ 74]MapCheck: New page: Swimming - Sep 16, 2014, 12:21:21 PM
+[2014.09.16-20.21.21:540][ 74]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [178.973ms] ==========
+[2014.09.16-20.21.21:540][ 74]LogFileHelpers: Loading map 'Swimming' took 6.991
+[2014.09.16-20.21.27:522][186]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.09.16-20.21.28:984][210]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-20.21.28:986][210]PIE: New page: PIE session: Swimming (Sep 16, 2014, 12:21:28 PM)
+[2014.09.16-20.21.29:082][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.095953s)
+[2014.09.16-20.21.29:084][210]LogPlayLevel: PIE: World Init took: (0.002253s)
+[2014.09.16-20.21.29:085][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.099067s)
+[2014.09.16-20.21.29:085][210]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.21.29:229][210]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-16.21.29
+[2014.09.16-20.21.29:288][210]LogWorld: Bringing up level for play took: 0.073078
+[2014.09.16-20.21.29:364][210]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.09.16-20.21.29:390][210]LogGameMode: RestartPlayer 256
+[2014.09.16-20.21.29:408][210]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_0
+[2014.09.16-20.21.29:408][210]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_0
+[2014.09.16-20.21.29:586][210]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.583
+[2014.09.16-20.21.29:996][211]LogRenderer:Warning: Reallocating scene render targets to support 776x592.
+[2014.09.16-20.21.58:716][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.16-20.21.58:898][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E82E8D1F80
+[2014.09.16-20.22.09:787][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (small_crate)
+[2014.09.16-20.22.09:932][762]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (small_crate)
+[2014.09.16-20.22.15:203][828]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.09.16-20.22.25:263][ 50]LogRenderer:Warning: Reallocating scene render targets to support 824x592.
+[2014.09.16-20.22.36:802][284]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshes/small_crate" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/small_crate.uasset" SILENT=true
+[2014.09.16-20.22.37:992][284]LogSavePackage: Save=597.833862ms
+[2014.09.16-20.22.37:992][284]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/small_crateDEEF0748482122E6D39A41908C6C3B33.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Meshes/small_crate.uasset'
+[2014.09.16-20.22.51:069][716]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-20.22.51:070][716]PIE: New page: PIE session: Swimming (Sep 16, 2014, 12:22:51 PM)
+[2014.09.16-20.22.51:122][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052103s)
+[2014.09.16-20.22.51:124][716]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2014.09.16-20.22.51:124][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.054012s)
+[2014.09.16-20.22.51:124][716]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.22.51:190][716]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-16.22.51
+[2014.09.16-20.22.51:192][716]LogWorld: Bringing up level for play took: 0.011389
+[2014.09.16-20.22.51:194][716]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.09.16-20.22.51:194][716]LogGameMode: RestartPlayer 257
+[2014.09.16-20.22.51:196][716]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_1
+[2014.09.16-20.22.51:196][716]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_1
+[2014.09.16-20.22.51:201][716]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.802
+[2014.09.16-20.23.14:976][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81F600E00
+[2014.09.16-20.23.15:041][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81F600720
+[2014.09.16-20.23.24:931][271]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-20.23.24:931][271]PIE: New page: PIE session: Swimming (Sep 16, 2014, 12:23:24 PM)
+[2014.09.16-20.23.24:982][271]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050585s)
+[2014.09.16-20.23.24:983][271]LogPlayLevel: PIE: World Init took: (0.001289s)
+[2014.09.16-20.23.24:984][271]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.052199s)
+[2014.09.16-20.23.24:984][271]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.23.25:084][271]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-16.23.25
+[2014.09.16-20.23.25:087][271]LogWorld: Bringing up level for play took: 0.011563
+[2014.09.16-20.23.25:088][271]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.09.16-20.23.25:088][271]LogGameMode: RestartPlayer 258
+[2014.09.16-20.23.25:091][271]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_2
+[2014.09.16-20.23.25:091][271]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_2
+[2014.09.16-20.23.25:139][271]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.136
+[2014.09.16-20.23.57:549][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81E838AE0
+[2014.09.16-20.23.59:796][729]LogSavePackage: Save=388.875671ms
+[2014.09.16-20.23.59:796][729]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming43F0272045C8586A8D9097B3BB67040C.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap'
+[2014.09.16-20.25.55:929][249]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-20.25.55:929][249]PIE: New page: PIE session: Swimming (Sep 16, 2014, 12:25:55 PM)
+[2014.09.16-20.25.55:984][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054495s)
+[2014.09.16-20.25.55:986][249]LogPlayLevel: PIE: World Init took: (0.001966s)
+[2014.09.16-20.25.55:986][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.056926s)
+[2014.09.16-20.25.55:986][249]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.25.56:031][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-16.25.56
+[2014.09.16-20.25.56:033][249]LogWorld: Bringing up level for play took: 0.009119
+[2014.09.16-20.25.56:034][249]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
+[2014.09.16-20.25.56:034][249]LogGameMode: RestartPlayer 259
+[2014.09.16-20.25.56:035][249]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_3
+[2014.09.16-20.25.56:036][249]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_3
+[2014.09.16-20.25.56:041][249]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.038
+[2014.09.16-20.26.55:742][ 33]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.16-20.27.56:859][ 12]LogCharacterMovement: blueprintCharacter_C_3 is stuck and failed to move!
+[2014.09.16-20.27.56:860][ 12]LogCharacterMovement: blueprintCharacter_C_3 is stuck and failed to move!
+[2014.09.16-20.28.11:267][215]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81F602C00
+[2014.09.16-20.28.48:043][721]LogRenderer:Warning: Reallocating scene render targets to support 824x616.
+[2014.09.16-20.28.50:686][748]LogRenderer:Warning: Reallocating scene render targets to support 1360x696.
+[2014.09.16-20.28.58:240][801]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-20.28.58:241][801]PIE: New page: PIE session: Swimming (Sep 16, 2014, 12:28:58 PM)
+[2014.09.16-20.28.58:292][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050434s)
+[2014.09.16-20.28.58:293][801]LogPlayLevel: PIE: World Init took: (0.001804s)
+[2014.09.16-20.28.58:294][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.052661s)
+[2014.09.16-20.28.58:294][801]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-20.28.58:352][801]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-16.28.58
+[2014.09.16-20.28.58:355][801]LogWorld: Bringing up level for play took: 0.012950
+[2014.09.16-20.28.58:356][801]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
+[2014.09.16-20.28.58:356][801]LogGameMode: RestartPlayer 260
+[2014.09.16-20.28.58:358][801]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_4
+[2014.09.16-20.28.58:358][801]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_4
+[2014.09.16-20.28.58:363][801]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.36
+[2014.09.16-20.29.09:731][908]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81F6007C0
+[2014.09.16-20.32.45:386][121]LogHttp:Warning: Timeout processing Http request. 000000E82AE10B80 url=http://et2.epicgames.com/ET2/CollectData.1?SessionID=%7B29F3CAA0-44D1-5EF3-DB3E-E584005B8B4B%7D&AppID=Rocket.Release&AppVersion=4.2.1-2101290%2B%2B%2Bdepot%2BUE4-Releases%2B4.2&UserID=36ab321a844f9ca4384ae56a91502d74&IsEditor=1
+[2014.09.16-20.32.45:387][121]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000E82AE10B80. 
+[2014.09.16-20.32.45:420][122]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000E82AE10B80. 
+[2014.09.16-20.32.45:420][122]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000E82AE10B80. 
+[2014.09.16-20.32.45:420][122]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000E82AE10B80. 
+[2014.09.16-20.35.27:680][ 31]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.16-20.35.27:682][ 31]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.16-20.35.55:305][939]LogSavePackage: Save=340.565857ms
+[2014.09.16-20.35.55:305][939]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Saved/Swimming0945E5E7403119BF37E4D9BB10144889.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia/Content/Maps/Swimming.umap'
+[2014.09.16-21.40.43:679][417]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.050
+[2014.09.16-21.41.26:982][583]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.16-21.41.26:983][583]PIE: New page: PIE session: Swimming (Sep 16, 2014, 1:41:26 PM)
+[2014.09.16-21.41.27:030][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047005s)
+[2014.09.16-21.41.27:031][583]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2014.09.16-21.41.27:032][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.048832s)
+[2014.09.16-21.41.27:032][583]LogWorld: Game class is 'MyGame_C'
+[2014.09.16-21.41.27:154][583]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.16-17.41.27
+[2014.09.16-21.41.27:156][583]LogWorld: Bringing up level for play took: 0.011666
+[2014.09.16-21.41.27:157][583]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
+[2014.09.16-21.41.27:158][583]LogGameMode: RestartPlayer 261
+[2014.09.16-21.41.27:160][583]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_5
+[2014.09.16-21.41.27:160][583]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_5
+[2014.09.16-21.41.27:165][583]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.18
+[2014.09.16-21.42.22:054][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81E839C60
+[2014.09.16-21.42.24:358][224]Cmd: QUIT_EDITOR
+[2014.09.16-21.42.24:558][224]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.16-21.42.24:564][224]LogExit: Preparing to exit.
+[2014.09.16-21.42.25:743][224]LogExit: Editor shut down
+[2014.09.16-21.42.25:745][224]LogExit: Transaction tracking system shut down
+[2014.09.16-21.42.25:755][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E82AC84AE0
+[2014.09.16-21.42.25:756][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E82AB2C900
+[2014.09.16-21.42.25:826][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81E803D80
+[2014.09.16-21.42.25:826][224]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E81E803E20
+[2014.09.16-21.42.25:826][224]LogExit: Object subsystem successfully closed.
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (166)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module StatsViewer (165)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module DesktopPlatform (164)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (163)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module NewsFeed (159)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.09.16-21.42.25:931][224]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.09.16-21.42.25:932][224]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.09.16-21.42.25:941][224]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.09.16-21.42.25:942][224]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.09.16-21.42.25:943][224]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.09.16-21.42.25:946][224]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.09.16-21.42.25:979][224]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.09.16-21.42.26:187][224]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.09.16-21.42.26:190][224]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.09.16-21.42.26:196][224]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.09.16-21.42.26:197][224]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.09.16-21.42.26:197][224]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.09.16-21.42.26:261][224]LogDerivedDataCache: Shutdown
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.09.16-21.42.26:261][224]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.09.16-21.42.26:262][224]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.09.16-21.42.26:263][224]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.09.16-21.42.26:263][224]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.09.16-21.42.26:263][224]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.09.16-21.42.26:273][224]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.09.16-21.42.26:273][224]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.09.16-21.42.26:273][224]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.09.16-21.42.26:273][224]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.09.16-21.42.26:273][224]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.09.16-21.42.26:374][224]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.16-21.42.26:375][224]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.16-21.42.26:375][224]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.16-21.42.26:375][224]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.16-21.42.26:375][224]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.16-21.42.26:377][224]LogExit: Exiting.
+[2014.09.16-21.42.26:387][224]Log file closed, 09/16/14 17:42:26
