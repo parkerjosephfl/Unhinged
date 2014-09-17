@@ -1,4 +1,4 @@
-Log file open, 09/17/14 13:25:01
+Log file open, 09/17/14 14:09:01
 LogInit:Display: Running engine for game: Phobophobia
 LogInit: Version: 4.2.1-2101290+++depot+UE4-Releases+4.2
 LogInit: Compiled (64-bit): Jun 10 2014 22:21:56
@@ -7,1236 +7,608 @@ LogInit: Branch Name: ++depot+UE4-Releases+4.2
 LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Unreal Engine/4.2/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.17-17.25.01:274][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.17-17.25.01:299][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.17-17.25.01:303][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.17-17.25.01:308][  0]LogInit: Object subsystem initialized
-[2014.09.17-17.25.01:309][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.17-17.25.01:309][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.17-17.25.01:311][  0]LogInit: Computer: PARKER
-[2014.09.17-17.25.01:312][  0]LogInit: User: ParkerJoseph
-[2014.09.17-17.25.01:312][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.09.17-17.25.01:312][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2014.09.17-17.25.01:312][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
-[2014.09.17-17.25.01:313][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.17-17.25.01:313][  0]LogMemory: Process Physical Memory: 52.48 MB used, 52.58 MB peak
-[2014.09.17-17.25.01:313][  0]LogMemory: Process Virtual Memory: 29.45 MB used, 29.56 MB peak
-[2014.09.17-17.25.01:313][  0]LogMemory: Physical Memory: 2449.39 MB used, 8135.10 MB total
-[2014.09.17-17.25.01:313][  0]LogMemory: Virtual Memory: 242.07 MB used, 134217728.00 MB total
-[2014.09.17-17.25.01:323][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
-[2014.09.17-17.25.01:323][  0]LogD3D11RHI: Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
-[2014.09.17-17.25.01:324][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.09.17-17.25.01:324][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.09.17-17.25.01:324][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.17-17.25.01:327][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.09.17-17.25.01:330][  0]LogD3D11RHI: Async texture creation disabled: no driver support
-[2014.09.17-17.25.01:400][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.17-17.25.01:972][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.17-17.25.02:023][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.17-17.25.02:044][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.17-17.25.02:073][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.17-17.25.02:073][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
-[2014.09.17-17.25.02:073][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.17-17.25.02:073][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.17-17.25.02:081][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.17-17.25.02:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
-[2014.09.17-17.25.02:195][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.17-17.25.02:195][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.17-17.25.02:388][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.17-17.25.02:606][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
-[2014.09.17-17.25.02:606][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
-[2014.09.17-17.25.02:609][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
-[2014.09.17-17.25.02:609][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
-[2014.09.17-17.25.02:783][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.17-17.25.02:854][  0]SourceControl: Info Source control is disabled
-[2014.09.17-17.25.02:854][  0]SourceControl: Info Source control is disabled
-[2014.09.17-17.25.02:857][  0]SourceControl: Info Source control is disabled
-[2014.09.17-17.25.02:905][  0]BlueprintLog: New page: Editor Load
-[2014.09.17-17.25.02:927][  0]LogObj: 19137 objects as part of root set at end of initial load.
-[2014.09.17-17.25.02:927][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
-[2014.09.17-17.25.03:091][  0]LogEngine: Initializing Engine...
-[2014.09.17-17.25.03:159][  0]LogInit: XAudio2 using 'Speakers (2- Plantronics GameCom 780)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
-[2014.09.17-17.25.03:171][  0]LogInit: FAudioDevice initialized.
-[2014.09.17-17.25.03:189][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
-[2014.09.17-17.25.03:192][  0]LogInit: Texture streaming: Enabled
-[2014.09.17-17.25.03:209][  0]LogInit: Transaction tracking system initialized
-[2014.09.17-17.25.03:268][  0]LogAssetRegistry: FAssetRegistry took 0.0106 seconds to start up
-[2014.09.17-17.25.03:350][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.17-17.25.03:353][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
-[2014.09.17-17.25.03:377][  0]LogConsoleResponse:Display: 
-[2014.09.17-17.25.03:498][  0]SourceControl: Info Source control is disabled
-[2014.09.17-17.25.03:579][  0]LogCollectionManager: Loaded 0 collections in 0.000671 seconds
-[2014.09.17-17.25.03:634][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.09.17-17.25.03:634][  0]Cmd: MODE PLACEMENT
-[2014.09.17-17.25.03:673][  0]LogLoad: Full Startup: 2.83 seconds (BP compile: 0.00 seconds)
-[2014.09.17-17.25.03:688][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Ceiling'
-[2014.09.17-17.25.03:774][  1]LogAssetRegistry: Asset discovery search completed in 0.5169 seconds
-[2014.09.17-17.25.03:800][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>22EBBBB9331AE9C0</RequestId><HostId>2S793EBEQK9/8T0ywt5u3PnHpdmFL9EDBkkgCsTmVIeiXQutPVYcvN5fAzb9rGF8liquR/1ycGk=</HostId></Error>
-[2014.09.17-17.25.03:808][  4]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>F9B14FEDCCC5F093</RequestId><HostId>Be/VRktQS45AlojQOPSJx2KnE7bYhv71Dl0N/YHMfEg20MqBIGm4DmnwqYXA7ea8</HostId></Error>
-[2014.09.17-17.25.03:859][ 10]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>638B4A31D881619C</RequestId><HostId>VuPReRzr2OsZPc0smyk1uxS9NjaVRt9XUJ4bQBuJebDgfmNwdrMeU+Nq5xpzrkRZ</HostId></Error>
-[2014.09.17-17.25.03:909][ 16]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
-<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>6D59500F93BE109F</RequestId><HostId>A8dSYUHSspvMeXy/3VwRULdVGsCjQQw8sFAdjmEKbPLttBN+lH1enq6rXc8PAP60</HostId></Error>
-[2014.09.17-17.25.03:980][ 25]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.25.03:981][ 25]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.25.07:628][414]LogRenderer:Warning: Reallocating scene render targets to support 2552x1376.
-[2014.09.17-17.25.14:047][856]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.17-17.25.14:047][856]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.14:051][856]Cmd: MODE PLACEMENT
-[2014.09.17-17.25.14:072][856]LoadErrors: New page: Loading map: Example_Map.umap
-[2014.09.17-17.25.14:072][856]MapCheck: New page: Map Check
-[2014.09.17-17.25.14:072][856]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.14:090][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000896006840
-[2014.09.17-17.25.14:229][856]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.17-17.25.14:245][856]Cmd: MAP CHECKDEP
-[2014.09.17-17.25.14:245][856]MapCheck: New page: Example_Map - Sep 17, 2014, 9:25:14 AM
-[2014.09.17-17.25.14:264][856]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [19.256ms] ==========
-[2014.09.17-17.25.14:264][856]LogFileHelpers: Loading map 'Example_Map' took 0.217
-[2014.09.17-17.25.14:282][856]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 411/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.25.22:028][213]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Swimming.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.17-17.25.22:028][213]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.22:029][213]Cmd: MODE PLACEMENT
-[2014.09.17-17.25.22:050][213]LoadErrors: New page: Loading map: Swimming.umap
-[2014.09.17-17.25.22:050][213]MapCheck: New page: Map Check
-[2014.09.17-17.25.22:050][213]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.22:062][213]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089029A700
-[2014.09.17-17.25.22:351][213]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.17-17.25.22:370][213]Cmd: MAP CHECKDEP
-[2014.09.17-17.25.22:370][213]MapCheck: New page: Swimming - Sep 17, 2014, 9:25:22 AM
-[2014.09.17-17.25.22:395][213]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [25.408ms] ==========
-[2014.09.17-17.25.22:395][213]LogFileHelpers: Loading map 'Swimming' took 0.367
-[2014.09.17-17.25.28:880][768]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.25.30:021][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Ceiling'
-[2014.09.17-17.25.36:993][740]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.25.40:123][965]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 WORLDCOMPOSITION=0
-[2014.09.17-17.25.40:123][965]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.40:124][965]Cmd: MODE PLACEMENT
-[2014.09.17-17.25.40:143][965]LoadErrors: New page: Loading map: Template_Default.umap
-[2014.09.17-17.25.40:143][965]MapCheck: New page: Map Check
-[2014.09.17-17.25.40:143][965]LightingResults: New page: Lighting Build
-[2014.09.17-17.25.40:161][965]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089F561E40
-[2014.09.17-17.25.40:185][965]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.17-17.25.40:185][965]Cmd: MAP CHECKDEP
-[2014.09.17-17.25.40:185][965]MapCheck: New page: Untitled_1 - Sep 17, 2014, 9:25:40 AM
-[2014.09.17-17.25.40:210][965]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [24.639ms] ==========
-[2014.09.17-17.25.40:210][965]LogFileHelpers: Loading map 'Template_Default' took 0.087
-[2014.09.17-17.25.42:389][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.26.18:898][920]LogSavePackage: Save=15.868078ms
-[2014.09.17-17.26.18:898][920]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map41BB629E4EAE756906DB72B08BDD2E4E.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.26.18:917][920]LogFileHelpers: Saving map 'Tutorial_Map' took 0.640
-[2014.09.17-17.26.23:520][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.26.36:961][958]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.09.17-17.26.36:971][958]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.26.41:762][528]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.26.44:815][889]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.26.48:236][296]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.26.50:630][581]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.26.53:989][982]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.03:415][107]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.07:574][603]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.11:318][ 50]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.13:515][305]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.27.17:586][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.27.23:738][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.27.27:154][911]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.31:417][414]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.36:648][ 37]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.39:236][345]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.27.40:570][502]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.27.40:570][502]Aligned camera to fit all selected actors.
-[2014.09.17-17.27.55:767][312]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.00:424][868]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.07:713][736]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.08:902][876]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.11:478][178]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.19:948][190]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.28.30:801][481]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.28.30:801][481]Aligned camera to fit all selected actors.
-[2014.09.17-17.28.41:658][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.28.42:218][829]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.28.47:858][489]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2014.09.17-17.28.52:283][ 14]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.09.17-17.28.53:137][115]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.28.53:137][115]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:28:53 AM)
-[2014.09.17-17.28.53:139][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002090s)
-[2014.09.17-17.28.53:140][115]LogPlayLevel: PIE: World Init took: (0.000397s)
-[2014.09.17-17.28.53:140][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.002609s)
-[2014.09.17-17.28.53:160][115]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.28.53:209][115]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.28.53
-[2014.09.17-17.28.53:209][115]LogWorld: Bringing up level for play took: 0.000852
-[2014.09.17-17.28.53:210][115]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
-[2014.09.17-17.28.53:210][115]LogGameMode: RestartPlayer 256
-[2014.09.17-17.28.53:211][115]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_0
-[2014.09.17-17.28.53:211][115]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_0
-[2014.09.17-17.28.53:212][115]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 0.103
-[2014.09.17-17.28.53:234][116]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.28.58:872][781]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089EE607C0
-[2014.09.17-17.28.58:889][782]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 474/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.29.02:780][244]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.09.17-17.29.07:219][772]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2014.09.17-17.29.14:717][666]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.29.23:253][678]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.29.25:984][  3]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.29.29:634][435]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.29.34:811][ 52]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.29.35:626][148]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.29.36:918][301]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.29.36:918][301]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:29:36 AM)
-[2014.09.17-17.29.36:920][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001734s)
-[2014.09.17-17.29.36:920][301]LogPlayLevel: PIE: World Init took: (0.000314s)
-[2014.09.17-17.29.36:921][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.002160s)
-[2014.09.17-17.29.36:921][301]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.29.36:956][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.29.36
-[2014.09.17-17.29.36:956][301]LogWorld: Bringing up level for play took: 0.000836
-[2014.09.17-17.29.36:957][301]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
-[2014.09.17-17.29.36:957][301]LogGameMode: RestartPlayer 257
-[2014.09.17-17.29.36:957][301]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_1
-[2014.09.17-17.29.36:957][301]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_1
-[2014.09.17-17.29.36:958][301]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map -0.151
-[2014.09.17-17.29.36:973][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.29.41:353][822]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008AB09CE00
-[2014.09.17-17.29.41:370][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 474/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.29.52:011][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.29.52:928][179]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.30.02:071][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.30.22:431][692]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.09.17-17.30.22:443][692]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.25:775][ 88]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.28:761][443]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.32:962][944]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.35:872][289]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.39:835][758]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.46:102][507]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.52:285][241]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.30.58:614][996]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.31.06:310][914]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.31.16:202][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Ceiling'
-[2014.09.17-17.31.22:713][851]MapCheck: New page: Map Check
-[2014.09.17-17.31.22:736][851]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.31.22:737][851]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.31.22:751][851]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.31.22:754][851]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:31:22 AM
-[2014.09.17-17.31.25:435][851]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.31.25:454][851]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.31.25:454][851]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.31.25:454][851]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.31.25:454][851]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.31.25:454][851]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.31.25:519][851]LogEditorBuildUtils: Build time 0:00:02
-[2014.09.17-17.31.25:531][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Ceiling, compiling.
-[2014.09.17-17.31.25:532][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Ceiling, compiling.
-[2014.09.17-17.31.25:533][851]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Ceiling, compiling.
-[2014.09.17-17.31.27:421][932]Job is a success!
-[2014.09.17-17.31.27:477][933]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.09.17-17.31.27:491][933]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.09.17-17.31.27:495][933]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.09.17-17.31.27:499][933]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.31.27:508][933]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.31.27:519][933]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.09.17-17.31.27:541][933]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
-[2014.09.17-17.31.27:552][933]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
-[2014.09.17-17.31.27:559][933]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
-[2014.09.17-17.31.27:586][933]Lightmass on PARKER: 649 ms total, 123 ms importing, 0 ms setup, 173 ms photons, 329 ms processing, 0 ms extra exporting [12/12 mappings]. Threads: 1.57 sec total, 419 ms processing.
-[2014.09.17-17.31.27:588][933]LogMaterial:Warning: Material /Game/Temporary_Materials/Ceiling/Ceiling.Ceiling needed to have new flag set bUsedWithStaticLighting !
-[2014.09.17-17.31.27:589][933]LogMaterial: Missing cached shader map for material Ceiling, compiling.
-[2014.09.17-17.31.27:597][933]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.09.17-17.31.27:601][933]LogStaticLightingSystem:Warning: Illumination: 4.83 sec (97 ms encoding lightmaps)
-[2014.09.17-17.31.27:601][933]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.31.27:601][933]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
-[2014.09.17-17.31.28:466][934]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.31.28:466][934]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:31:28 AM
-[2014.09.17-17.31.28:501][934]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [35.565ms] ==========
-[2014.09.17-17.31.34:341][627]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.31.34:341][627]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:31:34 AM)
-[2014.09.17-17.31.34:343][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002568s)
-[2014.09.17-17.31.34:344][627]LogPlayLevel: PIE: World Init took: (0.000375s)
-[2014.09.17-17.31.34:344][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.003063s)
-[2014.09.17-17.31.34:344][627]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.31.34:380][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.31.34
-[2014.09.17-17.31.34:380][627]LogWorld: Bringing up level for play took: 0.000957
-[2014.09.17-17.31.34:381][627]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
-[2014.09.17-17.31.34:381][627]LogGameMode: RestartPlayer 258
-[2014.09.17-17.31.34:381][627]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_2
-[2014.09.17-17.31.34:381][627]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_2
-[2014.09.17-17.31.34:382][627]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map -0.727
-[2014.09.17-17.31.34:398][628]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.31.39:762][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008A9739580
-[2014.09.17-17.31.39:777][266]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.31.44:466][824]Cmd: POLY TEXPAN U=64.000000 V=0.000000
-[2014.09.17-17.31.45:820][986]Cmd: POLY TEXPAN U=0.000000 V=64.000000
-[2014.09.17-17.31.49:868][464]Cmd: TRANSACTION UNDO
-[2014.09.17-17.31.49:868][464]LogEditorTransaction: Undo Set Texpan
-[2014.09.17-17.31.50:793][538]Cmd: TRANSACTION UNDO
-[2014.09.17-17.31.50:793][538]LogEditorTransaction: Undo Set Texpan
-[2014.09.17-17.32.00:791][720]Cmd: POLY TEXSCALE  UU=2.000000 VV=2.000000
-[2014.09.17-17.32.06:602][409]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
-[2014.09.17-17.32.12:100][ 60]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
-[2014.09.17-17.32.20:635][ 74]Cmd: POLY TEXSCALE  UU=0.500000 VV=0.500000
-[2014.09.17-17.32.28:153][967]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
-[2014.09.17-17.32.29:281][100]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.32.29:281][100]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:32:29 AM)
-[2014.09.17-17.32.29:284][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002997s)
-[2014.09.17-17.32.29:285][100]LogPlayLevel: PIE: World Init took: (0.000423s)
-[2014.09.17-17.32.29:285][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.003547s)
-[2014.09.17-17.32.29:285][100]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.32.29:317][100]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.32.29
-[2014.09.17-17.32.29:317][100]LogWorld: Bringing up level for play took: 0.000888
-[2014.09.17-17.32.29:317][100]LogPlayerController: Spawned spectator SpectatorPawn_3 [server:1]
-[2014.09.17-17.32.29:317][100]LogGameMode: RestartPlayer 259
-[2014.09.17-17.32.29:318][100]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_3
-[2014.09.17-17.32.29:318][100]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_3
-[2014.09.17-17.32.29:319][100]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 0.21
-[2014.09.17-17.32.29:339][101]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.32.39:505][313]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008A70F0C20
-[2014.09.17-17.32.39:520][314]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.32.42:707][692]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.32.49:417][483]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.32.50:400][597]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.32.50:400][597]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:32:50 AM)
-[2014.09.17-17.32.50:403][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002426s)
-[2014.09.17-17.32.50:403][597]LogPlayLevel: PIE: World Init took: (0.000336s)
-[2014.09.17-17.32.50:403][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.002873s)
-[2014.09.17-17.32.50:403][597]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.32.50:448][597]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.32.50
-[2014.09.17-17.32.50:448][597]LogWorld: Bringing up level for play took: 0.000951
-[2014.09.17-17.32.50:449][597]LogPlayerController: Spawned spectator SpectatorPawn_4 [server:1]
-[2014.09.17-17.32.50:449][597]LogGameMode: RestartPlayer 260
-[2014.09.17-17.32.50:449][597]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_4
-[2014.09.17-17.32.50:449][597]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_4
-[2014.09.17-17.32.50:450][597]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map -0.658
-[2014.09.17-17.32.50:467][598]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.32.54:586][ 86]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008A9739580
-[2014.09.17-17.32.54:604][ 87]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.32.59:255][639]Cmd: POLY TEXPAN U=16.000000 V=0.000000
-[2014.09.17-17.33.03:314][117]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.33.03:314][117]Aligned camera to fit all selected actors.
-[2014.09.17-17.33.09:794][878]Cmd: POLY TEXPAN U=0.000000 V=64.000000
-[2014.09.17-17.33.12:316][180]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.16:762][713]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.17:548][807]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.18:884][967]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.20:619][175]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.22:005][341]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.33.22:647][418]Cmd: POLY TEXPAN U=0.000000 V=16.000000
-[2014.09.17-17.34.03:158][184]Cmd: EDIT COPY
-[2014.09.17-17.34.03:753][254]Cmd: EDIT PASTE
-[2014.09.17-17.34.06:170][535]Cmd: EDIT PASTE
-[2014.09.17-17.34.09:445][922]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.34.09:445][922]Aligned camera to fit all selected actors.
-[2014.09.17-17.34.15:443][578]Cmd: EDIT PASTE
-[2014.09.17-17.34.19:570][ 55]Cmd: TRANSACTION UNDO
-[2014.09.17-17.34.19:570][ 55]LogEditorTransaction: Undo Move Actors
-[2014.09.17-17.34.22:661][387]Cmd: TRANSACTION UNDO
-[2014.09.17-17.34.22:661][387]LogEditorTransaction: Undo Paste
-[2014.09.17-17.34.24:540][576]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.34.27:125][874]Cmd: TRANSACTION UNDO
-[2014.09.17-17.34.27:125][874]LogEditorTransaction: Undo Clicking on Actors
-[2014.09.17-17.34.31:990][396]Cmd: TRANSACTION UNDO
-[2014.09.17-17.34.31:990][396]LogEditorTransaction: Undo Move Actors
-[2014.09.17-17.34.37:486][985]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2014.09.17-17.34.40:935][384]Cmd: EDIT COPY
-[2014.09.17-17.34.41:454][446]Cmd: EDIT PASTE
-[2014.09.17-17.34.46:112][985]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2014.09.17-17.34.49:693][409]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.34.50:574][511]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.34.52:915][788]MapCheck: New page: Map Check
-[2014.09.17-17.34.52:929][788]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.34.52:929][788]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.34.52:943][788]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.34.52:947][788]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:34:52 AM
-[2014.09.17-17.34.57:481][788]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.34.57:499][788]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.34.57:499][788]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.34.57:499][788]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.34.57:499][788]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.34.57:499][788]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.34.57:545][788]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.34.58:595][856]Job is a success!
-[2014.09.17-17.34.58:626][857]LightingResults:Error: Error PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2014.09.17-17.34.58:637][857]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.09.17-17.34.58:652][857]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2014.09.17-17.34.58:655][857]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2014.09.17-17.34.58:658][857]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.34.58:666][857]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.34.58:675][857]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.09.17-17.34.58:697][857]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
-[2014.09.17-17.34.58:709][857]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
-[2014.09.17-17.34.58:715][857]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
-[2014.09.17-17.34.58:728][857]Lightmass on PARKER: 738 ms total, 112 ms importing, 0 ms setup, 169 ms photons, 444 ms processing, 0 ms extra exporting [14/14 mappings]. Threads: 2.14 sec total, 957 ms processing.
-[2014.09.17-17.34.58:741][857]LogStaticLightingSystem:Warning: Illumination: 5.78 sec (89 ms encoding lightmaps)
-[2014.09.17-17.34.58:741][857]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.34.58:741][857]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 6 textures
-[2014.09.17-17.34.59:517][858]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.34.59:517][858]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:34:59 AM
-[2014.09.17-17.34.59:543][858]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [26.587ms] ==========
-[2014.09.17-17.35.12:989][467]LogEditorViewport: Clicking Background
-[2014.09.17-17.35.13:586][538]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2014.09.17-17.35.16:420][872]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.35.17:156][957]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.35.47:322][410]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2014.09.17-17.35.52:948][ 73]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight1)
-[2014.09.17-17.35.54:754][286]MapCheck: New page: Map Check
-[2014.09.17-17.35.54:765][286]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.35.54:765][286]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.35.54:781][286]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.35.54:785][286]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:35:54 AM
-[2014.09.17-17.35.59:312][286]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.35.59:334][286]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.35.59:334][286]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.35.59:334][286]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.35.59:334][286]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.35.59:334][286]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.35.59:385][286]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.36.00:285][337]Job is a success!
-[2014.09.17-17.36.00:328][338]LightingResults:Error: Error PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
-[2014.09.17-17.36.00:341][338]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.09.17-17.36.00:353][338]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.09.17-17.36.00:359][338]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.09.17-17.36.00:364][338]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.36.00:373][338]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.36.00:383][338]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.09.17-17.36.00:405][338]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
-[2014.09.17-17.36.00:416][338]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
-[2014.09.17-17.36.00:424][338]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
-[2014.09.17-17.36.00:449][338]Lightmass on PARKER: 738 ms total, 90 ms importing, 0 ms setup, 168 ms photons, 459 ms processing, 0 ms extra exporting [14/14 mappings]. Threads: 2.22 sec total, 909 ms processing.
-[2014.09.17-17.36.00:452][338]LogStaticLightingSystem:Warning: Illumination: 5.65 sec (98 ms encoding lightmaps)
-[2014.09.17-17.36.00:452][338]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.36.00:452][338]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 9 textures
-[2014.09.17-17.36.01:347][339]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.36.01:347][339]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:36:01 AM
-[2014.09.17-17.36.01:396][339]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [49.619ms] ==========
-[2014.09.17-17.36.09:508][306]Cmd: DELETE
-[2014.09.17-17.36.09:508][306]Cmd: ACTOR DELETE
-[2014.09.17-17.36.09:508][306]LogEditorActor: Deleted Actor: PointLight
-[2014.09.17-17.36.09:519][306]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2014.09.17-17.36.10:575][432]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2014.09.17-17.36.11:780][574]Cmd: EDIT COPY
-[2014.09.17-17.36.12:299][635]Cmd: EDIT PASTE
-[2014.09.17-17.36.17:461][242]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.36.20:960][636]MapCheck: New page: Map Check
-[2014.09.17-17.36.21:003][636]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.36.21:003][636]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.36.21:114][636]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.36.21:117][636]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:36:21 AM
-[2014.09.17-17.36.25:666][636]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.36.25:690][636]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.36.25:690][636]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.36.25:690][636]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.36.25:690][636]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.36.25:690][636]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.36.25:741][636]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.36.26:613][687]Job is a success!
-[2014.09.17-17.36.26:666][688]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.09.17-17.36.26:682][688]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2014.09.17-17.36.26:689][688]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2014.09.17-17.36.26:697][688]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.36.26:706][688]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.36.26:718][688]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.09.17-17.36.26:743][688]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
-[2014.09.17-17.36.26:755][688]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
-[2014.09.17-17.36.26:762][688]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
-[2014.09.17-17.36.26:783][688]LogStaticLightingSystem:Warning: Illumination: 5.64 sec (112 ms encoding lightmaps)
-[2014.09.17-17.36.26:783][688]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.1 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.36.26:783][688]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 12 textures
-[2014.09.17-17.36.27:680][688]Lightmass on PARKER: 735 ms total, 88 ms importing, 0 ms setup, 169 ms photons, 452 ms processing, 0 ms extra exporting [14/14 mappings]. Threads: 2.15 sec total, 813 ms processing.
-[2014.09.17-17.36.27:705][689]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.36.27:705][689]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:36:27 AM
-[2014.09.17-17.36.27:734][689]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [29.692ms] ==========
-[2014.09.17-17.36.28:631][793]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.36.28:631][793]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:36:28 AM)
-[2014.09.17-17.36.28:634][793]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002642s)
-[2014.09.17-17.36.28:634][793]LogPlayLevel: PIE: World Init took: (0.000362s)
-[2014.09.17-17.36.28:634][793]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.003123s)
-[2014.09.17-17.36.28:634][793]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.36.28:669][793]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.36.28
-[2014.09.17-17.36.28:670][793]LogWorld: Bringing up level for play took: 0.000947
-[2014.09.17-17.36.28:670][793]LogPlayerController: Spawned spectator SpectatorPawn_5 [server:1]
-[2014.09.17-17.36.28:670][793]LogGameMode: RestartPlayer 261
-[2014.09.17-17.36.28:670][793]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_5
-[2014.09.17-17.36.28:670][793]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_5
-[2014.09.17-17.36.28:672][793]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map -0.438
-[2014.09.17-17.36.28:693][794]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.36.40:542][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000899A154E0
-[2014.09.17-17.36.40:559][192]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.36.49:396][179]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.36.51:858][463]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.36.53:599][657]LogSavePackage: Save=24.117590ms
-[2014.09.17-17.36.53:599][657]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map_Auto15FF4DE604D2ECD4AC99C9BB843AB2E90.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Autosaves/Game/Maps/Tutorial_Map_Auto1.umap'
-[2014.09.17-17.36.53:605][657]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Tutorial_Map' took 0.091
-[2014.09.17-17.36.53:605][657]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.091
-[2014.09.17-17.36.53:613][657]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Temporary_Materials/Ceiling/Ceiling] ([1] browsable assets)...
-[2014.09.17-17.36.53:637][657]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Temporary_Materials/Ceiling/Ceiling.Ceiling]
-[2014.09.17-17.36.53:637][657]OBJ SavePackage: Finished generating thumbnails for package [/Game/Temporary_Materials/Ceiling/Ceiling]
-[2014.09.17-17.36.54:033][657]LogSavePackage: Save=356.233948ms
-[2014.09.17-17.36.54:033][657]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Ceiling_Auto1209770E2485A91EDCB2D9EA5A219E43A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Autosaves/Game/Temporary_Materials/Ceiling/Ceiling_Auto1.uasset'
-[2014.09.17-17.36.54:039][657]LogFileHelpers: Auto-saving content packages took 0.434
-[2014.09.17-17.37.03:286][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.37.06:642][146]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.08:934][415]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.19:229][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_alb.tga)
-[2014.09.17-17.37.19:274][451]0.000030 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_alb.Wood_QualityWoodFlooring_2k_alb
-
-[2014.09.17-17.37.19:282][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_alb (AutoDXT)
-[2014.09.17-17.37.21:202][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_ao.tga)
-[2014.09.17-17.37.21:244][451]0.000034 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_ao.Wood_QualityWoodFlooring_2k_ao
-
-[2014.09.17-17.37.21:250][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_ao (AutoDXT)
-[2014.09.17-17.37.23:168][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_d.tga)
-[2014.09.17-17.37.23:210][451]0.000037 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_d.Wood_QualityWoodFlooring_2k_d
-
-[2014.09.17-17.37.23:216][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_d (AutoDXT)
-[2014.09.17-17.37.26:152][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_g.tga)
-[2014.09.17-17.37.26:194][451]0.000029 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_g.Wood_QualityWoodFlooring_2k_g
-
-[2014.09.17-17.37.26:201][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_g (AutoDXT)
-[2014.09.17-17.37.27:276][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_h.tga)
-[2014.09.17-17.37.27:317][451]0.000046 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_h.Wood_QualityWoodFlooring_2k_h
-
-[2014.09.17-17.37.27:323][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_h (AutoDXT)
-[2014.09.17-17.37.27:809][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_n.tga)
-[2014.09.17-17.37.27:853][451]0.000042 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_n.Wood_QualityWoodFlooring_2k_n
-
-[2014.09.17-17.37.27:874][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_n (BC5)
-[2014.09.17-17.37.28:311][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_nY+.tga)
-[2014.09.17-17.37.28:353][451]0.000047 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_nY+.Wood_QualityWoodFlooring_2k_nY+
-
-[2014.09.17-17.37.28:400][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_nY+ (BC5)
-[2014.09.17-17.37.28:828][451]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\Wood_QualityWoodFlooring_2k_TGA\Wood_QualityWoodFlooring_2k_s.tga)
-[2014.09.17-17.37.28:869][451]0.000038 seconds to analyze Texture2D /Game/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_s.Wood_QualityWoodFlooring_2k_s
-
-[2014.09.17-17.37.28:876][451]LogTexture:Display: Building textures: Wood_QualityWoodFlooring_2k_s (AutoDXT)
-[2014.09.17-17.37.30:208][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.17-17.37.30:208][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:208][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.30:209][451]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
-[2014.09.17-17.37.38:761][373]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.38:767][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2014.09.17-17.37.38:798][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2014.09.17-17.37.38:798][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2014.09.17-17.37.38:798][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2014.09.17-17.37.38:798][373]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2014.09.17-17.37.49:887][185]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.49:889][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.37.49:916][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.37.51:056][281]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
-[2014.09.17-17.37.51:056][281]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2014.09.17-17.37.51:056][281]MaterialEditorStats: Info Texture samplers: 3/16
-[2014.09.17-17.37.51:802][346]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.51:829][346]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.37.52:985][445]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.52:987][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.37.53:013][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.37.53:014][445]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.37.53:035][446]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 63 instructions
-[2014.09.17-17.37.53:035][446]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.37.53:035][446]MaterialEditorStats: Info Texture samplers: 4/16
-[2014.09.17-17.37.55:093][615]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.55:120][615]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.37.56:500][731]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
-[2014.09.17-17.37.56:500][731]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.37.56:500][731]MaterialEditorStats: Info Texture samplers: 5/16
-[2014.09.17-17.37.57:585][824]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.57:586][824]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
-[2014.09.17-17.37.57:613][824]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.37.57:614][824]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.37.57:615][824]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
-[2014.09.17-17.37.58:707][903]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
-[2014.09.17-17.37.58:707][903]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.37.58:707][903]MaterialEditorStats: Info Texture samplers: 5/16
-[2014.09.17-17.37.59:582][984]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.37.59:608][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
-[2014.09.17-17.38.01:069][109]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
-[2014.09.17-17.38.01:069][109]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.38.01:069][109]MaterialEditorStats: Info Texture samplers: 6/16
-[2014.09.17-17.38.03:026][287]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.38.03:028][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
-[2014.09.17-17.38.03:053][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.38.03:054][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.38.03:055][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
-[2014.09.17-17.38.03:056][287]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
-[2014.09.17-17.38.04:284][390]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 68 instructions
-[2014.09.17-17.38.04:284][390]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.38.04:284][390]MaterialEditorStats: Info Texture samplers: 6/16
-[2014.09.17-17.38.07:026][625]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.38.07:054][625]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
-[2014.09.17-17.38.08:271][721]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
-[2014.09.17-17.38.08:271][721]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.38.08:271][721]MaterialEditorStats: Info Texture samplers: 7/16
-[2014.09.17-17.38.08:478][739]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.38.08:479][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
-[2014.09.17-17.38.08:504][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
-[2014.09.17-17.38.08:505][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
-[2014.09.17-17.38.08:506][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
-[2014.09.17-17.38.08:507][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
-[2014.09.17-17.38.08:508][739]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
-[2014.09.17-17.38.09:747][842]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
-[2014.09.17-17.38.09:747][842]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.38.09:747][842]MaterialEditorStats: Info Texture samplers: 7/16
-[2014.09.17-17.38.10:878][925]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.38.10:908][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
-[2014.09.17-17.38.12:208][ 40]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 77 instructions
-[2014.09.17-17.38.12:208][ 40]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.38.12:208][ 40]MaterialEditorStats: Info Texture samplers: 8/16
-[2014.09.17-17.38.16:675][445]LogSavePackage: Save=23.363863ms
-[2014.09.17-17.38.16:675][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapCA88E8BE4498A9A487B666820F30AD46.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.38.16:695][445]LogFileHelpers: Saving map 'Tutorial_Map' took 0.109
-[2014.09.17-17.38.16:731][445]LogSavePackage: Save=8.757538ms
-[2014.09.17-17.38.16:731][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Ceiling78B1B307427DB30028C8C18B82E78358.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Ceiling/Ceiling.uasset'
-[2014.09.17-17.38.16:757][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Floor/Floor" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset" SILENT=true
-[2014.09.17-17.38.16:986][445]LogSavePackage: Save=226.833725ms
-[2014.09.17-17.38.16:986][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Floor2CC0DE1D42657DF82BA15F9F238E160D.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset'
-[2014.09.17-17.38.26:833][445]LogSavePackage: Save=9833.954102ms
-[2014.09.17-17.38.26:833][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_albCD0D302F4A700529EF73FE91D964B5E6.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_alb.uasset'
-[2014.09.17-17.38.46:914][445]LogSavePackage: Save=20064.548828ms
-[2014.09.17-17.38.46:914][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_aoE40806A940CE5A749802549A152E35A5.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_ao.uasset'
-[2014.09.17-17.38.53:593][445]LogSavePackage: Save=6664.924316ms
-[2014.09.17-17.38.53:593][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_dE7CB1A354D7697E788891FBFAC5495F3.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_d.uasset'
-[2014.09.17-17.39.02:302][445]LogSavePackage: Save=8683.554688ms
-[2014.09.17-17.39.02:302][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_g9ED1623D46D97BCBEFB0DC97E647ED10.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_g.uasset'
-[2014.09.17-17.39.02:957][445]LogSavePackage: Save=641.557434ms
-[2014.09.17-17.39.02:957][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_h9CA7DD4049FA5B10932C8DACD6B6F31C.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_h.uasset'
-[2014.09.17-17.39.30:964][445]LogSavePackage: Save=27993.787109ms
-[2014.09.17-17.39.30:964][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_n3C68B3FB4A6F40FBBFF25EB76022A0C0.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_n.uasset'
-[2014.09.17-17.39.58:955][445]LogSavePackage: Save=27977.148438ms
-[2014.09.17-17.39.58:955][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_nY+5D644DD84A21AFB56316A59BC8761285.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_nY+.uasset'
-[2014.09.17-17.40.11:993][445]LogSavePackage: Save=13024.466797ms
-[2014.09.17-17.40.11:993][445]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Wood_QualityWoodFlooring_2k_s2C549431448CC1C00B5F2FBCE27457F8.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Wood_QualityWoodFlooring_2k_s.uasset'
-[2014.09.17-17.40.12:268][462]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.40.12:269][462]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.40.16:970][885]LogMaterialEditor: Saving and Compiling material Floor
-[2014.09.17-17.40.17:178][885]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
-[2014.09.17-17.40.17:206][885]LogMaterial: Missing cached shader map for material Floor, compiling.
-[2014.09.17-17.40.17:209][885]LogMaterial: Missing cached shader map for material Floor, compiling.
-[2014.09.17-17.40.17:210][885]LogMaterial: 0.000597 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.09.17-17.40.19:961][885]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Floor/Floor" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset" SILENT=true
-[2014.09.17-17.40.20:142][885]LogSavePackage: Save=152.488510ms
-[2014.09.17-17.40.20:142][885]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Floor7A076BE343E57E2B19C3429CE83A35FC.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset'
-[2014.09.17-17.40.25:610][476]LogMaterial:Warning: Material /Game/Temporary_Materials/Floor/Floor.Floor needed to have new flag set bUsedWithStaticLighting !
-[2014.09.17-17.40.25:611][476]LogMaterial: Missing cached shader map for material Floor, compiling.
-[2014.09.17-17.40.25:614][476]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.09.17-17.40.29:297][907]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.40.36:094][702]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.40.39:137][ 53]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089135A480
-[2014.09.17-17.40.39:246][ 53]LogSavePackage: Save=24.465609ms
-[2014.09.17-17.40.39:247][ 53]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapA19472244CBBBBE67FA80C9BE355FE5E.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.40.39:264][ 53]LogFileHelpers: Saving map 'Tutorial_Map' took 0.107
-[2014.09.17-17.40.39:266][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Floor/Floor" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset" SILENT=true
-[2014.09.17-17.40.39:301][ 53]LogSavePackage: Save=8.072186ms
-[2014.09.17-17.40.39:301][ 53]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Floor024F7B5E48EB6FB65BEDFBB75ECC030A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Floor/Floor.uasset'
-[2014.09.17-17.43.43:699][553]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
-[2014.09.17-17.43.56:032][ 17]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.43.57:271][160]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.44.02:960][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Walls/Walls" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset" SILENT=true
-[2014.09.17-17.44.03:193][823]LogSavePackage: Save=231.488083ms
-[2014.09.17-17.44.03:193][823]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Walls6FB4A54347251AC5568D0886C25024E3.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset'
-[2014.09.17-17.44.26:107][478]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
-[2014.09.17-17.44.27:188][597]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.29:598][828]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.30:477][911]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.32:415][ 93]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.33:213][171]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.34:475][287]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.44.36:800][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair_2)
-[2014.09.17-17.44.38:824][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair_3)
-[2014.09.17-17.44.42:020][150]LogActorFactory: Actor Factory created SM_Couch
-[2014.09.17-17.44.42:682][205]LogActorFactory: Actor Factory created SM_Couch
-[2014.09.17-17.44.59:561][148]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-17.45.03:517][508]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-17.45.10:110][247]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-17.45.11:435][367]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-17.45.14:084][657]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.45.14:917][730]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-17.45.21:557][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound_2)
-[2014.09.17-17.45.27:594][201]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.45.34:147][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.45.34:601][983]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair_2)
-[2014.09.17-17.45.39:607][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair_3)
-[2014.09.17-17.45.48:447][559]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.45.50:735][806]LogSavePackage: Save=26.705559ms
-[2014.09.17-17.45.50:735][806]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map03DDFF1D441791D8F25A15AAC1E764BC.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.45.50:808][806]LogFileHelpers: Saving map 'Tutorial_Map' took 0.171
-[2014.09.17-17.46.22:103][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d1.tga)
-[2014.09.17-17.46.22:144][773]0.000046 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d1.Plaster_Bare1_2k_d1
-
-[2014.09.17-17.46.22:151][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d1 (AutoDXT)
-[2014.09.17-17.46.25:045][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d2.tga)
-[2014.09.17-17.46.25:086][773]0.000029 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d2.Plaster_Bare1_2k_d2
-
-[2014.09.17-17.46.25:094][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d2 (AutoDXT)
-[2014.09.17-17.46.27:744][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d3.tga)
-[2014.09.17-17.46.27:787][773]0.000046 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d3.Plaster_Bare1_2k_d3
-
-[2014.09.17-17.46.27:793][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d3 (AutoDXT)
-[2014.09.17-17.46.30:651][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d4.tga)
-[2014.09.17-17.46.30:693][773]0.000038 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d4.Plaster_Bare1_2k_d4
-
-[2014.09.17-17.46.30:700][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d4 (AutoDXT)
-[2014.09.17-17.46.33:322][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d5.tga)
-[2014.09.17-17.46.33:365][773]0.000029 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d5.Plaster_Bare1_2k_d5
-
-[2014.09.17-17.46.33:371][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d5 (AutoDXT)
-[2014.09.17-17.46.36:256][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_d6.tga)
-[2014.09.17-17.46.36:297][773]0.000038 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_d6.Plaster_Bare1_2k_d6
-
-[2014.09.17-17.46.36:303][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_d6 (AutoDXT)
-[2014.09.17-17.46.39:044][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_g.tga)
-[2014.09.17-17.46.39:086][773]0.000037 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_g.Plaster_Bare1_2k_g
-
-[2014.09.17-17.46.39:092][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_g (AutoDXT)
-[2014.09.17-17.46.40:626][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_n.tga)
-[2014.09.17-17.46.40:668][773]0.000030 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_n.Plaster_Bare1_2k_n
-
-[2014.09.17-17.46.40:688][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_n (BC5)
-[2014.09.17-17.46.41:179][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_nY+.tga)
-[2014.09.17-17.46.41:221][773]0.000038 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_nY+.Plaster_Bare1_2k_nY+
-
-[2014.09.17-17.46.41:244][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_nY+ (BC5)
-[2014.09.17-17.46.41:730][773]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\ParkerJoseph\Desktop\TGA\Plaster_Bare1_2k_TGA\Plaster_Bare1_2k_s.tga)
-[2014.09.17-17.46.41:771][773]0.000038 seconds to analyze Texture2D /Game/Temporary_Materials/Walls/Plaster_Bare1_2k_s.Plaster_Bare1_2k_s
-
-[2014.09.17-17.46.41:778][773]LogTexture:Display: Building textures: Plaster_Bare1_2k_s (AutoDXT)
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:037][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:038][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:038][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:038][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.44:038][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.46.54:411][759]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.46.54:415][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2014.09.17-17.46.54:457][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2014.09.17-17.46.54:457][759]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2014.09.17-17.46.54:457][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2014.09.17-17.46.54:457][759]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2014.09.17-17.46.56:677][952]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.46.56:678][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
-[2014.09.17-17.46.56:706][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
-[2014.09.17-17.46.58:257][ 93]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
-[2014.09.17-17.46.58:257][ 93]MaterialEditorStats: Info Vertex shader: 31 instructions
-[2014.09.17-17.46.58:258][ 93]MaterialEditorStats: Info Texture samplers: 3/16
-[2014.09.17-17.47.00:415][283]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.00:445][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
-[2014.09.17-17.47.02:462][465]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
-[2014.09.17-17.47.02:462][465]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.47.02:462][465]MaterialEditorStats: Info Texture samplers: 4/16
-[2014.09.17-17.47.03:189][528]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.03:190][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
-[2014.09.17-17.47.03:219][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
-[2014.09.17-17.47.03:220][528]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
-[2014.09.17-17.47.04:628][638]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
-[2014.09.17-17.47.04:628][638]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.47.04:628][638]MaterialEditorStats: Info Texture samplers: 4/16
-[2014.09.17-17.47.05:129][685]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.05:157][685]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
-[2014.09.17-17.47.06:956][839]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
-[2014.09.17-17.47.06:956][839]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.47.06:956][839]MaterialEditorStats: Info Texture samplers: 5/16
-[2014.09.17-17.47.09:067][ 38]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.09:068][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
-[2014.09.17-17.47.09:093][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling.
-[2014.09.17-17.47.09:094][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling.
-[2014.09.17-17.47.09:095][ 38]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
-[2014.09.17-17.47.10:648][169]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 69 instructions
-[2014.09.17-17.47.10:648][169]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.47.10:648][169]MaterialEditorStats: Info Texture samplers: 5/16
-[2014.09.17-17.47.12:691][347]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.12:718][347]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling.
-[2014.09.17-17.47.14:389][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
-[2014.09.17-17.47.14:389][497]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2014.09.17-17.47.14:389][497]MaterialEditorStats: Info Texture samplers: 6/16
-[2014.09.17-17.47.15:163][570]LogMaterialEditor: Saving and Compiling material Walls
-[2014.09.17-17.47.15:372][570]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
-[2014.09.17-17.47.15:396][570]LogMaterial: Missing cached shader map for material Walls, compiling.
-[2014.09.17-17.47.15:398][570]LogMaterial: Missing cached shader map for material Walls, compiling.
-[2014.09.17-17.47.15:400][570]LogMaterial: 0.000766 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.09.17-17.47.17:435][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Walls/Walls" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset" SILENT=true
-[2014.09.17-17.47.17:625][570]LogSavePackage: Save=160.813522ms
-[2014.09.17-17.47.17:625][570]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Walls276F942A4A065854FF7AAA82F0D7A2BF.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset'
-[2014.09.17-17.47.20:957][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008AB3CD1C0
-[2014.09.17-17.47.23:225][918]LogSavePackage: Save=2233.222412ms
-[2014.09.17-17.47.23:225][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d1B6C732924D5E01BFF2E0CBA1DC1BA1BC.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d1.uasset'
-[2014.09.17-17.47.26:019][918]LogSavePackage: Save=2778.707764ms
-[2014.09.17-17.47.26:019][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d24A6947CD48C6E49B2FB44588733ECA08.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d2.uasset'
-[2014.09.17-17.47.28:585][918]LogSavePackage: Save=2553.516602ms
-[2014.09.17-17.47.28:585][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d32E1B3806474C7BB1A190ED9268EC8B92.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d3.uasset'
-[2014.09.17-17.47.31:459][918]LogSavePackage: Save=2861.341797ms
-[2014.09.17-17.47.31:459][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d4E3B502C7412E28A6FD00AFB52E5F049F.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d4.uasset'
-[2014.09.17-17.47.33:613][918]LogSavePackage: Save=2141.194336ms
-[2014.09.17-17.47.33:613][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d504AD5DF04301ECFE19DBFBAFE523E73A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d5.uasset'
-[2014.09.17-17.47.35:847][918]LogSavePackage: Save=2218.869141ms
-[2014.09.17-17.47.35:847][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_d621209D4E4FEB1E8784446AAEBF15B69E.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_d6.uasset'
-[2014.09.17-17.47.42:879][918]LogSavePackage: Save=7019.469727ms
-[2014.09.17-17.47.42:879][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_gB69370CA4DAC274E8EB49784F6A50E38.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_g.uasset'
-[2014.09.17-17.47.46:384][918]LogSavePackage: Save=3492.370361ms
-[2014.09.17-17.47.46:384][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_n18289DB347DE7453F09CC08CE8606684.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_n.uasset'
-[2014.09.17-17.47.49:890][918]LogSavePackage: Save=3492.479736ms
-[2014.09.17-17.47.49:890][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_nY+003322E1440803362865FC8A3D178F65.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_nY+.uasset'
-[2014.09.17-17.47.53:638][918]LogSavePackage: Save=3734.317871ms
-[2014.09.17-17.47.53:639][918]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Plaster_Bare1_2k_sD7350616431927F137D147A56FD72857.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Plaster_Bare1_2k_s.uasset'
-[2014.09.17-17.47.57:422][342]LogMaterial:Warning: Material /Game/Temporary_Materials/Walls/Walls.Walls needed to have new flag set bUsedWithStaticLighting !
-[2014.09.17-17.47.57:422][342]LogMaterial: Missing cached shader map for material Walls, compiling.
-[2014.09.17-17.47.57:426][342]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2014.09.17-17.48.06:611][387]LogSavePackage: Save=24.374187ms
-[2014.09.17-17.48.06:611][387]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapCC39746449C738398660938E32F8681F.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.48.06:687][387]LogFileHelpers: Saving map 'Tutorial_Map' took 0.168
-[2014.09.17-17.48.06:689][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Temporary_Materials/Walls/Walls" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset" SILENT=true
-[2014.09.17-17.48.06:722][387]LogSavePackage: Save=7.964630ms
-[2014.09.17-17.48.06:722][387]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/WallsBB6747AE40B24D4238B80BBA30FB23E4.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Temporary_Materials/Walls/Walls.uasset'
-[2014.09.17-17.48.10:340][816]MapCheck: New page: Map Check
-[2014.09.17-17.48.10:355][816]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.48.10:355][816]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.48.10:371][816]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.48.10:375][816]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:48:10 AM
-[2014.09.17-17.48.14:908][816]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.48.14:923][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.48.14:923][816]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.48.14:923][816]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.48.14:923][816]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.48.14:923][816]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.48.14:970][816]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.48.14:984][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor, compiling.
-[2014.09.17-17.48.14:985][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor, compiling.
-[2014.09.17-17.48.14:986][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Floor, compiling.
-[2014.09.17-17.48.14:988][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Walls, compiling.
-[2014.09.17-17.48.14:989][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Walls, compiling.
-[2014.09.17-17.48.14:990][816]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Walls, compiling.
-[2014.09.17-17.48.18:356][ 97]Job is a success!
-[2014.09.17-17.48.18:434][ 98]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.09.17-17.48.18:504][ 98]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.09.17-17.48.18:507][ 98]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.09.17-17.48.18:510][ 98]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.48.18:516][ 98]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.48.18:525][ 98]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.09.17-17.48.18:727][ 98]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
-[2014.09.17-17.48.18:791][ 98]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
-[2014.09.17-17.48.18:855][ 98]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
-[2014.09.17-17.48.18:893][ 98]Lightmass on PARKER: 2.71 sec total, 140 ms importing, 21 ms setup, 178 ms photons, 2.35 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 11.6 sec total, 6.74 sec processing.
-[2014.09.17-17.48.18:912][ 98]LogStaticLightingSystem:Warning: Illumination: 8.51 sec (476 ms encoding lightmaps)
-[2014.09.17-17.48.18:912][ 98]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.48.18:912][ 98]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 15 textures
-[2014.09.17-17.48.19:938][ 99]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.48.19:938][ 99]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:48:19 AM
-[2014.09.17-17.48.19:975][ 99]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.205ms] ==========
-[2014.09.17-17.48.29:973][265]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.48.29:973][265]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:48:29 AM)
-[2014.09.17-17.48.29:976][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002939s)
-[2014.09.17-17.48.29:977][265]LogPlayLevel: PIE: World Init took: (0.000355s)
-[2014.09.17-17.48.29:977][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.003415s)
-[2014.09.17-17.48.29:977][265]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.48.30:009][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.48.30
-[2014.09.17-17.48.30:010][265]LogWorld: Bringing up level for play took: 0.001285
-[2014.09.17-17.48.30:010][265]LogPlayerController: Spawned spectator SpectatorPawn_6 [server:1]
-[2014.09.17-17.48.30:010][265]LogGameMode: RestartPlayer 262
-[2014.09.17-17.48.30:011][265]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_6
-[2014.09.17-17.48.30:011][265]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_6
-[2014.09.17-17.48.30:012][265]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 0.903
-[2014.09.17-17.48.30:032][266]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.48.32:772][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008AB3CE020
-[2014.09.17-17.48.32:794][553]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.48.33:475][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Couch)
-[2014.09.17-17.48.37:145][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
-[2014.09.17-17.48.40:225][415]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.48.41:144][523]MapCheck: New page: Map Check
-[2014.09.17-17.48.41:165][523]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.48.41:165][523]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.48.41:182][523]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.48.41:188][523]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:48:41 AM
-[2014.09.17-17.48.45:720][523]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.48.45:736][523]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.48.45:736][523]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.48.45:736][523]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.48.45:736][523]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.48.45:736][523]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.48.45:787][523]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.48.48:116][743]Job is a success!
-[2014.09.17-17.48.48:191][744]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2014.09.17-17.48.48:266][744]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
-[2014.09.17-17.48.48:270][744]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
-[2014.09.17-17.48.48:275][744]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.48.48:282][744]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.48.48:292][744]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2014.09.17-17.48.48:481][744]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
-[2014.09.17-17.48.48:552][744]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
-[2014.09.17-17.48.48:616][744]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
-[2014.09.17-17.48.48:665][744]Lightmass on PARKER: 2.55 sec total, 119 ms importing, 20 ms setup, 173 ms photons, 2.22 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 11.0 sec total, 6.31 sec processing.
-[2014.09.17-17.48.48:670][744]LogStaticLightingSystem:Warning: Illumination: 7.46 sec (479 ms encoding lightmaps)
-[2014.09.17-17.48.48:670][744]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.48.48:670][744]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 18 textures
-[2014.09.17-17.48.48:685][745]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.48.48:686][745]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:48:48 AM
-[2014.09.17-17.48.48:716][745]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [30.222ms] ==========
-[2014.09.17-17.48.50:696][981]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2014.09.17-17.48.50:696][981]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 9:48:50 AM)
-[2014.09.17-17.48.50:699][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002514s)
-[2014.09.17-17.48.50:699][981]LogPlayLevel: PIE: World Init took: (0.000329s)
-[2014.09.17-17.48.50:699][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.002962s)
-[2014.09.17-17.48.50:700][981]LogWorld: Game class is 'MyGame_C'
-[2014.09.17-17.48.50:732][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-13.48.50
-[2014.09.17-17.48.50:732][981]LogWorld: Bringing up level for play took: 0.001168
-[2014.09.17-17.48.50:733][981]LogPlayerController: Spawned spectator SpectatorPawn_7 [server:1]
-[2014.09.17-17.48.50:733][981]LogGameMode: RestartPlayer 263
-[2014.09.17-17.48.50:733][981]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_7
-[2014.09.17-17.48.50:733][981]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_7
-[2014.09.17-17.48.50:734][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map -0.374
-[2014.09.17-17.48.50:762][983]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 456/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.48.57:278][680]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000008DFEC6C00
-[2014.09.17-17.48.57:296][681]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 476/400 MB (ok in editor, bad on fixed memory platform)
-[2014.09.17-17.49.05:712][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
-[2014.09.17-17.49.20:013][357]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.49.41:701][928]Cmd: EDIT COPY
-[2014.09.17-17.49.43:390][124]Cmd: EDIT PASTE
-[2014.09.17-17.49.43:419][124]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.49.46:208][430]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.49.52:863][170]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.49.57:889][740]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.50.03:617][413]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.50.04:309][493]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.50.10:241][155]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
-[2014.09.17-17.50.19:842][258]Cmd: DELETE
-[2014.09.17-17.50.19:842][258]Cmd: ACTOR DELETE
-[2014.09.17-17.50.19:842][258]LogEditorActor: Deleted Actor: PointLight
-[2014.09.17-17.50.19:854][258]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2014.09.17-17.50.20:245][304]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
-[2014.09.17-17.50.21:473][449]Cmd: EDIT COPY
-[2014.09.17-17.50.22:318][548]Cmd: EDIT PASTE
-[2014.09.17-17.50.26:535][ 42]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.50.54:515][173]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
-[2014.09.17-17.50.59:843][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.50.59:843][770]Aligned camera to fit all selected actors.
-[2014.09.17-17.51.02:392][ 48]LogActorFactory: Actor Factory created SM_DoorFrame
-[2014.09.17-17.51.06:533][437]LogActorFactory: Actor Factory created SM_DoorFrame
-[2014.09.17-17.51.34:759][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.51.38:257][ 44]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2014.09.17-17.51.38:278][ 44]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.51.49:418][361]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.51.52:406][709]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.51.54:583][962]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.51.56:708][211]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.52.01:818][776]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.52.05:140][160]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.52.06:834][358]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.52.10:125][737]Cmd: EDIT COPY
-[2014.09.17-17.52.15:116][322]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.52.16:463][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.52.24:987][379]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.52.25:605][451]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_2)
-[2014.09.17-17.52.28:871][800]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.52.39:180][981]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.52.42:867][404]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.52.52:046][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2014.09.17-17.52.55:891][852]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.53.00:832][370]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
-[2014.09.17-17.53.02:492][542]LogActorFactory: Actor Factory created SM_Door
-[2014.09.17-17.53.08:319][ 59]LogActorFactory: Actor Factory created SM_Door
-[2014.09.17-17.53.12:565][496]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.53.19:958][256]LogSavePackage: Save=48.157169ms
-[2014.09.17-17.53.19:958][256]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map7DCB1FDB46601AF51995239369062FCB.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.53.19:995][256]LogFileHelpers: Saving map 'Tutorial_Map' took 0.160
-[2014.09.17-17.53.34:832][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_2)
-[2014.09.17-17.53.36:839][156]Cmd: EDIT COPY
-[2014.09.17-17.53.37:343][214]Cmd: EDIT PASTE
-[2014.09.17-17.53.56:389][434]Cmd: DELETE
-[2014.09.17-17.53.56:389][434]Cmd: ACTOR DELETE
-[2014.09.17-17.53.56:390][434]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.09.17-17.53.56:403][434]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2014.09.17-17.53.57:743][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_2)
-[2014.09.17-17.54.02:708][184]Cmd: EDIT COPY
-[2014.09.17-17.54.03:370][262]Cmd: EDIT PASTE
-[2014.09.17-17.54.38:219][264]Cmd: DELETE
-[2014.09.17-17.54.38:219][264]Cmd: ACTOR DELETE
-[2014.09.17-17.54.38:219][264]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.09.17-17.54.38:231][264]LogEditorActor: Deleted 1 Actors (0.012 secs)
-[2014.09.17-17.54.41:810][681]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.17-17.54.46:025][156]LogSavePackage: Save=48.060368ms
-[2014.09.17-17.54.46:025][156]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map2F62F07940434FA05CA310B754C80F69.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.54.46:044][156]LogFileHelpers: Saving map 'Tutorial_Map' took 0.136
-[2014.09.17-17.54.54:137][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair_4)
-[2014.09.17-17.54.58:714][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.55.08:902][763]Cmd: EDIT COPY
-[2014.09.17-17.55.09:461][828]Cmd: EDIT PASTE
-[2014.09.17-17.55.09:469][828]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Tutorial_Map.Tutorial_Map:PersistentLevel.BoxBrush_2.Model_7 or Model /Game/Maps/Tutorial_Map.Tutorial_Map:PersistentLevel.BoxBrush.Model_7
-[2014.09.17-17.55.09:490][828]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.55.12:254][141]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.55.12:255][141]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
-[2014.09.17-17.55.12:371][153]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.55.13:405][273]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.55.13:405][273]Aligned camera to fit all selected actors.
-[2014.09.17-17.55.18:716][876]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.55.20:949][135]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Walls'
-[2014.09.17-17.55.27:692][899]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.55.30:592][241]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.55.43:787][682]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2014.09.17-17.55.57:150][264]Cmd: EDIT COPY
-[2014.09.17-17.55.58:226][393]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.55.59:280][517]Cmd: EDIT PASTE
-[2014.09.17-17.55.59:302][517]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.56.03:436][  0]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.56.06:488][343]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.56.09:372][667]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.56.11:569][917]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.56.18:173][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_DoorFrame)
-[2014.09.17-17.56.25:347][503]Cmd: EDIT COPY
-[2014.09.17-17.56.26:551][638]Cmd: EDIT PASTE
-[2014.09.17-17.56.31:881][234]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.56.31:882][234]Aligned camera to fit all selected actors.
-[2014.09.17-17.56.40:461][209]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.56.50:203][222]LogSavePackage: Save=52.886471ms
-[2014.09.17-17.56.50:203][222]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapDB78F5A54ADAF323994CCE977828D501.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-17.56.50:223][222]LogFileHelpers: Saving map 'Tutorial_Map' took 0.143
-[2014.09.17-17.57.06:974][123]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2014.09.17-17.57.06:974][123]Aligned camera to fit all selected actors.
-[2014.09.17-17.57.28:387][610]Cmd: TRANSACTION UNDO
-[2014.09.17-17.57.28:387][610]LogEditorTransaction: Undo Clicking on Actors
-[2014.09.17-17.58.13:126][622]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.14:448][768]Cmd: TRANSACTION UNDO
-[2014.09.17-17.58.14:448][768]LogEditorTransaction: Undo Move Actors
-[2014.09.17-17.58.14:487][768]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.21:628][567]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.23:515][782]Cmd: TRANSACTION UNDO
-[2014.09.17-17.58.23:515][782]LogEditorTransaction: Undo Move Actors
-[2014.09.17-17.58.23:555][782]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.44:683][228]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.46:591][446]Cmd: TRANSACTION UNDO
-[2014.09.17-17.58.46:591][446]LogEditorTransaction: Undo Move Actors
-[2014.09.17-17.58.46:631][446]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.50:067][809]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.58.58:394][737]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.59.02:925][231]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-17.59.08:416][818]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
-[2014.09.17-17.59.16:231][685]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight9)
-[2014.09.17-17.59.18:298][929]Cmd: DELETE
-[2014.09.17-17.59.18:299][929]Cmd: ACTOR DELETE
-[2014.09.17-17.59.18:299][929]LogEditorActor: Deleted Actor: PointLight
-[2014.09.17-17.59.18:312][929]LogEditorActor: Deleted 1 Actors (0.013 secs)
-[2014.09.17-17.59.19:110][ 24]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight8)
-[2014.09.17-17.59.20:428][179]Cmd: EDIT COPY
-[2014.09.17-17.59.21:397][294]Cmd: EDIT PASTE
-[2014.09.17-17.59.39:857][319]MapCheck: New page: Map Check
-[2014.09.17-17.59.39:874][319]Cmd: MAP REBUILD ALLVISIBLE
-[2014.09.17-17.59.39:874][319]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2014.09.17-17.59.39:894][319]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
-[2014.09.17-17.59.39:900][319]LightingResults: New page: Lighting Build - Sep 17, 2014, 9:59:39 AM
-[2014.09.17-17.59.44:449][319]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2014.09.17-17.59.44:461][319]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2014.09.17-17.59.44:461][319]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2014.09.17-17.59.44:461][319]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2014.09.17-17.59.44:461][319]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2014.09.17-17.59.44:461][319]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2014.09.17-17.59.44:519][319]LogEditorBuildUtils: Build time 0:00:04
-[2014.09.17-17.59.44:534][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling.
-[2014.09.17-17.59.44:535][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling.
-[2014.09.17-17.59.44:535][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Frame, compiling.
-[2014.09.17-17.59.44:536][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling.
-[2014.09.17-17.59.44:537][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling.
-[2014.09.17-17.59.44:538][319]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Door, compiling.
-[2014.09.17-17.59.44:575][320]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling.
-[2014.09.17-17.59.44:576][320]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling.
-[2014.09.17-17.59.50:246][797]Job is a success!
-[2014.09.17-17.59.50:338][798]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2014.09.17-17.59.50:527][798]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2014.09.17-17.59.50:591][798]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2014.09.17-17.59.50:662][798]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2014.09.17-17.59.50:726][798]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2014.09.17-17.59.50:797][798]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2014.09.17-17.59.50:901][798]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
-[2014.09.17-17.59.50:912][798]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
-[2014.09.17-17.59.50:917][798]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
-[2014.09.17-17.59.50:932][798]Lightmass on PARKER: 4.58 sec total, 162 ms importing, 23 ms setup, 212 ms photons, 4.16 sec processing, 0 ms extra exporting [52/52 mappings]. Threads: 20.6 sec total, 13.4 sec processing.
-[2014.09.17-17.59.50:937][798]LogStaticLightingSystem:Warning: Illumination: 11.0 sec (611 ms encoding lightmaps)
-[2014.09.17-17.59.50:937][798]LogStaticLightingSystem: Lightmap texture memory:  0.4 MB (0.3 MB streaming, 0.1 MB non-streaming), 6 textures
-[2014.09.17-17.59.50:937][798]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 21 textures
-[2014.09.17-17.59.50:958][799]Cmd: MAP CHECK NOTIFYRESULTS
-[2014.09.17-17.59.50:958][799]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 9:59:50 AM
-[2014.09.17-17.59.50:989][799]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [30.758ms] ==========
-[2014.09.17-17.59.54:131][159]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Ceiling'
-[2014.09.17-18.00.24:075][556]LogSavePackage: Save=60.780701ms
-[2014.09.17-18.00.24:075][556]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map26D3C228456EADF081F2579713575541.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-18.00.24:094][556]LogFileHelpers: Saving map 'Tutorial_Map' took 0.150
-[2014.09.17-18.00.25:720][744]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
-[2014.09.17-18.00.41:392][538]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
-[2014.09.17-18.00.42:268][624]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-18.00.43:551][756]LogActorFactory: Actor Factory created SM_Chair
-[2014.09.17-18.00.48:890][355]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-18.00.51:039][580]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-18.00.54:114][932]Cmd: DELETE
-[2014.09.17-18.00.54:114][932]Cmd: ACTOR DELETE
-[2014.09.17-18.00.54:115][932]LogEditorActor: Deleted Actor: StaticMeshActor
-[2014.09.17-18.00.54:126][932]LogEditorActor: Deleted 1 Actors (0.011 secs)
-[2014.09.17-18.00.57:798][342]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-18.00.59:800][527]LogActorFactory: Actor Factory created SM_TableRound
-[2014.09.17-18.01.03:002][888]LogActorFactory: Actor Factory created SM_Couch
-[2014.09.17-18.01.03:852][963]LogActorFactory: Actor Factory created SM_Couch
-[2014.09.17-18.01.18:173][614]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
-[2014.09.17-18.01.22:455][ 53]LogSavePackage: Save=60.381905ms
-[2014.09.17-18.01.22:455][ 53]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapE40A59F24F72B3E3C6AD54915903AEEA.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-18.01.22:474][ 53]LogFileHelpers: Saving map 'Tutorial_Map' took 0.147
-[2014.09.17-18.01.49:346][632]LogSavePackage: Save=60.147381ms
-[2014.09.17-18.01.49:346][632]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapF25970C44E5E96295444ADA1E70821C3.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
-[2014.09.17-18.01.49:370][632]LogFileHelpers: Saving map 'Tutorial_Map' took 0.166
-[2014.09.17-18.02.12:387][ 44]Cmd: QUIT_EDITOR
-[2014.09.17-18.02.12:428][ 44]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.09.17-18.02.12:430][ 44]LogExit: Preparing to exit.
-[2014.09.17-18.02.13:450][ 44]LogExit: Editor shut down
-[2014.09.17-18.02.13:450][ 44]LogExit: Transaction tracking system shut down
-[2014.09.17-18.02.13:451][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000088EE0F1A0
-[2014.09.17-18.02.13:452][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000088EE0E700
-[2014.09.17-18.02.13:499][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089F45DDA0
-[2014.09.17-18.02.13:499][ 44]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000089F45DE40
-[2014.09.17-18.02.13:499][ 44]LogExit: Object subsystem successfully closed.
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module MaterialEditor (166)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module NewLevelDialog (165)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module StatsViewer (164)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module DesktopPlatform (163)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module HTTP (160)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module NewsFeed (159)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
-[2014.09.17-18.02.13:523][ 44]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module BspMode (149)
-[2014.09.17-18.02.13:526][ 44]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module XmlParser (141)
-[2014.09.17-18.02.13:527][ 44]LogModuleManager: Shutting down and abandoning module Blutility (140)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module AutomationController (126)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module Layers (124)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
-[2014.09.17-18.02.13:528][ 44]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module Persona (117)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module Toolbox (113)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module Sequencer (111)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module AssetTools (110)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module OutputLog (108)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module GammaUI (107)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module Documentation (106)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module Analytics (103)
-[2014.09.17-18.02.13:625][ 44]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module Matinee (99)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module Kismet (98)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2014.09.17-18.02.13:812][ 44]LogModuleManager: Shutting down and abandoning module MainFrame (95)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module SourceControl (94)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module MessageLog (88)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module Slate (87)
-[2014.09.17-18.02.13:813][ 44]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module SessionServices (85)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module Messaging (84)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module Networking (79)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module Core (78)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
-[2014.09.17-18.02.13:814][ 44]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
-[2014.09.17-18.02.13:842][ 44]LogDerivedDataCache: Shutdown
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module InputCore (52)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Settings (51)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Renderer (43)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module Engine (42)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
-[2014.09.17-18.02.13:842][ 44]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
-[2014.09.17-18.02.13:843][ 44]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
-[2014.09.17-18.02.13:843][ 44]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
-[2014.09.17-18.02.13:843][ 44]LogModuleManager: Shutting down and abandoning module CableComponent (30)
-[2014.09.17-18.02.13:843][ 44]LogModuleManager: Shutting down and abandoning module OculusRift (26)
-[2014.09.17-18.02.13:843][ 44]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.09.17-18.02.13:944][ 44]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.09.17-18.02.13:944][ 44]LogExit: Exiting.
-[2014.09.17-18.02.13:946][ 44]Log file closed, 09/17/14 14:02:13
+[2014.09.17-18.09.01:235][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.17-18.09.01:261][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.17-18.09.01:265][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.17-18.09.01:269][  0]LogInit: Object subsystem initialized
+[2014.09.17-18.09.01:270][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.17-18.09.01:270][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.17-18.09.01:273][  0]LogInit: Computer: PARKER
+[2014.09.17-18.09.01:273][  0]LogInit: User: ParkerJoseph
+[2014.09.17-18.09.01:274][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.17-18.09.01:274][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.09.17-18.09.01:274][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.09.17-18.09.01:274][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.17-18.09.01:274][  0]LogMemory: Process Physical Memory: 52.48 MB used, 52.59 MB peak
+[2014.09.17-18.09.01:274][  0]LogMemory: Process Virtual Memory: 29.43 MB used, 29.55 MB peak
+[2014.09.17-18.09.01:274][  0]LogMemory: Physical Memory: 2841.33 MB used, 8135.10 MB total
+[2014.09.17-18.09.01:274][  0]LogMemory: Virtual Memory: 242.07 MB used, 134217728.00 MB total
+[2014.09.17-18.09.01:285][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.09.17-18.09.01:285][  0]LogD3D11RHI: Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2014.09.17-18.09.01:286][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.17-18.09.01:286][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.17-18.09.01:286][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.17-18.09.01:289][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.17-18.09.01:292][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.09.17-18.09.01:363][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.17-18.09.01:933][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.17-18.09.01:985][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.17-18.09.02:005][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.17-18.09.02:035][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.17-18.09.02:035][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc
+[2014.09.17-18.09.02:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.17-18.09.02:035][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.17-18.09.02:043][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.17-18.09.02:054][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache: Writable
+[2014.09.17-18.09.02:158][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.17-18.09.02:158][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.17-18.09.02:346][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.17-18.09.02:563][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png' error.
+[2014.09.17-18.09.02:563][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/GroupActor_16x.png
+[2014.09.17-18.09.02:566][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png' error.
+[2014.09.17-18.09.02:566][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Icons/ActorIcons/DecalActor_16x.png
+[2014.09.17-18.09.02:737][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.17-18.09.02:809][  0]SourceControl: Info Source control is disabled
+[2014.09.17-18.09.02:809][  0]SourceControl: Info Source control is disabled
+[2014.09.17-18.09.02:812][  0]SourceControl: Info Source control is disabled
+[2014.09.17-18.09.02:863][  0]BlueprintLog: New page: Editor Load
+[2014.09.17-18.09.02:883][  0]LogObj: 19137 objects as part of root set at end of initial load.
+[2014.09.17-18.09.02:883][  0]LogUObjectAllocator: 3804784 out of 0 bytes used by permanent object pool.
+[2014.09.17-18.09.03:047][  0]LogEngine: Initializing Engine...
+[2014.09.17-18.09.03:115][  0]LogInit: XAudio2 using 'Speakers (2- Plantronics GameCom 780)' : 6 channels at 44.1 kHz using 16 bits per sample (channel mask 0x60f)
+[2014.09.17-18.09.03:143][  0]LogInit: FAudioDevice initialized.
+[2014.09.17-18.09.03:161][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.2/DerivedDataCache/Boot.ddc.
+[2014.09.17-18.09.03:165][  0]LogInit: Texture streaming: Enabled
+[2014.09.17-18.09.03:181][  0]LogInit: Transaction tracking system initialized
+[2014.09.17-18.09.03:241][  0]LogAssetRegistry: FAssetRegistry took 0.0102 seconds to start up
+[2014.09.17-18.09.03:324][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.17-18.09.03:327][  0]LogModuleManager:Warning: ModuleManager: Unable to load module '' because the file was not found.
+[2014.09.17-18.09.03:354][  0]LogConsoleResponse:Display: 
+[2014.09.17-18.09.03:481][  0]SourceControl: Info Source control is disabled
+[2014.09.17-18.09.03:561][  0]LogCollectionManager: Loaded 0 collections in 0.000813 seconds
+[2014.09.17-18.09.03:649][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.17-18.09.03:649][  0]Cmd: MODE PLACEMENT
+[2014.09.17-18.09.03:688][  0]LogLoad: Full Startup: 2.89 seconds (BP compile: 0.00 seconds)
+[2014.09.17-18.09.03:705][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.09.17-18.09.03:794][  0]LogRenderer:Warning: Reallocating scene render targets to support 1392x1160.
+[2014.09.17-18.09.03:978][  1]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>53ADA06D7B730B1B</RequestId><HostId>s6dj8+2JhrbdnvlC3Eo03XQgOMKX4PRSRQXtq+EelwqgQH5wA5P2+N6dxKYq9+FQ</HostId></Error>
+[2014.09.17-18.09.04:017][  1]LogAssetRegistry: Asset discovery search completed in 0.7873 seconds
+[2014.09.17-18.09.04:041][  2]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>58D1404A211A0612</RequestId><HostId>bBCgkryikgTA00kaReD3h+Z/OxqLTIwZD6u/xlJo82z9AkeqOWljVbju4WV1xvHB</HostId></Error>
+[2014.09.17-18.09.04:065][  3]LogEpicStorage:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>754DD73641A9EFA8</RequestId><HostId>I+z33/zghCSjfZ9/QZCEy38djNKcsEeFkv0GLpLn4OocKzwLwlrCjJM0hElDqjwK</HostId></Error>
+[2014.09.17-18.09.04:114][  6]LogEpicSurvey:Warning: EnumerateFiles request failed. Invalid response. code=403 error=<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>AD8F1D6C8BA71560</RequestId><HostId>NU58JWdnB/9V5Tam17pmwKJ62z+cG/8wtU9NNsgOyCG7sVpB0t+llUss6HNz29A7</HostId></Error>
+[2014.09.17-18.09.04:199][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.09.04:200][ 14]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.09.09:638][390]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 WORLDCOMPOSITION=0
+[2014.09.17-18.09.09:638][390]LightingResults: New page: Lighting Build
+[2014.09.17-18.09.09:642][390]Cmd: MODE PLACEMENT
+[2014.09.17-18.09.09:660][390]LoadErrors: New page: Loading map: Tutorial_Map.umap
+[2014.09.17-18.09.09:660][390]MapCheck: New page: Map Check
+[2014.09.17-18.09.09:660][390]LightingResults: New page: Lighting Build
+[2014.09.17-18.09.09:676][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016B8E12840
+[2014.09.17-18.09.09:835][390]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.17-18.09.09:852][390]Cmd: MAP CHECKDEP
+[2014.09.17-18.09.09:852][390]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 10:09:09 AM
+[2014.09.17-18.09.09:876][390]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [23.992ms] ==========
+[2014.09.17-18.09.09:876][390]LogFileHelpers: Loading map 'Tutorial_Map' took 0.238
+[2014.09.17-18.15.30:431][896]Cmd: EDIT COPY
+[2014.09.17-18.15.31:465][ 19]Cmd: EDIT PASTE
+[2014.09.17-18.15.31:473][ 19]LogUObjectHash:Warning: Ambiguous search, could be Model /Game/Maps/Tutorial_Map.Tutorial_Map:PersistentLevel.BoxBrush_6.Model_8 or Model /Game/Maps/Tutorial_Map.Tutorial_Map:PersistentLevel.BoxBrush_3.Model_8
+[2014.09.17-18.15.31:498][ 19]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.15.34:668][387]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.15.44:232][516]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.15.48:725][ 34]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.15.55:479][820]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.15.59:194][256]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.00:425][400]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.04:677][905]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.08:328][337]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.11:119][665]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.13:608][955]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.14:597][ 70]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.26:411][456]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2014.09.17-18.16.27:688][609]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2014.09.17-18.16.38:105][837]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2014.09.17-18.16.51:436][419]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.52:465][537]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.53:641][673]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.54:925][823]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.56:210][973]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.16.57:465][120]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.17.01:606][602]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.17.02:784][738]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.17.04:443][932]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.17.13:934][ 49]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.17.24:696][308]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2014.09.17-18.17.25:448][398]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2014.09.17-18.17.30:547][991]Cmd: POLY TEXSCALE  UU=0.125000 VV=0.125000
+[2014.09.17-18.17.33:833][382]Cmd: POLY TEXPAN U=64.000000 V=0.000000
+[2014.09.17-18.17.35:450][575]Cmd: POLY TEXPAN U=0.000000 V=64.000000
+[2014.09.17-18.17.36:681][722]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.37:136][776]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.37:291][794]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.37:461][814]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.47:048][950]Cmd: POLY TEXSCALE  UU=0.250000 VV=0.250000
+[2014.09.17-18.17.50:831][401]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2014.09.17-18.17.52:754][630]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.53:091][670]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.53:252][689]Cmd: POLY TEXPAN U=0.000000 V=16.000000
+[2014.09.17-18.17.55:888][  4]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2014.09.17-18.17.56:818][115]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2014.09.17-18.18.07:384][328]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.18.12:277][882]Cmd: POLY TEXPAN U=16.000000 V=0.000000
+[2014.09.17-18.18.13:295][  2]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.18.24:194][172]LogSavePackage: Save=56.034706ms
+[2014.09.17-18.18.24:194][172]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map07C77B444AFC175967425892A11A396C.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
+[2014.09.17-18.18.24:220][172]LogFileHelpers: Saving map 'Tutorial_Map' took 0.142
+[2014.09.17-18.18.28:081][627]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.17-18.18.28:081][627]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 10:18:28 AM)
+[2014.09.17-18.18.28:085][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003777s)
+[2014.09.17-18.18.28:086][627]LogPlayLevel: PIE: World Init took: (0.000365s)
+[2014.09.17-18.18.28:086][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.004267s)
+[2014.09.17-18.18.28:272][627]LogWorld: Game class is 'MyGame_C'
+[2014.09.17-18.18.28:319][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-14.18.28
+[2014.09.17-18.18.28:319][627]LogWorld: Bringing up level for play took: 0.001735
+[2014.09.17-18.18.28:320][627]LogPlayerController: Spawned spectator SpectatorPawn_0 [server:1]
+[2014.09.17-18.18.28:320][627]LogGameMode: RestartPlayer 256
+[2014.09.17-18.18.28:321][627]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_0
+[2014.09.17-18.18.28:321][627]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_0
+[2014.09.17-18.18.28:322][627]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 1.213
+[2014.09.17-18.18.30:112][826]MapCheck: New page: Map Check
+[2014.09.17-18.18.30:133][826]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.17-18.18.30:133][826]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.17-18.18.30:147][826]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.18.30:153][826]LightingResults: New page: Lighting Build - Sep 17, 2014, 10:18:30 AM
+[2014.09.17-18.18.32:797][826]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.17-18.18.32:816][826]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.17-18.18.32:816][826]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.17-18.18.32:816][826]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.17-18.18.32:816][826]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.17-18.18.32:816][826]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.17-18.18.32:888][826]LogEditorBuildUtils: Build time 0:00:02
+[2014.09.17-18.18.37:437][286]Job is a success!
+[2014.09.17-18.18.39:892][486]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.17-18.18.39:945][486]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.09.17-18.18.39:948][486]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.09.17-18.18.39:951][486]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.17-18.18.40:069][486]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.17-18.18.40:260][486]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.17-18.18.40:397][486]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.09.17-18.18.40:516][486]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.09.17-18.18.40:536][486]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.17-18.18.40:565][486]Lightmass on PARKER: 7.13 sec total, 159 ms importing, 38 ms setup, 212 ms photons, 6.70 sec processing, 0 ms extra exporting [55/55 mappings]. Threads: 33.4 sec total, 14.1 sec processing.
+[2014.09.17-18.18.40:570][486]LogStaticLightingSystem:Warning: Illumination: 8.12 sec (766 ms encoding lightmaps)
+[2014.09.17-18.18.40:570][486]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (1.3 MB streaming, 1.3 MB non-streaming), 6 textures
+[2014.09.17-18.18.40:570][486]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2014.09.17-18.18.40:806][487]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.17-18.18.40:806][487]MapCheck: New page: UEDPIE_0_Tutorial_Map - Sep 17, 2014, 10:18:40 AM
+[2014.09.17-18.18.40:807][487]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2014.09.17-18.18.40:831][487]MapCheck: Info ========== Map Check: 1 Error(s), 0 Warning(s), [25.583ms] ==========
+[2014.09.17-18.18.42:814][670]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016C40B2D40
+[2014.09.17-18.18.43:542][751]MapCheck: New page: Map Check
+[2014.09.17-18.18.43:561][751]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.17-18.18.43:561][751]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.17-18.18.43:577][751]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.18.43:582][751]LightingResults: New page: Lighting Build - Sep 17, 2014, 10:18:43 AM
+[2014.09.17-18.18.48:126][751]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.17-18.18.48:148][751]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.17-18.18.48:148][751]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.17-18.18.48:148][751]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.17-18.18.48:148][751]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.17-18.18.48:148][751]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.17-18.18.48:205][751]LogEditorBuildUtils: Build time 0:00:04
+[2014.09.17-18.18.52:524][201]Job is a success!
+[2014.09.17-18.18.52:704][202]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.17-18.18.52:830][202]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.17-18.18.52:894][202]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.17-18.18.52:965][202]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.17-18.18.53:118][202]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.17-18.18.53:312][202]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.17-18.18.53:452][202]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.17-18.18.53:571][202]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.09.17-18.18.53:597][202]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.09.17-18.18.53:618][202]LogStaticLightingSystem:Warning: Illumination: 10.0 sec (1.01 sec encoding lightmaps)
+[2014.09.17-18.18.53:618][202]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (1.3 MB streaming, 1.3 MB non-streaming), 6 textures
+[2014.09.17-18.18.53:618][202]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.09.17-18.18.54:134][203]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.17-18.18.54:134][203]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 10:18:54 AM
+[2014.09.17-18.18.54:159][203]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [25.199ms] ==========
+[2014.09.17-18.18.56:102][430]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.17-18.18.56:103][430]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 10:18:56 AM)
+[2014.09.17-18.18.56:106][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003617s)
+[2014.09.17-18.18.56:107][430]LogPlayLevel: PIE: World Init took: (0.000349s)
+[2014.09.17-18.18.56:107][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.004083s)
+[2014.09.17-18.18.56:107][430]LogWorld: Game class is 'MyGame_C'
+[2014.09.17-18.18.56:145][430]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-14.18.56
+[2014.09.17-18.18.56:145][430]LogWorld: Bringing up level for play took: 0.001563
+[2014.09.17-18.18.56:145][430]LogPlayerController: Spawned spectator SpectatorPawn_1 [server:1]
+[2014.09.17-18.18.56:145][430]LogGameMode: RestartPlayer 257
+[2014.09.17-18.18.56:146][430]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_1
+[2014.09.17-18.18.56:146][430]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_1
+[2014.09.17-18.18.56:147][430]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 1.037
+[2014.09.17-18.19.03:292][261]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:300][262]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:308][263]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:316][264]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:325][265]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:333][266]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:341][267]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:350][268]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:358][269]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:367][270]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:375][271]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:383][272]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:391][273]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:400][274]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:617][300]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:624][301]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:633][302]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:642][303]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:649][304]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:658][305]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:666][306]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:674][307]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:683][308]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:691][309]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:699][310]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:708][311]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:716][312]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:724][313]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:733][314]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:741][315]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:750][316]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:758][317]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:766][318]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:774][319]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:783][320]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:791][321]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:799][322]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:885][332]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:891][333]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:899][334]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:908][335]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:916][336]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:924][337]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:934][338]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:941][339]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:949][340]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:958][341]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:966][342]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:974][343]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:983][344]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:991][345]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.03:999][346]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:008][347]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:016][348]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:024][349]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:033][350]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:041][351]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:049][352]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:058][353]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:066][354]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:074][355]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:083][356]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:091][357]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:099][358]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:108][359]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:116][360]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:124][361]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:133][362]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:141][363]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:149][364]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:158][365]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:166][366]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:174][367]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:183][368]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:191][369]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:201][370]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:208][371]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:217][372]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:226][373]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:234][374]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:242][375]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:250][376]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:259][377]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:267][378]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:276][379]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:284][380]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.04:292][381]LogCharacterMovement: blueprintCharacter_C_1 is stuck and failed to move!
+[2014.09.17-18.19.06:513][642]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016B4D76E80
+[2014.09.17-18.21.25:533][586]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.21.44:975][768]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.17-18.21.44:993][768]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.21.52:057][602]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.21.54:947][945]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.03:441][949]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.05:852][234]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.11:446][887]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.18:567][730]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.21:488][ 75]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.23:629][327]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.27:093][737]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.32:714][397]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.35:397][712]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.17-18.22.36:160][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials'
+[2014.09.17-18.22.37:161][913]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Floor'
+[2014.09.17-18.22.45:987][928]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.48:055][171]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.55:041][  1]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.22.58:798][446]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.09:818][744]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.15:220][378]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.19:906][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.17-18.23.26:911][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.17-18.23.31:912][343]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.34:976][706]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.37:504][  4]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.38:695][142]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.53:892][917]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.23.56:507][190]LogSavePackage: Save=79.807907ms
+[2014.09.17-18.23.56:507][190]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map1BF8B8024F8F90168456289ABC74B57F.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
+[2014.09.17-18.23.56:536][190]LogFileHelpers: Saving map 'Tutorial_Map' took 0.175
+[2014.09.17-18.23.58:062][367]MapCheck: New page: Map Check
+[2014.09.17-18.23.58:078][367]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.17-18.23.58:078][367]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.17-18.23.58:096][367]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.23.58:102][367]LightingResults: New page: Lighting Build - Sep 17, 2014, 10:23:58 AM
+[2014.09.17-18.24.02:628][367]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.17-18.24.02:644][367]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.17-18.24.02:644][367]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.17-18.24.02:644][367]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.17-18.24.02:644][367]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.17-18.24.02:644][367]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.17-18.24.02:692][367]LogEditorBuildUtils: Build time 0:00:04
+[2014.09.17-18.24.03:901][456]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.24.03:902][456]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.24.07:065][818]Job is a success!
+[2014.09.17-18.24.07:258][819]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.17-18.24.07:365][819]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.09.17-18.24.07:429][819]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.09.17-18.24.07:493][819]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.17-18.24.07:652][819]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.17-18.24.07:840][819]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.17-18.24.07:975][819]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.09.17-18.24.08:083][819]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.09.17-18.24.08:105][819]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.09.17-18.24.08:119][819]Lightmass on PARKER: 4.99 sec total, 150 ms importing, 33 ms setup, 207 ms photons, 4.59 sec processing, 0 ms extra exporting [63/63 mappings]. Threads: 22.8 sec total, 13.8 sec processing.
+[2014.09.17-18.24.08:125][819]LogStaticLightingSystem:Warning: Illumination: 10.0 sec (973 ms encoding lightmaps)
+[2014.09.17-18.24.08:125][819]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (1.3 MB streaming, 1.3 MB non-streaming), 6 textures
+[2014.09.17-18.24.08:125][819]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 9 textures
+[2014.09.17-18.24.08:638][820]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.17-18.24.08:638][820]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 10:24:08 AM
+[2014.09.17-18.24.08:668][820]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [29.903ms] ==========
+[2014.09.17-18.24.30:375][385]LogSavePackage: Save=109.327858ms
+[2014.09.17-18.24.30:375][385]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_MapEA9B92124D31FB42884F9CA0CF9A6AF1.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
+[2014.09.17-18.24.30:394][385]LogFileHelpers: Saving map 'Tutorial_Map' took 0.188
+[2014.09.17-18.24.31:165][471]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.17-18.24.31:166][471]PIE: New page: PIE session: Tutorial_Map (Sep 17, 2014, 10:24:31 AM)
+[2014.09.17-18.24.31:169][471]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003865s)
+[2014.09.17-18.24.31:170][471]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2014.09.17-18.24.31:170][471]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial_Map.Tutorial_Map to /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map (0.004366s)
+[2014.09.17-18.24.31:170][471]LogWorld: Game class is 'MyGame_C'
+[2014.09.17-18.24.31:207][471]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 0) at 2014.09.17-14.24.31
+[2014.09.17-18.24.31:207][471]LogWorld: Bringing up level for play took: 0.001699
+[2014.09.17-18.24.31:207][471]LogPlayerController: Spawned spectator SpectatorPawn_2 [server:1]
+[2014.09.17-18.24.31:208][471]LogGameMode: RestartPlayer 258
+[2014.09.17-18.24.31:208][471]LogPlayerController: ClientRestart_Implementation blueprintCharacter_C_2
+[2014.09.17-18.24.31:208][471]LogPlayerController: ServerAcknowledgePossession_Implementation blueprintCharacter_C_2
+[2014.09.17-18.24.31:209][471]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial_Map 0.1
+[2014.09.17-18.25.18:863][ 59]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016CA73A020
+[2014.09.17-18.25.28:733][197]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2014.09.17-18.25.30:022][349]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2014.09.17-18.25.30:919][454]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2014.09.17-18.25.32:273][614]Cmd: DELETE
+[2014.09.17-18.25.32:273][614]Cmd: ACTOR DELETE
+[2014.09.17-18.25.32:274][614]LogEditorActor: Deleted Actor: PointLight
+[2014.09.17-18.25.32:284][614]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2014.09.17-18.25.32:706][664]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2014.09.17-18.25.33:684][779]Cmd: EDIT COPY
+[2014.09.17-18.25.34:154][834]Cmd: EDIT PASTE
+[2014.09.17-18.25.37:157][187]Cmd: EDIT PASTE
+[2014.09.17-18.25.44:161][ 14]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.25.44:640][ 69]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight10)
+[2014.09.17-18.25.45:336][150]Cmd: EDIT COPY
+[2014.09.17-18.25.45:854][211]Cmd: EDIT PASTE
+[2014.09.17-18.25.48:757][551]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.25.49:540][643]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight11)
+[2014.09.17-18.25.50:353][738]Cmd: EDIT COPY
+[2014.09.17-18.25.50:836][795]Cmd: EDIT PASTE
+[2014.09.17-18.25.54:077][178]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.17-18.25.54:077][178]Aligned camera to fit all selected actors.
+[2014.09.17-18.25.57:175][535]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2014.09.17-18.25.57:823][610]Cmd: EDIT COPY
+[2014.09.17-18.25.58:268][662]Cmd: EDIT PASTE
+[2014.09.17-18.26.06:318][600]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.17-18.26.08:106][775]LogSavePackage: Save=107.668922ms
+[2014.09.17-18.26.08:106][775]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map9FCACE3A4931A3476B448F813AD1505D.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
+[2014.09.17-18.26.08:130][775]LogFileHelpers: Saving map 'Tutorial_Map' took 0.191
+[2014.09.17-18.26.18:040][937]MapCheck: New page: Map Check
+[2014.09.17-18.26.18:062][937]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.17-18.26.18:063][937]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.17-18.26.18:083][937]LogInstancedFoliage: Map Rebuilt - Update all BSP painted foliage!
+[2014.09.17-18.26.18:089][937]LightingResults: New page: Lighting Build - Sep 17, 2014, 10:26:18 AM
+[2014.09.17-18.26.22:624][937]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.17-18.26.22:637][937]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.17-18.26.22:637][937]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.17-18.26.22:637][937]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.17-18.26.22:637][937]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.17-18.26.22:637][937]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.17-18.26.22:684][937]LogEditorBuildUtils: Build time 0:00:04
+[2014.09.17-18.26.26:790][361]Job is a success!
+[2014.09.17-18.26.26:974][362]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.17-18.26.27:084][362]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.17-18.26.27:148][362]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.17-18.26.27:212][362]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.17-18.26.27:371][362]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.17-18.26.27:560][362]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.17-18.26.27:697][362]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.09.17-18.26.27:813][362]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.09.17-18.26.27:833][362]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.09.17-18.26.27:853][362]LogStaticLightingSystem:Warning: Illumination: 9.74 sec (983 ms encoding lightmaps)
+[2014.09.17-18.26.27:853][362]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (1.3 MB streaming, 1.3 MB non-streaming), 6 textures
+[2014.09.17-18.26.27:853][362]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 12 textures
+[2014.09.17-18.26.28:633][363]Lightmass on PARKER: 4.85 sec total, 126 ms importing, 31 ms setup, 204 ms photons, 4.46 sec processing, 0 ms extra exporting [63/63 mappings]. Threads: 22.2 sec total, 13.3 sec processing.
+[2014.09.17-18.26.28:633][363]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.17-18.26.28:634][363]MapCheck: New page: Tutorial_Map - Sep 17, 2014, 10:26:28 AM
+[2014.09.17-18.26.28:657][363]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [23.577ms] ==========
+[2014.09.17-18.26.30:914][594]LogSavePackage: Save=113.034615ms
+[2014.09.17-18.26.30:914][594]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Saved/Tutorial_Map0FA8A22748691D5DB2E5AF9CB904256A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia/Content/Maps/Tutorial_Map.umap'
+[2014.09.17-18.26.30:934][594]LogFileHelpers: Saving map 'Tutorial_Map' took 0.192
+[2014.09.17-18.39.04:002][842]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.39.04:003][842]LogEpicStorage:Warning: ReadFile request failed. File request already pending for filename=http://cdn.unrealengine.com/newsfeed/blueprint_icon_b.png
+[2014.09.17-18.39.17:369][365]Cmd: QUIT_EDITOR
+[2014.09.17-18.39.17:410][365]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.17-18.39.17:412][365]LogExit: Preparing to exit.
+[2014.09.17-18.39.18:326][365]LogExit: Editor shut down
+[2014.09.17-18.39.18:326][365]LogExit: Transaction tracking system shut down
+[2014.09.17-18.39.18:327][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016B4A98680
+[2014.09.17-18.39.18:327][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016B3148C20
+[2014.09.17-18.39.18:327][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016B3148F40
+[2014.09.17-18.39.18:345][365]LogExit: Object subsystem successfully closed.
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (164)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module StatsViewer (163)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module DesktopPlatform (162)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module CrashTracker (161)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module NewsFeed (159)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module FoliageEdit (155)
+[2014.09.17-18.39.18:364][365]LogModuleManager: Shutting down and abandoning module LandscapeEditor (154)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module MeshPaint (153)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module ActorPickerMode (152)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module GeometryMode (151)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module TextureAlignMode (150)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module BspMode (149)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module PlacementMode (148)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module AutomationWorker (147)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module ViewportSnapping (146)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (145)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module UndoHistory (144)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (143)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module UserFeedback (142)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module XmlParser (141)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module Blutility (140)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (137)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (136)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (135)
+[2014.09.17-18.39.18:367][365]LogModuleManager: Shutting down and abandoning module InputBindingEditor (134)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (133)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module SettingsEditor (132)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module SessionLauncher (131)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module SessionFrontend (130)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module ProfilerClient (129)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (128)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module DeviceManager (127)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module AutomationController (126)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module AutomationWindow (125)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module Layers (124)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (123)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module DetailCustomizations (122)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module PackagesDialog (121)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module PropertyEditor (120)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (119)
+[2014.09.17-18.39.18:368][365]LogModuleManager: Shutting down and abandoning module AssetRegistry (118)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module Persona (117)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module GraphEditor (116)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module ContentBrowser (115)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module ClassViewer (114)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module Toolbox (113)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module ModuleUI (112)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module Sequencer (111)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module AssetTools (110)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module MovieSceneTools (109)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module OutputLog (108)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module GammaUI (107)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module Documentation (106)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (105)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module AnalyticsET (104)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module Analytics (103)
+[2014.09.17-18.39.18:433][365]LogModuleManager: Shutting down and abandoning module ProfilerService (102)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module TaskGraph (101)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (100)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module Matinee (99)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module Kismet (98)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module SlateReflector (97)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module MainFrame (95)
+[2014.09.17-18.39.18:615][365]LogModuleManager: Shutting down and abandoning module SourceControl (94)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module ImageWrapper (93)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module FunctionalTesting (91)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (90)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (89)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module MessageLog (88)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module Slate (87)
+[2014.09.17-18.39.18:616][365]LogModuleManager: Shutting down and abandoning module EditorStyle (86)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module SessionServices (85)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module Messaging (84)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (83)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (82)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module XAudio2 (81)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module Networking (79)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module Core (78)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module KismetCompiler (77)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module PhysXFormats (76)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (75)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module MeshUtilities (74)
+[2014.09.17-18.39.18:617][365]LogModuleManager: Shutting down and abandoning module DerivedDataCache (73)
+[2014.09.17-18.39.18:697][365]LogDerivedDataCache: Shutdown
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (72)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (71)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (70)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (69)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (68)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (67)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (66)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (65)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (64)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (63)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (62)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (61)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (60)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (59)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (58)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (57)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (56)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (55)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (54)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TargetPlatform (53)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Settings (51)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module TextureCompressor (48)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module ShaderCore (47)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module OpenGLDrv (46)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module D3D11RHI (45)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (44)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Renderer (43)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module Engine (42)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module SlateRemote (41)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module ScriptPlugin (40)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (38)
+[2014.09.17-18.39.18:697][365]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (37)
+[2014.09.17-18.39.18:698][365]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (32)
+[2014.09.17-18.39.18:698][365]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (31)
+[2014.09.17-18.39.18:698][365]LogModuleManager: Shutting down and abandoning module CableComponent (30)
+[2014.09.17-18.39.18:698][365]LogModuleManager: Shutting down and abandoning module OculusRift (26)
+[2014.09.17-18.39.18:698][365]LogModuleManager: Shutting down and abandoning module UdpMessaging (25)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module MessagingDebugger (24)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module PluginsEditor (14)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module IntroTutorials (13)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module EpicSurvey (12)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (10)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module UObjectPlugin (9)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (8)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (7)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module BlankPlugin (6)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.17-18.39.18:799][365]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.17-18.39.18:799][365]LogExit: Exiting.
+[2014.09.17-18.39.18:801][365]Log file closed, 09/17/14 14:39:18
