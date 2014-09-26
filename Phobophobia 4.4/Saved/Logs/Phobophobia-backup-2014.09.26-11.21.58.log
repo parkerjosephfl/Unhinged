@@ -1,0 +1,1135 @@
+Log file open, 09/25/14 13:05:39
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.25-17.05.39:845][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.25-17.05.39:906][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.25-17.05.40:012][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.25-17.05.40:035][  0]LogInit: Object subsystem initialized
+[2014.09.25-17.05.40:042][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.25-17.05.40:043][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.25-17.05.40:094][  0]LogInit: Computer: MININT-IBCU80N
+[2014.09.25-17.05.40:094][  0]LogInit: User: Mitchell
+[2014.09.25-17.05.40:095][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.25-17.05.40:095][  0]LogInit: High frequency timer resolution =2.143632 MHz
+[2014.09.25-17.05.40:096][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.09.25-17.05.40:096][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.25-17.05.40:096][  0]LogMemory: Process Physical Memory: 62.73 MB used, 62.73 MB peak
+[2014.09.25-17.05.40:096][  0]LogMemory: Process Virtual Memory: 38.55 MB used, 38.55 MB peak
+[2014.09.25-17.05.40:096][  0]LogMemory: Physical Memory: 2448.95 MB used, 8086.17 MB total
+[2014.09.25-17.05.40:096][  0]LogMemory: Virtual Memory: 258.49 MB used, 8388608.00 MB total
+[2014.09.25-17.05.40:203][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2014.09.25-17.05.40:203][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.25-17.05.40:203][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.25-17.05.40:223][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.09.25-17.05.40:263][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.25-17.05.40:705][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.25-17.05.45:476][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.25-17.05.46:561][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.25-17.05.46:631][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.25-17.05.47:375][  0]LogDerivedDataCache: Loaded boot cache 0.74s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.25-17.05.47:375][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.25-17.05.47:376][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.25-17.05.47:376][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.25-17.05.47:519][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.25-17.05.47:532][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.25-17.05.49:085][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.25-17.05.49:085][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.25-17.05.50:865][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.25-17.06.05:176][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1d04_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1aec_0///////STATCAT_Advanced////
+[2014.09.25-17.06.05:176][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.25-17.06.05:414][  0]SourceControl: Info Source control is disabled
+[2014.09.25-17.06.05:415][  0]SourceControl: Info Source control is disabled
+[2014.09.25-17.06.05:426][  0]SourceControl: Info Source control is disabled
+[2014.09.25-17.06.06:500][  0]BlueprintLog: New page: Editor Load
+[2014.09.25-17.06.07:215][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.25-17.06.07:215][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.25-17.06.07:656][  0]LogEngine: Initializing Engine...
+[2014.09.25-17.06.08:049][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.25-17.06.08:339][  0]LogInit: FAudioDevice initialized.
+[2014.09.25-17.06.08:403][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.25-17.06.08:583][  0]LogDerivedDataCache: Saved boot cache 0.18s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.25-17.06.08:588][  0]LogInit: Texture streaming: Enabled
+[2014.09.25-17.06.08:677][  0]LogInit: Transaction tracking system initialized
+[2014.09.25-17.06.09:424][  0]LogAssetRegistry: FAssetRegistry took 0.0101 seconds to start up
+[2014.09.25-17.06.12:335][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.25-17.06.12:876][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.25-17.06.13:896][  0]LogConsoleResponse:Display: 
+[2014.09.25-17.06.15:732][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1630_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1aec_0///////STATCAT_Advanced////
+[2014.09.25-17.06.15:732][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_162c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1aec_0///////STATCAT_Advanced////
+[2014.09.25-17.06.15:732][  0]SourceControl: Info Source control is disabled
+[2014.09.25-17.06.15:733][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.25-17.06.15:769][  0]LightingResults: New page: Lighting Build
+[2014.09.25-17.06.15:806][  0]MapCheck: New page: Map Check
+[2014.09.25-17.06.15:806][  0]LightingResults: New page: Lighting Build
+[2014.09.25-17.06.15:831][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012909300
+[2014.09.25-17.06.21:289][  0]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.25-17.06.21:834][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.25-17.06.21:837][  0]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.06.21:837][  0]Cmd: MAP CHECKDEP
+[2014.09.25-17.06.21:837][  0]MapCheck: New page: Swimming - Sep 25, 2014, 9:06:21 AM
+[2014.09.25-17.06.21:998][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [160.589ms] ==========
+[2014.09.25-17.06.21:998][  0]LogFileHelpers: Loading map 'Swimming' took 6.277
+[2014.09.25-17.06.22:212][  0]LogCollectionManager: Loaded 0 collections in 0.002157 seconds
+[2014.09.25-17.06.23:351][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.25-17.06.23:439][  0]LogLoad: Full Startup: 48.11 seconds (BP compile: 0.28 seconds)
+[2014.09.25-17.06.23:457][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Temporary_Materials/Rocks'
+[2014.09.25-17.06.23:858][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.09.25-17.06.29:548][217]LogAssetRegistry: Asset discovery search completed in 20.1513 seconds
+[2014.09.25-17.08.19:906][724]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.25-17.08.24:960][811]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.09.25-17.08.27:427][897]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.09.25-17.08.27:840][897]LogRenderer:Warning: Reallocating scene render targets to support 896x584.
+[2014.09.25-17.08.27:858][897]LogRenderer:Warning: Reallocating scene render targets to support 1080x584.
+[2014.09.25-17.09.46:581][224]LogUnrealMath: Expression Error : No value recognized
+[2014.09.25-17.09.46:581][224]LogUnrealMath: Expression Error : Error in expression
+[2014.09.25-17.10.50:559][ 60]LogEditorTransaction: Undo Edit Distribution
+[2014.09.25-17.11.49:244][768]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.49:408][771]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.49:603][773]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.49:764][774]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.49:896][775]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.50:022][777]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.50:152][779]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.50:284][781]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.50:410][783]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.50:558][785]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.50:708][787]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.50:855][789]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.51:000][791]LogEditorTransaction: Undo Edit Distribution
+[2014.09.25-17.11.51:169][792]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.51:287][794]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.52:240][818]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.52:385][820]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.52:532][822]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.52:601][823]LogEditorTransaction: Undo Edit Z
+[2014.09.25-17.11.52:794][825]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.52:858][826]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.53:049][828]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.53:196][830]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.53:343][832]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.53:492][834]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.53:637][836]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.53:784][838]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.53:930][840]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.54:077][842]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.54:224][844]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.54:373][846]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.54:521][848]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.54:667][850]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.54:819][852]LogEditorTransaction: Undo Edit Y
+[2014.09.25-17.11.54:964][854]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.55:109][856]LogEditorTransaction: Undo Edit X
+[2014.09.25-17.11.55:259][858]LogEditorTransaction: Undo Edit Distribution
+[2014.09.25-17.12.03:081][ 67]LogEditorTransaction: Redo Edit Distribution
+[2014.09.25-17.12.03:222][ 69]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.03:427][ 71]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.03:582][ 72]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.03:740][ 74]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.03:864][ 76]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.04:013][ 79]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.04:156][ 81]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.04:305][ 84]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.04:457][ 86]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.04:616][ 89]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.04:760][ 91]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.04:923][ 94]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.05:069][ 96]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.05:213][ 98]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.05:386][101]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.05:534][103]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.05:676][105]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.05:824][107]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.05:963][109]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.06:128][112]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.06:274][114]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.06:420][116]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.06:620][120]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.06:765][122]LogEditorTransaction: Redo Edit Distribution
+[2014.09.25-17.12.06:911][123]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.07:061][127]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.07:246][130]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.07:390][132]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.07:554][135]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.07:729][139]LogEditorTransaction: Redo Edit X
+[2014.09.25-17.12.07:869][141]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.08:034][144]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.08:215][147]LogEditorTransaction: Redo Edit Y
+[2014.09.25-17.12.08:362][149]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.08:524][152]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.08:672][154]LogEditorTransaction: Redo Edit Z
+[2014.09.25-17.12.27:177][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Fire" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset" SILENT=true
+[2014.09.25-17.12.27:398][654]LogSavePackage: Save=169.891571ms
+[2014.09.25-17.12.27:398][654]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/P_Fire8319FAF640A1F13F1267B5A4A315885E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset'
+[2014.09.25-17.12.45:291][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Fire" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset" SILENT=true
+[2014.09.25-17.12.45:479][170]LogSavePackage: Save=164.256271ms
+[2014.09.25-17.12.45:479][170]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/P_Fire58DA9FA74112FBAF6FBBBE87C703699D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset'
+[2014.09.25-17.12.49:346][286]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Character'
+[2014.09.25-17.12.51:688][358]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.25-17.14.13:909][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:909][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:972][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:973][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.13:974][777]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:503][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:503][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:503][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:504][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:505][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:505][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:505][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.14.20:505][ 60]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.15.29:520][542]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.15.29:856][542]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.25-17.15.29:960][542]BlueprintEditorCompileResults: Info [0594.44] Compile of blueprintCharacter successful! [in 123 ms]
+[2014.09.25-17.15.31:561][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.09.25-17.15.32:081][578]LogSavePackage: Save=477.265686ms
+[2014.09.25-17.15.32:081][578]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacterA6EC0B5E4786E9F9C6AEDFB79CE81A43.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.09.25-17.15.34:483][649]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.15.34:483][649]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.15.34:537][649]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.25-17.15.34:564][649]LogPlayLevel: PIE:  Blueprint regeneration took 80 ms (1 blueprints)
+[2014.09.25-17.15.34:564][649]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:15:34 AM)
+[2014.09.25-17.15.34:594][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029934s)
+[2014.09.25-17.15.34:595][649]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2014.09.25-17.15.34:595][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.030815s)
+[2014.09.25-17.15.34:705][649]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.15.34:707][649]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.15.34:710][649]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 60) at 2014.09.25-13.15.34
+[2014.09.25-17.15.34:712][649]LogWorld: Bringing up level for play took: 0.004785
+[2014.09.25-17.15.34:713][649]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.027
+[2014.09.25-17.15.34:812][650]LogRenderer:Warning: Reallocating scene render targets to support 1080x592.
+[2014.09.25-17.16.15:422][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000044EDB20
+[2014.09.25-17.17.13:628][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.09.25-17.17.13:727][428]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.13:727][428]LogEditorTransaction: Undo Move Node
+[2014.09.25-17.17.14:041][428]LogSavePackage: Save=247.292908ms
+[2014.09.25-17.17.14:082][428]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto12C84434C4710AD2B4D07B6B5235CA845.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto1.umap'
+[2014.09.25-17.17.14:229][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.601
+[2014.09.25-17.17.14:229][428]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.601
+[2014.09.25-17.17.14:276][428]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-17.17.14:322][428]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-17.17.14:322][428]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-17.17.14:877][428]LogSavePackage: Save=488.946320ms
+[2014.09.25-17.17.14:877][428]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto185828F2241C0923B46E95AB88DF73BB4.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto1.uasset'
+[2014.09.25-17.17.14:890][428]LogFileHelpers: Auto-saving content packages took 0.661
+[2014.09.25-17.17.16:285][458]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.16:285][458]LogEditorTransaction: Undo Move Nodes
+[2014.09.25-17.17.16:358][458]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.09.25-17.17.17:190][478]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.17:190][478]LogEditorTransaction: Undo Move Node
+[2014.09.25-17.17.17:262][478]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.09.25-17.17.18:413][508]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.18:413][508]LogEditorTransaction: Undo Break Pin Link
+[2014.09.25-17.17.18:481][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.09.25-17.17.19:086][522]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.19:086][522]LogEditorTransaction: Undo Create Pin Link
+[2014.09.25-17.17.19:154][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.09.25-17.17.19:772][536]Cmd: TRANSACTION UNDO
+[2014.09.25-17.17.19:772][536]LogEditorTransaction: Undo Move Node
+[2014.09.25-17.17.19:845][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.09.25-17.18.11:917][587]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.18.12:162][587]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.09.25-17.18.12:234][587]BlueprintEditorCompileResults: Info [0756.76] Compile of blueprintCharacter successful! [in 55 ms]
+[2014.09.25-17.18.14:339][647]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.18.14:339][647]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.18.14:526][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.09.25-17.18.14:554][647]LogPlayLevel: PIE:  Blueprint regeneration took 215 ms (1 blueprints)
+[2014.09.25-17.18.14:555][647]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:18:14 AM)
+[2014.09.25-17.18.14:581][647]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026258s)
+[2014.09.25-17.18.14:582][647]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2014.09.25-17.18.14:582][647]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027149s)
+[2014.09.25-17.18.14:607][647]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.18.14:608][647]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.18.14:612][647]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 60) at 2014.09.25-13.18.14
+[2014.09.25-17.18.14:613][647]LogWorld: Bringing up level for play took: 0.004533
+[2014.09.25-17.18.14:615][647]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.925
+[2014.09.25-17.18.39:599][ 61]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001421C5E0
+[2014.09.25-17.19.08:584][921]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.19.08:584][921]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.19.08:584][921]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.23.57:587][171]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.09.25-17.24.00:937][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.09.25-17.26.34:341][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.09.25-17.26.51:338][221]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.09.25-17.26.56:234][462]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.09.25-17.27.02:904][644]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.27.03:196][644]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.09.25-17.27.03:308][644]BlueprintEditorCompileResults: Info [1287.77] Compile of blueprintCharacter successful! [in 57 ms]
+[2014.09.25-17.27.49:614][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.09.25-17.27.49:895][242]LogSavePackage: Save=159.692993ms
+[2014.09.25-17.27.49:895][242]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto2733A54E64E9AF3BB5D6A368D336BDE79.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto2.umap'
+[2014.09.25-17.27.49:909][242]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.296
+[2014.09.25-17.27.49:909][242]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.296
+[2014.09.25-17.27.49:919][242]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-17.27.49:957][242]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-17.27.49:957][242]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-17.27.50:491][242]LogSavePackage: Save=496.304413ms
+[2014.09.25-17.27.50:491][242]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto25D04732D44AFAC1352AAE7AD2F47AAB4.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto2.uasset'
+[2014.09.25-17.27.50:502][242]LogFileHelpers: Auto-saving content packages took 0.593
+[2014.09.25-17.27.56:350][422]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.09.25-17.28.02:393][584]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.09.25-17.28.35:266][715]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.28.35:561][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.09.25-17.28.35:643][715]BlueprintEditorCompileResults: Info [1380.14] Compile of blueprintCharacter successful! [in 62 ms]
+[2014.09.25-17.28.51:605][448]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.31.01:586][ 50]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.31.01:873][ 50]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.09.25-17.31.01:955][ 50]BlueprintEditorCompileResults: Info [1526.44] Compile of blueprintCharacter successful! [in 58 ms]
+[2014.09.25-17.31.17:452][473]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.31.17:707][473]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.09.25-17.31.17:786][473]BlueprintEditorCompileResults: Info [1542.27] Compile of blueprintCharacter successful! [in 57 ms]
+[2014.09.25-17.31.19:687][520]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.31.19:687][520]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.31.19:773][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.09.25-17.31.19:812][520]LogPlayLevel: PIE:  Blueprint regeneration took 125 ms (1 blueprints)
+[2014.09.25-17.31.19:813][520]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:31:19 AM)
+[2014.09.25-17.31.19:839][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025773s)
+[2014.09.25-17.31.19:839][520]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2014.09.25-17.31.19:839][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026695s)
+[2014.09.25-17.31.19:867][520]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.31.19:869][520]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.31.19:872][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.31.19
+[2014.09.25-17.31.19:873][520]LogWorld: Bringing up level for play took: 0.004614
+[2014.09.25-17.31.19:875][520]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.162
+[2014.09.25-17.32.01:440][188]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033BE4860
+[2014.09.25-17.32.08:096][367]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.32.08:346][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.09.25-17.32.08:414][367]BlueprintEditorCompileResults: Info [1592.93] Compile of blueprintCharacter successful! [in 56 ms]
+[2014.09.25-17.32.10:976][434]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.32.10:976][434]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.32.11:070][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.09.25-17.32.11:108][434]LogPlayLevel: PIE:  Blueprint regeneration took 131 ms (1 blueprints)
+[2014.09.25-17.32.11:108][434]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:32:11 AM)
+[2014.09.25-17.32.11:133][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024961s)
+[2014.09.25-17.32.11:134][434]LogPlayLevel: PIE: World Init took: (0.000617s)
+[2014.09.25-17.32.11:134][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.025758s)
+[2014.09.25-17.32.11:160][434]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.32.11:162][434]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.32.11:166][434]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.32.11
+[2014.09.25-17.32.11:167][434]LogWorld: Bringing up level for play took: 0.004485
+[2014.09.25-17.32.11:168][434]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.546
+[2014.09.25-17.33.18:130][516]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002E2198A0
+[2014.09.25-17.33.33:943][ 51]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.33.34:160][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.09.25-17.33.34:231][ 51]BlueprintEditorCompileResults: Info [1678.74] Compile of blueprintCharacter successful! [in 58 ms]
+[2014.09.25-17.33.35:749][ 92]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.33.35:749][ 92]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.33.35:831][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.09.25-17.33.35:862][ 92]LogPlayLevel: PIE:  Blueprint regeneration took 112 ms (1 blueprints)
+[2014.09.25-17.33.35:862][ 92]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:33:35 AM)
+[2014.09.25-17.33.35:888][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026239s)
+[2014.09.25-17.33.35:889][ 92]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2014.09.25-17.33.35:889][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027104s)
+[2014.09.25-17.33.35:913][ 92]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.33.35:915][ 92]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.33.35:919][ 92]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.33.35
+[2014.09.25-17.33.35:920][ 92]LogWorld: Bringing up level for play took: 0.004584
+[2014.09.25-17.33.35:921][ 92]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.204
+[2014.09.25-17.33.55:786][432]LogBlueprintUserMessages: Hello
+[2014.09.25-17.34.00:770][512]LogBlueprintUserMessages: Hello
+[2014.09.25-17.34.05:748][592]LogBlueprintUserMessages: Hello
+[2014.09.25-17.34.10:748][671]LogBlueprintUserMessages: Hello
+[2014.09.25-17.34.15:768][751]LogBlueprintUserMessages: Hello
+[2014.09.25-17.34.16:801][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003546D760
+[2014.09.25-17.34.34:640][331]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.34.34:861][331]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.09.25-17.34.34:932][331]BlueprintEditorCompileResults: Info [1739.44] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-17.34.36:789][382]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.34.36:789][382]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.34.36:845][382]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.09.25-17.34.36:885][382]LogPlayLevel: PIE:  Blueprint regeneration took 95 ms (1 blueprints)
+[2014.09.25-17.34.36:885][382]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:34:36 AM)
+[2014.09.25-17.34.36:910][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025277s)
+[2014.09.25-17.34.36:911][382]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2014.09.25-17.34.36:911][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026164s)
+[2014.09.25-17.34.36:938][382]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.34.36:939][382]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.34.36:943][382]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.34.36
+[2014.09.25-17.34.36:944][382]LogWorld: Bringing up level for play took: 0.004527
+[2014.09.25-17.34.36:946][382]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.774
+[2014.09.25-17.34.56:820][721]LogBlueprintUserMessages: Hello
+[2014.09.25-17.35.01:832][797]LogBlueprintUserMessages: Hello
+[2014.09.25-17.35.06:835][872]LogBlueprintUserMessages: Hello
+[2014.09.25-17.35.07:552][881]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002863E2A0
+[2014.09.25-17.35.18:971][207]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.35.19:185][207]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.09.25-17.35.19:258][207]BlueprintEditorCompileResults: Info [1783.76] Compile of blueprintCharacter successful! [in 57 ms]
+[2014.09.25-17.35.22:690][307]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.35.22:690][307]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.35.22:750][307]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.09.25-17.35.22:789][307]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
+[2014.09.25-17.35.22:789][307]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:35:22 AM)
+[2014.09.25-17.35.22:815][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026380s)
+[2014.09.25-17.35.22:816][307]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2014.09.25-17.35.22:816][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027284s)
+[2014.09.25-17.35.22:846][307]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.35.22:848][307]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.35.22:851][307]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.35.22
+[2014.09.25-17.35.22:852][307]LogWorld: Bringing up level for play took: 0.004517
+[2014.09.25-17.35.22:854][307]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.133
+[2014.09.25-17.35.42:741][647]LogBlueprintUserMessages: Hello
+[2014.09.25-17.35.47:688][725]LogBlueprintUserMessages: Hello
+[2014.09.25-17.35.52:706][802]LogBlueprintUserMessages: Hello
+[2014.09.25-17.36.02:718][956]LogBlueprintUserMessages: Hello
+[2014.09.25-17.36.07:703][ 32]LogBlueprintUserMessages: Hello
+[2014.09.25-17.36.08:412][ 41]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C553A0
+[2014.09.25-17.36.25:719][631]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.36.25:932][631]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.09.25-17.36.25:999][631]BlueprintEditorCompileResults: Info [1850.51] Compile of blueprintCharacter successful! [in 56 ms]
+[2014.09.25-17.36.27:741][679]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.36.27:741][679]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.36.27:801][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_32) Not registered. Aborting.
+[2014.09.25-17.36.27:835][679]LogPlayLevel: PIE:  Blueprint regeneration took 93 ms (1 blueprints)
+[2014.09.25-17.36.27:835][679]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:36:27 AM)
+[2014.09.25-17.36.27:862][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027039s)
+[2014.09.25-17.36.27:863][679]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2014.09.25-17.36.27:863][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027885s)
+[2014.09.25-17.36.27:891][679]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.36.27:892][679]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.36.27:896][679]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.36.27
+[2014.09.25-17.36.27:897][679]LogWorld: Bringing up level for play took: 0.004515
+[2014.09.25-17.36.27:899][679]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.176
+[2014.09.25-17.36.53:859][109]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000006DF0220
+[2014.09.25-17.37.15:098][711]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.37.15:360][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_33) Not registered. Aborting.
+[2014.09.25-17.37.15:427][711]BlueprintEditorCompileResults: Info [1899.93] Compile of blueprintCharacter successful! [in 57 ms]
+[2014.09.25-17.37.17:309][763]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.37.17:309][763]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.37.17:372][763]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_34) Not registered. Aborting.
+[2014.09.25-17.37.17:411][763]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2014.09.25-17.37.17:411][763]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:37:17 AM)
+[2014.09.25-17.37.17:436][763]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024951s)
+[2014.09.25-17.37.17:437][763]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2014.09.25-17.37.17:437][763]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.025783s)
+[2014.09.25-17.37.17:466][763]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.37.17:467][763]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.37.17:471][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.37.17
+[2014.09.25-17.37.17:472][763]LogWorld: Bringing up level for play took: 0.004513
+[2014.09.25-17.37.17:474][763]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.251
+[2014.09.25-17.37.35:006][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022DBF9C0
+[2014.09.25-17.38.22:815][139]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.38.23:090][139]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_35) Not registered. Aborting.
+[2014.09.25-17.38.23:161][139]BlueprintEditorCompileResults: Info [1967.66] Compile of blueprintCharacter successful! [in 57 ms]
+[2014.09.25-17.38.24:982][187]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.38.24:982][187]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.38.25:048][187]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_36) Not registered. Aborting.
+[2014.09.25-17.38.25:080][187]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
+[2014.09.25-17.38.25:080][187]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:38:25 AM)
+[2014.09.25-17.38.25:105][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024716s)
+[2014.09.25-17.38.25:106][187]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2014.09.25-17.38.25:106][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.025788s)
+[2014.09.25-17.38.25:131][187]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.38.25:132][187]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.38.25:136][187]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.38.25
+[2014.09.25-17.38.25:137][187]LogWorld: Bringing up level for play took: 0.004643
+[2014.09.25-17.38.25:139][187]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.588
+[2014.09.25-17.38.40:009][446]LogBlueprintUserMessages: X=60.000 Y=50.000 Z=0.000
+[2014.09.25-17.38.45:033][526]LogBlueprintUserMessages: X=60.000 Y=50.000 Z=0.000
+[2014.09.25-17.38.48:634][581]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000111F5A80
+[2014.09.25-17.41.59:861][186]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.42.00:149][186]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_37) Not registered. Aborting.
+[2014.09.25-17.42.00:245][186]BlueprintEditorCompileResults: Info [2184.70] Compile of blueprintCharacter successful! [in 58 ms]
+[2014.09.25-17.42.02:798][252]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.42.02:798][252]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.42.02:866][252]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2014.09.25-17.42.02:897][252]LogPlayLevel: PIE:  Blueprint regeneration took 98 ms (1 blueprints)
+[2014.09.25-17.42.02:897][252]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:42:02 AM)
+[2014.09.25-17.42.02:935][252]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038036s)
+[2014.09.25-17.42.02:936][252]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2014.09.25-17.42.02:936][252]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.038911s)
+[2014.09.25-17.42.02:965][252]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.42.02:966][252]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.42.02:970][252]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.42.02
+[2014.09.25-17.42.02:971][252]LogWorld: Bringing up level for play took: 0.004574
+[2014.09.25-17.42.02:973][252]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.759
+[2014.09.25-17.42.17:840][511]LogBlueprintUserMessages: X=50.000 Y=40.000 Z=0.000
+[2014.09.25-17.42.22:807][587]LogBlueprintUserMessages: X=40.000 Y=30.000 Z=0.000
+[2014.09.25-17.42.27:802][664]LogBlueprintUserMessages: X=30.000 Y=20.000 Z=0.000
+[2014.09.25-17.42.32:835][742]LogBlueprintUserMessages: X=20.000 Y=10.000 Z=0.000
+[2014.09.25-17.42.37:823][836]LogBlueprintUserMessages: X=10.000 Y=0.000 Z=0.000
+[2014.09.25-17.42.42:801][940]LogBlueprintUserMessages: X=0.000 Y=-10.000 Z=0.000
+[2014.09.25-17.42.47:830][ 50]LogBlueprintUserMessages: X=-10.000 Y=-20.000 Z=0.000
+[2014.09.25-17.42.50:242][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041988360
+[2014.09.25-17.43.32:849][846]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2014.09.25-17.43.33:156][846]LogSavePackage: Save=187.082947ms
+[2014.09.25-17.43.33:157][846]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto3B069EB254F154A9AF1E97885A21DBAA2.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto3.umap'
+[2014.09.25-17.43.33:174][846]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.325
+[2014.09.25-17.43.33:174][846]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.325
+[2014.09.25-17.43.33:184][846]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-17.43.33:226][846]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-17.43.33:226][846]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-17.43.33:802][846]LogSavePackage: Save=531.788086ms
+[2014.09.25-17.43.33:802][846]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto332DD3FA44535F8ED5B288FBCF83065E6.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto3.uasset'
+[2014.09.25-17.43.33:821][846]LogFileHelpers: Auto-saving content packages took 0.648
+[2014.09.25-17.43.59:280][801]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.43.59:515][801]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_40) Not registered. Aborting.
+[2014.09.25-17.43.59:583][801]BlueprintEditorCompileResults: Info [2304.08] Compile of blueprintCharacter successful! [in 62 ms]
+[2014.09.25-17.44.02:919][907]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-17.44.02:919][907]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-17.44.02:974][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_41) Not registered. Aborting.
+[2014.09.25-17.44.03:007][907]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2014.09.25-17.44.03:007][907]PIE: New page: PIE session: Swimming (Sep 25, 2014, 9:44:03 AM)
+[2014.09.25-17.44.03:037][907]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029435s)
+[2014.09.25-17.44.03:037][907]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2014.09.25-17.44.03:037][907]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.030317s)
+[2014.09.25-17.44.03:063][907]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-17.44.03:065][907]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-17.44.03:069][907]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-13.44.03
+[2014.09.25-17.44.03:070][907]LogWorld: Bringing up level for play took: 0.004991
+[2014.09.25-17.44.03:072][907]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.664
+[2014.09.25-17.44.55:685][899]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000456B47C0
+[2014.09.25-17.45.14:537][596]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-17.51.06:123][338]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_42) Not registered. Aborting.
+[2014.09.25-17.51.12:740][543]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_43) Not registered. Aborting.
+[2014.09.25-17.51.35:104][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_44) Not registered. Aborting.
+[2014.09.25-17.54.26:886][520]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_45) Not registered. Aborting.
+[2014.09.25-17.54.27:204][520]LogSavePackage: Save=193.060654ms
+[2014.09.25-17.54.27:204][520]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto4C1E79627406BD9FDDF23419FDA1D8B1D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto4.umap'
+[2014.09.25-17.54.27:225][520]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.339
+[2014.09.25-17.54.27:225][520]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.339
+[2014.09.25-17.54.27:237][520]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-17.54.27:278][520]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-17.54.27:278][520]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-17.54.27:862][520]LogSavePackage: Save=536.403625ms
+[2014.09.25-17.54.27:862][520]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto448677CE440D237A40D4BF8ACF6FEA79B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto4.uasset'
+[2014.09.25-17.54.27:884][520]LogFileHelpers: Auto-saving content packages took 0.659
+[2014.09.25-17.54.30:436][585]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_46) Not registered. Aborting.
+[2014.09.25-17.54.56:746][522]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_47) Not registered. Aborting.
+[2014.09.25-17.56.47:020][243]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_48) Not registered. Aborting.
+[2014.09.25-17.57.39:804][ 51]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_49) Not registered. Aborting.
+[2014.09.25-17.58.32:848][216]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_50) Not registered. Aborting.
+[2014.09.25-17.59.27:965][970]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-17.59.28:214][970]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_51) Not registered. Aborting.
+[2014.09.25-17.59.28:294][970]BlueprintEditorCompileResults: Info [3232.73] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.00.49:267][  4]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.09.25-18.01.49:177][301]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.01.49:473][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_52) Not registered. Aborting.
+[2014.09.25-18.01.49:557][301]BlueprintEditorCompileResults: Info [3373.97] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.01.51:662][361]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.01.51:662][361]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.01.51:739][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_53) Not registered. Aborting.
+[2014.09.25-18.01.51:789][361]LogPlayLevel: PIE:  Blueprint regeneration took 127 ms (1 blueprints)
+[2014.09.25-18.01.51:790][361]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:01:51 AM)
+[2014.09.25-18.01.51:816][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026677s)
+[2014.09.25-18.01.51:817][361]LogPlayLevel: PIE: World Init took: (0.000714s)
+[2014.09.25-18.01.51:817][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027572s)
+[2014.09.25-18.01.51:847][361]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.01.51:848][361]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.01.51:852][361]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.01.51
+[2014.09.25-18.01.51:853][361]LogWorld: Bringing up level for play took: 0.004548
+[2014.09.25-18.01.51:854][361]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.087
+[2014.09.25-18.02.06:993][615]LogScriptCore: Script call stack:
+	Function /Game/Blueprints/blueprintCharacter.blueprintCharacter_C:UpdateTorch
+
+[2014.09.25-18.02.06:993][615]LogScript:Warning: Runaway loop detected (over 1000000 iterations)
+	blueprintCharacter_C /Game/Maps/UEDPIE_0_Swimming.Swimming:PersistentLevel.blueprintCharacter_C_10
+	Function /Game/Blueprints/blueprintCharacter.blueprintCharacter_C:UpdateTorch:001F
+[2014.09.25-18.02.10:006][616]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004FC48400
+[2014.09.25-18.02.32:444][530]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.02.32:687][530]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_54) Not registered. Aborting.
+[2014.09.25-18.02.32:757][530]BlueprintEditorCompileResults: Info [3417.20] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.02.35:196][596]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.02.35:196][596]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.02.35:270][596]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_55) Not registered. Aborting.
+[2014.09.25-18.02.35:306][596]LogPlayLevel: PIE:  Blueprint regeneration took 110 ms (1 blueprints)
+[2014.09.25-18.02.35:307][596]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:02:35 AM)
+[2014.09.25-18.02.35:332][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025316s)
+[2014.09.25-18.02.35:333][596]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2014.09.25-18.02.35:333][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026338s)
+[2014.09.25-18.02.35:360][596]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.02.35:361][596]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.02.35:365][596]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.02.35
+[2014.09.25-18.02.35:366][596]LogWorld: Bringing up level for play took: 0.004588
+[2014.09.25-18.02.35:368][596]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.401
+[2014.09.25-18.03.21:738][577]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000054C20720
+[2014.09.25-18.03.51:601][536]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_56) Not registered. Aborting.
+[2014.09.25-18.03.53:222][591]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_57) Not registered. Aborting.
+[2014.09.25-18.04.02:290][895]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.04.02:543][895]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_58) Not registered. Aborting.
+[2014.09.25-18.04.02:620][895]BlueprintEditorCompileResults: Info [3507.05] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.04.05:109][963]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.04.05:109][963]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.04.05:181][963]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_59) Not registered. Aborting.
+[2014.09.25-18.04.05:217][963]LogPlayLevel: PIE:  Blueprint regeneration took 107 ms (1 blueprints)
+[2014.09.25-18.04.05:217][963]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:04:05 AM)
+[2014.09.25-18.04.05:243][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026583s)
+[2014.09.25-18.04.05:244][963]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2014.09.25-18.04.05:244][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027451s)
+[2014.09.25-18.04.05:270][963]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.04.05:271][963]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.04.05:275][963]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.04.05
+[2014.09.25-18.04.05:276][963]LogWorld: Bringing up level for play took: 0.004569
+[2014.09.25-18.04.05:278][963]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.494
+[2014.09.25-18.05.12:520][260]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000041092F20
+[2014.09.25-18.05.49:053][629]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.05.49:357][629]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_60) Not registered. Aborting.
+[2014.09.25-18.05.49:429][629]BlueprintEditorCompileResults: Info [3613.87] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.05.56:566][817]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.05.56:837][817]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_61) Not registered. Aborting.
+[2014.09.25-18.05.56:915][817]BlueprintEditorCompileResults: Info [3621.35] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.05.58:756][866]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.05.58:756][866]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.05.58:866][866]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_62) Not registered. Aborting.
+[2014.09.25-18.05.58:904][866]LogPlayLevel: PIE:  Blueprint regeneration took 147 ms (1 blueprints)
+[2014.09.25-18.05.58:904][866]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:05:58 AM)
+[2014.09.25-18.05.58:930][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026081s)
+[2014.09.25-18.05.58:931][866]LogPlayLevel: PIE: World Init took: (0.000698s)
+[2014.09.25-18.05.58:931][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026965s)
+[2014.09.25-18.05.58:957][866]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.05.58:958][866]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.05.58:962][866]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.05.58
+[2014.09.25-18.05.58:963][866]LogWorld: Bringing up level for play took: 0.004818
+[2014.09.25-18.05.58:965][866]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.191
+[2014.09.25-18.06.18:914][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000056281C60
+[2014.09.25-18.06.25:530][394]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.06.25:793][394]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_63) Not registered. Aborting.
+[2014.09.25-18.06.25:876][394]BlueprintEditorCompileResults: Info [3650.30] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.06.28:281][460]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.06.28:281][460]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.06.28:348][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_64) Not registered. Aborting.
+[2014.09.25-18.06.28:386][460]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2014.09.25-18.06.28:386][460]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:06:28 AM)
+[2014.09.25-18.06.28:412][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025800s)
+[2014.09.25-18.06.28:413][460]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2014.09.25-18.06.28:413][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026615s)
+[2014.09.25-18.06.28:440][460]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.06.28:441][460]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.06.28:445][460]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.06.28
+[2014.09.25-18.06.28:446][460]LogWorld: Bringing up level for play took: 0.004532
+[2014.09.25-18.06.28:448][460]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.672
+[2014.09.25-18.06.52:769][864]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000580585E0
+[2014.09.25-18.07.00:844][155]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.07.01:109][155]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_65) Not registered. Aborting.
+[2014.09.25-18.07.01:188][155]BlueprintEditorCompileResults: Info [3685.62] Compile of blueprintCharacter successful! [in 61 ms]
+[2014.09.25-18.07.02:632][192]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.07.02:632][192]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.07.02:769][192]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_66) Not registered. Aborting.
+[2014.09.25-18.07.02:798][192]LogPlayLevel: PIE:  Blueprint regeneration took 165 ms (1 blueprints)
+[2014.09.25-18.07.02:798][192]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:07:02 AM)
+[2014.09.25-18.07.02:823][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025294s)
+[2014.09.25-18.07.02:824][192]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2014.09.25-18.07.02:824][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026098s)
+[2014.09.25-18.07.02:852][192]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.07.02:853][192]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.07.02:857][192]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.07.02
+[2014.09.25-18.07.02:858][192]LogWorld: Bringing up level for play took: 0.004579
+[2014.09.25-18.07.02:859][192]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.083
+[2014.09.25-18.07.30:879][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058058900
+[2014.09.25-18.07.39:093][946]LogEditorTransaction: Undo Move Node
+[2014.09.25-18.07.39:160][946]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_67) Not registered. Aborting.
+[2014.09.25-18.07.43:281][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_68) Not registered. Aborting.
+[2014.09.25-18.07.43:555][ 85]LogSavePackage: Save=169.359756ms
+[2014.09.25-18.07.43:555][ 85]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto5581F25D94B30F2CA083E6AA97E7E4F66.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto5.umap'
+[2014.09.25-18.07.43:571][ 85]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.290
+[2014.09.25-18.07.43:571][ 85]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.290
+[2014.09.25-18.07.43:581][ 85]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-18.07.43:624][ 85]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-18.07.43:624][ 85]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-18.07.44:181][ 85]LogSavePackage: Save=509.768921ms
+[2014.09.25-18.07.44:181][ 85]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto5018DA217462131798694EBA90AD95740.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto5.uasset'
+[2014.09.25-18.07.44:201][ 85]LogFileHelpers: Auto-saving content packages took 0.630
+[2014.09.25-18.08.10:206][ 39]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.08.10:453][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_69) Not registered. Aborting.
+[2014.09.25-18.08.10:527][ 39]BlueprintEditorCompileResults: Info [3754.96] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.08.12:186][ 86]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.08.12:186][ 86]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.08.12:242][ 86]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_70) Not registered. Aborting.
+[2014.09.25-18.08.12:269][ 86]LogPlayLevel: PIE:  Blueprint regeneration took 83 ms (1 blueprints)
+[2014.09.25-18.08.12:270][ 86]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:08:12 AM)
+[2014.09.25-18.08.12:295][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025343s)
+[2014.09.25-18.08.12:296][ 86]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2014.09.25-18.08.12:296][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.026308s)
+[2014.09.25-18.08.12:324][ 86]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.08.12:325][ 86]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.08.12:329][ 86]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.08.12
+[2014.09.25-18.08.12:330][ 86]LogWorld: Bringing up level for play took: 0.004509
+[2014.09.25-18.08.12:332][ 86]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.553
+[2014.09.25-18.08.27:198][342]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.28:184][357]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.29:203][373]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.30:191][389]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.31:179][405]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.32:221][422]LogBlueprintUserMessages: 1.0
+[2014.09.25-18.08.40:059][553]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005E7EC9A0
+[2014.09.25-18.10.00:863][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_71) Not registered. Aborting.
+[2014.09.25-18.10.02:816][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_72) Not registered. Aborting.
+[2014.09.25-18.10.10:804][395]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_73) Not registered. Aborting.
+[2014.09.25-18.10.23:918][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_74) Not registered. Aborting.
+[2014.09.25-18.11.06:461][203]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.11.06:771][203]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_75) Not registered. Aborting.
+[2014.09.25-18.11.06:843][203]BlueprintEditorCompileResults: Info [3931.27] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.11.08:630][249]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.11.08:630][249]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.11.08:693][249]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_76) Not registered. Aborting.
+[2014.09.25-18.11.08:721][249]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2014.09.25-18.11.08:721][249]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:11:08 AM)
+[2014.09.25-18.11.08:761][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040031s)
+[2014.09.25-18.11.08:762][249]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2014.09.25-18.11.08:762][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.040939s)
+[2014.09.25-18.11.08:789][249]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.11.08:791][249]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.11.08:794][249]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.11.08
+[2014.09.25-18.11.08:795][249]LogWorld: Bringing up level for play took: 0.004692
+[2014.09.25-18.11.08:797][249]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.013
+[2014.09.25-18.11.31:913][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003FA29760
+[2014.09.25-18.11.38:280][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_77) Not registered. Aborting.
+[2014.09.25-18.11.40:629][941]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_78) Not registered. Aborting.
+[2014.09.25-18.11.46:551][125]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.11.46:789][125]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_79) Not registered. Aborting.
+[2014.09.25-18.11.46:858][125]BlueprintEditorCompileResults: Info [3971.29] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.11.48:895][177]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.11.48:895][177]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.11.48:950][177]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_80) Not registered. Aborting.
+[2014.09.25-18.11.48:976][177]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.09.25-18.11.48:977][177]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:11:48 AM)
+[2014.09.25-18.11.49:011][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034347s)
+[2014.09.25-18.11.49:012][177]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2014.09.25-18.11.49:012][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.035229s)
+[2014.09.25-18.11.49:041][177]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.11.49:042][177]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.11.49:047][177]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.11.49
+[2014.09.25-18.11.49:049][177]LogWorld: Bringing up level for play took: 0.006198
+[2014.09.25-18.11.49:051][177]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.734
+[2014.09.25-18.12.11:196][565]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000005AB54AE0
+[2014.09.25-18.12.17:841][748]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.12.18:080][748]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_81) Not registered. Aborting.
+[2014.09.25-18.12.18:148][748]BlueprintEditorCompileResults: Info [4002.58] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.12.19:236][769]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.12.19:237][769]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.12.19:290][769]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_82) Not registered. Aborting.
+[2014.09.25-18.12.19:316][769]LogPlayLevel: PIE:  Blueprint regeneration took 79 ms (1 blueprints)
+[2014.09.25-18.12.19:316][769]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:12:19 AM)
+[2014.09.25-18.12.19:345][769]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028823s)
+[2014.09.25-18.12.19:346][769]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2014.09.25-18.12.19:346][769]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.029651s)
+[2014.09.25-18.12.19:389][769]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.12.19:391][769]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.12.19:394][769]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.12.19
+[2014.09.25-18.12.19:395][769]LogWorld: Bringing up level for play took: 0.004539
+[2014.09.25-18.12.19:397][769]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.389
+[2014.09.25-18.12.39:823][108]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000055729620
+[2014.09.25-18.14.23:967][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_83) Not registered. Aborting.
+[2014.09.25-18.14.26:402][229]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_84) Not registered. Aborting.
+[2014.09.25-18.15.01:848][453]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.15.02:077][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_85) Not registered. Aborting.
+[2014.09.25-18.15.02:164][453]BlueprintEditorCompileResults: Info [4166.58] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.15.04:161][506]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.15.04:161][506]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.15.04:232][506]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_86) Not registered. Aborting.
+[2014.09.25-18.15.04:262][506]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2014.09.25-18.15.04:263][506]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:15:04 AM)
+[2014.09.25-18.15.04:291][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028745s)
+[2014.09.25-18.15.04:292][506]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2014.09.25-18.15.04:292][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.029650s)
+[2014.09.25-18.15.04:320][506]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.15.04:322][506]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.15.04:326][506]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.15.04
+[2014.09.25-18.15.04:327][506]LogWorld: Bringing up level for play took: 0.004654
+[2014.09.25-18.15.04:329][506]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.538
+[2014.09.25-18.15.27:976][929]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066B02480
+[2014.09.25-18.16.58:499][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.25-18.16.58:499][782]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.09.25-18.16.58:500][782]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/blueprintCharacter.blueprintCharacter:holdTorch.K2Node_VariableGet_3640 or K2Node_VariableGet /Game/Blueprints/blueprintCharacter.blueprintCharacter:UpdateTorch.K2Node_VariableGet_3640
+[2014.09.25-18.18.32:099][461]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.18.32:362][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_87) Not registered. Aborting.
+[2014.09.25-18.18.32:438][461]BlueprintEditorCompileResults: Info [4376.85] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.18.42:635][755]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.18.42:890][755]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_88) Not registered. Aborting.
+[2014.09.25-18.18.42:962][755]BlueprintEditorCompileResults: Info [4387.38] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.18.45:918][833]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.18.45:918][833]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.18.45:994][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_89) Not registered. Aborting.
+[2014.09.25-18.18.46:023][833]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2014.09.25-18.18.46:023][833]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:18:46 AM)
+[2014.09.25-18.18.46:052][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028288s)
+[2014.09.25-18.18.46:053][833]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2014.09.25-18.18.46:053][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.029165s)
+[2014.09.25-18.18.46:081][833]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.18.46:082][833]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.18.46:086][833]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.18.46
+[2014.09.25-18.18.46:087][833]LogWorld: Bringing up level for play took: 0.004540
+[2014.09.25-18.18.46:089][833]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.292
+[2014.09.25-18.19.34:211][771]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FF95940
+[2014.09.25-18.19.49:262][253]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.19.49:502][253]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_90) Not registered. Aborting.
+[2014.09.25-18.19.49:576][253]BlueprintEditorCompileResults: Info [4453.99] Compile of blueprintCharacter successful! [in 60 ms]
+[2014.09.25-18.19.50:546][272]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.19.50:547][272]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.19.50:640][272]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_91) Not registered. Aborting.
+[2014.09.25-18.19.50:667][272]LogPlayLevel: PIE:  Blueprint regeneration took 120 ms (1 blueprints)
+[2014.09.25-18.19.50:668][272]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:19:50 AM)
+[2014.09.25-18.19.50:695][272]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027654s)
+[2014.09.25-18.19.50:696][272]LogPlayLevel: PIE: World Init took: (0.000658s)
+[2014.09.25-18.19.50:696][272]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.028489s)
+[2014.09.25-18.19.50:726][272]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.19.50:728][272]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.19.50:731][272]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.19.50
+[2014.09.25-18.19.50:732][272]LogWorld: Bringing up level for play took: 0.004630
+[2014.09.25-18.19.50:734][272]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.935
+[2014.09.25-18.20.10:792][607]LogBlueprintUserMessages: 312.5
+[2014.09.25-18.20.15:753][698]LogBlueprintUserMessages: 78.125
+[2014.09.25-18.20.20:770][801]LogBlueprintUserMessages: 19.53125
+[2014.09.25-18.20.25:752][905]LogBlueprintUserMessages: 4.882813
+[2014.09.25-18.20.30:763][ 10]LogBlueprintUserMessages: 1.220703
+[2014.09.25-18.20.35:746][113]LogBlueprintUserMessages: 0.305176
+[2014.09.25-18.20.38:808][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000692FDF80
+[2014.09.25-18.21.14:340][303]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_92) Not registered. Aborting.
+[2014.09.25-18.21.14:620][303]LogSavePackage: Save=176.911423ms
+[2014.09.25-18.21.14:620][303]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto6F8DB8487472A72505CB7E9BFFEE6206A.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto6.umap'
+[2014.09.25-18.21.14:636][303]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.296
+[2014.09.25-18.21.14:636][303]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.296
+[2014.09.25-18.21.14:647][303]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-18.21.14:696][303]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-18.21.14:696][303]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-18.21.15:248][303]LogSavePackage: Save=503.958221ms
+[2014.09.25-18.21.15:248][303]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto6C1CC2C664D1C262A005E42A91E27415F.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto6.uasset'
+[2014.09.25-18.21.15:269][303]LogFileHelpers: Auto-saving content packages took 0.633
+[2014.09.25-18.21.15:797][312]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.21.16:045][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_93) Not registered. Aborting.
+[2014.09.25-18.21.16:115][312]BlueprintEditorCompileResults: Info [4540.53] Compile of blueprintCharacter successful! [in 59 ms]
+[2014.09.25-18.21.17:226][330]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.09.25-18.21.17:776][330]LogSavePackage: Save=521.131897ms
+[2014.09.25-18.21.17:776][330]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter0981BAFE48F7366AD0C485931EF2DE37.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.09.25-18.22.04:593][733]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.25-18.23.25:314][150]LogEditorTransaction: Undo Edit Curve
+[2014.09.25-18.23.25:416][150]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_94) Not registered. Aborting.
+[2014.09.25-18.23.30:535][305]LogEditorTransaction: Undo Edit Curve
+[2014.09.25-18.23.30:634][305]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_95) Not registered. Aborting.
+[2014.09.25-18.23.30:993][312]LogEditorTransaction: Undo Edit Curve
+[2014.09.25-18.23.31:066][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_96) Not registered. Aborting.
+[2014.09.25-18.23.31:541][329]LogEditorTransaction: Undo Create Pin Link
+[2014.09.25-18.23.31:610][329]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_97) Not registered. Aborting.
+[2014.09.25-18.23.32:222][344]LogEditorTransaction: Undo Delete current selection
+[2014.09.25-18.23.32:287][344]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_98) Not registered. Aborting.
+[2014.09.25-18.24.29:763][330]LogEditorTransaction: Undo Edit Distribution
+[2014.09.25-18.24.29:860][330]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_99) Not registered. Aborting.
+[2014.09.25-18.24.43:720][736]LogEditorTransaction: Undo Edit Use Inverse Squared Falloff
+[2014.09.25-18.24.43:822][736]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_100) Not registered. Aborting.
+[2014.09.25-18.24.44:074][741]LogEditorTransaction: Undo Edit Use Inverse Squared Falloff
+[2014.09.25-18.24.44:157][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_101) Not registered. Aborting.
+[2014.09.25-18.24.53:096][993]LogEditorTransaction: Undo Edit Preview Light Radius
+[2014.09.25-18.24.53:198][993]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_102) Not registered. Aborting.
+[2014.09.25-18.25.29:417][342]LogCascade: Non-seeded module ParticleModuleLight
+[2014.09.25-18.29.19:982][673]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.29.20:022][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_103) Not registered. Aborting.
+[2014.09.25-18.29.20:022][673]LogPlayLevel: [PIE] Compiling blueprintCharacter before PIE...
+[2014.09.25-18.29.20:342][673]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.29.20:461][673]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006B107420
+[2014.09.25-18.29.20:481][673]LogPlayLevel: PIE:  Blueprint regeneration took 499 ms (2 blueprints)
+[2014.09.25-18.29.20:481][673]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:29:20 AM)
+[2014.09.25-18.29.20:509][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027408s)
+[2014.09.25-18.29.20:510][673]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2014.09.25-18.29.20:510][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.028281s)
+[2014.09.25-18.29.20:536][673]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.29.20:538][673]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.29.20:541][673]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.29.20
+[2014.09.25-18.29.20:542][673]LogWorld: Bringing up level for play took: 0.004486
+[2014.09.25-18.29.20:544][673]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.728
+[2014.09.25-18.29.52:845][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_104) Not registered. Aborting.
+[2014.09.25-18.29.52:874][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000071935260
+[2014.09.25-18.30.12:653][783]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.30.12:653][783]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.30.12:782][783]LogPlayLevel: PIE:  Blueprint regeneration took 128 ms (1 blueprints)
+[2014.09.25-18.30.12:782][783]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:30:12 AM)
+[2014.09.25-18.30.12:810][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027772s)
+[2014.09.25-18.30.12:811][783]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2014.09.25-18.30.12:811][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.028645s)
+[2014.09.25-18.30.12:838][783]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.30.12:839][783]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.30.12:843][783]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.30.12
+[2014.09.25-18.30.12:844][783]LogWorld: Bringing up level for play took: 0.004760
+[2014.09.25-18.30.12:846][783]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 1.029
+[2014.09.25-18.30.15:718][833]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000073EA9DA0
+[2014.09.25-18.30.19:535][950]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.30.19:535][950]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.30.19:608][950]LogPlayLevel: PIE:  Blueprint regeneration took 73 ms (1 blueprints)
+[2014.09.25-18.30.19:608][950]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:30:19 AM)
+[2014.09.25-18.30.19:636][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027016s)
+[2014.09.25-18.30.19:636][950]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2014.09.25-18.30.19:636][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.027844s)
+[2014.09.25-18.30.19:664][950]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.30.19:665][950]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.30.19:669][950]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.30.19
+[2014.09.25-18.30.19:670][950]LogWorld: Bringing up level for play took: 0.004514
+[2014.09.25-18.30.19:671][950]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.147
+[2014.09.25-18.30.39:582][283]LogBlueprintUserMessages: 200.0
+[2014.09.25-18.30.44:527][378]LogBlueprintUserMessages: 40.0
+[2014.09.25-18.30.49:572][484]LogBlueprintUserMessages: 8.0
+[2014.09.25-18.30.54:567][590]LogBlueprintUserMessages: 1.6
+[2014.09.25-18.30.59:533][695]LogBlueprintUserMessages: 0.32
+[2014.09.25-18.31.04:532][801]LogBlueprintUserMessages: 0.064
+[2014.09.25-18.31.16:690][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000073EA9620
+[2014.09.25-18.31.27:563][524]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.31.27:563][524]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.31.27:649][524]LogPlayLevel: PIE:  Blueprint regeneration took 85 ms (1 blueprints)
+[2014.09.25-18.31.27:649][524]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:31:27 AM)
+[2014.09.25-18.31.27:679][524]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029487s)
+[2014.09.25-18.31.27:679][524]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2014.09.25-18.31.27:680][524]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.030365s)
+[2014.09.25-18.31.27:708][524]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.31.27:709][524]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.31.27:713][524]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.31.27
+[2014.09.25-18.31.27:714][524]LogWorld: Bringing up level for play took: 0.004591
+[2014.09.25-18.31.27:716][524]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.105
+[2014.09.25-18.31.50:212][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000065C8CF40
+[2014.09.25-18.31.55:558][145]LogCascade: Quitting Cascade. FXSystem=0x0000000019EE1800
+[2014.09.25-18.31.59:199][238]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.09.25-18.31.59:850][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.09.25-18.32.38:273][412]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.25-18.33.11:158][500]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_105) Not registered. Aborting.
+[2014.09.25-18.33.11:182][500]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019EE1800
+[2014.09.25-18.33.11:432][500]LogSavePackage: Save=169.005692ms
+[2014.09.25-18.33.11:432][500]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming_Auto74580A7614561ABF6D2F8819E269F8215.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Swimming_Auto7.umap'
+[2014.09.25-18.33.11:451][500]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Swimming' took 0.293
+[2014.09.25-18.33.11:451][500]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.293
+[2014.09.25-18.33.11:460][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.09.25-18.33.11:498][500]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.09.25-18.33.11:499][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.09.25-18.33.12:054][500]LogSavePackage: Save=510.197174ms
+[2014.09.25-18.33.12:054][500]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto77E70A3864C57918EF05EB881FD48143B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto7.uasset'
+[2014.09.25-18.33.12:082][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/P_Fire] ([1] browsable assets)...
+[2014.09.25-18.33.12:119][500]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/P_Fire.P_Fire]
+[2014.09.25-18.33.12:119][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/P_Fire]
+[2014.09.25-18.33.12:341][500]LogSavePackage: Save=177.526733ms
+[2014.09.25-18.33.12:341][500]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/P_Fire_Auto764DE2F3046790CDDC32E749579B1FC9B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/P_Fire_Auto7.uasset'
+[2014.09.25-18.33.12:359][500]LogFileHelpers: Auto-saving content packages took 0.907
+[2014.09.25-18.33.31:960][ 48]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.25-18.33.53:539][708]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Fire" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset" SILENT=true
+[2014.09.25-18.33.53:741][708]LogSavePackage: Save=172.329483ms
+[2014.09.25-18.33.53:741][708]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/P_Fire6154BD78444117946D71F7BFD9507246.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/P_Fire.uasset'
+[2014.09.25-18.33.55:374][758]LogCascade: Quitting Cascade. FXSystem=0x000000006C406980
+[2014.09.25-18.36.17:752][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_106) Not registered. Aborting.
+[2014.09.25-18.40.57:047][619]LogEditorTransaction: Undo Move Nodes
+[2014.09.25-18.41.07:841][ 67]BlueprintLog: New page: Compile blueprintCharacter
+[2014.09.25-18.41.08:151][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006C406980
+[2014.09.25-18.41.08:201][ 67]BlueprintEditorCompileResults: Info [5732.53] Compile of blueprintCharacter successful! [in 61 ms]
+[2014.09.25-18.41.09:966][131]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.41.09:967][131]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.41.10:076][131]LogPlayLevel: PIE:  Blueprint regeneration took 109 ms (1 blueprints)
+[2014.09.25-18.41.10:076][131]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:41:10 AM)
+[2014.09.25-18.41.10:124][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048318s)
+[2014.09.25-18.41.10:125][131]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2014.09.25-18.41.10:125][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.049188s)
+[2014.09.25-18.41.10:152][131]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.41.10:153][131]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.41.10:157][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.25-14.41.10
+[2014.09.25-18.41.10:158][131]LogWorld: Bringing up level for play took: 0.004564
+[2014.09.25-18.41.10:159][131]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.322
+[2014.09.25-18.41.56:701][ 29]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000075677560
+[2014.09.25-18.41.57:726][ 77]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.25-18.41.57:726][ 77]LogPlayLevel: [PIE] Compiling Swimming before PIE...
+[2014.09.25-18.41.57:798][ 77]LogPlayLevel: PIE:  Blueprint regeneration took 71 ms (1 blueprints)
+[2014.09.25-18.41.57:798][ 77]PIE: New page: PIE session: Swimming (Sep 25, 2014, 10:41:57 AM)
+[2014.09.25-18.41.57:828][ 77]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029822s)
+[2014.09.25-18.41.57:829][ 77]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2014.09.25-18.41.57:829][ 77]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.030691s)
+[2014.09.25-18.41.57:858][ 77]LogWorld: Game class is 'MyGame_C'
+[2014.09.25-18.41.57:860][ 77]LogAIModule: Creating AISystem for world Swimming
+[2014.09.25-18.41.57:864][ 77]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 60) at 2014.09.25-14.41.57
+[2014.09.25-18.41.57:865][ 77]LogWorld: Bringing up level for play took: 0.004488
+[2014.09.25-18.41.57:866][ 77]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming 0.027
+[2014.09.25-18.42.14:086][356]LogCharacterMovement: blueprintCharacter_C_10 is stuck and failed to move!
+[2014.09.25-18.42.54:961][226]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000007C4A3BA0
+[2014.09.25-18.43.00:816][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Swimming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.25-18.43.01:055][521]LogSavePackage: Save=150.042542ms
+[2014.09.25-18.43.01:055][521]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming7227B3164923F46CEEFE8AB6F959CE65.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap'
+[2014.09.25-18.43.05:292][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.09.25-18.43.05:808][606]LogSavePackage: Save=484.103607ms
+[2014.09.25-18.43.05:808][606]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter4BCDAC6D42A1E8BB3DCA63BF10CC2225.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.09.25-18.43.06:476][607]Cmd: QUIT_EDITOR
+[2014.09.25-18.43.06:607][607]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.25-18.43.06:611][607]LogExit: Preparing to exit.
+[2014.09.25-18.43.07:574][607]LogExit: Editor shut down
+[2014.09.25-18.43.07:574][607]LogExit: Transaction tracking system shut down
+[2014.09.25-18.43.07:575][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F4E0540
+[2014.09.25-18.43.07:576][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019EE0F40
+[2014.09.25-18.43.07:576][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019EE0FE0
+[2014.09.25-18.43.07:576][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000014DD3560
+[2014.09.25-18.43.07:576][607]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A4DB060
+[2014.09.25-18.43.07:605][607]LogExit: Object subsystem successfully closed.
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module DistCurveEditor (163)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module Cascade (162)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.25-18.43.07:663][607]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.25-18.43.07:664][607]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.25-18.43.07:665][607]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.25-18.43.07:665][607]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.09.25-18.43.07:750][607]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.09.25-18.43.07:751][607]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.09.25-18.43.07:955][607]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.09.25-18.43.07:956][607]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.09.25-18.43.07:956][607]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.09.25-18.43.07:956][607]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.09.25-18.43.07:956][607]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.09.25-18.43.07:957][607]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.09.25-18.43.08:057][607]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.09.25-18.43.08:057][607]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.25-18.43.08:063][607]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.25-18.43.08:064][607]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.25-18.43.08:064][607]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.25-18.43.08:066][607]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.25-18.43.08:067][607]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.25-18.43.08:077][607]LogDerivedDataCache: Shutdown
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.25-18.43.08:077][607]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.25-18.43.08:078][607]LogExit: Exiting.
+[2014.09.25-18.43.08:087][607]Log file closed, 09/25/14 14:43:08
