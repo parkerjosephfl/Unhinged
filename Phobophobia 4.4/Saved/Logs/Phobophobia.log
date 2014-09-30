@@ -1,419 +1,917 @@
-Log file open, 09/30/14 14:10:26
+Log file open, 09/30/14 15:16:41
 LogInit:Display: Running engine for game: Phobophobia
 LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
 LogInit: API Version: 2255576
 LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.4
-LogInit: Command line:  
-LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal/Unreal Engine/4.4/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2014.09.30-18.10.26:369][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.09.30-18.10.26:398][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.09.30-18.10.26:409][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.09.30-18.10.26:416][  0]LogInit: Object subsystem initialized
-[2014.09.30-18.10.26:418][  0]LogInit: Selected Device Profile: [Windows]
-[2014.09.30-18.10.26:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.09.30-18.10.26:424][  0]LogInit: Computer: MININT-IBCU80N
-[2014.09.30-18.10.26:425][  0]LogInit: User: Mitchell
-[2014.09.30-18.10.26:426][  0]LogInit: CPU Page size=4096, Cores=4
-[2014.09.30-18.10.26:426][  0]LogInit: High frequency timer resolution =2.143593 MHz
-[2014.09.30-18.10.26:426][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
-[2014.09.30-18.10.26:426][  0]LogMemory: Platform Memory Stats for Windows
-[2014.09.30-18.10.26:426][  0]LogMemory: Process Physical Memory: 62.79 MB used, 62.79 MB peak
-[2014.09.30-18.10.26:426][  0]LogMemory: Process Virtual Memory: 38.60 MB used, 38.60 MB peak
-[2014.09.30-18.10.26:426][  0]LogMemory: Physical Memory: 3853.88 MB used, 8086.17 MB total
-[2014.09.30-18.10.26:426][  0]LogMemory: Virtual Memory: 258.50 MB used, 8388608.00 MB total
-[2014.09.30-18.10.26:464][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
-[2014.09.30-18.10.26:464][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
-[2014.09.30-18.10.26:464][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.09.30-18.10.26:470][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
-[2014.09.30-18.10.26:483][  0]LogD3D11RHI: Async texture creation enabled
-[2014.09.30-18.10.26:588][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.09.30-18.10.28:558][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.30-18.10.29:029][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.30-18.10.29:112][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.09.30-18.10.29:164][  0]LogDerivedDataCache: Loaded boot cache 0.05s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.30-18.10.29:164][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
-[2014.09.30-18.10.29:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.09.30-18.10.29:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.09.30-18.10.29:186][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
-[2014.09.30-18.10.29:198][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
-[2014.09.30-18.10.29:484][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.09.30-18.10.29:485][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.09.30-18.10.30:046][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.09.30-18.10.31:072][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2428_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2100_0///////STATCAT_Advanced////
-[2014.09.30-18.10.31:072][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.09.30-18.10.31:203][  0]SourceControl: Info Source control is disabled
-[2014.09.30-18.10.31:203][  0]SourceControl: Info Source control is disabled
-[2014.09.30-18.10.31:211][  0]SourceControl: Info Source control is disabled
-[2014.09.30-18.10.31:412][  0]BlueprintLog: New page: Editor Load
-[2014.09.30-18.10.31:535][  0]LogObj: 21438 objects as part of root set at end of initial load.
-[2014.09.30-18.10.31:535][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
-[2014.09.30-18.10.31:725][  0]LogEngine: Initializing Engine...
-[2014.09.30-18.10.31:839][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2014.09.30-18.10.31:877][  0]LogInit: FAudioDevice initialized.
-[2014.09.30-18.10.31:897][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.09.30-18.10.31:924][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
-[2014.09.30-18.10.31:930][  0]LogInit: Texture streaming: Enabled
-[2014.09.30-18.10.31:965][  0]LogInit: Transaction tracking system initialized
-[2014.09.30-18.10.32:084][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
-[2014.09.30-18.10.32:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.30-18.10.32:915][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.09.30-18.10.33:063][  0]LogConsoleResponse:Display: 
-[2014.09.30-18.10.33:260][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_374c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2100_0///////STATCAT_Advanced////
-[2014.09.30-18.10.33:260][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_24a0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2100_0///////STATCAT_Advanced////
-[2014.09.30-18.10.33:260][  0]SourceControl: Info Source control is disabled
-[2014.09.30-18.10.33:260][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.09.30-18.10.33:260][  0]LightingResults: New page: Lighting Build
-[2014.09.30-18.10.33:270][  0]MapCheck: New page: Map Check
-[2014.09.30-18.10.33:270][  0]LightingResults: New page: Lighting Build
-[2014.09.30-18.10.33:283][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011971300
-[2014.09.30-18.10.33:374][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.30-18.10.33:376][  0]LogAIModule: Creating AISystem for world Main_Menu
-[2014.09.30-18.10.33:379][  0]Cmd: MAP CHECKDEP
-[2014.09.30-18.10.33:379][  0]MapCheck: New page: Main_Menu - Sep 30, 2014, 10:10:33 AM
-[2014.09.30-18.10.33:468][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [88.911ms] ==========
-[2014.09.30-18.10.33:468][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.208
-[2014.09.30-18.10.33:601][  0]LogCollectionManager: Loaded 0 collections in 0.001320 seconds
-[2014.09.30-18.10.33:776][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.09.30-18.10.33:844][  0]LogLoad: Full Startup: 9.37 seconds (BP compile: 0.02 seconds)
-[2014.09.30-18.10.33:860][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
-[2014.09.30-18.10.33:977][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
-[2014.09.30-18.10.34:518][  2]LogAssetRegistry: Asset discovery search completed in 2.4450 seconds
-[2014.09.30-18.10.54:353][233]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.09.30-18.10.54:354][233]LightingResults: New page: Lighting Build
-[2014.09.30-18.10.54:370][233]LoadErrors: New page: Loading map: Swimming.umap
-[2014.09.30-18.10.54:371][233]MapCheck: New page: Map Check
-[2014.09.30-18.10.54:371][233]LightingResults: New page: Lighting Build
-[2014.09.30-18.10.54:391][233]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000199BC860
-[2014.09.30-18.10.55:112][233]LogOutputDevice: === Handled error: ===
+[2014.09.30-19.16.41:936][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.30-19.16.41:968][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.30-19.16.41:979][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.30-19.16.41:989][  0]LogInit: Object subsystem initialized
+[2014.09.30-19.16.41:992][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.30-19.16.41:992][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.30-19.16.42:142][  0]LogInit: Computer: ZS-LAPTOP
+[2014.09.30-19.16.42:142][  0]LogInit: User: ZeroSennin
+[2014.09.30-19.16.42:143][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.09.30-19.16.42:143][  0]LogInit: High frequency timer resolution =2.046171 MHz
+[2014.09.30-19.16.42:143][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.09.30-19.16.42:143][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-19.16.42:143][  0]LogMemory: Process Physical Memory: 61.38 MB used, 61.38 MB peak
+[2014.09.30-19.16.42:143][  0]LogMemory: Process Virtual Memory: 37.39 MB used, 37.39 MB peak
+[2014.09.30-19.16.42:143][  0]LogMemory: Physical Memory: 3340.71 MB used, 4043.86 MB total
+[2014.09.30-19.16.42:143][  0]LogMemory: Virtual Memory: 259.69 MB used, 8388608.00 MB total
+[2014.09.30-19.16.42:218][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.09.30-19.16.42:218][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.09.30-19.16.42:218][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.30-19.16.42:227][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.09.30-19.16.42:232][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.30-19.16.42:400][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.30-19.16.44:913][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-19.16.45:539][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-19.16.45:592][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.30-19.16.45:663][  0]LogDerivedDataCache: Loaded boot cache 0.07s 34MB C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-19.16.45:663][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.30-19.16.45:664][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.30-19.16.45:664][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.30-19.16.45:692][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.30-19.16.45:705][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.30-19.16.45:940][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.30-19.16.45:940][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.30-19.16.46:482][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.30-19.16.47:681][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_11ac_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1fe0_0///////STATCAT_Advanced////
+[2014.09.30-19.16.47:681][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.30-19.16.47:811][  0]SourceControl: Info Source control is disabled
+[2014.09.30-19.16.47:811][  0]SourceControl: Info Source control is disabled
+[2014.09.30-19.16.47:818][  0]SourceControl: Info Source control is disabled
+[2014.09.30-19.16.48:047][  0]BlueprintLog: New page: Editor Load
+[2014.09.30-19.16.48:189][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.30-19.16.48:189][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.09.30-19.16.48:452][  0]LogEngine: Initializing Engine...
+[2014.09.30-19.16.48:592][  0]LogInit: XAudio2 using '…5¹Ôü«ü/ØÃÉÛó (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.09.30-19.16.48:609][  0]LogInit: FAudioDevice initialized.
+[2014.09.30-19.16.48:634][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.30-19.16.48:665][  0]LogDerivedDataCache: Saved boot cache 0.03s 34MB C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.30-19.16.48:674][  0]LogInit: Texture streaming: Enabled
+[2014.09.30-19.16.48:715][  0]LogInit: Transaction tracking system initialized
+[2014.09.30-19.16.48:838][  0]LogAssetRegistry: FAssetRegistry took 0.0094 seconds to start up
+[2014.09.30-19.16.49:541][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-19.16.50:143][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.30-19.16.50:358][  0]LogConsoleResponse:Display: 
+[2014.09.30-19.16.50:933][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_14ec_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1fe0_0///////STATCAT_Advanced////
+[2014.09.30-19.16.50:933][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1cb0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1fe0_0///////STATCAT_Advanced////
+[2014.09.30-19.16.50:933][  0]SourceControl: Info Source control is disabled
+[2014.09.30-19.16.50:933][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-19.16.51:043][  0]LightingResults: New page: Lighting Build
+[2014.09.30-19.16.51:053][  0]MapCheck: New page: Map Check
+[2014.09.30-19.16.51:053][  0]LightingResults: New page: Lighting Build
+[2014.09.30-19.16.51:075][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001056A020
+[2014.09.30-19.16.52:610][  0]LogTexture:Display: Building textures: background_image (AutoDXT)
+[2014.09.30-19.16.57:243][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-19.16.57:243][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.09.30-19.16.57:243][  0]Cmd: MAP CHECKDEP
+[2014.09.30-19.16.57:243][  0]MapCheck: New page: Main_Menu - Sep 30, 2014, 11:16:57 AM
+[2014.09.30-19.16.57:327][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [83.983ms] ==========
+[2014.09.30-19.16.57:328][  0]LogFileHelpers: Loading map 'Main_Menu' took 6.395
+[2014.09.30-19.16.58:560][  0]LogCollectionManager: Loaded 0 collections in 0.002304 seconds
+[2014.09.30-19.17.06:699][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.30-19.17.07:427][  0]LogLoad: Full Startup: 28.97 seconds (BP compile: 0.17 seconds)
+[2014.09.30-19.17.07:456][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.09.30-19.17.08:386][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x720.
+[2014.09.30-19.17.46:608][413]LogAssetRegistry: Asset discovery search completed in 57.7789 seconds
+[2014.09.30-19.18.02:708][173]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.30-19.18.02:708][173]LogPlayLevel: [PIE] Compiling Main_Menu before PIE...
+[2014.09.30-19.18.03:318][173]LogPlayLevel: PIE:  Blueprint regeneration took 618 ms (1 blueprints)
+[2014.09.30-19.18.03:319][173]PIE: New page: PIE session: Main_Menu (Sep 30, 2014, 11:18:03 AM)
+[2014.09.30-19.18.03:326][173]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006212s)
+[2014.09.30-19.18.03:343][173]LogPlayLevel: PIE: World Init took: (0.003169s)
+[2014.09.30-19.18.03:344][173]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main_Menu.Main_Menu to /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu (0.023878s)
+[2014.09.30-19.18.07:653][173]LogOutputDevice: === Handled error: ===
 Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
 
-Stack: Address = 0xef3d5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef2619d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xe8388874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe838803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8397938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe83778f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8397b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe83731a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8373ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe837383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe94b191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe9478254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xf0e84adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ecffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eeab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ebebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0e91f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ef426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed0179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eeab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ecfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eeab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ecfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eec972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f45f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ee3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f45e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xe8e992e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8e8c4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8e7a291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe917f0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8ef2834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8ef3335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe05492aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
-Address = 0xee955246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeea9be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeaa4dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeea6cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeb3569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeb6f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xee991ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xee981989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xef3434d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef32f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef34461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef32c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0x77819bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
-Address = 0x778198da (filename not found) [in C:\Windows\system32\USER32.dll]
-Address = 0xef344ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-FEngineLoop::Tick() 0x3fdd708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-GuardedMain() 0x3fdcca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-GuardedMainWrapper() 0x3fdccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-WinMain() 0x3fdd88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-__tmainCRTStartup() 0x3fdd96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-Address = 0x776f59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
-Address = 0x7792c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
-Address = 0x7792c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Stack: Address = 0xd82e5216 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd81719d1 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd2888874 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd288803c (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2897938 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd28778f7 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2897b8d (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd28731a3 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2873ccc (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd287383e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd431191a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd42d8254 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd7d94adb (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7ddffe6 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfab54 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dcebc4 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7da1f68 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e0426f (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de0179 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfab54 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7ddfa5e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfab54 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7ddfa5e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfc972 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e55f5a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1c1ae (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b535 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1c2da (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b535 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b44a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de7ce0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1a7b0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de12c8 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7df3b6a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e55e92 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e611d1 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e6f887 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e6f3d7 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd6059fc3 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd5ac15d0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd3e4be81 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3e90a79 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3ea64f9 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3c3a818 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd40269a6 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fb2722e + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2098] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fb1ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fb1caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fb288c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fb296f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x774c59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x775fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x775fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
 
-[2014.09.30-18.10.56:975][233]LogOutputDevice: === Handled error: ===
+[2014.09.30-19.18.18:164][173]LogOutputDevice: === Handled error: ===
 Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
 
-Stack: Address = 0xef3d5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef2619d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xe8388874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe838803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8397938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe83778f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8397b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe83731a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe8373ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe837383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
-Address = 0xe94d4bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe9ff8e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
-Address = 0xf0e280cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed0183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eeab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ecfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eeab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ecfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0eec972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f45f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f0a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ed12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0ee3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xf0f45e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
-Address = 0xe8e992e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8e8c4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8e7a291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe917f0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8ef2834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe8ef3335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
-Address = 0xe05492aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
-Address = 0xee955246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeea9be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeaa4dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeea6cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeb3569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xeeb6f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xee991ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xee981989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
-Address = 0xef3434d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef32f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef34461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0xef32c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-Address = 0x77819bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
-Address = 0x778198da (filename not found) [in C:\Windows\system32\USER32.dll]
-Address = 0xef344ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
-FEngineLoop::Tick() 0x3fdd708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-GuardedMain() 0x3fdcca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-GuardedMainWrapper() 0x3fdccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-WinMain() 0x3fdd88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-__tmainCRTStartup() 0x3fdd96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
-Address = 0x776f59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
-Address = 0x7792c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
-Address = 0x7792c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Stack: Address = 0xd82e5216 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd81719d1 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xd2888874 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd288803c (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2897938 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd28778f7 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2897b8d (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd28731a3 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd2873ccc (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd287383e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xd4334bf8 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd5938e07 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd7d380cf (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de0183 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfab54 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7ddfa5e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfab54 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7ddfa5e (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7dfc972 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e55f5a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1c1ae (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b535 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1c2da (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b535 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1b44a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de7ce0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e1a7b0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7de12c8 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7df3b6a (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e55e92 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e611d1 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e6f887 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd7e6f3d7 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xd6059fc3 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd5ac15d0 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xd3e4be81 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3e90a79 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3ea64f9 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd3c3a818 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xd40269a6 (filename not found) [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x3fb2722e + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2098] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3fb1ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3fb1caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3fb288c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3fb296f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x774c59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x775fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x775fc541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
 
-[2014.09.30-18.10.57:743][233]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
-[2014.09.30-18.10.57:901][233]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.09.30-18.10.57:902][233]LogAIModule: Creating AISystem for world Swimming
-[2014.09.30-18.10.57:919][233]Cmd: MAP CHECKDEP
-[2014.09.30-18.10.57:920][233]MapCheck: New page: Swimming - Sep 30, 2014, 10:10:57 AM
-[2014.09.30-18.10.58:052][233]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [132.485ms] ==========
-[2014.09.30-18.10.58:052][233]LogFileHelpers: Loading map 'Swimming' took 3.700
-[2014.09.30-18.11.15:698][786]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.09.30-18.11.15:698][786]LogPlayLevel: [PIE] Compiling Swimming before PIE...
-[2014.09.30-18.11.15:778][786]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.09.30-18.11.15:825][786]LogPlayLevel: PIE:  Blueprint regeneration took 126 ms (1 blueprints)
-[2014.09.30-18.11.15:825][786]PIE: New page: PIE session: Swimming (Sep 30, 2014, 10:11:15 AM)
-[2014.09.30-18.11.15:848][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023367s)
-[2014.09.30-18.11.15:849][786]LogPlayLevel: PIE: World Init took: (0.000616s)
-[2014.09.30-18.11.15:849][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Swimming.Swimming to /Game/Maps/UEDPIE_0_Swimming.Swimming (0.024179s)
-[2014.09.30-18.11.15:897][786]LogWorld: Game class is 'MyGame_C'
-[2014.09.30-18.11.15:900][786]LogAIModule: Creating AISystem for world Swimming
-[2014.09.30-18.11.15:907][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Swimming.Swimming up for play (max tick rate 0) at 2014.09.30-14.11.15
-[2014.09.30-18.11.15:909][786]LogWorld: Bringing up level for play took: 0.008945
-[2014.09.30-18.11.15:917][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Swimming -0.73
-[2014.09.30-18.11.15:985][786]LogRenderer:Warning: Reallocating scene render targets to support 1296x728.
-[2014.09.30-18.11.21:842][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000105A1F80
-[2014.09.30-18.12.25:631][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Swimming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.09.30-18.12.25:827][465]LogSavePackage: Save=96.542114ms
-[2014.09.30-18.12.25:828][465]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Swimming99E169EF46F8C85B725B8D98555BF1A3.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Swimming.umap'
-[2014.09.30-18.12.25:852][465]LogFileHelpers: Saving map 'Swimming' took 0.348
-[2014.09.30-18.12.27:574][618]Cmd: QUIT_EDITOR
-[2014.09.30-18.12.27:703][618]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.09.30-18.12.27:704][618]LogExit: Preparing to exit.
-[2014.09.30-18.12.28:468][618]LogExit: Editor shut down
-[2014.09.30-18.12.28:468][618]LogExit: Transaction tracking system shut down
-[2014.09.30-18.12.28:470][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000029EFC4A0
-[2014.09.30-18.12.28:470][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000105A3A60
-[2014.09.30-18.12.28:495][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000105A39C0
-[2014.09.30-18.12.28:495][618]LogExit: Object subsystem successfully closed.
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module HTTP (161)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module WorldBrowser (155)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module BspMode (147)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
-[2014.09.30-18.12.28:541][618]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module XmlParser (137)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module Blutility (136)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module AutomationController (121)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module Layers (119)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
-[2014.09.30-18.12.28:542][618]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
-[2014.09.30-18.12.28:543][618]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module Persona (113)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module Toolbox (110)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module OutputLog (107)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module GammaUI (106)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module Documentation (105)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module Analytics (101)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module AIModule (99)
-[2014.09.30-18.12.28:639][618]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module CableComponent (93)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module Matinee (86)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module Kismet (85)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
-[2014.09.30-18.12.28:766][618]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module Paper2DEditor (79)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (78)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module PluginsEditor (77)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module MainFrame (76)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module EpicSurvey (75)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (74)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module UObjectPlugin (73)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (72)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module SourceControl (71)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (70)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module BlankPlugin (69)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module ScriptPlugin (68)
-[2014.09.30-18.12.28:767][618]LogModuleManager: Shutting down and abandoning module UdpMessaging (67)
-[2014.09.30-18.12.28:867][618]LogModuleManager: Shutting down and abandoning module Paper2D (66)
-[2014.09.30-18.12.28:867][618]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (65)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module ImageWrapper (64)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (63)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (60)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module MessageLog (59)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module Sequencer (58)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module AssetTools (57)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module UMG (55)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module Slate (54)
-[2014.09.30-18.12.28:870][618]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module SessionServices (52)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module Networking (47)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module Core (46)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
-[2014.09.30-18.12.28:872][618]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
-[2014.09.30-18.12.28:905][618]LogDerivedDataCache: Shutdown
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Messaging (31)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.09.30-18.12.28:905][618]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.09.30-18.12.28:906][618]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.09.30-18.12.28:906][618]LogExit: Exiting.
-[2014.09.30-18.12.28:909][618]Log file closed, 09/30/14 14:12:28
+[2014.09.30-19.18.21:385][173]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.30-19.18.21:388][173]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.18.21:741][173]LogAIModule: Creating AISystem for world Main_Menu
+[2014.09.30-19.18.21:742][173]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2014.09.30-15.18.21
+[2014.09.30-19.18.21:743][173]LogWorld: Bringing up level for play took: 0.001610
+[2014.09.30-19.18.22:119][173]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main_Menu 19.735
+[2014.09.30-19.18.25:882][263]LogPackageName: SearchForPackageOnDisk took   0.113s to resolve Level_3_A.umap
+[2014.09.30-19.18.25:967][263]LogPackageName: SearchForPackageOnDisk took   0.084s to resolve Level_3_A.umap
+[2014.09.30-19.18.25:997][263]LogNet: Browse: /Game/Maps/Level_3_A
+[2014.09.30-19.18.26:021][263]LogLoad: LoadMap: /Game/Maps/Level_3_A
+[2014.09.30-19.18.26:040][263]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.30-19.18.26:093][263]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BA3ED40
+[2014.09.30-19.18.26:115][263]Cmd: MEM
+[2014.09.30-19.18.26:204][263]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-19.18.26:204][263]LogMemory: Process Physical Memory: 750.82 MB used, 766.01 MB peak
+[2014.09.30-19.18.26:204][263]LogMemory: Process Virtual Memory: 730.66 MB used, 759.34 MB peak
+[2014.09.30-19.18.26:204][263]LogMemory: Physical Memory: 3393.93 MB used, 4043.86 MB total
+[2014.09.30-19.18.26:204][263]LogMemory: Virtual Memory: 1224.99 MB used, 8388608.00 MB total
+[2014.09.30-19.18.26:204][263]LogMemory: 
+[2014.09.30-19.18.26:204][263]Allocator Stats for TBB: (not implemented)
+[2014.09.30-19.18.27:263][263]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.30-19.18.28:148][263]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.30-19.18.28:195][263]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.30-19.18.28:590][263]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.30-19.18.28:608][263]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.09.30-19.18.28:674][263]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.30-19.18.33:414][263]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.18.33:418][263]LogAIModule: Creating AISystem for world Level_3_A
+[2014.09.30-19.18.33:480][263]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_A.Level_3_A up for play (max tick rate 60) at 2014.09.30-15.18.33
+[2014.09.30-19.18.33:515][263]LogWorld: Bringing up level for play took: 0.096369
+[2014.09.30-19.18.45:477][590]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve Level_3_B.umap
+[2014.09.30-19.18.45:602][591]LogPackageName: SearchForPackageOnDisk took   0.105s to resolve Level_3_B.umap
+[2014.09.30-19.18.45:602][591]LogNet: Browse: /Game/Maps/Level_3_B
+[2014.09.30-19.18.45:602][591]LogLoad: LoadMap: /Game/Maps/Level_3_B
+[2014.09.30-19.18.45:663][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000097AED40
+[2014.09.30-19.18.45:678][591]Cmd: MEM
+[2014.09.30-19.18.45:716][591]LogMemory: Platform Memory Stats for Windows
+[2014.09.30-19.18.45:716][591]LogMemory: Process Physical Memory: 959.62 MB used, 971.80 MB peak
+[2014.09.30-19.18.45:716][591]LogMemory: Process Virtual Memory: 948.04 MB used, 955.17 MB peak
+[2014.09.30-19.18.45:716][591]LogMemory: Physical Memory: 3550.82 MB used, 4043.86 MB total
+[2014.09.30-19.18.45:716][591]LogMemory: Virtual Memory: 1444.11 MB used, 8388608.00 MB total
+[2014.09.30-19.18.45:716][591]LogMemory: 
+[2014.09.30-19.18.45:717][591]Allocator Stats for TBB: (not implemented)
+[2014.09.30-19.18.45:944][591]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.18.45:946][591]LogAIModule: Creating AISystem for world Level_3_B
+[2014.09.30-19.18.45:948][591]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 60) at 2014.09.30-15.18.45
+[2014.09.30-19.18.45:949][591]LogWorld: Bringing up level for play took: 0.002404
+[2014.09.30-19.18.52:730][782]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C927880
+[2014.09.30-19.19.10:067][953]Cmd: MAP LOAD FILE="../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.30-19.19.10:069][953]LightingResults: New page: Lighting Build
+[2014.09.30-19.19.10:200][953]LoadErrors: New page: Loading map: Level_1.umap
+[2014.09.30-19.19.10:304][953]MapCheck: New page: Map Check
+[2014.09.30-19.19.10:304][953]LightingResults: New page: Lighting Build
+[2014.09.30-19.19.10:352][953]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000A02C720
+[2014.09.30-19.19.13:720][953]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.30-19.19.13:720][953]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.19.13:789][953]Cmd: MAP CHECKDEP
+[2014.09.30-19.19.13:789][953]MapCheck: New page: Level_1 - Sep 30, 2014, 11:19:13 AM
+[2014.09.30-19.19.13:876][953]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [86.409ms] ==========
+[2014.09.30-19.19.13:876][953]LogFileHelpers: Loading map 'Level_1' took 3.951
+[2014.09.30-19.19.25:146][428]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x450)
+[2014.09.30-19.19.28:798][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x454)
+[2014.09.30-19.19.29:598][545]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x453)
+[2014.09.30-19.19.30:193][572]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x452)
+[2014.09.30-19.19.31:573][633]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x450)
+[2014.09.30-19.19.32:307][664]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x451)
+[2014.09.30-19.19.33:888][746]Cmd: EDIT COPY
+[2014.09.30-19.19.35:065][798]Cmd: EDIT PASTE
+[2014.09.30-19.19.42:759][ 44]Cmd: EDIT COPY
+[2014.09.30-19.19.43:395][ 67]Cmd: EDIT PASTE
+[2014.09.30-19.19.49:124][295]Cmd: EDIT COPY
+[2014.09.30-19.19.49:302][302]Cmd: EDIT PASTE
+[2014.09.30-19.19.53:382][483]LogEditorViewport: Clicking Background
+[2014.09.30-19.19.57:511][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
+[2014.09.30-19.20.03:997][947]LogEditorViewport: Clicking Background
+[2014.09.30-19.20.21:924][807]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.09.30-19.20.28:406][968]LogActorFactory: Actor Factory created Wall_400x300
+[2014.09.30-19.20.30:419][992]LogActorFactory: Actor Factory created Wall_400x300
+[2014.09.30-19.20.33:756][ 87]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.20.33:840][ 87]Aligned camera to fit all selected actors.
+[2014.09.30-19.20.48:508][477]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.20.48:508][477]Aligned camera to fit all selected actors.
+[2014.09.30-19.22.20:461][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x407)
+[2014.09.30-19.22.48:307][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x431)
+[2014.09.30-19.22.51:067][345]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x426)
+[2014.09.30-19.22.51:757][371]LogEditorViewport: Clicking Background
+[2014.09.30-19.22.55:107][490]Cmd: EDIT COPY
+[2014.09.30-19.22.56:218][537]Cmd: EDIT PASTE
+[2014.09.30-19.23.19:244][325]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.23.19:244][325]Aligned camera to fit all selected actors.
+[2014.09.30-19.23.49:832][115]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.24.02:568][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x470)
+[2014.09.30-19.24.20:587][874]LogSavePackage: Save=1963.554321ms
+[2014.09.30-19.24.20:587][874]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_10177D977437E5722AA29BDA3C2CA3912.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.24.20:699][874]LogFileHelpers: Saving map 'Level_1' took 2.439
+[2014.09.30-19.24.34:231][218]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.24.34:947][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x444)
+[2014.09.30-19.24.36:778][309]Cmd: DELETE
+[2014.09.30-19.24.36:778][309]Cmd: ACTOR DELETE
+[2014.09.30-19.24.36:825][309]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.24.36:900][309]LogEditorActor: Deleted 1 Actors (0.091 secs)
+[2014.09.30-19.24.37:727][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x443)
+[2014.09.30-19.24.38:107][355]Cmd: DELETE
+[2014.09.30-19.24.38:107][355]Cmd: ACTOR DELETE
+[2014.09.30-19.24.38:109][355]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.24.38:169][355]LogEditorActor: Deleted 1 Actors (0.062 secs)
+[2014.09.30-19.24.38:730][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x442)
+[2014.09.30-19.24.39:215][392]Cmd: DELETE
+[2014.09.30-19.24.39:215][392]Cmd: ACTOR DELETE
+[2014.09.30-19.24.39:219][392]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.24.39:292][392]LogEditorActor: Deleted 1 Actors (0.076 secs)
+[2014.09.30-19.24.39:947][415]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x441)
+[2014.09.30-19.24.40:309][423]Cmd: DELETE
+[2014.09.30-19.24.40:309][423]Cmd: ACTOR DELETE
+[2014.09.30-19.24.40:314][423]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.24.40:380][423]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2014.09.30-19.24.42:659][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x440)
+[2014.09.30-19.24.44:021][542]Cmd: DELETE
+[2014.09.30-19.24.44:021][542]Cmd: ACTOR DELETE
+[2014.09.30-19.24.44:025][542]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.24.44:096][542]LogEditorActor: Deleted 1 Actors (0.075 secs)
+[2014.09.30-19.24.56:079][857]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.25.00:212][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x445)
+[2014.09.30-19.25.06:789][183]Cmd: DELETE
+[2014.09.30-19.25.06:789][183]Cmd: ACTOR DELETE
+[2014.09.30-19.25.06:792][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:793][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:795][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:796][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:797][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:799][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:800][183]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.06:852][183]LogEditorActor: Deleted 7 Actors (0.063 secs)
+[2014.09.30-19.25.07:544][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x453)
+[2014.09.30-19.25.08:039][224]Cmd: DELETE
+[2014.09.30-19.25.08:039][224]Cmd: ACTOR DELETE
+[2014.09.30-19.25.08:045][224]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.08:090][224]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2014.09.30-19.25.08:682][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x459)
+[2014.09.30-19.25.08:880][251]Cmd: DELETE
+[2014.09.30-19.25.08:880][251]Cmd: ACTOR DELETE
+[2014.09.30-19.25.08:884][251]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.08:935][251]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.09.30-19.25.09:464][275]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x454)
+[2014.09.30-19.25.09:516][275]Cmd: DELETE
+[2014.09.30-19.25.09:516][275]Cmd: ACTOR DELETE
+[2014.09.30-19.25.09:518][275]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.09:566][275]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2014.09.30-19.25.10:083][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x458)
+[2014.09.30-19.25.10:289][296]Cmd: DELETE
+[2014.09.30-19.25.10:290][296]Cmd: ACTOR DELETE
+[2014.09.30-19.25.10:292][296]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.10:338][296]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.09.30-19.25.10:643][309]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x463)
+[2014.09.30-19.25.10:820][310]Cmd: DELETE
+[2014.09.30-19.25.10:820][310]Cmd: ACTOR DELETE
+[2014.09.30-19.25.10:822][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.10:863][310]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.09.30-19.25.11:308][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x464)
+[2014.09.30-19.25.11:488][325]Cmd: DELETE
+[2014.09.30-19.25.11:488][325]Cmd: ACTOR DELETE
+[2014.09.30-19.25.11:490][325]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.11:541][325]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.09.30-19.25.12:042][344]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x468)
+[2014.09.30-19.25.12:091][344]Cmd: DELETE
+[2014.09.30-19.25.12:091][344]Cmd: ACTOR DELETE
+[2014.09.30-19.25.12:093][344]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.12:137][344]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2014.09.30-19.25.12:735][369]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x467)
+[2014.09.30-19.25.12:804][369]Cmd: DELETE
+[2014.09.30-19.25.12:804][369]Cmd: ACTOR DELETE
+[2014.09.30-19.25.12:807][369]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.12:892][369]LogEditorActor: Deleted 1 Actors (0.088 secs)
+[2014.09.30-19.25.13:463][391]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x462)
+[2014.09.30-19.25.13:513][391]Cmd: DELETE
+[2014.09.30-19.25.13:513][391]Cmd: ACTOR DELETE
+[2014.09.30-19.25.13:515][391]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.13:577][391]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2014.09.30-19.25.14:357][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x466)
+[2014.09.30-19.25.14:710][436]Cmd: DELETE
+[2014.09.30-19.25.14:710][436]Cmd: ACTOR DELETE
+[2014.09.30-19.25.14:713][436]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.14:778][436]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2014.09.30-19.25.15:264][456]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x461)
+[2014.09.30-19.25.15:557][463]Cmd: DELETE
+[2014.09.30-19.25.15:557][463]Cmd: ACTOR DELETE
+[2014.09.30-19.25.15:559][463]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.15:601][463]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2014.09.30-19.25.16:125][483]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x456)
+[2014.09.30-19.25.16:180][483]Cmd: DELETE
+[2014.09.30-19.25.16:180][483]Cmd: ACTOR DELETE
+[2014.09.30-19.25.16:182][483]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.16:224][483]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2014.09.30-19.25.16:735][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x452)
+[2014.09.30-19.25.16:786][503]Cmd: DELETE
+[2014.09.30-19.25.16:787][503]Cmd: ACTOR DELETE
+[2014.09.30-19.25.16:789][503]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.16:848][503]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2014.09.30-19.25.17:422][529]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x451)
+[2014.09.30-19.25.17:526][530]Cmd: DELETE
+[2014.09.30-19.25.17:526][530]Cmd: ACTOR DELETE
+[2014.09.30-19.25.17:528][530]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.17:573][530]LogEditorActor: Deleted 1 Actors (0.047 secs)
+[2014.09.30-19.25.18:164][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x450)
+[2014.09.30-19.25.18:417][559]Cmd: DELETE
+[2014.09.30-19.25.18:417][559]Cmd: ACTOR DELETE
+[2014.09.30-19.25.18:418][559]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.18:467][559]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2014.09.30-19.25.18:848][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x455)
+[2014.09.30-19.25.19:302][586]Cmd: DELETE
+[2014.09.30-19.25.19:302][586]Cmd: ACTOR DELETE
+[2014.09.30-19.25.19:304][586]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.19:373][586]LogEditorActor: Deleted 1 Actors (0.070 secs)
+[2014.09.30-19.25.19:905][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x465)
+[2014.09.30-19.25.20:216][612]Cmd: DELETE
+[2014.09.30-19.25.20:216][612]Cmd: ACTOR DELETE
+[2014.09.30-19.25.20:218][612]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.20:277][612]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2014.09.30-19.25.20:826][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x460)
+[2014.09.30-19.25.20:943][637]Cmd: DELETE
+[2014.09.30-19.25.20:943][637]Cmd: ACTOR DELETE
+[2014.09.30-19.25.20:948][637]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.25.21:027][637]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2014.09.30-19.25.33:294][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.25.57:279][596]Cmd: TRANSACTION UNDO
+[2014.09.30-19.25.57:279][596]LogEditorTransaction: Undo Set actor rotation
+[2014.09.30-19.25.58:330][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.26.10:595][ 79]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.26.18:011][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.26.19:194][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.26.22:420][459]Cmd: TRANSACTION UNDO
+[2014.09.30-19.26.22:420][459]LogEditorTransaction: Undo Rotate Actors
+[2014.09.30-19.26.24:108][507]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.26.57:384][617]LogEditorViewport: Clicking Background
+[2014.09.30-19.26.59:008][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.26.59:897][722]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.27.00:591][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.27.01:561][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.27.02:103][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.27.02:726][818]LogEditorViewport: Clicking Background
+[2014.09.30-19.27.04:250][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.27.21:070][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.27.22:696][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.27.41:820][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.27.49:885][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.27.58:932][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2014.09.30-19.27.59:746][784]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x404)
+[2014.09.30-19.28.05:482][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2014.09.30-19.28.10:105][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.28.14:953][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x435)
+[2014.09.30-19.28.18:804][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.28.23:229][568]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.28.29:808][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2014.09.30-19.28.35:888][918]Cmd: TRANSACTION UNDO
+[2014.09.30-19.28.35:888][918]LogEditorTransaction: Undo Scale Actors
+[2014.09.30-19.28.42:184][ 22]LogSavePackage: Save=2008.328735ms
+[2014.09.30-19.28.42:184][ 22]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_18927DBF449980CB5AA3D95BF79C078AC.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.28.42:269][ 22]LogFileHelpers: Saving map 'Level_1' took 2.427
+[2014.09.30-19.28.50:097][235]LogEditorViewport: Clicking Background
+[2014.09.30-19.28.51:715][315]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x474)
+[2014.09.30-19.28.55:142][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x472)
+[2014.09.30-19.28.56:826][504]LogEditorViewport: Clicking Background
+[2014.09.30-19.28.58:402][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x472)
+[2014.09.30-19.29.05:478][800]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x473)
+[2014.09.30-19.29.09:259][940]LogEditorViewport: Clicking Background
+[2014.09.30-19.29.10:232][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x474)
+[2014.09.30-19.29.13:770][118]LogEditorViewport: Clicking Background
+[2014.09.30-19.29.16:055][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.29.26:146][573]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x470)
+[2014.09.30-19.29.30:463][693]LogEditorViewport: Clicking Background
+[2014.09.30-19.29.34:640][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x474)
+[2014.09.30-19.29.35:520][905]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x473)
+[2014.09.30-19.29.36:337][933]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x472)
+[2014.09.30-19.29.36:939][953]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.29.37:573][974]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x470)
+[2014.09.30-19.29.38:079][990]Cmd: EDIT COPY
+[2014.09.30-19.29.38:410][  2]Cmd: EDIT PASTE
+[2014.09.30-19.29.45:916][197]Cmd: EDIT PASTE
+[2014.09.30-19.29.57:784][576]Cmd: EDIT COPY
+[2014.09.30-19.29.58:016][585]Cmd: EDIT PASTE
+[2014.09.30-19.30.02:795][722]LogEditorViewport: Clicking Background
+[2014.09.30-19.30.04:934][820]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.04:934][820]LogEditorTransaction: Undo Clicking Background
+[2014.09.30-19.30.05:990][847]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.05:990][847]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.06:523][866]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.06:524][866]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.06:772][874]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.06:772][874]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.07:051][882]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.07:051][882]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.07:429][895]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.07:429][895]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.07:745][906]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.07:745][906]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.08:054][915]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.08:054][915]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.08:316][922]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.08:316][922]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.08:561][929]Cmd: TRANSACTION UNDO
+[2014.09.30-19.30.08:561][929]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.30.10:125][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x483)
+[2014.09.30-19.30.11:276][ 35]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x484)
+[2014.09.30-19.30.12:060][ 65]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x482)
+[2014.09.30-19.30.14:366][139]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x481)
+[2014.09.30-19.30.14:971][156]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x480)
+[2014.09.30-19.30.16:291][207]LogEditorViewport: Clicking Background
+[2014.09.30-19.30.16:799][231]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x485)
+[2014.09.30-19.30.18:459][285]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x486)
+[2014.09.30-19.30.19:333][313]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x487)
+[2014.09.30-19.30.20:344][348]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x488)
+[2014.09.30-19.30.21:518][386]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x488)
+[2014.09.30-19.30.22:043][403]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x489)
+[2014.09.30-19.30.25:793][535]LogEditorViewport: Clicking Background
+[2014.09.30-19.30.27:716][638]Cmd: EDIT PASTE
+[2014.09.30-19.30.35:350][878]Cmd: EDIT COPY
+[2014.09.30-19.30.35:592][886]Cmd: EDIT PASTE
+[2014.09.30-19.30.42:374][ 99]LogEditorViewport: Clicking Background
+[2014.09.30-19.30.43:786][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x499)
+[2014.09.30-19.30.44:636][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x498)
+[2014.09.30-19.30.45:420][196]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x497)
+[2014.09.30-19.30.46:132][215]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x496)
+[2014.09.30-19.30.46:933][237]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x495)
+[2014.09.30-19.30.49:139][295]LogEditorViewport: Clicking Background
+[2014.09.30-19.30.51:320][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.09.30-19.30.54:164][495]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.30.54:164][495]Aligned camera to fit all selected actors.
+[2014.09.30-19.30.56:244][571]Cmd: DELETE
+[2014.09.30-19.30.56:244][571]Cmd: ACTOR DELETE
+[2014.09.30-19.30.56:247][571]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.09.30-19.30.56:327][571]LogEditorActor: Deleted 1 Actors (0.083 secs)
+[2014.09.30-19.31.01:873][755]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.30-19.31.09:300][981]Cmd: TRANSACTION UNDO
+[2014.09.30-19.31.09:300][981]LogEditorTransaction: Undo Edit Step Length
+[2014.09.30-19.31.42:066][ 88]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x480)
+[2014.09.30-19.32.13:951][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2014.09.30-19.32.19:522][ 41]Cmd: TRANSACTION UNDO
+[2014.09.30-19.32.19:522][ 41]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.30-19.32.20:314][ 58]Cmd: TRANSACTION UNDO
+[2014.09.30-19.32.20:315][ 58]LogEditorTransaction: Undo Edit Step Height
+[2014.09.30-19.32.21:909][106]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2014.09.30-19.32.30:548][318]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x405)
+[2014.09.30-19.32.36:493][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x477)
+[2014.09.30-19.32.53:437][919]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.32.56:450][935]LogSavePackage: Save=2114.355469ms
+[2014.09.30-19.32.56:450][935]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1818D62FB4AECC8B64004AD8451A09832.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.32.56:541][935]LogFileHelpers: Saving map 'Level_1' took 2.521
+[2014.09.30-19.36.59:840][789]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.37.01:565][850]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.37.01:565][850]Aligned camera to fit all selected actors.
+[2014.09.30-19.37.10:506][ 59]LogSavePackage: Save=1987.940918ms
+[2014.09.30-19.37.10:506][ 59]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1C24C7E4D4DA627A6796E769982C03DC1.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.37.10:637][ 59]LogFileHelpers: Saving map 'Level_1' took 2.474
+[2014.09.30-19.37.30:371][835]LogEditorViewport: Clicking Background
+[2014.09.30-19.37.31:045][866]LogEditorViewport: Clicking Background
+[2014.09.30-19.38.02:934][ 64]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.09.30-19.38.11:625][388]LogEditorViewport: Clicking Background
+[2014.09.30-19.38.17:966][593]LogSavePackage: Save=1908.569214ms
+[2014.09.30-19.38.17:966][593]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_10CE830F04C9410BABD96C5A1F1FC897D.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.38.18:030][593]LogFileHelpers: Saving map 'Level_1' took 2.293
+[2014.09.30-19.38.25:920][974]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-19.38.25:921][974]PIE: New page: PIE session: Level_1 (Sep 30, 2014, 11:38:25 AM)
+[2014.09.30-19.38.25:990][974]LogPlayLevel: PIE: StaticDuplicateObject took: (0.069205s)
+[2014.09.30-19.38.25:992][974]LogPlayLevel: PIE: World Init took: (0.001904s)
+[2014.09.30-19.38.25:993][974]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.071654s)
+[2014.09.30-19.38.26:070][974]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.38.26:099][974]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.38.26:124][974]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.09.30-15.38.26
+[2014.09.30-19.38.26:127][974]LogWorld: Bringing up level for play took: 0.026899
+[2014.09.30-19.38.26:141][974]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.263
+[2014.09.30-19.38.58:275][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013186F20
+[2014.09.30-19.39.03:670][869]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.39.03:670][869]Aligned camera to fit all selected actors.
+[2014.09.30-19.39.34:145][795]LogEditorViewport: Clicking on Actor (LMB): Brush (Linear Stair Brush)
+[2014.09.30-19.39.51:250][119]LogSavePackage: Save=2747.056885ms
+[2014.09.30-19.39.51:250][119]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_18285B4EF4F5D82F9750C098B01D0802E.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.39.51:364][119]LogFileHelpers: Saving map 'Level_1' took 3.446
+[2014.09.30-19.39.54:560][236]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x477)
+[2014.09.30-19.39.57:558][356]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-19.39.57:559][356]PIE: New page: PIE session: Level_1 (Sep 30, 2014, 11:39:57 AM)
+[2014.09.30-19.39.57:590][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030602s)
+[2014.09.30-19.39.57:591][356]LogPlayLevel: PIE: World Init took: (0.001556s)
+[2014.09.30-19.39.57:591][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.032611s)
+[2014.09.30-19.39.57:647][356]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.39.57:651][356]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.39.57:671][356]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.09.30-15.39.57
+[2014.09.30-19.39.57:673][356]LogWorld: Bringing up level for play took: 0.022109
+[2014.09.30-19.39.57:691][356]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.714
+[2014.09.30-19.40.23:625][944]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004ED45A80
+[2014.09.30-19.40.45:328][385]LogActorFactory: Actor Factory created Wall_400x200
+[2014.09.30-19.40.52:723][455]LogActorFactory: Actor Factory created Wall_400x200
+[2014.09.30-19.40.53:879][490]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.40.53:879][490]Aligned camera to fit all selected actors.
+[2014.09.30-19.41.15:926][193]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.41.15:926][193]Aligned camera to fit all selected actors.
+[2014.09.30-19.41.40:974][ 86]LogSavePackage: Save=1958.681396ms
+[2014.09.30-19.41.40:974][ 86]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_13EC3D2DD40A8B24B260175A362BC3DBE.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.41.41:118][ 86]LogFileHelpers: Saving map 'Level_1' took 2.408
+[2014.09.30-19.41.48:768][359]Cmd: EDIT COPY
+[2014.09.30-19.41.49:061][366]Cmd: EDIT PASTE
+[2014.09.30-19.41.56:990][588]Cmd: EDIT COPY
+[2014.09.30-19.41.59:695][675]Cmd: TRANSACTION UNDO
+[2014.09.30-19.41.59:695][675]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.42.00:393][688]Cmd: EDIT PASTE
+[2014.09.30-19.42.04:649][825]EditorErrors:Warning: Warning A valid static mesh must be specified.
+[2014.09.30-19.42.13:569][973]EditorErrors:Warning: Warning A valid static mesh must be specified.
+[2014.09.30-19.42.14:141][982]EditorErrors:Warning: Warning A valid static mesh must be specified.
+[2014.09.30-19.42.15:350][ 17]EditorErrors:Warning: Warning A valid static mesh must be specified.
+[2014.09.30-19.42.17:046][ 51]EditorErrors:Warning: Warning A valid static mesh must be specified.
+[2014.09.30-19.42.24:023][245]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.42.27:287][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.42.35:401][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.42.44:936][930]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.42.51:963][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.43.03:527][452]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.43.04:109][471]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.43.12:136][778]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.43.13:842][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.43.16:062][931]Cmd: EDIT COPY
+[2014.09.30-19.43.17:254][977]Cmd: EDIT PASTE
+[2014.09.30-19.43.22:161][133]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.43.22:161][133]Aligned camera to fit all selected actors.
+[2014.09.30-19.43.25:354][233]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.43.31:856][346]LogSavePackage: Save=2481.132813ms
+[2014.09.30-19.43.31:856][346]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_14A0265574571F79500652CBACBB7F8E7.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.43.32:016][346]LogFileHelpers: Saving map 'Level_1' took 2.921
+[2014.09.30-19.43.32:583][368]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-19.43.32:583][368]PIE: New page: PIE session: Level_1 (Sep 30, 2014, 11:43:32 AM)
+[2014.09.30-19.43.32:612][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028538s)
+[2014.09.30-19.43.32:614][368]LogPlayLevel: PIE: World Init took: (0.001487s)
+[2014.09.30-19.43.32:614][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.030490s)
+[2014.09.30-19.43.32:674][368]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.43.32:682][368]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.43.32:705][368]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.09.30-15.43.32
+[2014.09.30-19.43.32:707][368]LogWorld: Bringing up level for play took: 0.025416
+[2014.09.30-19.43.32:721][368]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.311
+[2014.09.30-19.43.48:010][708]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001EF477E0
+[2014.09.30-19.43.54:137][828]LogActorFactory: Actor Factory created Wall_400x200
+[2014.09.30-19.43.55:564][839]LogActorFactory: Actor Factory created Wall_400x200
+[2014.09.30-19.44.01:335][ 28]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x429)
+[2014.09.30-19.44.02:793][ 83]LogEditorViewport: Clicking Background
+[2014.09.30-19.44.04:929][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.44.26:854][951]LogEditorViewport: Clicking Background
+[2014.09.30-19.44.28:275][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.44.41:599][492]LogEditorViewport: Clicking Background
+[2014.09.30-19.44.43:163][564]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.44.56:433][973]LogEditorViewport: Clicking Background
+[2014.09.30-19.44.57:692][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x428)
+[2014.09.30-19.44.59:326][ 94]LogEditorViewport: Clicking Background
+[2014.09.30-19.45.00:074][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.45.00:938][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.45.01:583][188]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.45.02:395][224]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.45.12:326][601]LogEditorViewport: Clicking Background
+[2014.09.30-19.45.21:608][998]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.45.23:212][ 66]Cmd: EDIT COPY
+[2014.09.30-19.45.29:919][336]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.45.29:919][336]Aligned camera to fit all selected actors.
+[2014.09.30-19.45.32:625][442]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.45.32:625][442]Aligned camera to fit all selected actors.
+[2014.09.30-19.45.37:229][621]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.45.37:229][621]Aligned camera to fit all selected actors.
+[2014.09.30-19.45.46:849][977]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.45.46:849][977]Aligned camera to fit all selected actors.
+[2014.09.30-19.46.06:622][608]Cmd: EDIT COPY
+[2014.09.30-19.46.06:894][617]Cmd: EDIT PASTE
+[2014.09.30-19.46.48:945][713]LogSavePackage: Save=1968.024658ms
+[2014.09.30-19.46.48:945][713]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_167F48D4E4984925FBD581DA71D98E8F8.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.46.49:019][713]LogFileHelpers: Saving map 'Level_1' took 2.321
+[2014.09.30-19.46.51:973][804]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-19.46.51:973][804]PIE: New page: PIE session: Level_1 (Sep 30, 2014, 11:46:51 AM)
+[2014.09.30-19.46.52:020][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046945s)
+[2014.09.30-19.46.52:023][804]LogPlayLevel: PIE: World Init took: (0.002211s)
+[2014.09.30-19.46.52:023][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.049807s)
+[2014.09.30-19.46.52:095][804]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.46.52:099][804]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.46.52:115][804]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.09.30-15.46.52
+[2014.09.30-19.46.52:116][804]LogWorld: Bringing up level for play took: 0.017720
+[2014.09.30-19.46.52:129][804]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.282
+[2014.09.30-19.47.06:649][115]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004ED45120
+[2014.09.30-19.47.14:426][268]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2014.09.30-19.47.24:708][613]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.47.24:708][613]Aligned camera to fit all selected actors.
+[2014.09.30-19.47.29:944][734]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x207)
+[2014.09.30-19.47.31:036][776]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x401)
+[2014.09.30-19.47.44:844][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x207)
+[2014.09.30-19.47.53:810][451]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.47.55:327][496]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x426)
+[2014.09.30-19.48.01:314][690]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2014.09.30-19.48.02:568][728]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x204)
+[2014.09.30-19.48.04:095][781]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x205)
+[2014.09.30-19.48.08:377][917]Cmd: TRANSACTION UNDO
+[2014.09.30-19.48.08:378][917]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.48.09:246][936]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.48.18:698][205]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x200)
+[2014.09.30-19.48.19:897][240]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x201)
+[2014.09.30-19.48.20:911][270]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x202)
+[2014.09.30-19.48.34:284][786]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.48.38:265][904]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.48.39:068][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x206)
+[2014.09.30-19.48.39:738][956]Cmd: EDIT COPY
+[2014.09.30-19.48.40:122][968]Cmd: EDIT PASTE
+[2014.09.30-19.48.52:500][327]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.48.56:162][340]LogSavePackage: Save=2548.739502ms
+[2014.09.30-19.48.56:162][340]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1B346A48F426A9A1FD9BAFB967D4D42CA.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.48.56:310][340]LogFileHelpers: Saving map 'Level_1' took 3.160
+[2014.09.30-19.48.56:913][366]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.30-19.48.56:914][366]PIE: New page: PIE session: Level_1 (Sep 30, 2014, 11:48:56 AM)
+[2014.09.30-19.48.56:943][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028979s)
+[2014.09.30-19.48.56:944][366]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2014.09.30-19.48.56:944][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.030578s)
+[2014.09.30-19.48.57:016][366]LogWorld: Game class is 'MyGame_C'
+[2014.09.30-19.48.57:019][366]LogAIModule: Creating AISystem for world Level_1
+[2014.09.30-19.48.57:038][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.09.30-15.48.57
+[2014.09.30-19.48.57:040][366]LogWorld: Bringing up level for play took: 0.020747
+[2014.09.30-19.48.57:055][366]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.643
+[2014.09.30-19.49.41:381][416]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000494ADC60
+[2014.09.30-19.49.47:914][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x472)
+[2014.09.30-19.49.48:833][687]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.09.30-19.49.48:833][687]Aligned camera to fit all selected actors.
+[2014.09.30-19.50.14:755][324]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.50.26:961][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x430)
+[2014.09.30-19.50.27:712][734]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.30-19.50.30:651][798]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.30:652][798]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.30-19.50.31:271][806]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.31:271][806]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.30-19.50.31:773][829]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.31:774][829]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.50.32:595][829]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.32:595][829]LogEditorTransaction: Undo Select Surfaces
+[2014.09.30-19.50.33:187][848]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.33:187][848]LogEditorTransaction: Undo Select Brush from Surface
+[2014.09.30-19.50.33:719][865]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.33:719][865]LogEditorTransaction: Undo Clicking on Actors
+[2014.09.30-19.50.34:184][881]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.34:184][881]LogEditorTransaction: Undo Move Actors
+[2014.09.30-19.50.34:970][881]Cmd: TRANSACTION UNDO
+[2014.09.30-19.50.34:970][881]LogEditorTransaction: Undo Select Surfaces
+[2014.09.30-19.50.42:841][ 91]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x406)
+[2014.09.30-19.50.50:438][344]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x407)
+[2014.09.30-19.51.07:182][774]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x471)
+[2014.09.30-19.51.13:101][849]LogSavePackage: Save=1976.253174ms
+[2014.09.30-19.51.13:101][849]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_187BD51DA4FB910122A1E33B9DD5AAA9A.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.09.30-19.51.13:184][849]LogFileHelpers: Saving map 'Level_1' took 2.415
+[2014.09.30-19.59.02:461][573]Cmd: QUIT_EDITOR
+[2014.09.30-19.59.03:238][573]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.30-19.59.03:342][573]LogExit: Preparing to exit.
+[2014.09.30-19.59.04:930][573]LogExit: Editor shut down
+[2014.09.30-19.59.04:931][573]LogExit: Transaction tracking system shut down
+[2014.09.30-19.59.04:935][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000018F7A200
+[2014.09.30-19.59.04:936][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C7F05E0
+[2014.09.30-19.59.06:602][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003032F600
+[2014.09.30-19.59.06:602][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003032F2E0
+[2014.09.30-19.59.06:602][573]LogExit: Object subsystem successfully closed.
+[2014.09.30-19.59.08:442][573]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.09.30-19.59.08:442][573]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.09.30-19.59.08:442][573]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.09.30-19.59.08:442][573]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
+[2014.09.30-19.59.08:469][573]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.09.30-19.59.08:469][573]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.09.30-19.59.08:469][573]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.09.30-19.59.08:475][573]LogModuleManager: Shutting down and abandoning module WorldBrowser (155)
+[2014.09.30-19.59.08:475][573]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.30-19.59.08:519][573]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.30-19.59.08:519][573]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.30-19.59.08:544][573]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.30-19.59.08:545][573]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.30-19.59.08:570][573]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.30-19.59.08:570][573]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.30-19.59.08:570][573]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.30-19.59.08:606][573]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.30-19.59.08:608][573]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.30-19.59.08:609][573]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.30-19.59.08:609][573]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.30-19.59.08:609][573]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.30-19.59.08:609][573]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.30-19.59.08:629][573]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.30-19.59.08:629][573]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.30-19.59.08:629][573]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.30-19.59.08:629][573]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.30-19.59.08:629][573]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.30-19.59.08:630][573]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.30-19.59.08:630][573]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.30-19.59.08:663][573]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.30-19.59.08:664][573]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.30-19.59.08:682][573]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.30-19.59.08:696][573]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.30-19.59.08:719][573]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.30-19.59.08:728][573]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.30-19.59.08:728][573]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.30-19.59.08:738][573]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.30-19.59.08:754][573]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.30-19.59.08:765][573]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.30-19.59.08:765][573]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.30-19.59.08:765][573]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.30-19.59.08:777][573]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.30-19.59.08:788][573]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.30-19.59.08:789][573]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.30-19.59.08:905][573]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.30-19.59.08:925][573]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.30-19.59.08:936][573]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.30-19.59.08:944][573]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.30-19.59.08:944][573]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.30-19.59.08:957][573]LogModuleManager: Shutting down and abandoning module MovieSceneTools (108)
+[2014.09.30-19.59.08:999][573]LogModuleManager: Shutting down and abandoning module OutputLog (107)
+[2014.09.30-19.59.09:000][573]LogModuleManager: Shutting down and abandoning module GammaUI (106)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module Documentation (105)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (104)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module AnalyticsET (102)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module Analytics (101)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module GameplayDebugger (100)
+[2014.09.30-19.59.09:016][573]LogModuleManager: Shutting down and abandoning module AIModule (99)
+[2014.09.30-19.59.09:032][573]LogModuleManager: Shutting down and abandoning module ProfilerService (98)
+[2014.09.30-19.59.09:118][573]LogModuleManager: Shutting down and abandoning module TaskGraph (97)
+[2014.09.30-19.59.09:173][573]LogModuleManager: Shutting down and abandoning module SlateRemote (96)
+[2014.09.30-19.59.09:173][573]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (95)
+[2014.09.30-19.59.09:173][573]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (94)
+[2014.09.30-19.59.09:173][573]LogModuleManager: Shutting down and abandoning module CableComponent (93)
+[2014.09.30-19.59.09:173][573]LogModuleManager: Shutting down and abandoning module MessagingDebugger (92)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module ViewportSnapping (91)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module SmartSnapping (90)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (89)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (88)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (87)
+[2014.09.30-19.59.09:219][573]LogModuleManager: Shutting down and abandoning module Matinee (86)
+[2014.09.30-19.59.09:243][573]LogModuleManager: Shutting down and abandoning module Kismet (85)
+[2014.09.30-19.59.09:276][573]LogModuleManager: Shutting down and abandoning module SlateReflector (84)
+[2014.09.30-19.59.09:291][573]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2014.09.30-19.59.09:310][573]LogModuleManager: Shutting down and abandoning module IntroTutorials (82)
+[2014.09.30-19.59.09:335][573]LogModuleManager: Shutting down and abandoning module ContentBrowser (81)
+[2014.09.30-19.59.09:335][573]LogModuleManager: Shutting down and abandoning module PropertyEditor (80)
+[2014.09.30-19.59.09:350][573]LogModuleManager: Shutting down and abandoning module Paper2DEditor (79)
+[2014.09.30-19.59.09:374][573]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (78)
+[2014.09.30-19.59.09:374][573]LogModuleManager: Shutting down and abandoning module PluginsEditor (77)
+[2014.09.30-19.59.09:388][573]LogModuleManager: Shutting down and abandoning module MainFrame (76)
+[2014.09.30-19.59.09:388][573]LogModuleManager: Shutting down and abandoning module EpicSurvey (75)
+[2014.09.30-19.59.09:390][573]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (74)
+[2014.09.30-19.59.09:390][573]LogModuleManager: Shutting down and abandoning module UObjectPlugin (73)
+[2014.09.30-19.59.09:390][573]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (72)
+[2014.09.30-19.59.09:396][573]LogModuleManager: Shutting down and abandoning module SourceControl (71)
+[2014.09.30-19.59.09:411][573]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (70)
+[2014.09.30-19.59.09:439][573]LogModuleManager: Shutting down and abandoning module BlankPlugin (69)
+[2014.09.30-19.59.09:439][573]LogModuleManager: Shutting down and abandoning module ScriptPlugin (68)
+[2014.09.30-19.59.09:451][573]LogModuleManager: Shutting down and abandoning module UdpMessaging (67)
+[2014.09.30-19.59.09:551][573]LogModuleManager: Shutting down and abandoning module Paper2D (66)
+[2014.09.30-19.59.09:572][573]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (65)
+[2014.09.30-19.59.09:609][573]LogModuleManager: Shutting down and abandoning module ImageWrapper (64)
+[2014.09.30-19.59.09:610][573]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (63)
+[2014.09.30-19.59.09:610][573]LogModuleManager: Shutting down and abandoning module FunctionalTesting (62)
+[2014.09.30-19.59.09:635][573]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (61)
+[2014.09.30-19.59.09:649][573]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (60)
+[2014.09.30-19.59.09:649][573]LogModuleManager: Shutting down and abandoning module MessageLog (59)
+[2014.09.30-19.59.09:649][573]LogModuleManager: Shutting down and abandoning module Sequencer (58)
+[2014.09.30-19.59.09:672][573]LogModuleManager: Shutting down and abandoning module AssetTools (57)
+[2014.09.30-19.59.09:716][573]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.30-19.59.09:739][573]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.30-19.59.09:739][573]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.30-19.59.09:739][573]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.30-19.59.09:757][573]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.30-19.59.09:777][573]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.30-19.59.09:875][573]LogDerivedDataCache: Shutdown
+[2014.09.30-19.59.09:875][573]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.30-19.59.09:892][573]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.30-19.59.09:892][573]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.30-19.59.09:913][573]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.30-19.59.09:913][573]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.30-19.59.09:913][573]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.30-19.59.09:913][573]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.30-19.59.09:913][573]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.30-19.59.09:939][573]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.30-19.59.09:940][573]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.30-19.59.09:957][573]LogExit: Exiting.
+[2014.09.30-19.59.09:996][573]Log file closed, 09/30/14 15:59:09
