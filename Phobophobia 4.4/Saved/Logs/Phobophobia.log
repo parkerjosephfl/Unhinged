@@ -1146,4 +1146,492 @@ Address = 0xc3d334a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
 [2014.10.01-16.48.45:837][515]MapCheck:Warning: Warning blueprintTorch_374 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
 [2014.10.01-16.48.45:887][515]MapCheck: Info ========== Map Check: 0 Error(s), 2 Warning(s), [52.179ms] ==========
 [2014.10.01-16.48.48:342][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.10.01-16.48.48:482][731]Log
+[2014.10.01-16.48.48:482][731]LogSavePackage: Save=107.784790ms
+[2014.10.01-16.48.48:482][731]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_B35754A514D87C82F22F3E0B3DF6F15B7.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap'
+[2014.10.01-16.48.48:501][731]LogFileHelpers: Saving map 'Level_3_B' took 0.197
+[2014.10.01-16.50.05:861][703]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Level_3_B.HQ_Lightmap0_4. Streaming mips will be recached.
+[2014.10.01-16.50.05:861][703]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.10.01-16.50.15:856][461]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-16.50.15:856][461]Aligned camera to fit all selected actors.
+[2014.10.01-16.50.26:280][556]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.50.26:281][556]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:50:26 AM)
+[2014.10.01-16.50.26:285][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003909s)
+[2014.10.01-16.50.26:285][556]LogPlayLevel: PIE: World Init took: (0.000400s)
+[2014.10.01-16.50.26:285][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004434s)
+[2014.10.01-16.50.26:322][556]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.50.26:323][556]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.50.26:324][556]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.50.26
+[2014.10.01-16.50.26:325][556]LogWorld: Bringing up level for play took: 0.002074
+[2014.10.01-16.50.26:328][556]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.095
+[2014.10.01-16.50.37:848][919]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.10.01-16.50.37:861][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D034B03D80
+[2014.10.01-16.50.39:936][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.01-16.50.40:026][153]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-16.50.40:026][153]Aligned camera to fit all selected actors.
+[2014.10.01-16.50.46:141][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.01-16.50.48:037][947]Cmd: EDIT COPY
+[2014.10.01-16.50.48:442][995]Cmd: EDIT PASTE
+[2014.10.01-16.51.23:547][672]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-16.51.28:508][132]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
+[2014.10.01-16.51.29:542][252]Cmd: EDIT COPY
+[2014.10.01-16.51.30:022][308]Cmd: EDIT PASTE
+[2014.10.01-16.51.57:599][337]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-16.52.02:059][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.52.27:144][474]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.52.27:144][474]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:52:27 AM)
+[2014.10.01-16.52.27:148][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003738s)
+[2014.10.01-16.52.27:149][474]LogPlayLevel: PIE: World Init took: (0.000452s)
+[2014.10.01-16.52.27:149][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004325s)
+[2014.10.01-16.52.27:189][474]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.52.27:190][474]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.52.27:191][474]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.52.27
+[2014.10.01-16.52.27:192][474]LogWorld: Bringing up level for play took: 0.002117
+[2014.10.01-16.52.27:196][474]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.963
+[2014.10.01-16.52.40:818][ 83]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D038F24540
+[2014.10.01-16.52.41:757][187]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.52.55:628][786]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.52.55:628][786]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:52:55 AM)
+[2014.10.01-16.52.55:632][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003793s)
+[2014.10.01-16.52.55:633][786]LogPlayLevel: PIE: World Init took: (0.000422s)
+[2014.10.01-16.52.55:633][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004334s)
+[2014.10.01-16.52.55:676][786]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.52.55:677][786]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.52.55:679][786]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.52.55
+[2014.10.01-16.52.55:679][786]LogWorld: Bringing up level for play took: 0.002210
+[2014.10.01-16.52.55:683][786]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B -0.551
+[2014.10.01-16.53.00:755][374]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0376D0C20
+[2014.10.01-16.53.05:276][883]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.53.05:276][883]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:53:05 AM)
+[2014.10.01-16.53.05:280][883]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004285s)
+[2014.10.01-16.53.05:280][883]LogPlayLevel: PIE: World Init took: (0.000431s)
+[2014.10.01-16.53.05:281][883]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004969s)
+[2014.10.01-16.53.05:321][883]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.53.05:322][883]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.53.05:324][883]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.53.05
+[2014.10.01-16.53.05:324][883]LogWorld: Bringing up level for play took: 0.002228
+[2014.10.01-16.53.05:328][883]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B -0.905
+[2014.10.01-16.53.10:415][473]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D034B03880
+[2014.10.01-16.53.11:736][614]MapCheck: New page: Map Check
+[2014.10.01-16.53.11:758][614]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.01-16.53.11:759][614]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.01-16.53.12:149][614]LightingResults: New page: Lighting Build - Oct 1, 2014, 8:53:12 AM
+[2014.10.01-16.53.16:692][614]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.01-16.53.16:710][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.01-16.53.16:710][614]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.01-16.53.16:710][614]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.01-16.53.16:710][614]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.01-16.53.16:710][614]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.01-16.53.16:764][614]LogEditorBuildUtils: Build time 0:00:05
+[2014.10.01-16.53.19:567][885]Job is a success!
+[2014.10.01-16.53.19:696][886]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.01-16.53.19:709][886]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.10.01-16.53.19:711][886]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.10.01-16.53.19:715][886]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.10.01-16.53.19:726][886]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.10.01-16.53.19:746][886]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.10.01-16.53.19:757][886]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.10.01-16.53.19:845][886]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.10.01-16.53.19:909][886]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.10.01-16.53.19:974][886]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.10.01-16.53.20:045][886]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.10.01-16.53.20:116][886]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.10.01-16.53.20:149][886]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.10.01-16.53.20:214][886]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.10.01-16.53.20:244][886]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.10.01-16.53.20:320][886]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.10.01-16.53.20:327][886]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.10.01-16.53.20:340][886]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.01-16.53.20:355][886]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.10.01-16.53.20:364][886]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2014.10.01-16.53.20:390][886]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.10.01-16.53.20:420][886]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2014.10.01-16.53.20:450][886]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2014.10.01-16.53.20:462][886]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2014.10.01-16.53.20:471][886]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2014.10.01-16.53.20:480][886]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2014.10.01-16.53.20:487][886]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (BGRA8)
+[2014.10.01-16.53.20:505][886]Lightmass on PARKER: 3.46 sec total, 89 ms importing, 2 ms setup, 460 ms photons, 2.89 sec processing, 0 ms extra exporting [87/87 mappings]. Threads: 14.3 sec total, 7.25 sec processing.
+[2014.10.01-16.53.20:510][886]LogStaticLightingSystem:Warning: Illumination: 8.34 sec (854 ms encoding lightmaps)
+[2014.10.01-16.53.20:510][886]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (1.3 MB streaming, 0.1 MB non-streaming), 18 textures
+[2014.10.01-16.53.20:510][886]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 32 textures
+[2014.10.01-16.53.21:700][887]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.01-16.53.21:700][887]MapCheck: New page: Level_3_B - Oct 1, 2014, 8:53:21 AM
+[2014.10.01-16.53.21:702][887]MapCheck:Warning: Warning blueprintTorch_10 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.53.21:702][887]MapCheck:Warning: Warning blueprintTorch_374 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.53.21:702][887]MapCheck:Warning: Warning blueprintTorch_529 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.53.21:742][887]MapCheck: Info ========== Map Check: 0 Error(s), 3 Warning(s), [41.658ms] ==========
+[2014.10.01-16.53.23:351][ 29]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.53.23:351][ 29]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:53:23 AM)
+[2014.10.01-16.53.23:355][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004031s)
+[2014.10.01-16.53.23:355][ 29]LogPlayLevel: PIE: World Init took: (0.000380s)
+[2014.10.01-16.53.23:355][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004532s)
+[2014.10.01-16.53.23:390][ 29]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.53.23:391][ 29]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.53.23:392][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.53.23
+[2014.10.01-16.53.23:393][ 29]LogWorld: Bringing up level for play took: 0.002051
+[2014.10.01-16.53.23:397][ 29]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B -0.837
+[2014.10.01-16.54.24:627][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D040074EA0
+[2014.10.01-16.54.25:472][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.54.46:812][562]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.54.46:813][562]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:54:46 AM)
+[2014.10.01-16.54.46:817][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004073s)
+[2014.10.01-16.54.46:817][562]LogPlayLevel: PIE: World Init took: (0.000382s)
+[2014.10.01-16.54.46:817][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004585s)
+[2014.10.01-16.54.46:857][562]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.54.46:857][562]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.54.46:859][562]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.54.46
+[2014.10.01-16.54.46:860][562]LogWorld: Bringing up level for play took: 0.002146
+[2014.10.01-16.54.46:864][562]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.63
+[2014.10.01-16.54.51:432][ 91]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D034726480
+[2014.10.01-16.55.01:578][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.01-16.55.09:680][  4]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.55.09:681][  4]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:55:09 AM)
+[2014.10.01-16.55.09:684][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003654s)
+[2014.10.01-16.55.09:685][  4]LogPlayLevel: PIE: World Init took: (0.000383s)
+[2014.10.01-16.55.09:685][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004156s)
+[2014.10.01-16.55.09:721][  4]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.55.09:722][  4]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.55.09:724][  4]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.55.09
+[2014.10.01-16.55.09:724][  4]LogWorld: Bringing up level for play took: 0.002282
+[2014.10.01-16.55.09:728][  4]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B -0.505
+[2014.10.01-16.55.14:010][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D034727880
+[2014.10.01-16.55.15:834][683]MapCheck: New page: Map Check
+[2014.10.01-16.55.15:847][683]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.01-16.55.15:848][683]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.01-16.55.16:242][683]LightingResults: New page: Lighting Build - Oct 1, 2014, 8:55:16 AM
+[2014.10.01-16.55.20:780][683]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.01-16.55.20:797][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.01-16.55.20:797][683]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.01-16.55.20:797][683]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.01-16.55.20:797][683]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.01-16.55.20:797][683]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.01-16.55.20:851][683]LogEditorBuildUtils: Build time 0:00:05
+[2014.10.01-16.55.23:749][963]Job is a success!
+[2014.10.01-16.55.23:884][964]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.01-16.55.23:896][964]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.10.01-16.55.23:900][964]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.10.01-16.55.23:905][964]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.10.01-16.55.23:916][964]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.10.01-16.55.23:938][964]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.10.01-16.55.23:948][964]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.10.01-16.55.24:034][964]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.10.01-16.55.24:098][964]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.10.01-16.55.24:163][964]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.10.01-16.55.24:234][964]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.10.01-16.55.24:304][964]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.10.01-16.55.24:335][964]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.10.01-16.55.24:401][964]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.10.01-16.55.24:436][964]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.10.01-16.55.24:513][964]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.10.01-16.55.24:520][964]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.10.01-16.55.24:530][964]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.01-16.55.24:545][964]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.10.01-16.55.24:554][964]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.10.01-16.55.24:580][964]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.10.01-16.55.24:610][964]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.10.01-16.55.24:639][964]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.10.01-16.55.24:651][964]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.10.01-16.55.24:659][964]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.10.01-16.55.24:669][964]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.10.01-16.55.24:674][964]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.10.01-16.55.24:695][964]LogStaticLightingSystem:Warning: Illumination: 8.43 sec (852 ms encoding lightmaps)
+[2014.10.01-16.55.24:695][964]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (1.3 MB streaming, 0.1 MB non-streaming), 18 textures
+[2014.10.01-16.55.24:695][964]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 41 textures
+[2014.10.01-16.55.25:788][965]Lightmass on PARKER: 3.56 sec total, 86 ms importing, 3 ms setup, 498 ms photons, 2.95 sec processing, 0 ms extra exporting [87/87 mappings]. Threads: 14.6 sec total, 7.52 sec processing.
+[2014.10.01-16.55.25:788][965]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.01-16.55.25:789][965]MapCheck: New page: Level_3_B - Oct 1, 2014, 8:55:25 AM
+[2014.10.01-16.55.25:791][965]MapCheck:Warning: Warning blueprintTorch_10 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.55.25:791][965]MapCheck:Warning: Warning blueprintTorch_374 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.55.25:791][965]MapCheck:Warning: Warning blueprintTorch_529 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.55.25:830][965]MapCheck: Info ========== Map Check: 0 Error(s), 3 Warning(s), [41.667ms] ==========
+[2014.10.01-16.55.26:798][ 34]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.55.26:798][ 34]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:55:26 AM)
+[2014.10.01-16.55.26:803][ 34]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004070s)
+[2014.10.01-16.55.26:803][ 34]LogPlayLevel: PIE: World Init took: (0.000398s)
+[2014.10.01-16.55.26:803][ 34]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004592s)
+[2014.10.01-16.55.26:816][ 34]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.55.26:817][ 34]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.55.26:819][ 34]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.55.26
+[2014.10.01-16.55.26:820][ 34]LogWorld: Bringing up level for play took: 0.002277
+[2014.10.01-16.55.26:824][ 34]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.59
+[2014.10.01-16.55.26:916][ 35]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.10.01-16.55.35:741][ 63]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D041444B80
+[2014.10.01-16.55.39:625][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.55.52:391][903]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-16.55.55:855][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.56.01:091][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.56.07:840][641]LogUnrealMath: Expression Error : No value recognized
+[2014.10.01-16.56.07:840][641]LogUnrealMath: Expression Error : Error in expression
+[2014.10.01-16.56.07:914][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x504)
+[2014.10.01-16.56.18:859][885]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.18:859][885]LogEditorTransaction: Undo Move Actors
+[2014.10.01-16.56.19:089][901]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.19:089][901]LogEditorTransaction: Undo Move Actors
+[2014.10.01-16.56.19:358][907]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.19:358][907]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.01-16.56.19:519][917]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.19:519][917]LogEditorTransaction: Undo Set actor scale
+[2014.10.01-16.56.19:827][949]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.19:827][949]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.01-16.56.20:155][983]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.20:155][983]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.01-16.56.20:700][ 46]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.20:700][ 46]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.01-16.56.21:150][ 96]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.21:150][ 96]LogEditorTransaction: Undo Move Actors
+[2014.10.01-16.56.21:627][148]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.21:627][148]LogEditorTransaction: Undo Move Actors
+[2014.10.01-16.56.22:147][207]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.22:147][207]LogEditorTransaction: Undo Scale Actors
+[2014.10.01-16.56.22:557][253]Cmd: TRANSACTION UNDO
+[2014.10.01-16.56.22:557][253]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.01-16.56.23:819][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_2)
+[2014.10.01-16.56.26:912][693]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x503)
+[2014.10.01-16.56.36:430][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.01-16.56.38:350][981]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.56.38:350][981]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:56:38 AM)
+[2014.10.01-16.56.38:354][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003896s)
+[2014.10.01-16.56.38:354][981]LogPlayLevel: PIE: World Init took: (0.000408s)
+[2014.10.01-16.56.38:355][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004436s)
+[2014.10.01-16.56.38:396][981]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.56.38:397][981]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.56.38:399][981]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.56.38
+[2014.10.01-16.56.38:399][981]LogWorld: Bringing up level for play took: 0.002141
+[2014.10.01-16.56.38:403][981]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.17
+[2014.10.01-16.56.46:594][940]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0396B6D40
+[2014.10.01-16.56.47:601][ 47]MapCheck: New page: Map Check
+[2014.10.01-16.56.47:627][ 47]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.01-16.56.47:627][ 47]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.01-16.56.48:045][ 47]LightingResults: New page: Lighting Build - Oct 1, 2014, 8:56:48 AM
+[2014.10.01-16.56.52:586][ 47]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.01-16.56.52:605][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.01-16.56.52:605][ 47]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.01-16.56.52:605][ 47]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.01-16.56.52:605][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.01-16.56.52:605][ 47]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.01-16.56.52:655][ 47]LogEditorBuildUtils: Build time 0:00:05
+[2014.10.01-16.56.55:860][358]Job is a success!
+[2014.10.01-16.56.55:993][359]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.01-16.56.56:004][359]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.10.01-16.56.56:007][359]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.10.01-16.56.56:012][359]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.10.01-16.56.56:024][359]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.10.01-16.56.56:046][359]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.10.01-16.56.56:056][359]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.10.01-16.56.56:128][359]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.10.01-16.56.56:192][359]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.10.01-16.56.56:256][359]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.10.01-16.56.56:327][359]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.10.01-16.56.56:412][359]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.10.01-16.56.56:444][359]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.10.01-16.56.56:511][359]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.10.01-16.56.56:543][359]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.10.01-16.56.56:615][359]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.10.01-16.56.56:621][359]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.10.01-16.56.56:637][359]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.01-16.56.56:652][359]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.10.01-16.56.56:660][359]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.10.01-16.56.56:687][359]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2014.10.01-16.56.56:716][359]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2014.10.01-16.56.56:746][359]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2014.10.01-16.56.56:758][359]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2014.10.01-16.56.56:767][359]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2014.10.01-16.56.56:777][359]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2014.10.01-16.56.56:782][359]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2014.10.01-16.56.56:801][359]Lightmass on PARKER: 3.70 sec total, 100 ms importing, 2 ms setup, 485 ms photons, 3.09 sec processing, 0 ms extra exporting [87/87 mappings]. Threads: 15.3 sec total, 8.23 sec processing.
+[2014.10.01-16.56.56:804][359]LogStaticLightingSystem:Warning: Illumination: 8.74 sec (849 ms encoding lightmaps)
+[2014.10.01-16.56.56:804][359]LogStaticLightingSystem: Lightmap texture memory:  1.4 MB (1.3 MB streaming, 0.1 MB non-streaming), 18 textures
+[2014.10.01-16.56.56:804][359]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 50 textures
+[2014.10.01-16.56.57:594][360]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.01-16.56.57:594][360]MapCheck: New page: Level_3_B - Oct 1, 2014, 8:56:57 AM
+[2014.10.01-16.56.57:597][360]MapCheck:Warning: Warning blueprintTorch_10 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.56.57:598][360]MapCheck:Warning: Warning blueprintTorch_374 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.56.57:598][360]MapCheck:Warning: Warning blueprintTorch_529 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-16.56.57:648][360]MapCheck: Info ========== Map Check: 0 Error(s), 3 Warning(s), [53.823ms] ==========
+[2014.10.01-16.56.58:647][436]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.56.58:647][436]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:56:58 AM)
+[2014.10.01-16.56.58:652][436]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004334s)
+[2014.10.01-16.56.58:652][436]LogPlayLevel: PIE: World Init took: (0.000396s)
+[2014.10.01-16.56.58:652][436]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.004851s)
+[2014.10.01-16.56.58:680][436]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.56.58:681][436]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.56.58:683][436]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.56.58
+[2014.10.01-16.56.58:683][436]LogWorld: Bringing up level for play took: 0.002169
+[2014.10.01-16.56.58:687][436]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.453
+[2014.10.01-16.56.58:769][436]LogScript:Warning: Divide by zero: Divide_FloatFloat
+[2014.10.01-16.57.11:117][900]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D03EEC3100
+[2014.10.01-16.57.14:419][225]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_4)
+[2014.10.01-16.57.15:033][292]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-16.57.15:033][292]Aligned camera to fit all selected actors.
+[2014.10.01-16.57.25:149][287]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.01-16.57.41:071][842]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-16.57.41:072][842]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 8:57:41 AM)
+[2014.10.01-16.57.41:076][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004794s)
+[2014.10.01-16.57.41:077][842]LogPlayLevel: PIE: World Init took: (0.000414s)
+[2014.10.01-16.57.41:077][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.005333s)
+[2014.10.01-16.57.41:116][842]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-16.57.41:117][842]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-16.57.41:119][842]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-12.57.41
+[2014.10.01-16.57.41:119][842]LogWorld: Bringing up level for play took: 0.002337
+[2014.10.01-16.57.41:124][842]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.89
+[2014.10.01-16.57.51:150][ 19]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D0421C8AE0
+[2014.10.01-16.58.05:751][445]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.01-16.58.15:631][354]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-16.58.15:631][354]Aligned camera to fit all selected actors.
+[2014.10.01-16.59.05:734][510]Cmd: TRANSACTION UNDO
+[2014.10.01-16.59.05:734][510]LogEditorTransaction: Undo Scale Actors
+[2014.10.01-16.59.06:454][519]Cmd: TRANSACTION UNDO
+[2014.10.01-16.59.06:454][519]LogEditorTransaction: Undo Move Actors
+[2014.10.01-16.59.18:207][656]Cmd: DELETE
+[2014.10.01-16.59.18:207][656]Cmd: ACTOR DELETE
+[2014.10.01-16.59.18:208][656]LogEditorActor: Deleted Actor: Brush
+[2014.10.01-16.59.18:235][656]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2014.10.01-16.59.21:346][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.01-16.59.22:562][ 83]Cmd: EDIT COPY
+[2014.10.01-16.59.23:155][152]Cmd: EDIT PASTE
+[2014.10.01-17.00.11:575][122]Cmd: EDIT COPY
+[2014.10.01-17.00.12:023][173]Cmd: EDIT PASTE
+[2014.10.01-17.00.15:496][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_4)
+[2014.10.01-17.00.21:942][157]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
+[2014.10.01-17.00.23:159][297]Cmd: EDIT COPY
+[2014.10.01-17.00.23:578][346]Cmd: EDIT PASTE
+[2014.10.01-17.00.36:090][755]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-17.00.36:090][755]Aligned camera to fit all selected actors.
+[2014.10.01-17.00.55:092][686]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
+[2014.10.01-17.00.56:202][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2014.10.01-17.01.02:310][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_7)
+[2014.10.01-17.01.02:965][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2014.10.01-17.01.03:689][644]Cmd: EDIT COPY
+[2014.10.01-17.01.04:118][694]Cmd: EDIT PASTE
+[2014.10.01-17.01.08:799][185]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-17.01.08:799][185]Aligned camera to fit all selected actors.
+[2014.10.01-17.01.11:392][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_4)
+[2014.10.01-17.01.13:840][654]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-17.01.13:841][654]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 9:01:13 AM)
+[2014.10.01-17.01.13:845][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004697s)
+[2014.10.01-17.01.13:846][654]LogPlayLevel: PIE: World Init took: (0.000430s)
+[2014.10.01-17.01.13:846][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.005250s)
+[2014.10.01-17.01.13:900][654]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-17.01.13:901][654]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-17.01.13:903][654]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-13.01.13
+[2014.10.01-17.01.13:903][654]LogWorld: Bringing up level for play took: 0.002301
+[2014.10.01-17.01.13:907][654]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B -0.326
+[2014.10.01-17.01.32:057][789]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.10.01-17.01.32:070][789]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D047C59300
+[2014.10.01-17.01.33:001][888]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x508)
+[2014.10.01-17.01.42:178][888]LogSavePackage: Save=95.079895ms
+[2014.10.01-17.01.42:178][888]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_B_Auto1E35BC1F84FD508B94C1CA89F8FC865A5.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Level_3_B_Auto1.umap'
+[2014.10.01-17.01.42:189][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_3_B' took 0.165
+[2014.10.01-17.01.42:189][888]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2014.10.01-17.01.47:802][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
+[2014.10.01-17.01.51:214][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2014.10.01-17.01.55:263][363]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x505)
+[2014.10.01-17.02.01:299][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.01-17.02.01:418][ 15]LogSavePackage: Save=87.251938ms
+[2014.10.01-17.02.01:418][ 15]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_B1819769F40EBD6EB59A38FA3490C9F53.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap'
+[2014.10.01-17.02.01:437][ 15]LogFileHelpers: Saving map 'Level_3_B' took 0.178
+[2014.10.01-17.02.02:344][111]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.01-17.02.02:345][111]PIE: New page: PIE session: Level_3_B (Oct 1, 2014, 9:02:02 AM)
+[2014.10.01-17.02.02:351][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004795s)
+[2014.10.01-17.02.02:351][111]LogPlayLevel: PIE: World Init took: (0.000380s)
+[2014.10.01-17.02.02:351][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_3_B.Level_3_B to /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B (0.005301s)
+[2014.10.01-17.02.02:390][111]LogWorld: Game class is 'MyGame_C'
+[2014.10.01-17.02.02:391][111]LogAIModule: Creating AISystem for world Level_3_B
+[2014.10.01-17.02.02:393][111]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_3_B.Level_3_B up for play (max tick rate 0) at 2014.10.01-13.02.02
+[2014.10.01-17.02.02:393][111]LogWorld: Bringing up level for play took: 0.002546
+[2014.10.01-17.02.02:398][111]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_3_B 0.164
+[2014.10.01-17.02.32:004][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000D041E35C60
+[2014.10.01-17.02.34:777][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.01-17.02.34:910][888]LogSavePackage: Save=89.227470ms
+[2014.10.01-17.02.34:910][888]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_B83CAB5FA4A9C6142B8791EA9879D0540.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap'
+[2014.10.01-17.02.34:929][888]LogFileHelpers: Saving map 'Level_3_B' took 0.192
+[2014.10.01-17.02.37:694][192]MapCheck: New page: Map Check
+[2014.10.01-17.02.37:723][192]Cmd: MAP REBUILD ALLVISIBLE
+[2014.10.01-17.02.37:723][192]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.10.01-17.02.38:242][192]LightingResults: New page: Lighting Build - Oct 1, 2014, 9:02:38 AM
+[2014.10.01-17.02.42:784][192]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.10.01-17.02.42:802][192]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.10.01-17.02.42:802][192]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.10.01-17.02.42:802][192]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.10.01-17.02.42:802][192]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.10.01-17.02.42:802][192]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.10.01-17.02.42:858][192]LogEditorBuildUtils: Build time 0:00:05
+[2014.10.01-17.02.46:586][567]Job is a success!
+[2014.10.01-17.02.46:730][568]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.10.01-17.02.46:743][568]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.10.01-17.02.46:748][568]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.10.01-17.02.46:750][568]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.10.01-17.02.46:761][568]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.10.01-17.02.46:785][568]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.10.01-17.02.46:875][568]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.10.01-17.02.46:988][568]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.10.01-17.02.47:075][568]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.10.01-17.02.47:163][568]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.10.01-17.02.47:172][568]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.10.01-17.02.47:189][568]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.10.01-17.02.47:195][568]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.10.01-17.02.47:211][568]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.10.01-17.02.47:224][568]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.10.01-17.02.47:257][568]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.10.01-17.02.47:263][568]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.10.01-17.02.47:278][568]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.10.01-17.02.47:307][568]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.10.01-17.02.47:404][568]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.10.01-17.02.47:418][568]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2014.10.01-17.02.47:444][568]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2014.10.01-17.02.47:457][568]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2014.10.01-17.02.47:484][568]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2014.10.01-17.02.47:499][568]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2014.10.01-17.02.47:508][568]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2014.10.01-17.02.47:534][568]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2014.10.01-17.02.47:563][568]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2014.10.01-17.02.47:575][568]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2014.10.01-17.02.47:578][568]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2014.10.01-17.02.47:601][568]LogStaticLightingSystem:Warning: Illumination: 9.34 sec (927 ms encoding lightmaps)
+[2014.10.01-17.02.47:601][568]LogStaticLightingSystem: Lightmap texture memory:  1.8 MB (1.7 MB streaming, 0.1 MB non-streaming), 20 textures
+[2014.10.01-17.02.47:601][568]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 60 textures
+[2014.10.01-17.02.48:796][569]Lightmass on PARKER: 4.44 sec total, 89 ms importing, 3 ms setup, 640 ms photons, 3.68 sec processing, 0 ms extra exporting [103/103 mappings]. Threads: 18.3 sec total, 10.0 sec processing.
+[2014.10.01-17.02.48:796][569]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.10.01-17.02.48:796][569]MapCheck: New page: Level_3_B - Oct 1, 2014, 9:02:48 AM
+[2014.10.01-17.02.48:800][569]MapCheck:Warning: Warning blueprintTorch_10 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-17.02.48:800][569]MapCheck:Warning: Warning blueprintTorch_374 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-17.02.48:800][569]MapCheck:Warning: Warning blueprintTorch_529 More overriden materials (2) on static mesh component than are referenced (1) in source mesh 'torch' 
+[2014.10.01-17.02.48:839][569]MapCheck: Info ========== Map Check: 0 Error(s), 3 Warning(s), [42.732ms] ==========
+[2014.10.01-17.02.52:059][855]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.01-17.02.52:195][855]LogSavePackage: Save=103.766258ms
+[2014.10.01-17.02.52:195][855]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_BB023D58B4B7EA5EE0768D3AAAD6EE779.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap'
+[2014.10.01-17.02.52:226][855]LogFileHelpers: Saving map 'Level_3_B' took 0.207
+[2014.10.01-17.03.32:411][719]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_6)
+[2014.10.01-17.03.35:999][146]Cmd: EDIT COPY
+[2014.10.01-17.03.36:570][214]Cmd: EDIT PASTE
+[2014.10.01-17.03.56:889][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-17.04.24:844][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_16)
+[2014.10.01-17.05.53:691][289]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.01-17.06.07:076][574]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-17.06.07:076][574]Aligned camera to fit all selected actors.
+[2014.10.01-17.06.21:963][132]Cmd: TRANSACTION UNDO
+[2014.10.01-17.06.21:963][132]LogEditorTransaction: Undo Scale Actors
+[2014.10.01-17.06.22:719][137]Cmd: TRANSACTION UNDO
+[2014.10.01-17.06.22:719][137]LogEditorTransaction: Undo Rotate Actors
+[2014.10.01-17.06.24:170][222]Cmd: TRANSACTION UNDO
+[2014.10.01-17.06.24:170][222]LogEditorTransaction: Undo Scale Actors
+[2014.10.01-17.06.25:337][278]Cmd: TRANSACTION UNDO
+[2014.10.01-17.06.25:337][278]LogEditorTransaction: Undo Rotate Actors
+[2014.10.01-17.07.03:566][ 35]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-17.07.03:566][ 35]Aligned camera to fit all selected actors.
+[2014.10.01-17.07.12:427][907]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-17.07.20:669][795]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-17.07.42:088][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.01-17.07.42:230][944]LogSavePackage: Save=101.204132ms
+[2014.10.01-17.07.42:230][944]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3_B3BA010904CDBF03C5D3C47A9DD5F721A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap'
+[2014.10.01-17.07.42:258][944]LogFileHelpers: Saving map 'Level_3_B' took 0.210
+[2014.10.01-17.07.46:901][437]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_14)
+[2014.10.01-17.07.52:011][999]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_14)
+[2014.10.01-17.08.59:024][764]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.10.01-17.09.15:752][298]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.01-17.09.17:883][534]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.01-17.09.17:883][534]Aligned camera to fit all selected actors.
+[2014.10.01-17.09.30:828][761]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_8)
+[2014.10.01-17.09.39:804][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_3_B" FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3_B.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.01-17.09.39:951][653]LogSavePackage: Save=100.481697ms
+[2014.10.01-17.09.39:951][653]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4
