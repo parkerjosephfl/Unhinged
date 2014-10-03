@@ -1,0 +1,383 @@
+Log file open, 10/03/14 13:17:34
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.03-17.17.34:407][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.03-17.17.34:436][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.03-17.17.34:445][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.03-17.17.34:453][  0]LogInit: Object subsystem initialized
+[2014.10.03-17.17.34:455][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.03-17.17.34:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.03-17.17.34:461][  0]LogInit: Computer: SAMS-ASUS
+[2014.10.03-17.17.34:461][  0]LogInit: User: Samuel
+[2014.10.03-17.17.34:464][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.03-17.17.34:464][  0]LogInit: High frequency timer resolution =1.656393 MHz
+[2014.10.03-17.17.34:465][  0]LogMemory: Memory total: Physical=5.9GB (6GB approx) Virtual=131072.0GB
+[2014.10.03-17.17.34:465][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.03-17.17.34:465][  0]LogMemory: Process Physical Memory: 59.73 MB used, 59.82 MB peak
+[2014.10.03-17.17.34:465][  0]LogMemory: Process Virtual Memory: 35.95 MB used, 36.07 MB peak
+[2014.10.03-17.17.34:465][  0]LogMemory: Physical Memory: 4105.94 MB used, 6029.70 MB total
+[2014.10.03-17.17.34:465][  0]LogMemory: Virtual Memory: 264.80 MB used, 134217728.00 MB total
+[2014.10.03-17.17.34:477][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4000 (Feature Level 11_0)
+[2014.10.03-17.17.34:477][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2014.10.03-17.17.34:478][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.03-17.17.34:478][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.03-17.17.34:478][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.03-17.17.34:485][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2014.10.03-17.17.34:488][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.03-17.17.34:608][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.03-17.17.36:645][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.03-17.17.37:150][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.03-17.17.37:192][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.03-17.17.37:746][  0]LogDerivedDataCache: Loaded boot cache 0.55s 39MB C:/Users/Samuel/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.03-17.17.37:746][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Samuel/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.03-17.17.37:746][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.03-17.17.37:746][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.03-17.17.37:769][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.03-17.17.37:781][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Samuel/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.03-17.17.37:974][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.03-17.17.37:974][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.03-17.17.38:439][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.03-17.17.52:554][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_3864_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_38d0_0///////STATCAT_Advanced////
+[2014.10.03-17.17.52:554][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.03-17.17.52:660][  0]SourceControl: Info Source control is disabled
+[2014.10.03-17.17.52:660][  0]SourceControl: Info Source control is disabled
+[2014.10.03-17.17.52:665][  0]SourceControl: Info Source control is disabled
+[2014.10.03-17.17.52:976][  0]BlueprintLog: New page: Editor Load
+[2014.10.03-17.17.53:229][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.03-17.17.53:229][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.03-17.17.53:451][  0]LogEngine: Initializing Engine...
+[2014.10.03-17.17.53:568][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio(Win8.1))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.03-17.17.53:600][  0]LogInit: FAudioDevice initialized.
+[2014.10.03-17.17.53:616][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.03-17.17.53:643][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Samuel/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.03-17.17.53:648][  0]LogInit: Texture streaming: Enabled
+[2014.10.03-17.17.53:679][  0]LogInit: Transaction tracking system initialized
+[2014.10.03-17.17.53:773][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.10.03-17.17.54:366][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.03-17.17.54:806][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.03-17.17.54:939][  0]LogConsoleResponse:Display: 
+[2014.10.03-17.17.55:267][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_7e78_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_38d0_0///////STATCAT_Advanced////
+[2014.10.03-17.17.55:267][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_8e98_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_38d0_0///////STATCAT_Advanced////
+[2014.10.03-17.17.55:267][  0]SourceControl: Info Source control is disabled
+[2014.10.03-17.17.55:267][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.03-17.17.55:267][  0]LightingResults: New page: Lighting Build
+[2014.10.03-17.17.55:275][  0]MapCheck: New page: Map Check
+[2014.10.03-17.17.55:275][  0]LightingResults: New page: Lighting Build
+[2014.10.03-17.17.55:291][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048869CD300
+[2014.10.03-17.17.55:397][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.03-17.17.55:398][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.10.03-17.17.55:398][  0]Cmd: MAP CHECKDEP
+[2014.10.03-17.17.55:398][  0]MapCheck: New page: Main_Menu - Oct 3, 2014, 9:17:55 AM
+[2014.10.03-17.17.55:454][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [55.824ms] ==========
+[2014.10.03-17.17.55:454][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.187
+[2014.10.03-17.17.55:605][  0]LogCollectionManager: Loaded 0 collections in 0.001058 seconds
+[2014.10.03-17.17.55:814][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.03-17.17.55:859][  0]LogLoad: Full Startup: 23.30 seconds (BP compile: 0.02 seconds)
+[2014.10.03-17.17.55:884][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.03-17.17.56:066][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.10.03-17.17.56:749][  2]LogAssetRegistry: Asset discovery search completed in 2.9880 seconds
+[2014.10.03-17.18.06:975][234]Cmd: MAP LOAD FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.03-17.18.06:975][234]LightingResults: New page: Lighting Build
+[2014.10.03-17.18.06:990][234]LoadErrors: New page: Loading map: Level_1.umap
+[2014.10.03-17.18.06:991][234]MapCheck: New page: Map Check
+[2014.10.03-17.18.06:991][234]LightingResults: New page: Lighting Build
+[2014.10.03-17.18.07:008][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048847085E0
+[2014.10.03-17.18.07:459][234]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.03-17.18.07:460][234]LogAIModule: Creating AISystem for world Level_1
+[2014.10.03-17.18.07:500][234]Cmd: MAP CHECKDEP
+[2014.10.03-17.18.07:500][234]MapCheck: New page: Level_1 - Oct 3, 2014, 9:18:07 AM
+[2014.10.03-17.18.07:585][234]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [85.625ms] ==========
+[2014.10.03-17.18.07:585][234]LogFileHelpers: Loading map 'Level_1' took 0.611
+[2014.10.03-17.19.12:386][640]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.10.03-17.19.15:011][778]LogContentStreaming: Texture pool size now 200 MB
+[2014.10.03-17.19.34:756][538]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_22)
+[2014.10.03-17.21.29:940][321]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.03-17.21.33:978][477]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Animations'
+[2014.10.03-17.21.34:580][501]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.10.03-17.21.36:524][553]LogActorFactory: Actor Factory created Wall_400x200
+[2014.10.03-17.21.37:983][605]LogActorFactory: Actor Factory created Wall_400x200
+[2014.10.03-17.22.07:928][676]Cmd: DELETE
+[2014.10.03-17.22.07:929][676]Cmd: ACTOR DELETE
+[2014.10.03-17.22.08:111][676]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.03-17.22.08:180][676]LogEditorActor: Deleted 1 Actors (0.111 secs)
+[2014.10.03-17.22.09:687][732]LogActorFactory: Actor Factory created Wall_400x300
+[2014.10.03-17.22.14:467][906]LogActorFactory: Actor Factory created Wall_400x300
+[2014.10.03-17.22.24:868][277]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x348)
+[2014.10.03-17.22.27:671][381]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.10.03-17.23.03:045][824]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_17)
+[2014.10.03-17.23.04:160][864]Cmd: EDIT COPY
+[2014.10.03-17.23.04:429][864]Cmd: EDIT PASTE
+[2014.10.03-17.23.32:406][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.10.03-17.23.33:308][869]Cmd: EDIT COPY
+[2014.10.03-17.23.33:565][878]Cmd: EDIT PASTE
+[2014.10.03-17.23.42:797][227]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_22)
+[2014.10.03-17.23.45:781][343]LogActorFactory: Actor Factory created Floor_400x400
+[2014.10.03-17.23.46:844][383]LogActorFactory: Actor Factory created Floor_400x400
+[2014.10.03-17.23.56:718][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_22)
+[2014.10.03-17.23.59:118][887]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x440)
+[2014.10.03-17.24.01:038][960]Cmd: DELETE
+[2014.10.03-17.24.01:038][960]Cmd: ACTOR DELETE
+[2014.10.03-17.24.01:040][960]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.03-17.24.01:073][960]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2014.10.03-17.24.06:259][145]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_22)
+[2014.10.03-17.24.07:170][179]Cmd: EDIT COPY
+[2014.10.03-17.24.07:442][188]Cmd: EDIT PASTE
+[2014.10.03-17.24.16:681][545]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.24.42:346][631]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x300)
+[2014.10.03-17.24.56:930][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.25.20:520][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.25.21:677][176]LogSavePackage: Save=1003.452698ms
+[2014.10.03-17.25.21:677][176]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1151E0AC94ABC089EC6D9D881135BE198.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.25.30:843][532]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.03-17.25.30:843][532]PIE: New page: PIE session: Level_1 (Oct 3, 2014, 9:25:30 AM)
+[2014.10.03-17.25.30:862][532]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018679s)
+[2014.10.03-17.25.30:863][532]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2014.10.03-17.25.30:863][532]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.019893s)
+[2014.10.03-17.25.31:553][532]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0x60cf5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x60b819d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x66f68874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f6803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f77938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f578f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f77b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f531a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f53ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f5383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x5b70191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b6c8254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x6b9e4adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba2ffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba1ebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6b9f1f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba5426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba30179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba2fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba2fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4c972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6baa5f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba37ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba312c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba43b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6baa5e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6bab11d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6babf887 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6babf3d7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x5c969fc3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x5c3d15d0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x5b23be81 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b280a79 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b2964f9 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b02a818 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b4169a6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x24f722e  + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2098] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x24eca3c  + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x24ecaaa  + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x24f88c9  + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x24f96f9  + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x83ae16ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x85c334a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x85c334a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.10.03-17.25.32:386][532]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0x60cf5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x60b819d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x66f68874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f6803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f77938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f578f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f77b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f531a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f53ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x66f5383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x5b724bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5c248e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x6b9880cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba30183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba2fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba2fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba4c972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6baa5f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba37ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba6a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba312c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6ba43b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6baa5e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6bab11d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6babf887 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x6babf3d7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x5c969fc3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x5c3d15d0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x5b23be81 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b280a79 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b2964f9 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b02a818 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x5b4169a6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+FEngineLoop::Tick() 0x24f722e  + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2098] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x24eca3c  + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x24ecaaa  + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x24f88c9  + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x24f96f9  + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x83ae16ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x85c334a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x85c334a5 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.10.03-17.25.32:753][532]LogMaterial: Missing cached shader map for material Torch_Flattened_Mat, compiling.
+[2014.10.03-17.25.32:817][532]LogMaterial: Missing cached shader map for material materialTorch, compiling.
+[2014.10.03-17.25.32:824][532]LogStaticMesh: Building static mesh torch...
+[2014.10.03-17.27.07:664][532]LogStaticMesh: Built static mesh [94840.710938ms] /Game/Meshes/torch.torch
+[2014.10.03-17.27.08:404][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave Journal-page-pick-up-level-3...
+[2014.10.03-17.27.08:434][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave torch-being-lit-level-3...
+[2014.10.03-17.27.08:492][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave torch-takedown-level-3...
+[2014.10.03-17.27.08:541][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave heart-beat-level-3...
+[2014.10.03-17.27.10:087][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave heavy-gasping-air-level-3...
+[2014.10.03-17.27.10:686][532]LogAudioDerivedData:Display: Building compressed audio format OGG wave Footsteps-on-Cement-level-3...
+[2014.10.03-17.27.10:746][532]LogStaticMesh: Building static mesh meshHuman...
+[2014.10.03-17.27.11:831][532]LogStaticMesh: Built static mesh [1084.482910ms] /Game/Blueprints/meshHuman.meshHuman
+[2014.10.03-17.27.12:164][532]LogTexture:Display: Building textures: textureJournalPage1 (AutoDXT)
+[2014.10.03-17.27.16:209][532]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.03-17.27.16:214][532]LogWorld: Game class is 'MyGame_C'
+[2014.10.03-17.27.16:454][532]LogAIModule: Creating AISystem for world Level_1
+[2014.10.03-17.27.16:466][532]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.10.03-13.27.16
+[2014.10.03-17.27.16:488][532]LogWorld: Bringing up level for play took: 0.033475
+[2014.10.03-17.27.16:836][532]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 105.71
+[2014.10.03-17.27.17:246][532]LogRenderer:Warning: Reallocating scene render targets to support 808x592.
+[2014.10.03-17.29.22:932][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048FF407B00
+[2014.10.03-17.29.33:545][890]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2014.10.03-17.29.37:620][ 40]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.03-17.29.44:519][300]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.03-17.29.49:922][498]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.10.03-17.29.51:621][558]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.03-17.29.51:621][558]PIE: New page: PIE session: Level_1 (Oct 3, 2014, 9:29:51 AM)
+[2014.10.03-17.29.51:650][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029256s)
+[2014.10.03-17.29.51:652][558]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2014.10.03-17.29.51:652][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.030835s)
+[2014.10.03-17.29.51:698][558]LogWorld: Game class is 'MyGame_C'
+[2014.10.03-17.29.51:700][558]LogAIModule: Creating AISystem for world Level_1
+[2014.10.03-17.29.51:712][558]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.10.03-13.29.51
+[2014.10.03-17.29.51:714][558]LogWorld: Bringing up level for play took: 0.014029
+[2014.10.03-17.29.51:725][558]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.599
+[2014.10.03-17.30.02:176][ 46]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000489C3BE2A0
+[2014.10.03-17.30.10:101][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.30.18:916][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.30.19:975][698]LogSavePackage: Save=978.985046ms
+[2014.10.03-17.30.19:975][698]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_16523CA584A497D9D4E1989B14B4D79BF.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.30.34:933][167]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x301)
+[2014.10.03-17.30.36:500][223]Cmd: EDIT COPY
+[2014.10.03-17.30.36:745][232]Cmd: EDIT PASTE
+[2014.10.03-17.30.53:752][837]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2014.10.03-17.31.01:063][ 84]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2014.10.03-17.31.09:072][367]Cmd: EDIT COPY
+[2014.10.03-17.31.09:299][374]Cmd: EDIT PASTE
+[2014.10.03-17.31.40:677][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2014.10.03-17.32.27:880][185]Cmd: EDIT COPY
+[2014.10.03-17.32.28:119][192]Cmd: EDIT PASTE
+[2014.10.03-17.32.33:139][375]Cmd: DELETE
+[2014.10.03-17.32.33:139][375]Cmd: ACTOR DELETE
+[2014.10.03-17.32.33:142][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.03-17.32.33:143][375]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.03-17.32.33:183][375]LogEditorActor: Deleted 2 Actors (0.044 secs)
+[2014.10.03-17.32.34:326][420]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2014.10.03-17.32.47:178][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.32.50:251][987]Cmd: EDIT COPY
+[2014.10.03-17.32.50:471][994]Cmd: EDIT PASTE
+[2014.10.03-17.32.58:556][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2014.10.03-17.33.27:901][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_26)
+[2014.10.03-17.33.28:749][478]Cmd: EDIT COPY
+[2014.10.03-17.33.29:245][500]Cmd: EDIT PASTE
+[2014.10.03-17.33.36:418][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.33.37:507][797]LogSavePackage: Save=988.443542ms
+[2014.10.03-17.33.37:507][797]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_107D88A844A169DA38CEB71B6E9124B8B.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.34.02:948][824]Cmd: EDIT COPY
+[2014.10.03-17.34.03:204][831]Cmd: EDIT PASTE
+[2014.10.03-17.34.13:757][246]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x349)
+[2014.10.03-17.34.14:483][274]Cmd: EDIT COPY
+[2014.10.03-17.34.14:704][281]Cmd: EDIT PASTE
+[2014.10.03-17.34.34:169][ 26]Cmd: EDIT COPY
+[2014.10.03-17.34.34:414][ 36]Cmd: EDIT PASTE
+[2014.10.03-17.34.42:101][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x350)
+[2014.10.03-17.35.05:855][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x351)
+[2014.10.03-17.35.34:795][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.35.35:801][445]LogSavePackage: Save=945.655396ms
+[2014.10.03-17.35.35:801][445]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_10F9DB258493AB98BC37C95AAA1AA2344.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.35.59:427][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.36.13:221][952]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_26)
+[2014.10.03-17.36.32:005][710]Cmd: TRANSACTION UNDO
+[2014.10.03-17.36.32:005][710]LogEditorTransaction: Undo Move Actors
+[2014.10.03-17.36.32:535][719]Cmd: TRANSACTION UNDO
+[2014.10.03-17.36.32:535][719]LogEditorTransaction: Undo Clicking on Actors
+[2014.10.03-17.36.34:646][800]Cmd: TRANSACTION UNDO
+[2014.10.03-17.36.34:646][800]LogEditorTransaction: Undo Move Actors
+[2014.10.03-17.36.36:045][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.36.37:079][857]LogSavePackage: Save=966.550232ms
+[2014.10.03-17.36.37:079][857]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1C161971C4062DDB7ED01D8BA14A694B7.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.36.41:150][ 31]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.10.03-17.36.41:151][ 31]PIE: New page: PIE session: Level_1 (Oct 3, 2014, 9:36:41 AM)
+[2014.10.03-17.36.41:171][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020653s)
+[2014.10.03-17.36.41:172][ 31]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2014.10.03-17.36.41:173][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.021889s)
+[2014.10.03-17.36.41:213][ 31]LogWorld: Game class is 'MyGame_C'
+[2014.10.03-17.36.41:215][ 31]LogAIModule: Creating AISystem for world Level_1
+[2014.10.03-17.36.41:224][ 31]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.10.03-13.36.41
+[2014.10.03-17.36.41:225][ 31]LogWorld: Bringing up level for play took: 0.010217
+[2014.10.03-17.36.41:235][ 31]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.108
+[2014.10.03-17.36.54:607][676]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048FD072340
+[2014.10.03-17.37.25:051][974]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_28)
+[2014.10.03-17.37.37:207][448]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_26)
+[2014.10.03-17.37.41:075][596]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.37.42:121][636]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_26)
+[2014.10.03-17.37.44:624][736]Cmd: DELETE
+[2014.10.03-17.37.44:624][736]Cmd: ACTOR DELETE
+[2014.10.03-17.37.44:627][736]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.03-17.37.44:668][736]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.10.03-17.37.45:855][787]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.38.12:847][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_28)
+[2014.10.03-17.38.28:234][484]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2014.10.03-17.38.43:910][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x350)
+[2014.10.03-17.39.01:513][780]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x302)
+[2014.10.03-17.39.12:216][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.03-17.39.13:252][190]LogSavePackage: Save=958.095703ms
+[2014.10.03-17.39.13:252][190]LogSavePackage: Moving '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1421BBED741AA623BCF5077ACD9A1270B.tmp' to '../../../../../../Users/Samuel/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.10.03-17.41.51:980][431]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_25)
+[2014.10.03-17.42.07:757][ 54]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x303)
+[2014.10.03-17.42.09:378][117]Cmd: EDIT COPY
+[2014.10.03-17.42.09:602][126]Cmd: EDIT PASTE
+[2014.10.03-17.42.20:758][566]Cmd: TRANSACTION UNDO
+[2014.10.03-17.42.20:758][566]LogEditorTransaction: Undo Scale Actors
+[2014.10.03-17.42.23:034][649]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x352)
+[2014.10.03-17.42.27:839][841]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x353)
+[2014.10.03-17.42.41:428][385]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x352)
+[2014.10.03-17.43.15:109][642]LogD3D11RHI:Warning: FD3D11DynamicRHI::RHIMapStagingSurface failed (GetDeviceRemovedReason(): -2005270522)
+[2014.10.03-17.43.15:109][642]LogD3D11RHI:Warning: FD3D11DynamicRHI::RHIMapStagingSurface failed (GetDeviceRemovedReason(): -2005270522)
+[2014.10.03-17.43.15:178][642]LogD3D11RHI:Error: D3DRHI->GetDevice()->CreateTexture2D(&StagingTextureDesc,NULL,StagingTexture.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Texture.cpp:1356 
+ with error DXGI_ERROR_DEVICE_REMOVED
+[2014.10.03-17.44.33:924][642]LogWindows: FPlatformMisc::RequestExit(1)
+[2014.10.03-17.44.33:924][642]Log file closed, 10/03/14 13:44:33
