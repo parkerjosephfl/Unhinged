@@ -1,0 +1,362 @@
+Log file open, 10/04/14 20:18:42
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.05-00.18.42:717][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.05-00.18.42:901][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.05-00.18.43:548][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.05-00.18.44:312][  0]LogInit: Object subsystem initialized
+[2014.10.05-00.18.44:671][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.05-00.18.44:671][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.05-00.18.44:954][  0]LogInit: Computer: ZS-LAPTOP
+[2014.10.05-00.18.44:954][  0]LogInit: User: ZeroSennin
+[2014.10.05-00.18.44:957][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.10.05-00.18.44:957][  0]LogInit: High frequency timer resolution =2.046181 MHz
+[2014.10.05-00.18.44:982][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx) Virtual=8192.0GB
+[2014.10.05-00.18.44:983][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.05-00.18.44:983][  0]LogMemory: Process Physical Memory: 61.18 MB used, 61.18 MB peak
+[2014.10.05-00.18.44:983][  0]LogMemory: Process Virtual Memory: 37.32 MB used, 37.32 MB peak
+[2014.10.05-00.18.44:983][  0]LogMemory: Physical Memory: 3028.54 MB used, 4043.86 MB total
+[2014.10.05-00.18.44:983][  0]LogMemory: Virtual Memory: 259.69 MB used, 8388608.00 MB total
+[2014.10.05-00.18.46:337][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 3000 (Feature Level 10_0)
+[2014.10.05-00.18.46:337][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.10.05-00.18.46:337][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.05-00.18.46:431][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.10.05-00.18.46:457][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.05-00.18.49:820][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.05-00.19.08:311][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-00.19.10:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-00.19.10:681][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.05-00.19.11:989][  0]LogDerivedDataCache: Loaded boot cache 1.31s 34MB C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.05-00.19.11:989][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.05-00.19.11:990][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.05-00.19.11:990][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.05-00.19.12:226][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.05-00.19.12:239][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.05-00.19.26:818][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.05-00.19.26:818][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.05-00.19.38:978][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.05-00.21.12:852][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_20c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2388_0///////STATCAT_Advanced////
+[2014.10.05-00.21.12:852][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.05-00.21.14:473][  0]SourceControl: Info Source control is disabled
+[2014.10.05-00.21.15:071][  0]SourceControl: Info Source control is disabled
+[2014.10.05-00.21.15:090][  0]SourceControl: Info Source control is disabled
+[2014.10.05-00.21.30:630][  0]BlueprintLog: New page: Editor Load
+[2014.10.05-00.21.39:735][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.05-00.21.39:735][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.05-00.21.48:889][  0]LogAutomationTest:Warning: Smoke tests took > 1s to run: 7.34s
+[2014.10.05-00.21.49:328][  0]LogEngine: Initializing Engine...
+[2014.10.05-00.21.54:567][  0]LogInit: XAudio2 using 'Ö5π‘¸´¸/ÿ√…€Û (Conexant SmartAudio HD)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.10.05-00.21.55:328][  0]LogInit: FAudioDevice initialized.
+[2014.10.05-00.22.04:541][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.05-00.22.06:614][  0]LogDerivedDataCache: Saved boot cache 0.49s 34MB C:/Users/Zero-Sennin/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.05-00.22.06:630][  0]LogInit: Texture streaming: Enabled
+[2014.10.05-00.22.09:620][  0]LogInit: Transaction tracking system initialized
+[2014.10.05-00.22.17:164][  0]LogAssetRegistry: FAssetRegistry took 0.1632 seconds to start up
+[2014.10.05-00.22.42:563][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-00.22.44:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.05-00.22.50:013][  0]LogConsoleResponse:Display: 
+[2014.10.05-00.23.03:882][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_16fc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2388_0///////STATCAT_Advanced////
+[2014.10.05-00.23.03:882][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1b38_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2388_0///////STATCAT_Advanced////
+[2014.10.05-00.23.03:882][  0]SourceControl: Info Source control is disabled
+[2014.10.05-00.23.04:337][  0]Cmd: MAP LOAD FILE="../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.05-00.23.04:478][  0]LightingResults: New page: Lighting Build
+[2014.10.05-00.23.04:982][  0]MapCheck: New page: Map Check
+[2014.10.05-00.23.04:982][  0]LightingResults: New page: Lighting Build
+[2014.10.05-00.23.08:200][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F1B0540
+[2014.10.05-00.23.23:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.05-00.23.23:297][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.10.05-00.23.23:366][  0]Cmd: MAP CHECKDEP
+[2014.10.05-00.23.23:366][  0]MapCheck: New page: Main_Menu - Oct 4, 2014, 4:23:23 PM
+[2014.10.05-00.23.23:983][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [616.838ms] ==========
+[2014.10.05-00.23.23:983][  0]LogFileHelpers: Loading map 'Main_Menu' took 19.741
+[2014.10.05-00.23.37:572][  0]LogCollectionManager: Loaded 0 collections in 0.003784 seconds
+[2014.10.05-00.23.48:153][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.05-00.23.50:166][  0]LogLoad: Full Startup: 320.25 seconds (BP compile: 5.85 seconds)
+[2014.10.05-00.23.58:611][  0]LogRenderer:Warning: Reallocating scene render targets to support 944x720.
+[2014.10.05-00.24.43:834][598]LogAssetRegistry: Asset discovery search completed in 146.8304 seconds
+[2014.10.05-00.25.16:324][933]Cmd: MAP LOAD FILE="../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.05-00.25.16:325][933]LightingResults: New page: Lighting Build
+[2014.10.05-00.25.16:371][933]LoadErrors: New page: Loading map: Level_1.umap
+[2014.10.05-00.25.16:372][933]MapCheck: New page: Map Check
+[2014.10.05-00.25.16:372][933]LightingResults: New page: Lighting Build
+[2014.10.05-00.25.16:419][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000004A6EFC0
+[2014.10.05-00.25.23:007][933]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.05-00.25.23:008][933]LogAIModule: Creating AISystem for world Level_1
+[2014.10.05-00.25.23:056][933]Cmd: MAP CHECKDEP
+[2014.10.05-00.25.23:056][933]MapCheck: New page: Level_1 - Oct 4, 2014, 4:25:23 PM
+[2014.10.05-00.25.23:209][933]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [152.437ms] ==========
+[2014.10.05-00.25.23:209][933]LogFileHelpers: Loading map 'Level_1' took 7.141
+[2014.10.05-00.25.26:508][953]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.10.05-00.25.33:688][  8]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x498)
+[2014.10.05-00.25.39:838][ 29]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x498)
+[2014.10.05-00.25.51:302][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x498)
+[2014.10.05-00.26.19:174][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x499)
+[2014.10.05-00.26.21:591][518]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x499)
+[2014.10.05-00.26.24:403][583]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.05-00.26.24:425][583]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Engine/MapTemplates'
+[2014.10.05-00.26.29:463][635]LogActorFactory: Actor Factory created SM_Template_Map_Floor
+[2014.10.05-00.26.34:893][753]LogActorFactory: Actor Factory created SM_Template_Map_Floor
+[2014.10.05-00.26.36:317][778]LogEditorViewport: Clicking Background
+[2014.10.05-00.26.37:265][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.26.38:811][838]LogEditorViewport: Clicking Background
+[2014.10.05-00.26.39:432][857]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.26.40:577][877]LogEditorViewport: Clicking Background
+[2014.10.05-00.26.42:758][934]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.26.45:166][978]LogEditorViewport: Clicking Background
+[2014.10.05-00.26.46:616][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.26.49:736][ 72]Cmd: EDIT COPY
+[2014.10.05-00.26.54:142][152]Cmd: TRANSACTION UNDO
+[2014.10.05-00.26.54:142][152]LogEditorTransaction: Undo Move Actors
+[2014.10.05-00.26.55:433][178]Cmd: TRANSACTION UNDO
+[2014.10.05-00.26.55:433][178]LogEditorTransaction: Undo Move Actors
+[2014.10.05-00.26.56:424][203]Cmd: EDIT COPY
+[2014.10.05-00.26.56:710][211]Cmd: EDIT PASTE
+[2014.10.05-00.27.04:297][375]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.27.04:409][375]Aligned camera to fit all selected actors.
+[2014.10.05-00.27.08:415][479]Cmd: EDIT PASTE
+[2014.10.05-00.27.10:790][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_35)
+[2014.10.05-00.27.14:954][643]LogEditorViewport: Clicking Background
+[2014.10.05-00.27.16:565][696]LogEditorViewport: Clicking Background
+[2014.10.05-00.27.19:542][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.27.21:235][834]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_34)
+[2014.10.05-00.27.22:180][856]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_35)
+[2014.10.05-00.27.29:742][ 47]LogEditorViewport: Clicking Background
+[2014.10.05-00.27.36:114][226]Cmd: EDIT COPY
+[2014.10.05-00.27.36:800][244]Cmd: EDIT PASTE
+[2014.10.05-00.27.42:565][380]LogEditorViewport: Clicking Background
+[2014.10.05-00.27.53:081][613]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.13:911][123]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.18:254][227]Cmd: EDIT COPY
+[2014.10.05-00.28.18:758][239]Cmd: EDIT PASTE
+[2014.10.05-00.28.25:464][392]Cmd: EDIT PASTE
+[2014.10.05-00.28.32:964][557]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.38:006][700]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.40:033][755]Cmd: EDIT COPY
+[2014.10.05-00.28.40:844][774]Cmd: EDIT PASTE
+[2014.10.05-00.28.46:410][834]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.47:970][873]Cmd: TRANSACTION UNDO
+[2014.10.05-00.28.47:971][873]LogEditorTransaction: Undo Clicking Background
+[2014.10.05-00.28.53:098][967]LogEditorViewport: Clicking Background
+[2014.10.05-00.28.56:211][ 54]Cmd: EDIT COPY
+[2014.10.05-00.28.56:590][ 62]Cmd: EDIT PASTE
+[2014.10.05-00.29.04:276][211]LogEditorViewport: Clicking Background
+[2014.10.05-00.29.15:629][526]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.05-00.29.17:141][549]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.10.05-00.29.21:089][619]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.29.21:878][637]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.29.27:008][738]LogEditorViewport: Clicking Background
+[2014.10.05-00.29.28:253][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_55)
+[2014.10.05-00.29.29:707][779]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_55)
+[2014.10.05-00.29.30:396][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_55)
+[2014.10.05-00.29.31:839][810]LogEditorViewport: Clicking Background
+[2014.10.05-00.29.33:127][830]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.29.44:237][968]LogEditorViewport: Clicking Background
+[2014.10.05-00.29.45:541][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.30.01:213][223]Cmd: EDIT COPY
+[2014.10.05-00.30.01:894][233]Cmd: EDIT PASTE
+[2014.10.05-00.30.04:572][268]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.30.04:572][268]Aligned camera to fit all selected actors.
+[2014.10.05-00.30.12:998][385]Cmd: EDIT COPY
+[2014.10.05-00.30.13:465][390]Cmd: EDIT PASTE
+[2014.10.05-00.30.25:894][558]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.30.26:958][572]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2014.10.05-00.30.27:552][580]Cmd: EDIT COPY
+[2014.10.05-00.30.27:942][586]Cmd: EDIT PASTE
+[2014.10.05-00.30.57:585][990]LogEditorViewport: Clicking Background
+[2014.10.05-00.30.58:491][  3]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_63)
+[2014.10.05-00.30.59:361][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x506)
+[2014.10.05-00.31.12:178][186]Cmd: EDIT COPY
+[2014.10.05-00.31.12:691][192]Cmd: EDIT PASTE
+[2014.10.05-00.31.22:677][296]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.31.23:502][305]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.31.34:137][448]Cmd: EDIT COPY
+[2014.10.05-00.31.40:165][531]LogEditorViewport: Clicking Background
+[2014.10.05-00.31.41:502][551]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_43)
+[2014.10.05-00.31.42:417][562]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_43)
+[2014.10.05-00.31.43:202][572]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.31.43:202][572]Aligned camera to fit all selected actors.
+[2014.10.05-00.31.46:702][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.31.47:482][619]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.31.47:482][619]Aligned camera to fit all selected actors.
+[2014.10.05-00.32.03:468][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.32.05:146][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.32.07:678][875]Cmd: EDIT COPY
+[2014.10.05-00.32.07:874][877]Cmd: EDIT PASTE
+[2014.10.05-00.32.13:697][954]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.32.13:697][954]Aligned camera to fit all selected actors.
+[2014.10.05-00.32.20:777][ 53]Cmd: EDIT COPY
+[2014.10.05-00.32.20:973][ 56]Cmd: EDIT PASTE
+[2014.10.05-00.32.31:379][191]Cmd: EDIT COPY
+[2014.10.05-00.32.31:763][195]Cmd: EDIT PASTE
+[2014.10.05-00.32.36:012][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.32.43:813][357]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.32.45:893][382]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.10.05-00.32.48:060][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2014.10.05-00.32.49:439][423]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x519)
+[2014.10.05-00.32.50:799][438]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.32.54:601][481]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2014.10.05-00.32.56:300][503]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.32.57:475][516]Cmd: EDIT COPY
+[2014.10.05-00.32.57:697][518]Cmd: EDIT PASTE
+[2014.10.05-00.33.03:791][584]LogEditorViewport: Clicking Background
+[2014.10.05-00.33.05:677][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_64)
+[2014.10.05-00.33.06:937][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x523)
+[2014.10.05-00.33.07:894][641]Cmd: EDIT COPY
+[2014.10.05-00.33.08:127][643]Cmd: EDIT PASTE
+[2014.10.05-00.33.13:168][709]Cmd: EDIT COPY
+[2014.10.05-00.33.13:371][712]Cmd: EDIT PASTE
+[2014.10.05-00.33.22:957][838]LogEditorViewport: Clicking Background
+[2014.10.05-00.33.25:779][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_65)
+[2014.10.05-00.33.26:862][892]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_65)
+[2014.10.05-00.33.27:753][903]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_65)
+[2014.10.05-00.33.28:541][914]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x515)
+[2014.10.05-00.33.34:427][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x515)
+[2014.10.05-00.33.42:070][ 84]LogEditorViewport: Clicking Background
+[2014.10.05-00.33.44:317][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x507)
+[2014.10.05-00.33.52:864][216]LogEditorViewport: Clicking Background
+[2014.10.05-00.33.56:792][267]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.34.00:968][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x517)
+[2014.10.05-00.34.02:814][341]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x519)
+[2014.10.05-00.34.04:303][360]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x518)
+[2014.10.05-00.34.05:718][379]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.34.13:518][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x501)
+[2014.10.05-00.34.14:956][490]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.34.16:817][516]Cmd: DELETE
+[2014.10.05-00.34.16:817][516]Cmd: ACTOR DELETE
+[2014.10.05-00.34.19:228][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.05-00.34.20:213][516]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.05-00.34.20:398][516]LogEditorActor: Deleted 2 Actors (3.554 secs)
+[2014.10.05-00.34.22:336][547]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x509)
+[2014.10.05-00.34.22:988][554]Cmd: DELETE
+[2014.10.05-00.34.22:988][554]Cmd: ACTOR DELETE
+[2014.10.05-00.34.24:305][554]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.05-00.34.24:371][554]LogEditorActor: Deleted 1 Actors (1.383 secs)
+[2014.10.05-00.34.25:713][575]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x508)
+[2014.10.05-00.34.26:372][582]Cmd: DELETE
+[2014.10.05-00.34.26:372][582]Cmd: ACTOR DELETE
+[2014.10.05-00.34.27:266][582]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.10.05-00.34.27:346][582]LogEditorActor: Deleted 1 Actors (0.973 secs)
+[2014.10.05-00.34.28:043][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_48)
+[2014.10.05-00.34.28:970][602]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.34.29:675][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.34.30:955][623]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2014.10.05-00.34.38:740][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.10.05-00.34.40:331][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
+[2014.10.05-00.34.41:878][764]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.10.05-00.34.43:428][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x518)
+[2014.10.05-00.34.44:831][801]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
+[2014.10.05-00.34.46:828][824]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x518)
+[2014.10.05-00.35.12:674][105]LogSavePackage: Save=3826.685791ms
+[2014.10.05-00.35.12:677][105]LogSavePackage: Moving '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Level_1_Auto154C37BAE49D24A6221E12AB0A910B6CF.tmp' to '../../../../../../../Users/Zero-Sennin/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Level_1_Auto1.umap'
+[2014.10.05-00.35.12:754][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level_1' took 4.478
+[2014.10.05-00.35.12:754][105]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.478
+[2014.10.05-00.35.20:655][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_48)
+[2014.10.05-00.35.23:512][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.35.24:188][268]LogEditorViewport: Clicking Background
+[2014.10.05-00.35.28:933][329]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.35.30:987][354]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.35.40:342][480]LogEditorViewport: Clicking Background
+[2014.10.05-00.35.41:507][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_33)
+[2014.10.05-00.35.42:350][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.35.44:495][536]LogEditorViewport: Clicking Background
+[2014.10.05-00.35.45:936][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.35.46:949][565]LogEditorViewport: Clicking Background
+[2014.10.05-00.35.59:806][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.36.00:721][767]Cmd: EDIT COPY
+[2014.10.05-00.36.03:729][811]Cmd: EDIT PASTE
+[2014.10.05-00.36.22:650][ 64]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2014.10.05-00.36.26:341][116]Cmd: EDIT COPY
+[2014.10.05-00.36.27:799][136]Cmd: EDIT PASTE
+[2014.10.05-00.36.34:256][207]Cmd: EDIT COPY
+[2014.10.05-00.36.34:816][215]Cmd: EDIT PASTE
+[2014.10.05-00.36.48:679][370]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.36.49:654][379]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_39)
+[2014.10.05-00.36.51:362][397]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_39)
+[2014.10.05-00.36.52:291][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
+[2014.10.05-00.36.59:093][490]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_39)
+[2014.10.05-00.37.00:203][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
+[2014.10.05-00.37.00:738][512]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.37.00:738][512]Aligned camera to fit all selected actors.
+[2014.10.05-00.37.05:802][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
+[2014.10.05-00.37.31:957][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_38)
+[2014.10.05-00.37.33:437][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_39)
+[2014.10.05-00.37.35:782][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_34)
+[2014.10.05-00.37.37:468][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x526)
+[2014.10.05-00.37.39:003][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x527)
+[2014.10.05-00.37.39:581][ 38]Cmd: EDIT COPY
+[2014.10.05-00.37.41:328][ 61]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x526)
+[2014.10.05-00.37.42:146][ 71]Cmd: EDIT COPY
+[2014.10.05-00.37.42:395][ 73]Cmd: EDIT PASTE
+[2014.10.05-00.37.51:766][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.37.56:797][229]Cmd: EDIT PASTE
+[2014.10.05-00.38.04:005][319]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.10.05-00.38.04:005][319]Aligned camera to fit all selected actors.
+[2014.10.05-00.38.12:746][437]Cmd: EDIT COPY
+[2014.10.05-00.38.14:601][463]Cmd: EDIT PASTE
+[2014.10.05-00.38.46:564][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.38.47:500][851]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x532)
+[2014.10.05-00.39.14:477][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.39.15:647][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.39.16:686][223]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x533)
+[2014.10.05-00.39.20:833][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.10.05-00.39.21:752][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.39.23:106][310]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.39.26:467][353]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.39.29:951][400]LogActorFactory: Actor Factory created Wall_500x500
+[2014.10.05-00.39.34:432][450]Cmd: EDIT COPY
+[2014.10.05-00.39.34:822][454]Cmd: EDIT PASTE
+[2014.10.05-00.39.40:150][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.39.41:752][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x535)
+[2014.10.05-00.39.43:189][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_54)
+[2014.10.05-00.39.46:130][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x535)
+[2014.10.05-00.39.48:269][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.39.49:525][639]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.39.50:990][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.39.51:881][666]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x534)
+[2014.10.05-00.39.52:625][674]Cmd: EDIT COPY
+[2014.10.05-00.39.52:913][676]Cmd: EDIT PASTE
+[2014.10.05-00.39.54:953][701]Cmd: TRANSACTION UNDO
+[2014.10.05-00.39.54:954][701]LogEditorTransaction: Undo Paste
+[2014.10.05-00.39.55:990][708]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x535)
+[2014.10.05-00.39.57:668][724]Cmd: EDIT COPY
+[2014.10.05-00.39.57:921][726]Cmd: EDIT PASTE
+[2014.10.05-00.40.11:522][902]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.40.14:553][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x537)
+[2014.10.05-00.40.16:066][960]Cmd: EDIT COPY
+[2014.10.05-00.40.16:308][962]Cmd: EDIT PASTE
+[2014.10.05-00.40.22:750][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.40.31:729][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.40.33:399][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x536)
+[2014.10.05-00.40.34:833][202]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x538)
+[2014.10.05-00.40.36:278][220]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Template_Map_Floor_49)
+[2014.10.05-00.40.38:622][247]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x534)
+[2014.10.05-00.40.51:321][407]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x539)
+[2014.10.05-00.41.05:951][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014.10.05-00.41.17:644][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_44)
+[2014.10.05-00.42.08:667][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.42.10:100][289]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2014.10.05-00.42.14:731][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_54)
+[2014.10.05-00.42.15:938][373]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.42.17:812][399]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2014.10.05-00.42.28:750][544]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.10.05-00.42.29:508][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2014.10.05-00.42.36:091][634]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.10.05-00.42.37:266][648]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x502)
+[2014.10.05-00.42.44:683][745]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_53)
+[2014.10.05-00.42.48:385][791]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x519)
+[2014.10.05-00.42.52:515][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x539)
+[2014.10.05-00.42.54:151][854]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x535)
+[2014.10.05-00.42.56:255][876]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x537)
+[2014.10.05-00.43.07:067][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.43.09:155][ 27]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_45)
+[2014.10.05-00.43.09:810][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x532)
+[2014.10.05-00.43.34:677][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x532)
+[2014.10.05-00.43.46:099][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_50)
+[2014
