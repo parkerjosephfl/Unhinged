@@ -1,0 +1,1617 @@
+Log file open, 10/09/14 18:02:31
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.09-22.02.31:243][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.09-22.02.31:273][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.09-22.02.31:285][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.09-22.02.31:292][  0]LogInit: Object subsystem initialized
+[2014.10.09-22.02.31:294][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.09-22.02.31:294][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.09-22.02.31:303][  0]LogInit: Computer: MININT-IBCU80N
+[2014.10.09-22.02.31:303][  0]LogInit: User: Mitchell
+[2014.10.09-22.02.31:305][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.09-22.02.31:305][  0]LogInit: High frequency timer resolution =2.143642 MHz
+[2014.10.09-22.02.31:305][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.10.09-22.02.31:305][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.09-22.02.31:305][  0]LogMemory: Process Physical Memory: 62.88 MB used, 62.88 MB peak
+[2014.10.09-22.02.31:305][  0]LogMemory: Process Virtual Memory: 38.54 MB used, 38.54 MB peak
+[2014.10.09-22.02.31:305][  0]LogMemory: Physical Memory: 3350.78 MB used, 8086.17 MB total
+[2014.10.09-22.02.31:305][  0]LogMemory: Virtual Memory: 261.83 MB used, 8388608.00 MB total
+[2014.10.09-22.02.31:344][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2014.10.09-22.02.31:344][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.10.09-22.02.31:344][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.09-22.02.31:353][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.10.09-22.02.31:367][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.09-22.02.31:478][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.09-22.02.33:179][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.09-22.02.33:694][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.09-22.02.33:745][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.09-22.02.33:817][  0]LogDerivedDataCache: Loaded boot cache 0.07s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.09-22.02.33:817][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.09-22.02.33:817][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.09-22.02.33:817][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.09-22.02.33:837][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.09-22.02.33:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.09-22.02.34:041][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.09-22.02.34:041][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.09-22.02.34:662][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.09-22.02.35:613][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_6344_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_698c_0///////STATCAT_Advanced////
+[2014.10.09-22.02.35:613][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.09-22.02.35:739][  0]SourceControl: Info Source control is disabled
+[2014.10.09-22.02.35:739][  0]SourceControl: Info Source control is disabled
+[2014.10.09-22.02.35:748][  0]SourceControl: Info Source control is disabled
+[2014.10.09-22.02.35:954][  0]BlueprintLog: New page: Editor Load
+[2014.10.09-22.02.36:078][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.09-22.02.36:078][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.09-22.02.36:256][  0]LogEngine: Initializing Engine...
+[2014.10.09-22.02.36:429][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.09-22.02.36:454][  0]LogInit: FAudioDevice initialized.
+[2014.10.09-22.02.36:477][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.09-22.02.36:553][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.09-22.02.36:558][  0]LogInit: Texture streaming: Enabled
+[2014.10.09-22.02.36:598][  0]LogInit: Transaction tracking system initialized
+[2014.10.09-22.02.36:740][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.10.09-22.02.37:338][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.09-22.02.37:702][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.09-22.02.37:861][  0]LogConsoleResponse:Display: 
+[2014.10.09-22.02.38:070][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_67e8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_698c_0///////STATCAT_Advanced////
+[2014.10.09-22.02.38:070][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_6588_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_698c_0///////STATCAT_Advanced////
+[2014.10.09-22.02.38:070][  0]SourceControl: Info Source control is disabled
+[2014.10.09-22.02.38:070][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.09-22.02.38:071][  0]LightingResults: New page: Lighting Build
+[2014.10.09-22.02.38:081][  0]MapCheck: New page: Map Check
+[2014.10.09-22.02.38:081][  0]LightingResults: New page: Lighting Build
+[2014.10.09-22.02.38:095][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011B45300
+[2014.10.09-22.02.38:181][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.09-22.02.38:182][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.10.09-22.02.38:184][  0]Cmd: MAP CHECKDEP
+[2014.10.09-22.02.38:184][  0]MapCheck: New page: Main_Menu - Oct 9, 2014, 2:02:38 PM
+[2014.10.09-22.02.38:300][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [116.495ms] ==========
+[2014.10.09-22.02.38:300][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.230
+[2014.10.09-22.02.38:417][  0]LogCollectionManager: Loaded 0 collections in 0.001292 seconds
+[2014.10.09-22.02.38:531][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.09-22.02.38:598][  0]LogLoad: Full Startup: 9.32 seconds (BP compile: 0.02 seconds)
+[2014.10.09-22.02.38:611][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-22.02.38:758][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.10.09-22.02.39:117][  2]LogAssetRegistry: Asset discovery search completed in 2.3876 seconds
+[2014.10.09-22.06.32:234][303]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Mitchell/Desktop/textureCandleFlame.psd)
+[2014.10.09-22.06.32:467][303]0.000041 seconds to analyze Texture2D /Game/Textures/textureCandleFlame.textureCandleFlame
+
+[2014.10.09-22.06.32:540][303]LogTexture:Display: Building textures: textureCandleFlame (AutoDXT)
+[2014.10.09-22.06.34:141][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-22.06.34:141][303]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-22.06.38:934][629]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main_Menu" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.09-22.06.39:035][629]LogSavePackage: Save=43.609894ms
+[2014.10.09-22.06.39:035][629]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Main_Menu160474F54A0A494E8E37C3AB851EDDC7.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap'
+[2014.10.09-22.06.44:450][765]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureCandleFlame.uasset" SILENT=true
+[2014.10.09-22.06.48:845][765]LogSavePackage: Save=4391.217773ms
+[2014.10.09-22.06.48:845][765]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureCandleFlame3F5C50A84096B118D165E78F219A7B3D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureCandleFlame.uasset'
+[2014.10.09-22.06.48:855][765]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.09-22.06.48:856][765]LightingResults: New page: Lighting Build
+[2014.10.09-22.06.48:876][765]LoadErrors: New page: Loading map: Programming.umap
+[2014.10.09-22.06.48:876][765]MapCheck: New page: Map Check
+[2014.10.09-22.06.48:876][765]LightingResults: New page: Lighting Build
+[2014.10.09-22.06.48:891][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A3147C0
+[2014.10.09-22.06.49:873][765]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xf0695216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05219d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeca18874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca1803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca27938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca078f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca27b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca031a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca03ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca0383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xe9a1191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe99d8254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xf0144adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf018ffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01aab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf017ebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0151f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01b426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0190179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01aab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf018fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01aab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf018fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01ac972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0205f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cc1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cc2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0197ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01ca7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01912c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01a3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0205e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe93f92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe93ec4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe93da291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe96df0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9452834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9453335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe0b392aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xef925246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa6be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa74dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa3cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefb0569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefb3f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef961ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef951989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xf06034d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05ef871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf060461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05ec6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x779f9bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x779f98da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf0604ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f83708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f82ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f82caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f8388c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f8396f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x77af59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77c2c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77c2c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.09-22.06.50:427][765]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xf0695216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05219d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xeca18874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca1803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca27938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca078f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca27b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca031a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca03ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xeca0383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xe9a34bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xea558e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xf00e80cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0190183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01aab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf018fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01aab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf018fa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01ac972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0205f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cc1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cc2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01cb44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0197ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01ca7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01912c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf01a3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xf0205e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe93f92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe93ec4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe93da291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe96df0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9452834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe9453335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe0b392aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xef925246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa6be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa74dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefa3cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefb0569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xefb3f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef961ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xef951989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xf06034d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05ef871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf060461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf05ec6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x779f9bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x779f98da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf0604ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f83708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f82ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f82caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f8388c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f8396f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x77af59ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x77c2c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x77c2c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.09-22.06.51:310][765]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.09-22.06.52:062][765]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.09-22.06.52:062][765]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-22.06.52:090][765]Cmd: MAP CHECKDEP
+[2014.10.09-22.06.52:090][765]MapCheck: New page: Programming - Oct 9, 2014, 2:06:52 PM
+[2014.10.09-22.06.52:231][765]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [141.202ms] ==========
+[2014.10.09-22.06.52:231][765]LogFileHelpers: Loading map 'Programming' took 3.377
+[2014.10.09-22.07.00:496][ 99]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-22.07.01:806][151]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-22.07.04:710][193]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.09-22.07.04:751][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.09-22.07.04:823][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.09-22.07.04:823][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.09-22.07.04:823][193]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.09-22.07.04:823][193]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.09-22.07.04:826][193]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.09-22.07.04:858][193]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.09-22.07.07:337][263]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.07.07:337][263]MaterialEditorStats: Info Vertex shader: 46 instructions
+[2014.10.09-22.07.07:337][263]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.07.20:218][607]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-22.07.22:995][751]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-22.07.30:839][ 58]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.09-22.08.28:178][524]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.28:189][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.09-22.08.28:251][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.09-22.08.28:251][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.09-22.08.28:252][524]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.09-22.08.28:252][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.09-22.08.28:254][524]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.28:288][524]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.09-22.08.30:739][581]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.08.30:739][581]MaterialEditorStats: Info Vertex shader: 46 instructions
+[2014.10.09-22.08.30:739][581]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.08.34:008][654]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.35:457][684]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.08.35:457][684]MaterialEditorStats: Info Vertex shader: 46 instructions
+[2014.10.09-22.08.35:457][684]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.08.37:455][727]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.38:785][754]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.08.38:785][754]MaterialEditorStats: Info Vertex shader: 46 instructions
+[2014.10.09-22.08.38:785][754]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.08.39:652][772]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.40:943][798]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.08.40:943][798]MaterialEditorStats: Info Vertex shader: 45 instructions
+[2014.10.09-22.08.40:943][798]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.08.41:185][802]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.42:545][844]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.08.42:545][844]MaterialEditorStats: Info Vertex shader: 45 instructions
+[2014.10.09-22.08.42:545][844]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.08.55:022][220]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.55:034][220]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.08.56:809][256]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 40 instructions
+[2014.10.09-22.08.56:809][256]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 76 instructions
+[2014.10.09-22.08.56:809][256]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.08.56:809][256]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.09.02:292][452]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.09.02:297][452]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.09.03:666][480]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.09.03:666][480]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.09.03:666][480]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.09.17:693][827]LogMaterialEditor: Saving and Compiling material materialCandleFlame
+[2014.10.09-22.09.18:127][827]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.09.18:172][827]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.09.18:189][827]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.09.18:202][827]LogMaterial: 0.006734 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-22.09.22:043][827]LogSavePackage: Save=472.962830ms
+[2014.10.09-22.09.22:043][827]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame129C285F4EC4DF76687D78A211E69A3E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialCandleFlame.uasset'
+[2014.10.09-22.09.22:056][827]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.09.22:056][827]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.09.22:056][827]MaterialEditorStats: Info Texture samplers: 8/16
+[2014.10.09-22.09.26:119][917]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.09-22.09.27:530][947]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.09.27:530][947]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.09.27:530][947]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.13.15:134][633]LogCascade: Non-seeded module ParticleModuleVelocity
+[2014.10.09-22.13.18:452][793]LogCascade: Non-seeded module ParticleModuleVelocity
+[2014.10.09-22.15.36:096][ 91]LogCascade: Non-seeded module ParticleModuleRotation
+[2014.10.09-22.15.48:970][442]LogRenderer:Warning: Reallocating scene render targets to support 896x584.
+[2014.10.09-22.15.48:995][442]LogRenderer:Warning: Reallocating scene render targets to support 1080x584.
+[2014.10.09-22.16.41:312][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F6A1DA0
+[2014.10.09-22.16.41:312][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000100BBB00
+[2014.10.09-22.16.41:488][573]LogSavePackage: Save=112.969887ms
+[2014.10.09-22.16.41:488][573]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto1EF718E5144B4D3FB1EDBFD8E647866BC.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto1.umap'
+[2014.10.09-22.16.41:507][573]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.237
+[2014.10.09-22.16.41:507][573]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.237
+[2014.10.09-22.16.41:517][573]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleCandleFlame] ([1] browsable assets)...
+[2014.10.09-22.16.41:546][573]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleCandleFlame.particleCandleFlame]
+[2014.10.09-22.16.41:546][573]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleCandleFlame]
+[2014.10.09-22.16.41:636][573]LogSavePackage: Save=57.518932ms
+[2014.10.09-22.16.41:636][573]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame_Auto1576479AC4F52747730A4FC868C6C7AC6.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleCandleFlame_Auto1.uasset'
+[2014.10.09-22.16.41:653][573]LogFileHelpers: Auto-saving content packages took 0.147
+[2014.10.09-22.19.18:634][126]LogEditorTransaction: Undo Edit Curve
+[2014.10.09-22.19.22:080][217]LogEditorTransaction: Undo Edit Curve
+[2014.10.09-22.19.46:669][811]LogEditorTransaction: Undo Edit Curve
+[2014.10.09-22.23.05:256][513]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-22.23.05:294][513]LogSavePackage: Save=32.761066ms
+[2014.10.09-22.23.05:294][513]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlameE50EA5C349E4819FAEDA6497D06C51B6.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-22.23.06:440][539]LogCascade: Quitting Cascade. FXSystem=0x00000000100BB560
+[2014.10.09-22.23.17:294][848]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2014.10.09-22.23.18:502][885]LogCascade: Quitting Cascade. FXSystem=0x00000000170016C0
+[2014.10.09-22.23.25:890][150]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-22.23.25:890][150]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-22.23.25:966][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000170016C0
+[2014.10.09-22.23.25:967][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000100BB560
+[2014.10.09-22.23.25:968][150]LogPlayLevel: PIE:  Blueprint regeneration took 77 ms (1 blueprints)
+[2014.10.09-22.23.25:968][150]PIE: New page: SIE session: Programming (Oct 9, 2014, 2:23:25 PM)
+[2014.10.09-22.23.25:999][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030708s)
+[2014.10.09-22.23.26:000][150]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2014.10.09-22.23.26:000][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.031540s)
+[2014.10.09-22.23.26:000][150]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleCandleFlame_2"
+[2014.10.09-22.23.26:040][150]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-22.23.26:041][150]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-22.23.26:046][150]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.09-18.23.26
+[2014.10.09-22.23.26:047][150]LogWorld: Bringing up level for play took: 0.006124
+[2014.10.09-22.23.26:048][150]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.796
+[2014.10.09-22.23.26:064][150]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleCandleFlame_2"
+[2014.10.09-22.23.26:141][151]LogRenderer:Warning: Reallocating scene render targets to support 1080x592.
+[2014.10.09-22.23.27:734][195]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (woodBox)
+[2014.10.09-22.23.27:734][195]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.woodBox"
+[2014.10.09-22.25.39:895][536]LogCascade: Non-seeded module ParticleModuleRotation
+[2014.10.09-22.26.09:855][172]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CD6CCC0
+[2014.10.09-22.26.12:580][272]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Programming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.09-22.26.12:734][272]LogSavePackage: Save=91.921135ms
+[2014.10.09-22.26.12:734][272]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/ProgrammingDDFF92F748CF60DA8EB9C1A4C8FF094C.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.10.09-22.29.57:408][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-22.29.57:440][386]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2014.10.09-22.29.57:931][386]LogSavePackage: Save=495.317780ms
+[2014.10.09-22.29.57:931][386]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame9C5CB75D406D3A275DF567987C2DD319.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-22.46.12:868][483]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Mitchell/Desktop/textureCandleFlame.psd)
+[2014.10.09-22.46.13:161][483]0.000049 seconds to analyze Texture2D /Game/Particles/textureCandleFlame.textureCandleFlame
+
+[2014.10.09-22.46.13:193][483]LogTexture:Display: Building textures: textureCandleFlame (AutoDXT)
+[2014.10.09-22.46.16:990][483]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-22.46.16:991][483]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-22.46.17:117][484]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.022
+[2014.10.09-22.46.17:125][484]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/textureCandleFlame] ([1] browsable assets)...
+[2014.10.09-22.46.17:172][484]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Particles/textureCandleFlame.textureCandleFlame]
+[2014.10.09-22.46.17:172][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/textureCandleFlame]
+[2014.10.09-22.46.40:624][484]LogSavePackage: Save=23435.146484ms
+[2014.10.09-22.46.40:624][484]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureCandleFlame_Auto22900F6BB46572421140ADC986421421F.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/textureCandleFlame_Auto2.uasset'
+[2014.10.09-22.46.40:640][484]LogFileHelpers: Auto-saving content packages took 23.523
+[2014.10.09-22.46.51:629][801]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-22.47.11:561][ 18]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-22.47.11:872][ 18]0.000057 seconds to analyze Texture2D /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+
+[2014.10.09-22.47.11:904][ 18]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-22.47.15:734][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-22.47.15:734][ 18]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-22.47.34:541][739]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-22.47.36:521][808]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-22.47.39:471][997]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-22.47.46:693][106]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.47.46:701][106]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.09-22.47.46:787][106]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.09-22.47.46:787][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.09-22.47.46:787][106]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.09-22.47.46:787][106]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.09-22.47.46:791][106]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.47.46:825][106]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.09-22.47.49:306][173]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.47.49:307][173]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.47.49:307][173]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.47.55:483][551]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.47.55:487][551]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.47.56:885][593]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.47.56:885][593]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.47.56:886][593]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.47.59:335][683]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.48.00:678][727]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.48.00:678][727]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2014.10.09-22.48.00:678][727]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.48.00:879][734]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.48.00:879][734]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.48.00:879][734]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.09-22.48.00:904][734]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.48.00:906][734]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.09-22.48.03:558][835]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.48.03:559][835]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.48.03:559][835]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.09-22.48.03:584][835]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.48.13:618][258]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.48.13:618][258]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.48.13:618][258]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.48.13:639][258]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.48.13:642][258]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.48.15:657][313]LogMaterialEditor: Saving and Compiling material materialCandleFlame
+[2014.10.09-22.48.19:377][313]LogSavePackage: Save=15.653733ms
+[2014.10.09-22.48.19:377][313]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame88B469FF4F828819B69ED1B0760F163A.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialCandleFlame.uasset'
+[2014.10.09-22.48.59:760][402]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.49.02:224][506]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.49.02:224][506]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2014.10.09-22.49.02:224][506]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.49.06:026][741]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.49.06:030][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_1, compiling.
+[2014.10.09-22.49.07:544][796]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.49.07:544][796]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2014.10.09-22.49.07:544][796]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.49.12:826][ 32]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.49.12:853][ 32]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_1, compiling.
+[2014.10.09-22.49.14:271][ 67]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.49.14:271][ 67]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2014.10.09-22.49.14:271][ 67]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.49.16:477][149]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.49.16:535][149]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_1, compiling.
+[2014.10.09-22.49.16:939][157]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.49.16:966][158]MaterialEditorStats:Error: Error [SM5]  error X3018: invalid subscript 'TexCoords'
+[2014.10.09-22.49.19:874][317]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.49.19:875][317]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.49.19:875][317]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.49.19:900][317]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_1, compiling.
+[2014.10.09-22.49.19:903][317]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.50.02:451][604]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.50.02:451][604]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.50.02:451][604]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.50.02:453][604]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.50.02:453][604]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.50.02:453][604]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.51.12:802][689]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.51.14:367][742]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.51.14:367][742]MaterialEditorStats: Info Vertex shader: 43 instructions
+[2014.10.09-22.51.14:367][742]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.51.29:523][355]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.09-22.51.29:530][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.09-22.51.29:627][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.09-22.51.29:627][355]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.09-22.51.29:627][355]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.09-22.51.29:627][355]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.09-22.51.29:631][355]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.09-22.51.29:665][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-22.51.29:667][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.51.29:671][355]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.51.30:941][376]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-22.51.30:941][376]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-22.51.30:941][376]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-22.52.05:563][865]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.52.05:566][865]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling.
+[2014.10.09-22.52.07:090][914]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.52.07:090][914]MaterialEditorStats: Info Vertex shader: 43 instructions
+[2014.10.09-22.52.07:090][914]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.52.09:597][ 30]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.52.09:598][ 30]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.52.09:598][ 30]LogMaterial:Warning: 	(Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.09-22.52.09:637][ 30]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling.
+[2014.10.09-22.52.09:639][ 30]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Missing ParticleSubUV input texture
+[2014.10.09-22.52.23:208][523]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.52.23:248][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling.
+[2014.10.09-22.52.23:599][531]LogShaderCompilers:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.52.23:644][532]MaterialEditorStats:Error: Error [SM5]  error X3018: invalid subscript 'TexCoords'
+[2014.10.09-22.52.27:687][682]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.52.27:687][682]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.52.27:687][682]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.52.27:714][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_2, compiling.
+[2014.10.09-22.52.27:717][682]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.53.29:457][973]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.53.29:457][973]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.53.29:457][973]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.53.46:676][496]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.53.46:676][496]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.53.46:676][496]LogMaterial:Warning: 	(Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2014.10.09-22.53.46:676][496]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.53.46:678][496]MaterialEditorStats:Error: Error [SM5] (Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2014.10.09-22.53.46:678][496]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.53.50:271][589]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.53.50:272][589]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.53.50:272][589]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.53.50:273][589]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.54.36:337][846]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.54.36:337][846]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-22.54.36:337][846]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-22.54.37:732][900]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.54.38:884][930]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.54.38:884][930]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.54.38:884][930]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.55.18:569][184]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.18:572][184]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.19:613][209]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.55.19:613][209]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.55.19:613][209]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.55.20:966][246]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.20:969][246]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.21:216][252]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.55.21:216][252]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.55.21:216][252]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.55.33:111][556]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.09-22.55.33:118][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.09-22.55.33:219][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.09-22.55.33:219][556]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.09-22.55.33:219][556]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.09-22.55.33:219][556]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.09-22.55.33:222][556]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.09-22.55.33:257][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-22.55.33:259][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-22.55.33:262][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.55.34:623][579]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-22.55.34:623][579]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-22.55.34:623][579]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-22.55.51:390][200]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.51:716][207]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.55.51:716][207]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.55.51:716][207]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.55.55:472][311]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.55.55:722][317]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.55.55:722][317]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.55.55:722][317]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.56.41:256][393]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001736D080
+[2014.10.09-22.56.41:259][393]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.042
+[2014.10.09-22.56.41:273][393]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSubUVCandleFlame] ([1] browsable assets)...
+[2014.10.09-22.56.41:309][393]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame]
+[2014.10.09-22.56.41:309][393]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSubUVCandleFlame]
+[2014.10.09-22.57.05:329][393]LogSavePackage: Save=23996.388672ms
+[2014.10.09-22.57.05:329][393]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame_Auto34DB6F5D44B0C2BDF841F58A6D17D0BB6.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSubUVCandleFlame_Auto3.uasset'
+[2014.10.09-22.57.05:342][393]LogFileHelpers: Auto-saving content packages took 24.081
+[2014.10.09-22.57.10:483][490]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.11:560][515]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.11:560][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.11:560][515]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.18:359][927]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.18:590][935]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.18:590][935]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.18:590][935]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.20:229][976]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.20:481][982]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.20:482][982]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.20:482][982]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.21:285][  2]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.21:287][  2]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.57.21:562][  8]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.21:563][  8]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.21:563][  8]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.35:013][618]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.35:040][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.57.35:303][623]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.35:303][623]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.35:303][623]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.38:414][713]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.38:442][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.57.38:690][718]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.38:690][718]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.38:690][718]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.40:854][818]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.40:879][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.57.41:161][823]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.41:161][823]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.57.41:161][823]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.09-22.57.44:655][950]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.45:175][960]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.45:175][960]MaterialEditorStats: Info Vertex shader: 43 instructions
+[2014.10.09-22.57.45:175][960]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.57.47:303][ 59]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.47:831][ 70]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.57.47:831][ 70]MaterialEditorStats: Info Vertex shader: 45 instructions
+[2014.10.09-22.57.47:831][ 70]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.57.48:254][ 81]LogMaterialEditor: Saving and Compiling material materialCandleFlame
+[2014.10.09-22.57.48:665][ 81]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.09-22.57.48:713][ 81]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.57.48:731][ 81]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.57.48:743][ 81]LogMaterial: 0.006090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-22.57.50:912][ 81]LogSavePackage: Save=267.634247ms
+[2014.10.09-22.57.50:912][ 81]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame3644A0EE46D86F9466532A8E5390C6B4.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialCandleFlame.uasset'
+[2014.10.09-22.58.16:104][741]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.09-22.58.16:111][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.09-22.58.16:164][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.09-22.58.16:164][741]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.10.09-22.58.16:164][741]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_5) Not registered. Aborting.
+[2014.10.09-22.58.16:164][741]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_5) Already registered. Aborting.
+[2014.10.09-22.58.16:166][741]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.09-22.58.16:195][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.58.17:757][771]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-22.58.17:757][771]MaterialEditorStats: Info Vertex shader: 45 instructions
+[2014.10.09-22.58.17:757][771]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.58.22:063][938]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.09-22.58.22:072][938]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.09-22.58.23:451][967]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.58.23:451][967]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.58.23:451][967]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.58.23:541][968]LogMaterialEditor: Saving and Compiling material materialCandleFlame
+[2014.10.09-22.58.23:965][968]LogMaterial: Missing cached shader map for material PreviewMaterial_5, compiling.
+[2014.10.09-22.58.24:008][968]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.58.24:029][968]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-22.58.24:042][968]LogMaterial: 0.005172 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-22.58.27:611][968]LogSavePackage: Save=468.680878ms
+[2014.10.09-22.58.27:611][968]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame92602891449DD28EF713529F60BDE17C.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialCandleFlame.uasset'
+[2014.10.09-22.58.27:627][968]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.58.27:627][968]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.58.27:627][968]MaterialEditorStats: Info Texture samplers: 8/16
+[2014.10.09-22.58.48:027][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-22.59.02:446][715]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.02:466][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.09-22.59.02:564][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.09-22.59.02:564][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.10.09-22.59.02:564][715]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_6) Not registered. Aborting.
+[2014.10.09-22.59.02:564][715]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_6) Already registered. Aborting.
+[2014.10.09-22.59.02:567][715]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.04:294][744]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.04:294][744]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.59.04:294][744]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-22.59.10:615][144]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.10:619][144]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-22.59.11:455][163]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.11:455][163]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.59.11:455][163]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-22.59.18:271][490]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.18:297][490]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-22.59.19:177][506]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.19:177][506]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.59.19:177][506]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-22.59.21:340][585]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.21:446][585]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-22.59.22:142][599]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.22:142][599]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-22.59.22:142][599]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.59.31:601][844]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-22.59.31:609][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.09-22.59.31:682][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.09-22.59.31:682][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.10.09-22.59.31:682][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_7) Not registered. Aborting.
+[2014.10.09-22.59.31:682][844]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_7) Already registered. Aborting.
+[2014.10.09-22.59.31:685][844]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-22.59.31:719][844]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-22.59.33:243][870]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-22.59.33:243][870]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-22.59.33:243][870]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-22.59.43:305][198]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.09-22.59.45:798][333]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.45:803][333]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.45:844][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-22.59.46:732][348]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.46:732][348]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-22.59.46:732][348]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-22.59.48:832][427]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-22.59.49:643][441]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-22.59.49:643][441]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-22.59.49:643][441]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.00.02:982][  1]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.02:986][  1]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.03:747][ 14]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.03:747][ 14]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.09-23.00.03:747][ 14]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.00.06:889][126]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.07:761][141]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.07:761][141]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.07:761][141]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.09:904][265]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.10:718][279]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.10:718][279]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.10:718][279]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.13:771][337]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.14:533][350]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.14:533][350]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.14:533][350]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.15:375][364]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.16:171][394]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.16:171][394]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.16:171][394]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.16:288][395]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.17:047][409]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.17:047][409]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.17:047][409]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.35:664][315]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.36:486][329]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.36:486][329]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.36:486][329]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.40:365][497]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.00.41:162][511]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.00.41:162][511]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.00.41:162][511]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.00.59:837][945]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.00:614][957]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.01.00:614][957]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.01.00:614][957]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.01.02:751][ 34]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.02:781][ 34]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.01.03:659][ 49]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.01.03:659][ 49]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.01.03:659][ 49]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.01.09:358][224]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.09:363][224]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.10:173][238]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.01.10:173][238]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.01.10:173][238]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.01.14:866][424]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.14:866][424]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_6 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.01.14:866][424]LogMaterial:Warning: 	(Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-23.01.14:868][424]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) Invalid node used in vertex/hull/domain shader input!
+[2014.10.09-23.01.19:236][503]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.20:017][517]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.01.20:017][517]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.01.20:017][517]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.01.22:044][555]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.22:874][570]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.01.22:874][570]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.01.22:874][570]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.01.29:286][766]LogMaterialEditor: Saving and Compiling material materialSubUVCandleFlame
+[2014.10.09-23.01.29:696][766]LogMaterial: Missing cached shader map for material PreviewMaterial_6, compiling.
+[2014.10.09-23.01.29:747][766]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.01.29:765][766]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.01.29:777][766]LogMaterial: 0.005458 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-23.01.31:683][766]LogSavePackage: Save=279.038666ms
+[2014.10.09-23.01.31:683][766]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialSubUVCandleFlame891DE0EE41359973CBE5BF96FA04CFE2.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialSubUVCandleFlame.uasset'
+[2014.10.09-23.01.42:335][177]LogMaterial:Warning: Material /Game/Particles/Materials/materialSubUVCandleFlame.materialSubUVCandleFlame needed to have new flag set bUsedWithParticleSprites !
+[2014.10.09-23.01.42:386][177]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.01.42:398][177]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-23.02.38:157][813]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.02.38:164][813]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.02.39:810][852]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-23.02.39:810][852]MaterialEditorStats: Info Vertex shader: 45 instructions
+[2014.10.09-23.02.39:810][852]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-23.02.43:781][962]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleCandleFlame)
+[2014.10.09-23.02.49:189][141]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.02.49:198][141]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.02.50:659][178]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-23.02.50:659][178]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-23.02.50:659][178]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-23.02.58:826][454]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.02.58:830][454]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.03.00:249][486]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.09-23.03.00:249][486]MaterialEditorStats: Info Vertex shader: 82 instructions
+[2014.10.09-23.03.00:249][486]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.09-23.03.07:254][639]LogMaterial: Missing cached shader map for material PreviewMaterial_8, compiling.
+[2014.10.09-23.03.07:261][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.10.09-23.03.07:340][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.10.09-23.03.07:340][639]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_8) Already registered. Aborting.
+[2014.10.09-23.03.07:340][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_8) Not registered. Aborting.
+[2014.10.09-23.03.07:340][639]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_8) Already registered. Aborting.
+[2014.10.09-23.03.07:346][639]LogMaterial: Missing cached shader map for material PreviewMaterial_8, compiling.
+[2014.10.09-23.03.07:380][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-23.03.07:381][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-23.03.07:385][639]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-23.03.08:686][661]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-23.03.08:686][661]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.03.08:686][661]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.04.11:410][465]LogMaterial: Missing cached shader map for material PreviewMaterial_7, compiling.
+[2014.10.09-23.04.11:449][465]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-23.04.11:461][465]LogMaterial: Missing cached shader map for material materialCandleFlame, compiling.
+[2014.10.09-23.04.11:470][465]LogMaterial: 0.003208 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-23.04.18:874][647]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.18:894][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_9) Not registered. Aborting.
+[2014.10.09-23.04.18:987][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_9) Not registered. Aborting.
+[2014.10.09-23.04.18:987][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_9) Already registered. Aborting.
+[2014.10.09-23.04.18:987][647]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_9) Not registered. Aborting.
+[2014.10.09-23.04.18:987][647]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_9) Already registered. Aborting.
+[2014.10.09-23.04.18:990][647]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.19:022][647]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.04.19:923][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.04.19:923][664]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.04.19:923][664]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.04.25:591][953]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.25:594][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-23.04.26:437][970]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.04.26:437][970]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.04.26:437][970]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.04.31:065][178]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.31:095][178]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-23.04.31:868][193]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.04.31:868][193]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.04.31:868][193]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.04.45:681][664]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.45:686][664]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.04.45:789][664]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-23.04.46:451][678]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.04.46:452][678]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.04.46:452][678]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.05:734][345]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.05:739][345]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.05:809][345]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.05.06:631][361]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.05.06:631][361]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.05.06:631][361]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.19:413][788]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.19:418][788]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.20:309][806]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.05.20:309][806]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.05.20:309][806]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.29:995][141]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.30:000][141]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.30:856][158]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.05.30:856][158]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.05.30:856][158]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.32:509][228]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.33:357][245]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.05.33:357][245]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.05.33:357][245]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.41:403][487]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.42:299][514]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.05.42:299][514]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.05.42:299][514]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.05.45:874][627]LogMaterialEditor: Saving and Compiling material materialSubUVCandleFlame
+[2014.10.09-23.05.46:285][627]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.05.46:334][627]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.05.46:351][627]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.05.46:379][627]LogMaterial: 0.017739 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-23.05.50:169][627]LogSavePackage: Save=282.425903ms
+[2014.10.09-23.05.50:169][627]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialSubUVCandleFlame4486988D4690EC9B6881C2A65C1B9648.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialSubUVCandleFlame.uasset'
+[2014.10.09-23.05.58:988][825]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.05.58:988][825]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.05.59:083][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD3E0C0
+[2014.10.09-23.05.59:083][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000017000860
+[2014.10.09-23.05.59:083][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3FA340
+[2014.10.09-23.05.59:084][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019CCBD80
+[2014.10.09-23.05.59:085][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C973E20
+[2014.10.09-23.05.59:085][825]LogPlayLevel: PIE:  Blueprint regeneration took 97 ms (1 blueprints)
+[2014.10.09-23.05.59:086][825]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:05:59 PM)
+[2014.10.09-23.05.59:115][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029015s)
+[2014.10.09-23.05.59:115][825]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2014.10.09-23.05.59:116][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.029849s)
+[2014.10.09-23.05.59:116][825]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleCandleFlame_2"
+[2014.10.09-23.05.59:147][825]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.05.59:149][825]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.05.59:154][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.05.59
+[2014.10.09-23.05.59:155][825]LogWorld: Bringing up level for play took: 0.005830
+[2014.10.09-23.05.59:156][825]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.183
+[2014.10.09-23.05.59:169][825]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleCandleFlame_2"
+[2014.10.09-23.06.01:164][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001F3F8FE0
+[2014.10.09-23.06.44:861][ 37]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-23.07.08:306][465]LogSavePackage: Save=112.181511ms
+[2014.10.09-23.07.08:306][465]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto4EFBEE4A34EE283BC667DD5963811B471.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto4.umap'
+[2014.10.09-23.07.08:325][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.204
+[2014.10.09-23.07.08:325][465]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.204
+[2014.10.09-23.07.08:336][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Materials/materialCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.07.08:388][465]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Particles/Materials/materialCandleFlame.materialCandleFlame]
+[2014.10.09-23.07.08:388][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Materials/materialCandleFlame]
+[2014.10.09-23.07.08:910][465]LogSavePackage: Save=484.314087ms
+[2014.10.09-23.07.08:910][465]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame_Auto4C6727880415F7B0B3264D686A751AE7D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/Materials/materialCandleFlame_Auto4.uasset'
+[2014.10.09-23.07.08:937][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.07.08:968][465]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleCandleFlame.particleCandleFlame]
+[2014.10.09-23.07.08:968][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleCandleFlame]
+[2014.10.09-23.07.09:089][465]LogSavePackage: Save=84.921364ms
+[2014.10.09-23.07.09:089][465]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame_Auto43FEF0D67479D13E94A10478A93A93708.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleCandleFlame_Auto4.uasset'
+[2014.10.09-23.07.09:105][465]LogFileHelpers: Auto-saving content packages took 0.779
+[2014.10.09-23.07.17:615][622]LogCascade: Quitting Cascade. FXSystem=0x0000000026890EA0
+[2014.10.09-23.07.50:959][704]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.07.52:717][749]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.07.52:717][749]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.07.52:717][749]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.08.14:349][389]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.14:353][389]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.16:075][424]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.08.16:075][424]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.08.16:075][424]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.08.17:820][513]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.18:644][530]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.08.18:644][530]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.08.18:644][530]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.08.22:929][661]Cmd: TRANSACTION UNDO
+[2014.10.09-23.08.22:929][661]LogEditorTransaction: Undo Create Pin Link
+[2014.10.09-23.08.22:974][661]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.22:999][661]LogMaterial: Missing cached shader map for material PreviewMaterial_8, compiling.
+[2014.10.09-23.08.23:030][661]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.24:507][699]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.08.24:507][699]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.08.24:507][699]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.08.24:608][701]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-23.08.24:608][701]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.08.24:608][701]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.08.25:026][719]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.08.25:830][736]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.08.25:830][736]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.08.25:830][736]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.09.35:524][326]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-23.09.54:090][872]LogMaterial: Missing cached shader map for material PreviewMaterial_8, compiling.
+[2014.10.09-23.09.56:140][924]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-23.09.56:140][924]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.09.56:140][924]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.09.58:377][ 40]LogMaterial: Missing cached shader map for material PreviewMaterial_8, compiling.
+[2014.10.09-23.09.59:521][ 64]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-23.09.59:521][ 64]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.09.59:522][ 64]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.12.07:426][139]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.07:430][139]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.08:646][164]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-23.12.08:646][164]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.12.08:646][164]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.09-23.12.17:271][478]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.17:272][478]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.12.17:272][478]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2014.10.09-23.12.17:274][478]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.17:275][478]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.12.17:275][478]LogMaterial:Warning: 	Only transparent or postprocess materials can read from scene depth.
+[2014.10.09-23.12.17:279][478]MaterialEditorStats:Error: Error [SM5] Only transparent or postprocess materials can read from scene depth.
+[2014.10.09-23.12.23:510][648]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.23:513][648]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.23:803][653]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.09-23.12.23:803][653]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.12.23:803][653]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.09-23.12.35:307][935]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.35:312][935]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.12.36:534][960]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.12.36:534][960]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.12.36:535][960]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.13.42:700][986]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.13.42:704][986]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterSubUV_0, compiling.
+[2014.10.09-23.13.44:618][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.13.44:618][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.13.44:618][ 25]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.13.49:792][136]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.13.50:626][159]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.13.50:626][159]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.13.50:626][159]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.13.54:648][388]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.13.54:652][388]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling.
+[2014.10.09-23.13.55:510][406]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.13.55:510][406]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.13.55:510][406]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.03:270][724]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.03:295][724]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling.
+[2014.10.09-23.14.04:232][743]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.04:232][743]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.04:232][743]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.20:138][377]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.21:057][396]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.21:057][396]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.21:057][396]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.22:018][437]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.22:049][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling.
+[2014.10.09-23.14.22:958][455]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.22:958][455]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.22:958][455]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.30:790][728]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.30:824][728]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling.
+[2014.10.09-23.14.31:722][746]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.31:722][746]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.31:722][746]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.33:702][822]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.34:561][840]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.34:561][840]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.34:561][840]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.36:465][907]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.36:527][907]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_4, compiling.
+[2014.10.09-23.14.37:300][928]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.37:300][928]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.37:300][928]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.39:252][973]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.40:072][991]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.40:072][991]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.40:072][991]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.14.42:604][ 95]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.14.42:678][ 95]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.14.43:530][113]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.14.43:530][113]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.14.43:530][113]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.17.29:598][812]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.17.29:605][812]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.17.31:968][862]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2014.10.09-23.17.31:968][862]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 93 instructions
+[2014.10.09-23.17.31:968][862]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.17.31:968][862]MaterialEditorStats: Info Texture samplers: 6/16
+[2014.10.09-23.18.42:487][528]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.42:493][528]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.44:291][572]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.18.44:291][572]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.18.44:291][572]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.18.46:447][641]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.47:310][658]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.18.47:310][658]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.18.47:311][658]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.18.49:085][697]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.49:979][716]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.18.49:979][716]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.18.49:979][716]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.18.50:472][726]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.51:272][753]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.18.51:272][753]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.18.51:273][753]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.18.51:866][766]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.18.52:683][796]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.18.52:683][796]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.18.52:683][796]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.00:485][109]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.00:578][109]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.19.01:997][137]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.19.01:997][137]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.01:997][137]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.05:666][247]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.06:485][264]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.19.06:485][264]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.06:485][264]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.12:064][571]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.12:068][571]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.12:163][571]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.19.12:994][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.19.12:994][588]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.12:994][588]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.14:633][657]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.16:210][697]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.19.16:210][697]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.16:210][697]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.18:161][801]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.19:643][830]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.19:730][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.19.19:730][832]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.19:730][832]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.22:026][880]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.23:144][902]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.23:966][930]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.19.25:606][976]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.19.25:606][976]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.19.25:606][976]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.19.42:825][373]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.24.11:939][679]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-23.24.23:029][989]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd]
+[2014.10.09-23.24.23:029][989]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-23.24.23:427][989]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-23.24.39:333][989]LogEditorFactories: -- imported successfully
+[2014.10.09-23.24.39:474][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000026890EA0
+[2014.10.09-23.24.39:475][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.039
+[2014.10.09-23.24.39:484][990]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSubUVCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.24.39:771][990]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame]
+[2014.10.09-23.24.39:771][990]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSubUVCandleFlame]
+[2014.10.09-23.25.02:816][990]LogSavePackage: Save=23020.408203ms
+[2014.10.09-23.25.02:817][990]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame_Auto557989AB34886F75FAAD834B3DAE90BA2.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSubUVCandleFlame_Auto5.uasset'
+[2014.10.09-23.25.02:825][990]LogFileHelpers: Auto-saving content packages took 23.348
+[2014.10.09-23.25.34:744][826]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd]
+[2014.10.09-23.25.34:744][826]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-23.25.35:188][826]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-23.25.51:647][826]LogEditorFactories: -- imported successfully
+[2014.10.09-23.26.18:702][435]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.26.18:733][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.26.21:217][487]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2014.10.09-23.26.21:217][487]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.26.21:217][487]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.26.25:715][581]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.26.25:741][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.26.27:254][611]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.26.27:254][611]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.26.27:254][611]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.26.30:369][677]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.26.30:400][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.26.31:924][708]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.26.31:924][708]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.26.31:924][708]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.28.27:287][566]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd]
+[2014.10.09-23.28.27:287][566]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-23.28.27:629][566]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-23.28.42:875][566]LogEditorFactories: -- imported successfully
+[2014.10.09-23.28.50:289][720]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.28.50:319][720]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.28.52:758][771]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.28.52:759][771]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.28.52:759][771]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.28.53:474][785]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.28.53:504][785]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.28.54:976][814]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.28.54:976][814]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.28.54:976][814]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.34.16:390][ 77]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd]
+[2014.10.09-23.34.16:390][ 77]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-23.34.17:073][ 77]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-23.34.32:790][ 77]LogEditorFactories: -- imported successfully
+[2014.10.09-23.35.04:983][817]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.35.05:011][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.35.05:135][817]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.033
+[2014.10.09-23.35.05:152][817]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.35.05:183][817]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.35.05:189][817]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.35.05:249][817]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleCandleFlame.particleCandleFlame]
+[2014.10.09-23.35.05:249][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleCandleFlame]
+[2014.10.09-23.35.05:439][817]LogSavePackage: Save=110.353317ms
+[2014.10.09-23.35.05:439][817]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame_Auto646D721C5472A297CB58B50BA10AEBF2E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleCandleFlame_Auto6.uasset'
+[2014.10.09-23.35.05:475][817]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSubUVCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.35.05:516][817]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame]
+[2014.10.09-23.35.05:516][817]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSubUVCandleFlame]
+[2014.10.09-23.35.29:755][817]LogSavePackage: Save=24206.402344ms
+[2014.10.09-23.35.29:755][817]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame_Auto6A5332AC14D4A87696C9EAFB4A40BB179.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSubUVCandleFlame_Auto6.uasset'
+[2014.10.09-23.35.29:767][817]LogFileHelpers: Auto-saving content packages took 24.631
+[2014.10.09-23.35.29:945][819]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2014.10.09-23.35.29:945][819]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.35.29:945][819]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.35.54:240][366]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.35.54:269][366]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.35.56:697][417]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.35.56:697][417]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.35.56:697][417]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.02:796][565]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.02:826][565]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.04:412][598]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.04:412][598]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.04:413][598]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.05:749][627]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.05:796][627]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.07:328][658]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.07:328][658]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.07:328][658]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.11:804][761]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.11:845][761]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.13:419][794]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.13:420][794]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.13:420][794]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.15:333][848]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.15:401][848]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.16:957][880]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.16:991][880]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.18:720][914]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.18:721][914]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.18:721][914]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.29:728][212]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.30:555][230]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.09-23.36.30:555][230]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.30:555][230]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.33:499][358]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.33:536][358]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.36.35:211][404]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.35:211][404]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.35:211][404]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.43:767][732]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.43:773][732]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.43:802][732]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.36.45:349][772]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.45:349][772]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.45:349][772]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.47:034][827]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.47:067][827]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_1, compiling.
+[2014.10.09-23.36.48:633][865]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.48:633][865]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.48:633][865]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.36.49:670][915]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.36.51:207][947]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.36.51:207][947]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.36.51:207][947]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.38.50:764][655]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-23.38.50:764][655]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-23.38.52:500][694]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-23.38.52:501][694]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-23.39.50:704][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureSubUVCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset" SILENT=true
+[2014.10.09-23.39.50:925][259]LogSavePackage: Save=216.940613ms
+[2014.10.09-23.39.50:925][259]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlameF124BD4B4D12FAB8A3E331957EF4824E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset'
+[2014.10.09-23.40.17:241][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureSubUVCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset" SILENT=true
+[2014.10.09-23.40.17:354][277]LogSavePackage: Save=77.364128ms
+[2014.10.09-23.40.17:354][277]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlameA302C0A94770FE16A4FCD3BB7BD467C0.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset'
+[2014.10.09-23.40.19:501][349]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureSubUVCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset" SILENT=true
+[2014.10.09-23.40.19:598][349]LogSavePackage: Save=76.770279ms
+[2014.10.09-23.40.19:598][349]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame6A125EB24DE4A13B6EEA1F83DBBAED95.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset'
+[2014.10.09-23.40.30:890][704]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.40.30:891][704]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.40.30:891][704]LogMaterial:Warning: 	(Node ParticleSubUV) ParticleSubUV> Sampler type is Alpha, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.30:913][704]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.40.30:917][704]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) ParticleSubUV> Sampler type is Alpha, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.37:189][956]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.40.37:190][956]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.40.37:190][956]LogMaterial:Warning: 	(Node ParticleSubUV) ParticleSubUV> Sampler type is Normal, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.37:212][956]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.40.37:216][956]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) ParticleSubUV> Sampler type is Normal, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.39:389][ 40]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.40.39:390][ 40]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_9 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.10.09-23.40.39:390][ 40]LogMaterial:Warning: 	(Node ParticleSubUV) ParticleSubUV> Sampler type is Masks, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.39:415][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.40.39:420][ 40]MaterialEditorStats:Error: Error [SM5] (Node ParticleSubUV) ParticleSubUV> Sampler type is Masks, should be Color for /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame
+[2014.10.09-23.40.40:716][ 90]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.40.40:746][ 90]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_3, compiling.
+[2014.10.09-23.40.43:341][144]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.40.43:341][144]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.40.43:341][144]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.41.27:931][175]LogTexture:Display: Building textures: textureSubUVCandleFlame (DXT5)
+[2014.10.09-23.42.13:466][886]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd]
+[2014.10.09-23.42.13:466][886]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/textureSubUVCandleFlame.psd)
+[2014.10.09-23.42.13:982][886]LogTexture:Display: Building textures: textureSubUVCandleFlame (BGRA8)
+[2014.10.09-23.42.17:092][886]LogTexture:Display: Building textures: textureSubUVCandleFlame (BGRA8)
+[2014.10.09-23.42.19:668][886]LogEditorFactories: -- imported successfully
+[2014.10.09-23.44.11:468][430]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.11:476][430]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.13:986][483]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.44.13:986][483]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.44.13:986][483]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.44.16:622][542]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.16:630][542]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.18:092][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.44.18:092][573]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.44.18:092][573]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.44.22:864][675]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.22:874][675]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.24:428][706]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.44.24:428][706]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.44.24:428][706]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.44.30:943][846]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.30:951][846]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.32:036][869]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.32:045][869]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.33:583][901]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 67 instructions
+[2014.10.09-23.44.33:583][901]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.44.33:583][901]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.44.35:069][962]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.35:073][962]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.44.35:604][972]MaterialEditorStats: Info Base pass shader without light map: 47 instructions
+[2014.10.09-23.44.35:604][972]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.09-23.44.35:604][972]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.09-23.45.03:748][593]LogMaterialEditor: Saving and Compiling material materialSubUVCandleFlame
+[2014.10.09-23.45.04:158][593]LogMaterial: Missing cached shader map for material PreviewMaterial_9, compiling.
+[2014.10.09-23.45.04:199][593]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.45.04:209][593]LogMaterial: Missing cached shader map for material materialSubUVCandleFlame, compiling.
+[2014.10.09-23.45.04:217][593]LogMaterial: 0.003146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.09-23.45.07:235][593]LogSavePackage: Save=434.438202ms
+[2014.10.09-23.45.07:235][593]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialSubUVCandleFlameAA40303E4E4AE71786874E8404A8B19D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialSubUVCandleFlame.uasset'
+[2014.10.09-23.45.30:307][ 98]LogSavePackage: Save=110.518456ms
+[2014.10.09-23.45.30:307][ 98]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto7533D64094A411257D53245A3C114F858.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto7.umap'
+[2014.10.09-23.45.30:323][ 98]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.203
+[2014.10.09-23.45.30:323][ 98]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.203
+[2014.10.09-23.45.30:332][ 98]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSubUVCandleFlame] ([1] browsable assets)...
+[2014.10.09-23.45.30:354][ 98]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSubUVCandleFlame.textureSubUVCandleFlame]
+[2014.10.09-23.45.30:354][ 98]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSubUVCandleFlame]
+[2014.10.09-23.45.30:447][ 98]LogTexture:Display: Building textures: textureSubUVCandleFlame (AutoDXT)
+[2014.10.09-23.46.10:006][ 98]LogSavePackage: Save=39610.214844ms
+[2014.10.09-23.46.10:006][ 98]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame_Auto72C4F912F4839319FE514DCAEC60A5B68.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSubUVCandleFlame_Auto7.uasset'
+[2014.10.09-23.46.10:027][ 98]LogFileHelpers: Auto-saving content packages took 39.703
+[2014.10.09-23.47.50:144][858]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.09-23.47.50:145][858]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.09-23.48.14:800][424]LogAssetTools:Warning: Failed to import 'C:\Users\Mitchell\Desktop\textureSubUVCandleFlame.tif'. Unknown extension 'tif'.
+[2014.10.09-23.48.33:243][762]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.48.33:244][762]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.48.33:328][762]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.09-23.48.33:328][762]PIE: New page: PIE session: Programming (Oct 9, 2014, 3:48:33 PM)
+[2014.10.09-23.48.33:355][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026776s)
+[2014.10.09-23.48.33:356][762]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2014.10.09-23.48.33:356][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027648s)
+[2014.10.09-23.48.33:384][762]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.48.33:386][762]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.48.33:390][762]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.48.33
+[2014.10.09-23.48.33:391][762]LogWorld: Bringing up level for play took: 0.005878
+[2014.10.09-23.48.33:394][762]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.029
+[2014.10.09-23.48.40:701][980]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000057F55D00
+[2014.10.09-23.49.12:689][112]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.09-23.50.23:237][432]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.50.23:237][432]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.50.23:320][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003169E980
+[2014.10.09-23.50.23:321][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019D96B60
+[2014.10.09-23.50.23:322][432]LogPlayLevel: PIE:  Blueprint regeneration took 85 ms (1 blueprints)
+[2014.10.09-23.50.23:323][432]PIE: New page: PIE session: Programming (Oct 9, 2014, 3:50:23 PM)
+[2014.10.09-23.50.23:349][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026078s)
+[2014.10.09-23.50.23:349][432]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2014.10.09-23.50.23:350][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.026918s)
+[2014.10.09-23.50.23:379][432]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.50.23:380][432]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.50.23:385][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.50.23
+[2014.10.09-23.50.23:386][432]LogWorld: Bringing up level for play took: 0.005850
+[2014.10.09-23.50.23:388][432]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.039
+[2014.10.09-23.50.28:350][584]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003169C860
+[2014.10.09-23.50.38:968][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.50.39:075][892]LogSavePackage: Save=76.031349ms
+[2014.10.09-23.50.39:075][892]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlameF996C7D0438042045603EBB80C78D9AB.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.50.42:642][  5]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.50.42:643][  5]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.50.42:724][  5]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.10.09-23.50.42:724][  5]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:50:42 PM)
+[2014.10.09-23.50.42:750][  5]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025766s)
+[2014.10.09-23.50.42:750][  5]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2014.10.09-23.50.42:750][  5]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.026571s)
+[2014.10.09-23.50.42:751][  5]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.50.42:777][  5]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.50.42:779][  5]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.50.42:783][  5]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.50.42
+[2014.10.09-23.50.42:784][  5]LogWorld: Bringing up level for play took: 0.005757
+[2014.10.09-23.50.42:785][  5]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.643
+[2014.10.09-23.50.42:798][  5]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.50.44:851][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019CCA840
+[2014.10.09-23.50.53:469][320]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.50.53:568][320]LogSavePackage: Save=76.430206ms
+[2014.10.09-23.50.53:568][320]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlameDFE0356D476F48318B934EB41977974F.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.50.55:730][387]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.50.55:730][387]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.50.55:811][387]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.10.09-23.50.55:811][387]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:50:55 PM)
+[2014.10.09-23.50.55:836][387]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024587s)
+[2014.10.09-23.50.55:836][387]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2014.10.09-23.50.55:837][387]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.025382s)
+[2014.10.09-23.50.55:837][387]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.50.55:868][387]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.50.55:870][387]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.50.55:874][387]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.50.55
+[2014.10.09-23.50.55:876][387]LogWorld: Bringing up level for play took: 0.006065
+[2014.10.09-23.50.55:877][387]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.449
+[2014.10.09-23.50.55:890][387]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.50.58:415][476]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027345940
+[2014.10.09-23.51.03:958][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.51.04:058][635]LogSavePackage: Save=77.412643ms
+[2014.10.09-23.51.04:058][635]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame1D667AF947999739B36E73BF40220ACB.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.51.07:737][750]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.51.07:737][750]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.51.07:818][750]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.10.09-23.51.07:818][750]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:51:07 PM)
+[2014.10.09-23.51.07:843][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024559s)
+[2014.10.09-23.51.07:843][750]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2014.10.09-23.51.07:844][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.025370s)
+[2014.10.09-23.51.07:844][750]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.51.07:875][750]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.51.07:876][750]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.51.07:881][750]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.51.07
+[2014.10.09-23.51.07:882][750]LogWorld: Bringing up level for play took: 0.005895
+[2014.10.09-23.51.07:883][750]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.455
+[2014.10.09-23.51.07:896][750]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.51.19:302][131]Cmd: SELECT NONE
+[2014.10.09-23.51.21:340][217]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000027346CA0
+[2014.10.09-23.51.27:329][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.51.27:430][377]LogSavePackage: Save=79.609375ms
+[2014.10.09-23.51.27:430][377]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame9D97B501457E2CF1E70A9CBA2C2D29D7.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.51.31:787][498]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.51.31:787][498]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.51.31:868][498]LogPlayLevel: PIE:  Blueprint regeneration took 81 ms (1 blueprints)
+[2014.10.09-23.51.31:869][498]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:51:31 PM)
+[2014.10.09-23.51.31:895][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025953s)
+[2014.10.09-23.51.31:895][498]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2014.10.09-23.51.31:896][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.026776s)
+[2014.10.09-23.51.31:896][498]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.51.31:922][498]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.51.31:923][498]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.51.31:928][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.51.31
+[2014.10.09-23.51.31:929][498]LogWorld: Bringing up level for play took: 0.005874
+[2014.10.09-23.51.31:930][498]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.501
+[2014.10.09-23.51.31:943][498]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.51.37:661][708]Cmd: SELECT NONE
+[2014.10.09-23.51.39:843][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000273456C0
+[2014.10.09-23.51.53:578][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.51.53:680][175]LogSavePackage: Save=79.284691ms
+[2014.10.09-23.51.53:680][175]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame8DB61C9A4C473C8C149E9E9D824E70A5.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.52.08:566][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.52.08:665][594]LogSavePackage: Save=76.878510ms
+[2014.10.09-23.52.08:665][594]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame762552784C102113228E9E977245F44B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.52.15:641][789]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.52.15:743][789]LogSavePackage: Save=78.350769ms
+[2014.10.09-23.52.15:743][789]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame8D363B7441785BDCBC0A459CE6B0E213.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.52.19:124][890]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.52.19:124][890]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.52.19:206][890]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.10.09-23.52.19:207][890]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:52:19 PM)
+[2014.10.09-23.52.19:232][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025128s)
+[2014.10.09-23.52.19:233][890]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2014.10.09-23.52.19:233][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.025955s)
+[2014.10.09-23.52.19:233][890]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.52.19:263][890]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.52.19:265][890]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.52.19:270][890]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.52.19
+[2014.10.09-23.52.19:271][890]LogWorld: Bringing up level for play took: 0.005758
+[2014.10.09-23.52.19:272][890]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.159
+[2014.10.09-23.52.19:285][890]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.52.21:832][982]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000266F4E00
+[2014.10.09-23.53.27:869][923]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.53.27:869][923]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.53.27:951][923]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.10.09-23.53.27:951][923]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:53:27 PM)
+[2014.10.09-23.53.27:979][923]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027329s)
+[2014.10.09-23.53.27:979][923]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2014.10.09-23.53.27:980][923]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.028192s)
+[2014.10.09-23.53.27:980][923]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.53.28:010][923]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.53.28:012][923]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.53.28:016][923]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.53.28
+[2014.10.09-23.53.28:018][923]LogWorld: Bringing up level for play took: 0.005898
+[2014.10.09-23.53.28:018][923]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.585
+[2014.10.09-23.53.28:031][923]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.53.29:986][  1]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000266F7600
+[2014.10.09-23.53.38:267][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.09-23.53.38:366][305]LogSavePackage: Save=77.236313ms
+[2014.10.09-23.53.38:366][305]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame29D8C8E74FEF9919F0701894EA399A39.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.09-23.53.40:738][373]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.53.40:739][373]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.53.40:821][373]LogPlayLevel: PIE:  Blueprint regeneration took 82 ms (1 blueprints)
+[2014.10.09-23.53.40:821][373]PIE: New page: SIE session: Programming (Oct 9, 2014, 3:53:40 PM)
+[2014.10.09-23.53.40:849][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027548s)
+[2014.10.09-23.53.40:849][373]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2014.10.09-23.53.40:850][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.028369s)
+[2014.10.09-23.53.40:850][373]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.53.40:876][373]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.53.40:877][373]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.53.40:882][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.53.40
+[2014.10.09-23.53.40:883][373]LogWorld: Bringing up level for play took: 0.005822
+[2014.10.09-23.53.40:884][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.55
+[2014.10.09-23.53.40:897][373]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.dust"
+[2014.10.09-23.54.04:605][208]Cmd: SELECT NONE
+[2014.10.09-23.54.06:629][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD3EF20
+[2014.10.09-23.54.07:405][303]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.09-23.54.07:405][303]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.09-23.54.07:489][303]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.09-23.54.07:489][303]PIE: New page: PIE session: Programming (Oct 9, 2014, 3:54:07 PM)
+[2014.10.09-23.54.07:517][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027412s)
+[2014.10.09-23.54.07:517][303]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2014.10.09-23.54.07:518][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.028246s)
+[2014.10.09-23.54.07:548][303]LogWorld: Game class is 'MyGame_C'
+[2014.10.09-23.54.07:550][303]LogAIModule: Creating AISystem for world Programming
+[2014.10.09-23.54.07:554][303]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.09-19.54.07
+[2014.10.09-23.54.07:556][303]LogWorld: Bringing up level for play took: 0.005892
+[2014.10.09-23.54.07:557][303]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.123
+[2014.10.09-23.54.23:281][817]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD3D4E0
+[2014.10.09-23.54.25:501][882]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.09-23.54.27:171][908]LogMaterial: Missing cached shader map for material PreviewMaterial_10, compiling.
+[2014.10.09-23.54.27:183][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_10) Not registered. Aborting.
+[2014.10.09-23.54.27:270][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_10) Not registered. Aborting.
+[2014.10.09-23.54.27:270][908]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_10) Already registered. Aborting.
+[2014.10.09-23.54.27:270][908]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_10) Not registered. Aborting.
+[2014.10.09-23.54.27:270][908]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_10) Already registered. Aborting.
+[2014.10.09-23.54.27:272][908]LogMaterial: Missing cached shader map for material PreviewMaterial_10, compiling.
+[2014.10.09-23.54.27:315][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionDepthFade_0, compiling.
+[2014.10.09-23.54.27:317][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionParticleSubUV_0, compiling.
+[2014.10.09-23.54.27:319][908]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.09-23.54.29:543][958]MaterialEditorStats: Info Base pass shader without light map: 41 instructions
+[2014.10.09-23.54.29:543][958]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.09-23.54.29:543][958]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.09-23.54.35:048][109]LogCascade: Quitting Cascade. FXSystem=0x000000001CE8DD00
+[2014.10.09-23.54.35:131][109]LogCascade: Quitting Cascade. FXSystem=0x0000000048B358A0
+[2014.10.09-23.54.38:143][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001CE8DD00
+[2014.10.09-23.54.38:143][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000266F63E0
+[2014.10.09-23.54.38:143][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000048B358A0
+[2014.10.09-23.54.38:396][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Programming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.09-23.54.38:537][234]LogSavePackage: Save=87.349472ms
+[2014.10.09-23.54.38:538][234]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming75D234CD4578E2D7A10142ACDF04E591.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.10.09-23.54.38:571][234]LogFileHelpers: Saving map 'Programming' took 0.412
+[2014.10.09-23.54.38:611][234]LogSavePackage: Save=10.781184ms
+[2014.10.09-23.54.38:611][234]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialCandleFlame53EC3BBA4A7B7E2CD2673380CBF07AB7.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialCandleFlame.uasset'
+[2014.10.09-23.54.38:621][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureSubUVCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset" SILENT=true
+[2014.10.09-23.54.38:727][234]LogSavePackage: Save=75.312950ms
+[2014.10.09-23.54.38:727][234]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSubUVCandleFlame37B481C94F8AACF2C51E629688185D4D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSubUVCandleFlame.uasset'
+[2014.10.09-23.54.41:837][347]Cmd: QUIT_EDITOR
+[2014.10.09-23.54.41:967][347]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.09-23.54.41:968][347]LogExit: Preparing to exit.
+[2014.10.09-23.54.42:237][347]LogExit: Editor shut down
+[2014.10.09-23.54.42:239][347]LogExit: Transaction tracking system shut down
+[2014.10.09-23.54.42:255][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D1E6160
+[2014.10.09-23.54.42:255][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C972DE0
+[2014.10.09-23.54.42:255][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C971080
+[2014.10.09-23.54.42:255][347]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D1E44A0
+[2014.10.09-23.54.42:285][347]LogExit: Object subsystem successfully closed.
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module TextureEditor (165)
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module DistCurveEditor (164)
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module Cascade (163)
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module MaterialEditor (162)
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.10.09-23.54.42:343][347]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.10.09-23.54.45:159][347]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.10.09-23.54.45:160][347]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.10.09-23.54.45:161][347]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.10.09-23.54.45:267][347]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.10.09-23.54.45:267][347]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.10.09-23.54.45:267][347]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.10.09-23.54.45:267][347]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.10.09-23.54.45:267][347]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.10.09-23.54.45:268][347]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.10.09-23.54.45:295][347]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.10.09-23.54.45:296][347]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.10.09-23.54.45:297][347]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.10.09-23.54.45:397][347]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.10.09-23.54.45:397][347]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.10.09-23.54.45:400][347]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.10.09-23.54.45:400][347]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.10.09-23.54.45:400][347]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.10.09-23.54.45:400][347]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.10.09-23.54.45:400][347]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.10.09-23.54.45:401][347]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.10.09-23.54.45:401][347]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.10.09-23.54.45:401][347]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.10.09-23.54.45:401][347]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.10.09-23.54.45:401][347]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.10.09-23.54.45:402][347]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.10.09-23.54.45:402][347]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.10.09-23.54.45:403][347]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.10.09-23.54.45:478][347]LogDerivedDataCache: Shutdown
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.09-23.54.45:478][347]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.09-23.54.45:479][347]LogExit: Exiting.
+[2014.10.09-23.54.45:492][347]Log file closed, 10/09/14 19:54:45

@@ -1,0 +1,1151 @@
+Log file open, 10/10/14 12:04:57
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.10-16.04.57:762][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.10-16.04.57:793][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.10-16.04.57:805][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.10-16.04.57:813][  0]LogInit: Object subsystem initialized
+[2014.10.10-16.04.57:815][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.10-16.04.57:815][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.10-16.04.57:822][  0]LogInit: Computer: MININT-IBCU80N
+[2014.10.10-16.04.57:822][  0]LogInit: User: Mitchell
+[2014.10.10-16.04.57:824][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.10-16.04.57:824][  0]LogInit: High frequency timer resolution =2.143632 MHz
+[2014.10.10-16.04.57:824][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2014.10.10-16.04.57:824][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.10-16.04.57:824][  0]LogMemory: Process Physical Memory: 62.85 MB used, 62.85 MB peak
+[2014.10.10-16.04.57:824][  0]LogMemory: Process Virtual Memory: 38.53 MB used, 38.53 MB peak
+[2014.10.10-16.04.57:824][  0]LogMemory: Physical Memory: 2934.52 MB used, 8086.17 MB total
+[2014.10.10-16.04.57:824][  0]LogMemory: Virtual Memory: 261.83 MB used, 8388608.00 MB total
+[2014.10.10-16.04.57:871][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics Family (Feature Level 11_0)
+[2014.10.10-16.04.57:871][  0]LogD3D11RHI: Adapter has 64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2014.10.10-16.04.57:871][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.10-16.04.57:883][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2014.10.10-16.04.57:901][  0]LogD3D11RHI: Async texture creation enabled
+[2014.10.10-16.04.58:052][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.10-16.04.59:879][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.10-16.05.00:375][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.10-16.05.00:433][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.10-16.05.01:011][  0]LogDerivedDataCache: Loaded boot cache 0.58s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.10-16.05.01:011][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.10-16.05.01:011][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.10-16.05.01:011][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.10-16.05.01:071][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.10-16.05.01:083][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.10-16.05.02:025][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.10-16.05.02:025][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.10-16.05.02:679][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.10-16.05.08:327][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2928_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2948_0///////STATCAT_Advanced////
+[2014.10.10-16.05.08:327][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.10-16.05.08:454][  0]SourceControl: Info Source control is disabled
+[2014.10.10-16.05.08:454][  0]SourceControl: Info Source control is disabled
+[2014.10.10-16.05.08:463][  0]SourceControl: Info Source control is disabled
+[2014.10.10-16.05.08:731][  0]BlueprintLog: New page: Editor Load
+[2014.10.10-16.05.08:912][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.10-16.05.08:912][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.10-16.05.09:121][  0]LogEngine: Initializing Engine...
+[2014.10.10-16.05.09:285][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.10-16.05.09:302][  0]LogInit: FAudioDevice initialized.
+[2014.10.10-16.05.09:324][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.10-16.05.09:404][  0]LogDerivedDataCache: Saved boot cache 0.08s 39MB C:/Users/Mitchell/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.10-16.05.09:412][  0]LogInit: Texture streaming: Enabled
+[2014.10.10-16.05.09:451][  0]LogInit: Transaction tracking system initialized
+[2014.10.10-16.05.09:586][  0]LogAssetRegistry: FAssetRegistry took 0.0097 seconds to start up
+[2014.10.10-16.05.10:114][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.10-16.05.10:491][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.10-16.05.10:661][  0]LogConsoleResponse:Display: 
+[2014.10.10-16.05.11:263][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_29fc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2948_0///////STATCAT_Advanced////
+[2014.10.10-16.05.11:263][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2a28_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_2948_0///////STATCAT_Advanced////
+[2014.10.10-16.05.11:263][  0]SourceControl: Info Source control is disabled
+[2014.10.10-16.05.11:263][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.10-16.05.11:287][  0]LightingResults: New page: Lighting Build
+[2014.10.10-16.05.11:297][  0]MapCheck: New page: Map Check
+[2014.10.10-16.05.11:297][  0]LightingResults: New page: Lighting Build
+[2014.10.10-16.05.11:312][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000167C07C0
+[2014.10.10-16.05.11:541][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.10-16.05.11:542][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.10.10-16.05.11:542][  0]Cmd: MAP CHECKDEP
+[2014.10.10-16.05.11:543][  0]MapCheck: New page: Main_Menu - Oct 10, 2014, 8:05:11 AM
+[2014.10.10-16.05.11:668][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [127.742ms] ==========
+[2014.10.10-16.05.11:668][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.408
+[2014.10.10-16.05.11:769][  0]LogCollectionManager: Loaded 0 collections in 0.001017 seconds
+[2014.10.10-16.05.12:047][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.10-16.05.12:115][  0]LogLoad: Full Startup: 16.37 seconds (BP compile: 0.02 seconds)
+[2014.10.10-16.05.12:140][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.10-16.05.12:319][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.10.10-16.05.12:887][  3]LogAssetRegistry: Asset discovery search completed in 3.3162 seconds
+[2014.10.10-16.05.41:066][522]Cmd: MAP LOAD FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.10-16.05.41:139][522]LightingResults: New page: Lighting Build
+[2014.10.10-16.05.41:159][522]LoadErrors: New page: Loading map: Programming.umap
+[2014.10.10-16.05.41:160][522]MapCheck: New page: Map Check
+[2014.10.10-16.05.41:160][522]LightingResults: New page: Lighting Build
+[2014.10.10-16.05.41:188][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000114279C0
+[2014.10.10-16.05.42:131][522]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xe3835216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe36c19d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xde1f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde207938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde207b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xdfcf191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdfcb8254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe3ea4adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eeffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3edebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eb1f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f1426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef0179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eefa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eefa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0c972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f65f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f03b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f65e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xdf6d92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf6cc4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf6ba291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf9bf0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf732834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf733335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xecec92aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xe0a05246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b4be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b54dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b1cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0be569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0c1f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0a41ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0a31989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe37a34d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe378f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe37a461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe378c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76f29bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76f298da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xe37a4ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f41708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f40ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f40caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f4188c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f4196f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x770259ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7715c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7715c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.10-16.05.42:765][522]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xe3835216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe36c19d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xde1f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde207938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde207b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xde1e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xdfd14bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xe1178e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xe3e480cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef0183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eefa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0ab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3eefa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f0c972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f65f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f2a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3ef12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f03b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xe3f65e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xdf6d92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf6cc4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf6ba291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf9bf0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf732834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xdf733335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xecec92aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xe0a05246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b4be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b54dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0b1cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0be569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0c1f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0a41ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe0a31989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xe37a34d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe378f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe37a461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xe378c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x76f29bd1 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0x76f298da (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xe37a4ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x3f41708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x3f40ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x3f40caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x3f4188c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x3f4196f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x770259ed (filename not found) [in C:\Windows\system32\kernel32.dll]
+Address = 0x7715c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0x7715c541 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.10.10-16.05.46:313][522]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.10.10-16.05.46:975][522]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.10-16.05.46:975][522]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.05.46:999][522]Cmd: MAP CHECKDEP
+[2014.10.10-16.05.47:000][522]MapCheck: New page: Programming - Oct 10, 2014, 8:05:47 AM
+[2014.10.10-16.05.47:143][522]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [143.554ms] ==========
+[2014.10.10-16.05.47:143][522]LogFileHelpers: Loading map 'Programming' took 6.077
+[2014.10.10-16.05.55:039][823]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleCandleFlame)
+[2014.10.10-16.06.24:963][ 18]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.06.24:964][ 18]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.06.25:136][ 18]LogPlayLevel: PIE:  Blueprint regeneration took 173 ms (1 blueprints)
+[2014.10.10-16.06.25:137][ 18]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:06:25 AM)
+[2014.10.10-16.06.25:162][ 18]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025586s)
+[2014.10.10-16.06.25:163][ 18]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2014.10.10-16.06.25:163][ 18]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.026413s)
+[2014.10.10-16.06.25:218][ 18]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.06.25:220][ 18]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.06.25:225][ 18]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.10.10-12.06.25
+[2014.10.10-16.06.25:226][ 18]LogWorld: Bringing up level for play took: 0.005918
+[2014.10.10-16.06.25:228][ 18]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.492
+[2014.10.10-16.06.25:314][ 19]LogRenderer:Warning: Reallocating scene render targets to support 808x592.
+[2014.10.10-16.06.47:769][715]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000281FEF20
+[2014.10.10-16.07.00:992][ 67]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.10-16.07.01:015][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.10-16.07.01:106][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.10-16.07.01:106][ 67]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.10-16.07.01:106][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2014.10.10-16.07.01:106][ 67]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.10.10-16.07.01:139][ 67]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.10.10-16.07.01:179][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.07.01:203][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.10-16.07.01:217][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.10-16.07.01:238][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.10-16.07.01:254][ 67]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.10-16.07.03:672][118]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-16.07.03:672][118]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.07.03:672][118]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-16.07.13:695][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.10-16.07.13:696][462]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.10-16.09.06:477][749]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.10-16.09.20:914][260]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.10-16.09.33:133][833]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.10-16.09.40:937][959]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.09.40:959][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.10-16.09.40:994][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.10-16.09.40:994][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.10-16.09.40:995][959]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2014.10.10-16.09.40:995][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2014.10.10-16.09.40:997][959]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.09.42:866][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.10-16.09.42:866][  2]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.09.42:866][  2]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.10-16.09.44:508][ 69]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.09.44:532][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.09.45:285][ 88]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.10-16.09.45:285][ 88]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.09.45:285][ 88]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.10-16.13.16:250][322]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.10-16.13.23:253][373]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Mitchell/Desktop/DIG 4525C/textureSnowDrop.psd)
+[2014.10.10-16.13.23:254][373]0.000013 seconds to analyze Texture2D /Game/Textures/textureSnowDrop.textureSnowDrop
+
+[2014.10.10-16.13.23:278][373]LogTexture:Display: Building textures: textureSnowDrop (AutoDXT)
+[2014.10.10-16.13.23:295][373]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.10.10-16.13.23:295][373]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.10.10-16.13.34:663][733]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.13.34:700][733]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.13.36:483][776]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2014.10.10-16.13.36:483][776]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.13.36:483][776]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.10-16.13.50:209][216]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.13.50:215][216]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.13.50:436][222]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.13.50:436][222]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.13.50:436][222]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.14.00:252][634]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.00:281][634]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.14.00:571][641]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.00:571][641]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.14.00:572][641]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.14.08:161][850]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.10.10-16.14.08:564][859]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.10-16.14.09:841][895]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles/Materials'
+[2014.10.10-16.14.11:895][925]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.14.11:903][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.10-16.14.12:006][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.10-16.14.12:006][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.10-16.14.12:006][925]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2014.10.10-16.14.12:006][925]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2014.10.10-16.14.12:025][925]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.14.12:067][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.14.12:078][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.10-16.14.12:082][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.10-16.14.12:085][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.10-16.14.12:089][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.10-16.14.13:479][951]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-16.14.13:479][951]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.14.13:479][951]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-16.14.26:331][386]LogEditorTransaction: Undo Create Pin Link
+[2014.10.10-16.14.26:420][386]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.26:452][386]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.26:498][386]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.14.26:518][386]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.14.26:745][388]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.26:745][388]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.14.26:745][388]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.14.28:131][420]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-16.14.28:131][420]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.14.28:131][420]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-16.14.34:841][688]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.35:122][694]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.35:122][694]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.14.35:122][694]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.14.45:480][ 89]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.45:509][ 89]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.14.45:751][ 94]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.45:751][ 94]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.14.45:751][ 94]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.14.50:992][236]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.51:248][242]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.51:248][242]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.14.51:248][242]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.14.52:766][278]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CustomReflectionVector.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.10-16.14.56:805][389]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.57:074][395]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.57:075][395]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.14.57:075][395]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.14.59:038][456]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.14.59:068][456]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.14.59:343][462]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.14.59:343][462]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.14.59:343][462]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.15.01:971][547]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.02:212][552]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.15.02:212][552]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2014.10.10-16.15.02:212][552]MaterialEditorStats: Info Texture samplers: 0/16
+[2014.10.10-16.15.03:701][611]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.03:980][617]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.15.03:980][617]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.15.03:980][617]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.15.27:706][334]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.27:709][334]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.29:935][405]MaterialEditorStats: Info Base pass shader without light map: 20 instructions
+[2014.10.10-16.15.29:935][405]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.15.29:935][405]MaterialEditorStats: Info Texture samplers: 3/16
+[2014.10.10-16.15.45:545][928]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.45:548][928]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.45:819][934]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.15.45:819][934]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.15.45:819][934]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.15.53:675][128]LogMaterialEditor: Saving and Compiling material materialSnowDrop
+[2014.10.10-16.15.54:142][128]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.15.54:194][128]LogMaterial: Missing cached shader map for material materialSnowDrop, compiling.
+[2014.10.10-16.15.54:207][128]LogMaterial: Missing cached shader map for material materialSnowDrop, compiling.
+[2014.10.10-16.15.54:215][128]LogMaterial: 0.005138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.10-16.15.54:884][128]LogSavePackage: Save=183.635529ms
+[2014.10.10-16.15.54:884][128]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialSnowDropD630930D458227753BED92A420CB325D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialSnowDrop.uasset'
+[2014.10.10-16.15.56:326][158]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016DAC900
+[2014.10.10-16.15.56:513][158]LogSavePackage: Save=112.402222ms
+[2014.10.10-16.15.56:513][158]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto1CCE2823E47BD6BD6EAD9869ADFDE125B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto1.umap'
+[2014.10.10-16.15.56:529][158]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.229
+[2014.10.10-16.15.56:529][158]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.229
+[2014.10.10-16.15.56:538][158]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSnowDrop] ([1] browsable assets)...
+[2014.10.10-16.15.56:566][158]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSnowDrop.textureSnowDrop]
+[2014.10.10-16.15.56:566][158]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSnowDrop]
+[2014.10.10-16.15.56:656][158]LogSavePackage: Save=57.397446ms
+[2014.10.10-16.15.56:656][158]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSnowDrop_Auto16184E2244B7977AB732C69865142B09D.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSnowDrop_Auto1.uasset'
+[2014.10.10-16.15.56:673][158]LogFileHelpers: Auto-saving content packages took 0.144
+[2014.10.10-16.16.00:546][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.10-16.16.03:482][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.10-16.16.09:015][448]LogLinker:Warning: Asset '../../../Engine/Content/EditorMaterials/Cascade/CASC_Lights.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2014.10.10-16.16.25:056][804]LogCascade: Quitting Cascade. FXSystem=0x00000000334037E0
+[2014.10.10-16.16.33:858][102]LogMaterial:Warning: Material /Game/Particles/Materials/materialSnowDrop.materialSnowDrop needed to have new flag set bUsedWithParticleSprites !
+[2014.10.10-16.16.33:988][102]LogMaterial:Warning: Material /Engine/Transient.PreviewMaterial_1 needed to have new flag set bUsedWithParticleSprites !
+[2014.10.10-16.16.34:004][102]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.16.34:006][102]LogMaterial: 0.000146 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.10-16.16.34:025][102]LogMaterial: Missing cached shader map for material materialSnowDrop, compiling.
+[2014.10.10-16.16.34:030][102]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.10-16.16.36:378][142]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.16.36:378][142]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.16.36:378][142]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.10-16.17.18:692][976]LogEditorTransaction: Undo Edit Z
+[2014.10.10-16.17.18:809][976]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.17.18:830][976]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.17.19:401][988]LogEditorTransaction: Undo Edit Y
+[2014.10.10-16.17.19:441][988]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.17.19:452][988]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.17.19:986][  3]LogEditorTransaction: Undo Edit X
+[2014.10.10-16.17.20:080][  3]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.17.20:095][  3]LogMaterial: Missing cached shader map for material PreviewMaterial_2, compiling.
+[2014.10.10-16.17.20:158][  4]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.17.20:158][  4]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.17.20:158][  4]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.17.21:462][ 28]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-16.17.21:462][ 28]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.17.21:462][ 28]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-16.19.26:067][509]LogCascade: Quitting Cascade. FXSystem=0x000000001BE787C0
+[2014.10.10-16.20.56:196][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.10-16.20.56:204][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.10-16.20.56:294][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.10-16.20.56:294][ 46]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.10-16.20.56:294][ 46]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_3) Not registered. Aborting.
+[2014.10.10-16.20.56:294][ 46]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_3) Already registered. Aborting.
+[2014.10.10-16.20.56:315][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_3, compiling.
+[2014.10.10-16.20.56:346][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.20.56:362][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.10-16.20.56:378][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.10-16.20.56:395][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.10-16.20.56:397][ 46]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.10-16.20.58:708][ 92]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-16.20.58:708][ 92]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-16.20.58:708][ 92]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-16.23.13:198][287]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.23.13:213][287]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.23.14:259][303]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.23.14:259][303]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.23.14:259][303]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.23.17:088][396]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.23.17:163][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.23.18:365][414]MaterialEditorStats: Info Base pass shader without light map: 47 instructions
+[2014.10.10-16.23.18:365][414]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.23.18:365][414]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.10-16.23.23:523][539]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.23.24:081][548]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.23.24:081][548]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.23.24:081][548]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.10-16.23.28:230][652]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.23.28:515][657]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.23.28:515][657]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.23.28:515][657]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.24.18:824][ 57]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/DIG 4525C/textureSnowDrop.psd]
+[2014.10.10-16.24.18:824][ 57]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/DIG 4525C/textureSnowDrop.psd)
+[2014.10.10-16.24.18:857][ 57]LogTexture:Display: Building textures: textureSnowDrop (BGRA8)
+[2014.10.10-16.24.18:913][ 57]LogTexture:Display: Building textures: textureSnowDrop (BGRA8)
+[2014.10.10-16.24.18:922][ 57]LogEditorFactories: -- imported successfully
+[2014.10.10-16.24.39:056][736]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.24.39:105][736]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.24.39:130][736]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-16.24.40:224][753]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2014.10.10-16.24.40:224][753]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.24.40:224][753]MaterialEditorStats: Info Texture samplers: 1/16
+[2014.10.10-16.24.42:626][834]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.24.43:182][843]MaterialEditorStats: Info Base pass shader without light map: 47 instructions
+[2014.10.10-16.24.43:183][843]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2014.10.10-16.24.43:183][843]MaterialEditorStats: Info Texture samplers: 4/16
+[2014.10.10-16.24.56:873][ 97]LogMaterialEditor: Saving and Compiling material materialSnowDrop
+[2014.10.10-16.24.57:291][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling.
+[2014.10.10-16.24.57:360][ 97]LogMaterial: Missing cached shader map for material materialSnowDrop, compiling.
+[2014.10.10-16.24.57:371][ 97]LogMaterial: Missing cached shader map for material materialSnowDrop, compiling.
+[2014.10.10-16.24.57:379][ 97]LogMaterial: 0.003109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.10.10-16.24.59:602][ 97]LogSavePackage: Save=411.069611ms
+[2014.10.10-16.24.59:603][ 97]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/materialSnowDrop7FDC86694C14446DB9FE119E57100EFD.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/Materials/materialSnowDrop.uasset'
+[2014.10.10-16.25.56:475][ 61]LogEditorFactories: Performing atomic reimport of [C:/Users/Mitchell/Desktop/DIG 4525C/textureSnowDrop.psd]
+[2014.10.10-16.25.56:476][ 61]LogFactory: FactoryCreateBinary: Texture2D with ReimportTextureFactory (0 0 C:/Users/Mitchell/Desktop/DIG 4525C/textureSnowDrop.psd)
+[2014.10.10-16.25.56:503][ 61]LogTexture:Display: Building textures: textureSnowDrop (BGRA8)
+[2014.10.10-16.25.56:513][ 61]LogEditorFactories: -- imported successfully
+[2014.10.10-16.25.57:174][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000334037E0
+[2014.10.10-16.25.57:174][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BE787C0
+[2014.10.10-16.25.57:174][ 73]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC4AFC0
+[2014.10.10-16.25.57:403][ 73]LogSavePackage: Save=145.724640ms
+[2014.10.10-16.25.57:403][ 73]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto29B0EE916474576D5EECEF8A485756AAE.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto2.umap'
+[2014.10.10-16.25.57:430][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.288
+[2014.10.10-16.25.57:430][ 73]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2014.10.10-16.25.57:442][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleCandleFlame] ([1] browsable assets)...
+[2014.10.10-16.25.57:475][ 73]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleCandleFlame.particleCandleFlame]
+[2014.10.10-16.25.57:475][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleCandleFlame]
+[2014.10.10-16.25.57:647][ 73]LogSavePackage: Save=124.777016ms
+[2014.10.10-16.25.57:647][ 73]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlame_Auto2A0B9958C46A6EC5E398E73950DAAA913.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleCandleFlame_Auto2.uasset'
+[2014.10.10-16.25.57:686][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/textureSnowDrop] ([1] browsable assets)...
+[2014.10.10-16.25.57:723][ 73]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/textureSnowDrop.textureSnowDrop]
+[2014.10.10-16.25.57:724][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/textureSnowDrop]
+[2014.10.10-16.25.57:780][ 73]LogTexture:Display: Building textures: textureSnowDrop (AutoDXT)
+[2014.10.10-16.25.57:864][ 73]LogSavePackage: Save=101.369545ms
+[2014.10.10-16.25.57:864][ 73]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSnowDrop_Auto261C6A41649B7BE54DDBF7B8464ADC6FC.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Textures/textureSnowDrop_Auto2.uasset'
+[2014.10.10-16.25.57:900][ 73]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleSnow] ([1] browsable assets)...
+[2014.10.10-16.25.57:940][ 73]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleSnow.particleSnow]
+[2014.10.10-16.25.57:940][ 73]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleSnow]
+[2014.10.10-16.25.58:053][ 73]LogSavePackage: Save=81.551781ms
+[2014.10.10-16.25.58:053][ 73]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow_Auto21A77183E4259F90476255F8F181822BB.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleSnow_Auto2.uasset'
+[2014.10.10-16.25.58:078][ 73]LogFileHelpers: Auto-saving content packages took 0.649
+[2014.10.10-16.26.41:790][828]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.26.41:791][828]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.26.41:892][828]LogPlayLevel: PIE:  Blueprint regeneration took 101 ms (1 blueprints)
+[2014.10.10-16.26.41:892][828]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:26:41 AM)
+[2014.10.10-16.26.41:921][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028235s)
+[2014.10.10-16.26.41:922][828]LogPlayLevel: PIE: World Init took: (0.000917s)
+[2014.10.10-16.26.41:922][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.029461s)
+[2014.10.10-16.26.41:950][828]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.26.41:952][828]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.26.41:957][828]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.26.41
+[2014.10.10-16.26.41:959][828]LogWorld: Bringing up level for play took: 0.006866
+[2014.10.10-16.26.41:960][828]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.203
+[2014.10.10-16.26.52:950][164]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034045C60
+[2014.10.10-16.28.28:031][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.28.28:074][690]LogSavePackage: Save=38.626034ms
+[2014.10.10-16.28.28:074][690]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnowE799579E4478CFD982DD438FE2B642FE.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.28.30:778][733]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.28.30:778][733]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.28.30:873][733]LogPlayLevel: PIE:  Blueprint regeneration took 94 ms (1 blueprints)
+[2014.10.10-16.28.30:873][733]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:28:30 AM)
+[2014.10.10-16.28.30:905][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031945s)
+[2014.10.10-16.28.30:906][733]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2014.10.10-16.28.30:906][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.032986s)
+[2014.10.10-16.28.30:935][733]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.28.30:937][733]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.28.30:943][733]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.28.30
+[2014.10.10-16.28.30:944][733]LogWorld: Bringing up level for play took: 0.007475
+[2014.10.10-16.28.30:946][733]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.814
+[2014.10.10-16.28.40:173][ 13]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C130F40
+[2014.10.10-16.29.04:753][422]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.29.04:753][422]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.29.04:849][422]LogPlayLevel: PIE:  Blueprint regeneration took 96 ms (1 blueprints)
+[2014.10.10-16.29.04:850][422]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:29:04 AM)
+[2014.10.10-16.29.04:876][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026413s)
+[2014.10.10-16.29.04:877][422]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2014.10.10-16.29.04:877][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027410s)
+[2014.10.10-16.29.04:903][422]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.29.04:904][422]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.29.04:911][422]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.29.04
+[2014.10.10-16.29.04:912][422]LogWorld: Bringing up level for play took: 0.008034
+[2014.10.10-16.29.04:915][422]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.153
+[2014.10.10-16.30.30:479][106]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022B49440
+[2014.10.10-16.32.14:727][823]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.22:640][943]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.27:294][ 14]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.33:091][101]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.36:643][158]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.40:000][208]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.32.50:131][372]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.32.50:131][372]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.32.50:276][372]LogPlayLevel: PIE:  Blueprint regeneration took 145 ms (1 blueprints)
+[2014.10.10-16.32.50:276][372]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:32:50 AM)
+[2014.10.10-16.32.50:311][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034887s)
+[2014.10.10-16.32.50:312][372]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2014.10.10-16.32.50:312][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.035773s)
+[2014.10.10-16.32.50:342][372]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.32.50:344][372]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.32.50:350][372]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.32.50
+[2014.10.10-16.32.50:351][372]LogWorld: Bringing up level for play took: 0.007302
+[2014.10.10-16.32.50:353][372]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.585
+[2014.10.10-16.33.05:762][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000074E8860
+[2014.10.10-16.33.31:469][272]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.35:047][329]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.39:805][405]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.44:367][482]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.46:637][518]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.48:413][546]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.51:318][592]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.33.52:599][612]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.33.52:599][612]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.33.52:721][612]LogPlayLevel: PIE:  Blueprint regeneration took 122 ms (1 blueprints)
+[2014.10.10-16.33.52:721][612]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:33:52 AM)
+[2014.10.10-16.33.52:748][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027376s)
+[2014.10.10-16.33.52:749][612]LogPlayLevel: PIE: World Init took: (0.000675s)
+[2014.10.10-16.33.52:749][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.028259s)
+[2014.10.10-16.33.52:779][612]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.33.52:781][612]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.33.52:785][612]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.33.52
+[2014.10.10-16.33.52:787][612]LogWorld: Bringing up level for play took: 0.005997
+[2014.10.10-16.33.52:789][612]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.019
+[2014.10.10-16.34.03:168][926]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000074E87C0
+[2014.10.10-16.34.05:666][967]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.34.09:085][ 20]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.34.36:827][484]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.34.40:426][541]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.34.55:500][883]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.34.59:554][949]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.04:011][ 22]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.10:667][128]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.16:277][217]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.19:118][262]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.25:044][360]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.35.25:045][360]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.35.25:145][360]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2014.10.10-16.35.25:145][360]PIE: New page: SIE session: Programming (Oct 10, 2014, 8:35:25 AM)
+[2014.10.10-16.35.25:173][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028026s)
+[2014.10.10-16.35.25:174][360]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2014.10.10-16.35.25:174][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.028889s)
+[2014.10.10-16.35.25:174][360]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleSnow_2"
+[2014.10.10-16.35.25:202][360]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.35.25:204][360]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.35.25:209][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.35.25
+[2014.10.10-16.35.25:210][360]LogWorld: Bringing up level for play took: 0.006621
+[2014.10.10-16.35.25:211][360]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.562
+[2014.10.10-16.35.25:259][360]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleSnow_2"
+[2014.10.10-16.35.31:168][551]Cmd: SELECT NONE
+[2014.10.10-16.35.32:981][615]Cmd: SELECT NONE
+[2014.10.10-16.35.34:377][658]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011FF77E0
+[2014.10.10-16.35.39:543][740]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.43:278][798]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.35.43:469][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.35.43:553][800]LogSavePackage: Save=44.897163ms
+[2014.10.10-16.35.43:553][800]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow66859EF84194CF3D71322DA563521E4A.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.35.46:842][854]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.35.46:843][854]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.35.46:943][854]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2014.10.10-16.35.46:943][854]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:35:46 AM)
+[2014.10.10-16.35.46:970][854]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026508s)
+[2014.10.10-16.35.46:970][854]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2014.10.10-16.35.46:970][854]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027333s)
+[2014.10.10-16.35.47:001][854]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.35.47:002][854]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.35.47:008][854]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.35.47
+[2014.10.10-16.35.47:009][854]LogWorld: Bringing up level for play took: 0.006941
+[2014.10.10-16.35.47:011][854]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.762
+[2014.10.10-16.36.10:232][579]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228EF060
+[2014.10.10-16.37.17:332][661]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.24:833][777]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.29:306][847]LogParticles:Warning: MaxCount = 5080 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.30:591][867]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.32:569][897]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.46:471][114]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.51:651][194]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.55:758][261]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.37.59:872][324]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.38.36:908][381]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.38.38:922][409]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.38.41:488][446]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.38.42:998][464]LogSavePackage: Save=120.244522ms
+[2014.10.10-16.38.42:999][464]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Programming_Auto3DC6901614E4358E78EBE62957E42D25B.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto3.umap'
+[2014.10.10-16.38.43:020][464]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.250
+[2014.10.10-16.38.43:020][464]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.250
+[2014.10.10-16.38.43:031][464]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleSnow] ([1] browsable assets)...
+[2014.10.10-16.38.43:054][464]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleSnow.particleSnow]
+[2014.10.10-16.38.43:054][464]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleSnow]
+[2014.10.10-16.38.43:162][464]LogSavePackage: Save=68.600861ms
+[2014.10.10-16.38.43:162][464]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow_Auto3DAE542E54FFB7ACEC55666AF9AB6390A.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleSnow_Auto3.uasset'
+[2014.10.10-16.38.43:178][464]LogFileHelpers: Auto-saving content packages took 0.158
+[2014.10.10-16.39.07:827][871]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.09:299][894]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.14:302][972]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.15:853][997]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.24:196][130]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.32:464][262]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.35:476][309]LogParticles:Warning: MaxCount = 12580 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.39.38:582][361]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.39.38:582][361]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.39.38:673][361]LogPlayLevel: PIE:  Blueprint regeneration took 90 ms (1 blueprints)
+[2014.10.10-16.39.38:673][361]PIE: New page: SIE session: Programming (Oct 10, 2014, 8:39:38 AM)
+[2014.10.10-16.39.38:704][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030853s)
+[2014.10.10-16.39.38:705][361]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2014.10.10-16.39.38:705][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.031745s)
+[2014.10.10-16.39.38:705][361]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleSnow_2"
+[2014.10.10-16.39.38:731][361]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.39.38:732][361]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.39.38:737][361]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.39.38
+[2014.10.10-16.39.38:739][361]LogWorld: Bringing up level for play took: 0.006070
+[2014.10.10-16.39.38:739][361]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.96
+[2014.10.10-16.39.38:754][361]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleSnow_2"
+[2014.10.10-16.40.20:130][620]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022C12A20
+[2014.10.10-16.40.26:169][718]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.40.26:170][718]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.40.26:272][718]LogPlayLevel: PIE:  Blueprint regeneration took 102 ms (1 blueprints)
+[2014.10.10-16.40.26:272][718]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:40:26 AM)
+[2014.10.10-16.40.26:298][718]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026510s)
+[2014.10.10-16.40.26:299][718]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2014.10.10-16.40.26:299][718]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027331s)
+[2014.10.10-16.40.26:326][718]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.40.26:327][718]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.40.26:332][718]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.40.26
+[2014.10.10-16.40.26:334][718]LogWorld: Bringing up level for play took: 0.006017
+[2014.10.10-16.40.26:335][718]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.554
+[2014.10.10-16.40.36:397][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034047920
+[2014.10.10-16.40.51:434][261]LogParticles:Warning: MaxCount = 5032 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.40.57:682][361]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.06:710][499]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.10:479][561]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.12:864][598]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.46:305][147]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.48:946][188]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.51:333][225]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.51:865][233]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.54:683][277]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.41.58:168][331]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.42.04:229][427]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.42.05:603][448]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.42.05:790][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.42.05:870][450]LogSavePackage: Save=45.850689ms
+[2014.10.10-16.42.05:870][450]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow4DA064394563B160A0DF28A831E1106A.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.42.19:440][672]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.42.19:441][672]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.42.19:540][672]LogPlayLevel: PIE:  Blueprint regeneration took 100 ms (1 blueprints)
+[2014.10.10-16.42.19:541][672]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:42:19 AM)
+[2014.10.10-16.42.19:568][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026968s)
+[2014.10.10-16.42.19:568][672]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2014.10.10-16.42.19:569][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027842s)
+[2014.10.10-16.42.19:615][672]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.42.19:616][672]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.42.19:621][672]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.42.19
+[2014.10.10-16.42.19:622][672]LogWorld: Bringing up level for play took: 0.005963
+[2014.10.10-16.42.19:625][672]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.16
+[2014.10.10-16.42.34:439][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228ED4E0
+[2014.10.10-16.45.02:314][786]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.04:756][825]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.08:084][878]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.09:972][908]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.13:586][966]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.19:199][ 56]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.28:034][199]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.31:159][249]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.35:667][322]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.38:059][360]LogParticles:Warning: MaxCount =  504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.45.38:262][362]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.45.38:355][362]LogSavePackage: Save=48.993950ms
+[2014.10.10-16.45.38:355][362]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow8F8EA499425EC520975D8491669D476E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.45.44:622][467]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.45.44:622][467]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.45.44:713][467]LogPlayLevel: PIE:  Blueprint regeneration took 91 ms (1 blueprints)
+[2014.10.10-16.45.44:714][467]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:45:44 AM)
+[2014.10.10-16.45.44:741][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026791s)
+[2014.10.10-16.45.44:741][467]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2014.10.10-16.45.44:741][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027724s)
+[2014.10.10-16.45.44:767][467]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.45.44:768][467]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.45.44:773][467]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.45.44
+[2014.10.10-16.45.44:774][467]LogWorld: Bringing up level for play took: 0.005944
+[2014.10.10-16.45.44:776][467]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.986
+[2014.10.10-16.45.50:153][641]LogCharacterMovement: blueprintCharacter_C_10 is stuck and failed to move!
+[2014.10.10-16.45.50:182][642]LogCharacterMovement: blueprintCharacter_C_10 is stuck and failed to move!
+[2014.10.10-16.45.50:210][643]LogCharacterMovement: blueprintCharacter_C_10 is stuck and failed to move!
+[2014.10.10-16.45.53:830][769]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000472C4A0
+[2014.10.10-16.46.01:487][901]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.46.02:524][918]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.46.04:088][945]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.46.05:380][965]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.46.05:566][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.46.05:634][967]LogSavePackage: Save=44.398945ms
+[2014.10.10-16.46.05:635][967]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow3F305EB34DE75BC312517992EE626E0F.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.46.14:601][119]LogTexture:Display: Building textures: ThumbnailTexture (BGRA8)
+[2014.10.10-16.46.19:614][207]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.46.19:614][207]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.46.19:698][207]LogPlayLevel: PIE:  Blueprint regeneration took 84 ms (1 blueprints)
+[2014.10.10-16.46.19:698][207]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:46:19 AM)
+[2014.10.10-16.46.19:724][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025674s)
+[2014.10.10-16.46.19:725][207]LogPlayLevel: PIE: World Init took: (0.000615s)
+[2014.10.10-16.46.19:725][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.026481s)
+[2014.10.10-16.46.19:754][207]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.46.19:755][207]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.46.19:760][207]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.46.19
+[2014.10.10-16.46.19:761][207]LogWorld: Bringing up level for play took: 0.005879
+[2014.10.10-16.46.19:763][207]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming -0.029
+[2014.10.10-16.46.41:218][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022C10AE0
+[2014.10.10-16.47.02:967][247]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.05:513][285]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.08:364][333]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.09:960][358]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.10:157][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.47.10:195][360]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2014.10.10-16.47.10:401][360]LogSavePackage: Save=212.213196ms
+[2014.10.10-16.47.10:401][360]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnow796F50614A522A357A19F9B7054C184E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.47.12:700][399]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.47.12:701][399]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.47.12:806][399]LogPlayLevel: PIE:  Blueprint regeneration took 105 ms (1 blueprints)
+[2014.10.10-16.47.12:806][399]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:47:12 AM)
+[2014.10.10-16.47.12:833][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026726s)
+[2014.10.10-16.47.12:833][399]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2014.10.10-16.47.12:834][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.027539s)
+[2014.10.10-16.47.12:861][399]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.47.12:862][399]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.47.12:867][399]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.47.12
+[2014.10.10-16.47.12:868][399]LogWorld: Bringing up level for play took: 0.005860
+[2014.10.10-16.47.12:870][399]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.077
+[2014.10.10-16.47.26:366][827]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022C10F40
+[2014.10.10-16.47.32:719][930]LogParticles:Warning: MaxCount = 1004 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.34:380][956]LogParticles:Warning: MaxCount = 1504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.35:540][974]LogParticles:Warning: MaxCount = 1504 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/particleSnow.particleSnow)
+[2014.10.10-16.47.35:719][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleSnow" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset" SILENT=true
+[2014.10.10-16.47.35:806][975]LogSavePackage: Save=64.149071ms
+[2014.10.10-16.47.35:806][975]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleSnowD39CDB774348E7B412B434A349A26FD7.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleSnow.uasset'
+[2014.10.10-16.47.37:066][997]LogCascade: Quitting Cascade. FXSystem=0x0000000033402480
+[2014.10.10-16.47.37:164][997]LogCascade: Quitting Cascade. FXSystem=0x00000000225E36A0
+[2014.10.10-16.47.38:763][ 51]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-16.47.38:763][ 51]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-16.47.38:866][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CC484A0
+[2014.10.10-16.47.38:867][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000225E36A0
+[2014.10.10-16.47.38:867][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000033402480
+[2014.10.10-16.47.38:867][ 51]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000148402C0
+[2014.10.10-16.47.38:869][ 51]LogPlayLevel: PIE:  Blueprint regeneration took 106 ms (1 blueprints)
+[2014.10.10-16.47.38:869][ 51]PIE: New page: PIE session: Programming (Oct 10, 2014, 8:47:38 AM)
+[2014.10.10-16.47.38:893][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023479s)
+[2014.10.10-16.47.38:893][ 51]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2014.10.10-16.47.38:893][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.024290s)
+[2014.10.10-16.47.38:923][ 51]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-16.47.38:924][ 51]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-16.47.38:929][ 51]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-12.47.38
+[2014.10.10-16.47.38:930][ 51]LogWorld: Bringing up level for play took: 0.006037
+[2014.10.10-16.47.38:932][ 51]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.139
+[2014.10.10-16.48.00:680][743]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022AAECA0
+[2014.10.10-16.48.02:218][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Programming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.10-16.48.02:385][802]LogSavePackage: Save=93.459602ms
+[2014.10.10-16.48.02:385][802]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/ProgrammingB620A8A541D854AE70694FB4C1935034.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.10.10-16.49.49:623][126]Cmd: SELECT NONE
+[2014.10.10-16.49.59:995][582]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.10.10-16.51.38:790][495]LogParticles:Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.51.43:032][608]LogParticles:Warning: MaxCount = 1032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.51.55:464][939]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.51.57:156][982]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.16:820][644]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.17:162][653]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.18:580][693]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.18:768][698]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.19:978][732]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.21:452][772]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.52.57:506][859]LogCascade: Non-seeded module ParticleModuleLocationPrimitiveTriangle
+[2014.10.10-16.53.05:954][112]LogParticles:Warning: MaxCount = 2032 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.54.16:204][816]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.54.18:942][871]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.29:720][612]LogCascade: Non-seeded module ParticleModuleAcceleration
+[2014.10.10-16.55.35:707][845]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.37:167][874]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.41:408][970]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.43:454][ 13]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.52:373][214]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.55.55:348][276]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.03:389][450]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.05:340][493]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.07:083][532]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.08:669][566]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.17:723][762]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.19:060][789]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.21:977][852]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.24:191][902]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.26:160][943]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.54:001][797]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.56.56:753][855]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.10:424][180]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.15:238][282]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.21:154][410]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.26:875][529]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.31:586][625]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.46:680][980]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.49:884][ 46]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.57.58:351][245]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.58.00:039][278]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-16.58.14:555][579]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.033
+[2014.10.10-16.58.14:566][579]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleFireSprinkler] ([1] browsable assets)...
+[2014.10.10-16.58.14:609][579]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleFireSprinkler.particleFireSprinkler]
+[2014.10.10-16.58.14:609][579]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleFireSprinkler]
+[2014.10.10-16.58.14:664][579]LogSavePackage: Save=33.001934ms
+[2014.10.10-16.58.14:664][579]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleFireSprinkler_Auto4B4A7EA5D425BE8AE20BE9EBB548442BA.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleFireSprinkler_Auto4.uasset'
+[2014.10.10-16.58.14:685][579]LogFileHelpers: Auto-saving content packages took 0.129
+[2014.10.10-16.59.32:625][278]LogCascade: Non-seeded module ParticleModuleColorOverLife
+[2014.10.10-17.00.31:829][ 34]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.34:084][ 77]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.36:943][133]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.41:729][238]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.41:994][243]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.42:698][257]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.44:209][287]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.47:772][369]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.49:443][403]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.00.51:508][440]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.01.10:994][832]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.01.12:189][855]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.01.14:157][898]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.01.19:461][  1]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.02.14:779][146]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.02.16:094][172]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.02.16:886][188]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.02.19:389][239]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.02:980][417]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.10-17.04.02:995][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.10-17.04.03:055][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.10-17.04.03:055][417]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.10-17.04.03:055][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_4) Not registered. Aborting.
+[2014.10.10-17.04.03:055][417]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_4) Already registered. Aborting.
+[2014.10.10-17.04.03:058][417]LogMaterial: Missing cached shader map for material PreviewMaterial_4, compiling.
+[2014.10.10-17.04.03:090][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling.
+[2014.10.10-17.04.03:101][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling.
+[2014.10.10-17.04.03:104][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling.
+[2014.10.10-17.04.03:107][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling.
+[2014.10.10-17.04.03:110][417]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling.
+[2014.10.10-17.04.05:420][452]MaterialEditorStats: Info Base pass shader without light map: 68 instructions
+[2014.10.10-17.04.05:420][452]MaterialEditorStats: Info Vertex shader: 70 instructions
+[2014.10.10-17.04.05:420][452]MaterialEditorStats: Info Texture samplers: 5/16
+[2014.10.10-17.04.31:504][ 85]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.34:094][144]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.35:158][168]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.42:132][448]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.50:664][628]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.53:381][687]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.54:204][705]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.54:782][720]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.04.59:097][845]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.03:627][940]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.04:808][967]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.05:471][983]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.19:912][886]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.37:354][258]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.05.51:629][597]LogCascade: Non-seeded module ParticleModuleLocationPrimitiveTriangle
+[2014.10.10-17.05.56:225][726]LogCascade: Non-seeded module ParticleModuleTypeDataGpu
+[2014.10.10-17.06.14:366][623]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.19:190][725]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.24:383][884]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.34:354][136]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.47:582][408]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.50:138][456]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.52:984][554]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.57:503][709]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.06.59:942][818]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.07.01:598][898]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.07.17:501][217]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.07.52:248][ 34]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.08.14:889][543]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228368E0
+[2014.10.10-17.08.14:891][543]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.028
+[2014.10.10-17.08.14:930][543]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/particleFireSprinkler] ([1] browsable assets)...
+[2014.10.10-17.08.14:952][543]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/particleFireSprinkler.particleFireSprinkler]
+[2014.10.10-17.08.14:952][543]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/particleFireSprinkler]
+[2014.10.10-17.08.15:038][543]LogSavePackage: Save=53.701382ms
+[2014.10.10-17.08.15:039][543]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleFireSprinkler_Auto54F7672E74BAC207C86A287A95FC26399.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Particles/particleFireSprinkler_Auto5.uasset'
+[2014.10.10-17.08.15:053][543]LogFileHelpers: Auto-saving content packages took 0.162
+[2014.10.10-17.08.28:641][832]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.08.30:980][880]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.09.27:890][221]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.09.32:981][332]LogParticles:Warning: MaxCount = 10160 for Emitter ParticleSpriteEmitter_2 (/Game/Particles/particleFireSprinkler.particleFireSprinkler)
+[2014.10.10-17.10.21:990][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleFireSprinkler" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleFireSprinkler.uasset" SILENT=true
+[2014.10.10-17.10.22:029][535]LogSavePackage: Save=34.546509ms
+[2014.10.10-17.10.22:029][535]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleFireSprinkler7C366D3A4884DFCC38E62AAFC2C53049.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleFireSprinkler.uasset'
+[2014.10.10-17.10.29:391][702]LogEditorViewport: Clicking on Actor (LMB): Emitter (dust)
+[2014.10.10-17.10.30:500][723]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleFireSprinkler)
+[2014.10.10-17.10.34:746][818]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.10.10-17.10.34:746][818]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.10.10-17.10.34:835][818]LogPlayLevel: PIE:  Blueprint regeneration took 88 ms (1 blueprints)
+[2014.10.10-17.10.34:835][818]PIE: New page: SIE session: Programming (Oct 10, 2014, 9:10:34 AM)
+[2014.10.10-17.10.34:867][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032052s)
+[2014.10.10-17.10.34:868][818]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2014.10.10-17.10.34:868][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.032907s)
+[2014.10.10-17.10.34:869][818]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleFireSprinkler_5"
+[2014.10.10-17.10.34:897][818]LogWorld: Game class is 'MyGame_C'
+[2014.10.10-17.10.34:899][818]LogAIModule: Creating AISystem for world Programming
+[2014.10.10-17.10.34:903][818]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 0) at 2014.10.10-13.10.34
+[2014.10.10-17.10.34:905][818]LogWorld: Bringing up level for play took: 0.006016
+[2014.10.10-17.10.34:906][818]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.071
+[2014.10.10-17.10.34:919][818]LogSelection:Warning: PIE object was selected: "Emitter /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.particleFireSprinkler_5"
+[2014.10.10-17.10.41:010][ 19]Cmd: SELECT NONE
+[2014.10.10-17.10.43:700][122]Cmd: SELECT NONE
+[2014.10.10-17.10.44:861][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000340002C0
+[2014.10.10-17.10.46:729][204]Cmd: DELETE
+[2014.10.10-17.10.46:729][204]Cmd: ACTOR DELETE
+[2014.10.10-17.10.46:730][204]LogEditorActor: Deleted Actor: Emitter
+[2014.10.10-17.10.46:777][204]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2014.10.10-17.15.11:188][979]LogCascade: Quitting Cascade. FXSystem=0x000000003346A3E0
+[2014.10.10-17.15.15:411][ 95]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003346A3E0
+[2014.10.10-17.15.27:928][201]LogCascade: Quitting Cascade. FXSystem=0x0000000034003E20
+[2014.10.10-17.15.44:480][455]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000034003E20
+[2014.10.10-17.15.53:380][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Programming" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.10.10-17.15.53:529][455]LogSavePackage: Save=90.320541ms
+[2014.10.10-17.15.53:529][455]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/ProgrammingB81B12D34405ED6B0AC20591D7FA3970.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.10.10-17.15.53:560][455]LogFileHelpers: Saving map 'Programming' took 0.418
+[2014.10.10-17.15.53:563][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/particleCandleFlame" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset" SILENT=true
+[2014.10.10-17.15.53:604][455]LogSavePackage: Save=16.264919ms
+[2014.10.10-17.15.53:604][455]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/particleCandleFlameC095810D49F149A63125929B9AD45D3E.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Particles/particleCandleFlame.uasset'
+[2014.10.10-17.15.53:624][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/textureSnowDrop" FILE="../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSnowDrop.uasset" SILENT=true
+[2014.10.10-17.15.53:665][455]LogSavePackage: Save=39.051945ms
+[2014.10.10-17.15.53:665][455]LogSavePackage: Moving '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Saved/textureSnowDrop3B2A5BC443A4AD3C1F06718C60CA74A4.tmp' to '../../../../../../Users/Mitchell/Documents/Unhinged/Phobophobia 4.4/Content/Textures/textureSnowDrop.uasset'
+[2014.10.10-17.15.53:979][456]Cmd: QUIT_EDITOR
+[2014.10.10-17.15.54:105][456]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.10.10-17.15.54:106][456]LogExit: Preparing to exit.
+[2014.10.10-17.15.54:879][456]LogExit: Editor shut down
+[2014.10.10-17.15.54:881][456]LogExit: Transaction tracking system shut down
+[2014.10.10-17.15.54:897][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FDC7600
+[2014.10.10-17.15.54:897][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011388B80
+[2014.10.10-17.15.54:897][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001BE78CC0
+[2014.10.10-17.15.54:898][456]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002FDC6020
+[2014.10.10-17.15.54:928][456]LogExit: Object subsystem successfully closed.
+[2014.10.10-17.15.54:984][456]LogModuleManager: Shutting down and abandoning module DistCurveEditor (165)
+[2014.10.10-17.15.54:984][456]LogModuleManager: Shutting down and abandoning module Cascade (164)
+[2014.10.10-17.15.54:984][456]LogModuleManager: Shutting down and abandoning module TextureEditor (163)
+[2014.10.10-17.15.54:984][456]LogModuleManager: Shutting down and abandoning module MaterialEditor (162)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.10.10-17.15.54:985][456]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.10.10-17.15.54:986][456]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.10.10-17.15.55:069][456]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.10.10-17.15.55:168][456]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.10.10-17.15.55:169][456]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.10.10-17.15.55:169][456]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.10.10-17.15.55:169][456]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.10.10-17.15.55:169][456]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.10.10-17.15.55:170][456]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.10.10-17.15.55:270][456]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.10.10-17.15.55:270][456]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.10.10-17.15.55:274][456]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.10.10-17.15.55:275][456]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.10.10-17.15.55:276][456]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.10.10-17.15.55:344][456]LogDerivedDataCache: Shutdown
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.10.10-17.15.55:344][456]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.10.10-17.15.55:345][456]LogExit: Exiting.
+[2014.10.10-17.15.55:359][456]Log file closed, 10/10/14 13:15:55
