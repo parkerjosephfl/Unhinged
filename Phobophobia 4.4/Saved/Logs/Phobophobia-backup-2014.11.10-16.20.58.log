@@ -1,0 +1,443 @@
+Log file open, 10/24/14 20:11:49
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.10.25-00.11.49:727][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.10.25-00.11.49:758][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.10.25-00.11.49:826][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.10.25-00.11.49:844][  0]LogInit: Object subsystem initialized
+[2014.10.25-00.11.49:852][  0]LogInit: Selected Device Profile: [Windows]
+[2014.10.25-00.11.49:852][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.10.25-00.11.49:861][  0]LogInit: Computer: PARKER
+[2014.10.25-00.11.49:861][  0]LogInit: User: ParkerJoseph
+[2014.10.25-00.11.49:862][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.10.25-00.11.49:862][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2014.10.25-00.11.49:862][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.10.25-00.11.49:862][  0]LogMemory: Platform Memory Stats for Windows
+[2014.10.25-00.11.49:862][  0]LogMemory: Process Physical Memory: 59.80 MB used, 59.80 MB peak
+[2014.10.25-00.11.49:862][  0]LogMemory: Process Virtual Memory: 36.13 MB used, 36.13 MB peak
+[2014.10.25-00.11.49:862][  0]LogMemory: Physical Memory: 3935.23 MB used, 8135.09 MB total
+[2014.10.25-00.11.49:862][  0]LogMemory: Virtual Memory: 264.86 MB used, 134217728.00 MB total
+[2014.10.25-00.11.49:884][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon R9 200 Series (Feature Level 11_0)
+[2014.10.25-00.11.49:884][  0]LogD3D11RHI: Adapter has 4074MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2014.10.25-00.11.49:885][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.10.25-00.11.49:885][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.10.25-00.11.49:885][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.10.25-00.11.49:889][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.10.25-00.11.49:893][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.10.25-00.11.50:148][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.10.25-00.11.51:696][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.25-00.11.52:072][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.25-00.11.52:104][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.10.25-00.11.52:240][  0]LogDerivedDataCache: Loaded boot cache 0.14s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.25-00.11.52:240][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.10.25-00.11.52:240][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.10.25-00.11.52:240][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.10.25-00.11.52:257][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.10.25-00.11.52:269][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.10.25-00.11.53:817][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.10.25-00.11.53:817][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.10.25-00.11.54:449][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.10.25-00.11.55:913][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2234_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d60_0///////STATCAT_Advanced////
+[2014.10.25-00.11.55:913][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.10.25-00.11.56:011][  0]SourceControl: Info Source control is disabled
+[2014.10.25-00.11.56:011][  0]SourceControl: Info Source control is disabled
+[2014.10.25-00.11.56:015][  0]SourceControl: Info Source control is disabled
+[2014.10.25-00.11.56:240][  0]BlueprintLog: New page: Editor Load
+[2014.10.25-00.11.56:322][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.10.25-00.11.56:322][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.10.25-00.11.56:484][  0]LogEngine: Initializing Engine...
+[2014.10.25-00.11.56:612][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.10.25-00.11.56:630][  0]LogInit: FAudioDevice initialized.
+[2014.10.25-00.11.56:665][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.10.25-00.11.56:695][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.10.25-00.11.56:698][  0]LogInit: Texture streaming: Enabled
+[2014.10.25-00.11.56:730][  0]LogInit: Transaction tracking system initialized
+[2014.10.25-00.11.56:825][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2014.10.25-00.11.57:197][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.25-00.11.57:410][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.10.25-00.11.57:518][  0]LogConsoleResponse:Display: 
+[2014.10.25-00.11.57:709][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1b0c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d60_0///////STATCAT_Advanced////
+[2014.10.25-00.11.57:709][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1488_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d60_0///////STATCAT_Advanced////
+[2014.10.25-00.11.57:709][  0]SourceControl: Info Source control is disabled
+[2014.10.25-00.11.57:712][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.25-00.11.57:714][  0]LightingResults: New page: Lighting Build
+[2014.10.25-00.11.57:750][  0]MapCheck: New page: Map Check
+[2014.10.25-00.11.57:750][  0]LightingResults: New page: Lighting Build
+[2014.10.25-00.11.57:774][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F41C9F47C0
+[2014.10.25-00.11.57:913][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.25-00.11.57:914][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.10.25-00.11.57:916][  0]Cmd: MAP CHECKDEP
+[2014.10.25-00.11.57:917][  0]MapCheck: New page: Main_Menu - Oct 24, 2014, 4:11:57 PM
+[2014.10.25-00.11.57:945][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [28.673ms] ==========
+[2014.10.25-00.11.57:945][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.235
+[2014.10.25-00.11.58:099][  0]LogCollectionManager: Loaded 0 collections in 0.000918 seconds
+[2014.10.25-00.11.58:277][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.10.25-00.11.58:331][  0]LogLoad: Full Startup: 11.27 seconds (BP compile: 0.07 seconds)
+[2014.10.25-00.11.58:350][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.10.25-00.11.58:497][  0]LogRenderer:Warning: Reallocating scene render targets to support 1520x1272.
+[2014.10.25-00.12.00:850][218]LogAssetRegistry: Asset discovery search completed in 4.0377 seconds
+[2014.10.25-00.12.23:684][ 60]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.10.25-00.12.23:684][ 60]LightingResults: New page: Lighting Build
+[2014.10.25-00.12.23:695][ 60]LoadErrors: New page: Loading map: Level_1.umap
+[2014.10.25-00.12.23:700][ 60]MapCheck: New page: Map Check
+[2014.10.25-00.12.23:700][ 60]LightingResults: New page: Lighting Build
+[2014.10.25-00.12.23:714][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F414E279C0
+[2014.10.25-00.12.24:035][ 60]LogTexture:Display: Building textures: Texture2D_5 (BGRA8)
+[2014.10.25-00.12.24:048][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.10.25-00.12.24:121][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.10.25-00.12.24:207][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.10.25-00.12.24:233][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.10.25-00.12.24:290][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2014.10.25-00.12.24:319][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.10.25-00.12.24:349][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.10.25-00.12.24:370][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_47 (AutoDXT)
+[2014.10.25-00.12.24:373][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_48 (AutoDXT)
+[2014.10.25-00.12.24:388][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.10.25-00.12.24:578][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.10.25-00.12.24:587][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.10.25-00.12.24:649][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.10.25-00.12.24:848][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_70 (AutoDXT)
+[2014.10.25-00.12.24:862][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_71 (AutoDXT)
+[2014.10.25-00.12.24:873][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_72 (AutoDXT)
+[2014.10.25-00.12.24:888][ 60]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.10.25-00.12.24:981][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.10.25-00.12.25:201][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.10.25-00.12.25:340][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.10.25-00.12.25:398][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.10.25-00.12.25:440][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.10.25-00.12.25:489][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.10.25-00.12.25:690][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.10.25-00.12.25:710][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT)
+[2014.10.25-00.12.25:820][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.10.25-00.12.26:072][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT)
+[2014.10.25-00.12.26:100][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT)
+[2014.10.25-00.12.26:129][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.10.25-00.12.26:168][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT)
+[2014.10.25-00.12.26:188][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT)
+[2014.10.25-00.12.26:228][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT)
+[2014.10.25-00.12.26:322][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2014.10.25-00.12.26:362][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_29 (AutoDXT)
+[2014.10.25-00.12.26:365][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_30 (AutoDXT)
+[2014.10.25-00.12.26:378][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2014.10.25-00.12.26:390][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2014.10.25-00.12.26:401][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_33 (AutoDXT)
+[2014.10.25-00.12.26:404][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2014.10.25-00.12.26:408][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2014.10.25-00.12.26:412][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_36 (AutoDXT)
+[2014.10.25-00.12.26:431][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_37 (AutoDXT)
+[2014.10.25-00.12.26:449][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_39 (AutoDXT)
+[2014.10.25-00.12.26:475][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.10.25-00.12.26:669][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_40 (AutoDXT)
+[2014.10.25-00.12.26:688][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2014.10.25-00.12.26:705][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2014.10.25-00.12.26:711][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2014.10.25-00.12.26:715][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2014.10.25-00.12.26:723][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2014.10.25-00.12.26:734][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2014.10.25-00.12.26:742][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_49 (AutoDXT)
+[2014.10.25-00.12.26:745][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_50 (AutoDXT)
+[2014.10.25-00.12.26:757][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_51 (AutoDXT)
+[2014.10.25-00.12.26:760][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_53 (AutoDXT)
+[2014.10.25-00.12.26:774][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2014.10.25-00.12.26:776][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_55 (AutoDXT)
+[2014.10.25-00.12.26:787][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_56 (AutoDXT)
+[2014.10.25-00.12.26:799][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_57 (AutoDXT)
+[2014.10.25-00.12.26:810][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_58 (AutoDXT)
+[2014.10.25-00.12.26:821][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_59 (AutoDXT)
+[2014.10.25-00.12.26:828][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_60 (AutoDXT)
+[2014.10.25-00.12.26:839][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_61 (AutoDXT)
+[2014.10.25-00.12.26:851][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_62 (AutoDXT)
+[2014.10.25-00.12.26:862][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_63 (AutoDXT)
+[2014.10.25-00.12.26:873][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_64 (AutoDXT)
+[2014.10.25-00.12.26:884][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2014.10.25-00.12.26:896][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_66 (AutoDXT)
+[2014.10.25-00.12.26:907][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2014.10.25-00.12.26:919][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_68 (AutoDXT)
+[2014.10.25-00.12.26:930][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2014.10.25-00.12.26:940][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2014.10.25-00.12.26:951][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_74 (AutoDXT)
+[2014.10.25-00.12.26:964][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_75 (AutoDXT)
+[2014.10.25-00.12.26:976][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_76 (AutoDXT)
+[2014.10.25-00.12.26:988][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_77 (AutoDXT)
+[2014.10.25-00.12.26:999][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2014.10.25-00.12.27:011][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2014.10.25-00.12.27:027][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.10.25-00.12.27:235][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_80 (AutoDXT)
+[2014.10.25-00.12.27:249][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_81 (AutoDXT)
+[2014.10.25-00.12.27:260][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_82 (AutoDXT)
+[2014.10.25-00.12.27:272][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_83 (AutoDXT)
+[2014.10.25-00.12.27:283][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_84 (AutoDXT)
+[2014.10.25-00.12.27:295][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_85 (AutoDXT)
+[2014.10.25-00.12.27:307][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_86 (AutoDXT)
+[2014.10.25-00.12.27:318][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_87 (AutoDXT)
+[2014.10.25-00.12.27:329][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2014.10.25-00.12.27:343][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_89 (AutoDXT)
+[2014.10.25-00.12.27:355][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_90 (AutoDXT)
+[2014.10.25-00.12.27:367][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_91 (AutoDXT)
+[2014.10.25-00.12.27:378][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_92 (AutoDXT)
+[2014.10.25-00.12.27:389][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_93 (AutoDXT)
+[2014.10.25-00.12.27:401][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_94 (AutoDXT)
+[2014.10.25-00.12.27:412][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_95 (AutoDXT)
+[2014.10.25-00.12.27:421][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_96 (AutoDXT)
+[2014.10.25-00.12.27:431][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_97 (AutoDXT)
+[2014.10.25-00.12.27:442][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_98 (AutoDXT)
+[2014.10.25-00.12.27:454][ 60]LogTexture:Display: Building textures: HQ_Lightmap1_99 (AutoDXT)
+[2014.10.25-00.12.27:459][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.10.25-00.12.27:495][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.10.25-00.12.27:532][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.10.25-00.12.27:543][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.10.25-00.12.27:561][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2014.10.25-00.12.27:572][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.10.25-00.12.27:583][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.10.25-00.12.27:591][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_47 (DXT1)
+[2014.10.25-00.12.27:594][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_48 (DXT1)
+[2014.10.25-00.12.27:608][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.10.25-00.12.27:701][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.10.25-00.12.27:709][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.10.25-00.12.27:757][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.10.25-00.12.27:824][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_70 (DXT1)
+[2014.10.25-00.12.27:834][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_71 (DXT1)
+[2014.10.25-00.12.27:843][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_72 (DXT1)
+[2014.10.25-00.12.27:857][ 60]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.10.25-00.12.27:909][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.10.25-00.12.28:016][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.10.25-00.12.28:092][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.10.25-00.12.28:119][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.10.25-00.12.28:141][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.10.25-00.12.28:167][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.10.25-00.12.28:258][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.10.25-00.12.28:271][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1)
+[2014.10.25-00.12.28:313][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.10.25-00.12.28:385][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1)
+[2014.10.25-00.12.28:398][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1)
+[2014.10.25-00.12.28:407][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.10.25-00.12.28:420][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1)
+[2014.10.25-00.12.28:430][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1)
+[2014.10.25-00.12.28:448][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1)
+[2014.10.25-00.12.28:489][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2014.10.25-00.12.28:520][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_29 (DXT1)
+[2014.10.25-00.12.28:523][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_30 (DXT1)
+[2014.10.25-00.12.28:538][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2014.10.25-00.12.28:551][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2014.10.25-00.12.28:560][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_33 (DXT1)
+[2014.10.25-00.12.28:563][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2014.10.25-00.12.28:565][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2014.10.25-00.12.28:568][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_36 (DXT1)
+[2014.10.25-00.12.28:582][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_37 (DXT1)
+[2014.10.25-00.12.28:592][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_39 (DXT1)
+[2014.10.25-00.12.28:609][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.10.25-00.12.28:674][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_40 (DXT1)
+[2014.10.25-00.12.28:685][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2014.10.25-00.12.28:696][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2014.10.25-00.12.28:700][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2014.10.25-00.12.28:703][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2014.10.25-00.12.28:708][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2014.10.25-00.12.28:716][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2014.10.25-00.12.28:723][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_49 (DXT1)
+[2014.10.25-00.12.28:725][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_50 (DXT1)
+[2014.10.25-00.12.28:738][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_51 (DXT1)
+[2014.10.25-00.12.28:743][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_53 (DXT1)
+[2014.10.25-00.12.28:752][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2014.10.25-00.12.28:757][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_55 (DXT1)
+[2014.10.25-00.12.28:768][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_56 (DXT1)
+[2014.10.25-00.12.28:778][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_57 (DXT1)
+[2014.10.25-00.12.28:788][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_58 (DXT1)
+[2014.10.25-00.12.28:799][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_59 (DXT1)
+[2014.10.25-00.12.28:804][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2014.10.25-00.12.28:814][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2014.10.25-00.12.28:824][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_62 (DXT1)
+[2014.10.25-00.12.28:834][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_63 (DXT1)
+[2014.10.25-00.12.28:844][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_64 (DXT1)
+[2014.10.25-00.12.28:854][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2014.10.25-00.12.28:863][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_66 (DXT1)
+[2014.10.25-00.12.28:872][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2014.10.25-00.12.28:881][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_68 (DXT1)
+[2014.10.25-00.12.28:891][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2014.10.25-00.12.28:900][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2014.10.25-00.12.28:911][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_74 (DXT1)
+[2014.10.25-00.12.28:921][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2014.10.25-00.12.28:931][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2014.10.25-00.12.28:940][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_77 (DXT1)
+[2014.10.25-00.12.28:950][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2014.10.25-00.12.28:959][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2014.10.25-00.12.28:973][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.10.25-00.12.29:070][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_80 (DXT1)
+[2014.10.25-00.12.29:080][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_81 (DXT1)
+[2014.10.25-00.12.29:090][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_82 (DXT1)
+[2014.10.25-00.12.29:100][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_83 (DXT1)
+[2014.10.25-00.12.29:110][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_84 (DXT1)
+[2014.10.25-00.12.29:121][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_85 (DXT1)
+[2014.10.25-00.12.29:130][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_86 (DXT1)
+[2014.10.25-00.12.29:140][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_87 (DXT1)
+[2014.10.25-00.12.29:151][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2014.10.25-00.12.29:162][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_89 (DXT1)
+[2014.10.25-00.12.29:171][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_90 (DXT1)
+[2014.10.25-00.12.29:180][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_91 (DXT1)
+[2014.10.25-00.12.29:188][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_92 (DXT1)
+[2014.10.25-00.12.29:196][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_93 (DXT1)
+[2014.10.25-00.12.29:206][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_94 (DXT1)
+[2014.10.25-00.12.29:215][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_95 (DXT1)
+[2014.10.25-00.12.29:222][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_96 (DXT1)
+[2014.10.25-00.12.29:229][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_97 (DXT1)
+[2014.10.25-00.12.29:239][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_98 (DXT1)
+[2014.10.25-00.12.29:248][ 60]LogTexture:Display: Building textures: LQ_Lightmap_1_99 (DXT1)
+[2014.10.25-00.12.29:254][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_123 (BGRA8)
+[2014.10.25-00.12.29:284][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_124 (BGRA8)
+[2014.10.25-00.12.29:306][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_125 (BGRA8)
+[2014.10.25-00.12.29:318][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_126 (BGRA8)
+[2014.10.25-00.12.29:345][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_127 (BGRA8)
+[2014.10.25-00.12.29:370][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_128 (BGRA8)
+[2014.10.25-00.12.29:380][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_129 (BGRA8)
+[2014.10.25-00.12.29:408][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_130 (BGRA8)
+[2014.10.25-00.12.29:430][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_131 (BGRA8)
+[2014.10.25-00.12.29:437][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_132 (BGRA8)
+[2014.10.25-00.12.29:448][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_133 (BGRA8)
+[2014.10.25-00.12.29:471][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_134 (BGRA8)
+[2014.10.25-00.12.29:479][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_135 (BGRA8)
+[2014.10.25-00.12.29:488][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_136 (BGRA8)
+[2014.10.25-00.12.29:497][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_137 (BGRA8)
+[2014.10.25-00.12.29:509][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_138 (BGRA8)
+[2014.10.25-00.12.29:531][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_139 (BGRA8)
+[2014.10.25-00.12.29:535][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_140 (BGRA8)
+[2014.10.25-00.12.29:540][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_141 (BGRA8)
+[2014.10.25-00.12.29:547][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_142 (BGRA8)
+[2014.10.25-00.12.29:553][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_143 (BGRA8)
+[2014.10.25-00.12.29:557][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_144 (BGRA8)
+[2014.10.25-00.12.29:560][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_145 (BGRA8)
+[2014.10.25-00.12.29:563][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_146 (BGRA8)
+[2014.10.25-00.12.29:566][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_147 (BGRA8)
+[2014.10.25-00.12.29:570][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_148 (BGRA8)
+[2014.10.25-00.12.29:577][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_149 (BGRA8)
+[2014.10.25-00.12.29:584][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_150 (BGRA8)
+[2014.10.25-00.12.29:590][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_151 (BGRA8)
+[2014.10.25-00.12.29:593][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_152 (BGRA8)
+[2014.10.25-00.12.29:598][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_153 (BGRA8)
+[2014.10.25-00.12.29:601][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_154 (BGRA8)
+[2014.10.25-00.12.29:604][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_155 (BGRA8)
+[2014.10.25-00.12.29:608][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_156 (BGRA8)
+[2014.10.25-00.12.29:611][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_157 (BGRA8)
+[2014.10.25-00.12.29:614][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_158 (BGRA8)
+[2014.10.25-00.12.29:617][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_159 (BGRA8)
+[2014.10.25-00.12.29:621][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_160 (BGRA8)
+[2014.10.25-00.12.29:622][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_161 (BGRA8)
+[2014.10.25-00.12.29:629][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_162 (BGRA8)
+[2014.10.25-00.12.29:633][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_163 (BGRA8)
+[2014.10.25-00.12.29:637][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_164 (BGRA8)
+[2014.10.25-00.12.29:641][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_165 (BGRA8)
+[2014.10.25-00.12.29:647][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_166 (BGRA8)
+[2014.10.25-00.12.29:651][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_167 (BGRA8)
+[2014.10.25-00.12.29:653][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_168 (BGRA8)
+[2014.10.25-00.12.29:657][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_169 (BGRA8)
+[2014.10.25-00.12.29:664][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_170 (BGRA8)
+[2014.10.25-00.12.29:668][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_171 (BGRA8)
+[2014.10.25-00.12.29:670][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_172 (BGRA8)
+[2014.10.25-00.12.29:673][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_173 (BGRA8)
+[2014.10.25-00.12.29:676][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_174 (BGRA8)
+[2014.10.25-00.12.29:678][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_175 (BGRA8)
+[2014.10.25-00.12.29:680][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_176 (BGRA8)
+[2014.10.25-00.12.29:682][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_177 (BGRA8)
+[2014.10.25-00.12.29:684][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_178 (BGRA8)
+[2014.10.25-00.12.29:688][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_179 (BGRA8)
+[2014.10.25-00.12.29:697][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_180 (BGRA8)
+[2014.10.25-00.12.29:700][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_181 (BGRA8)
+[2014.10.25-00.12.29:706][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_182 (BGRA8)
+[2014.10.25-00.12.29:708][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_183 (BGRA8)
+[2014.10.25-00.12.29:709][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_184 (BGRA8)
+[2014.10.25-00.12.29:710][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_185 (BGRA8)
+[2014.10.25-00.12.29:712][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_186 (BGRA8)
+[2014.10.25-00.12.29:713][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_187 (BGRA8)
+[2014.10.25-00.12.29:714][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_188 (BGRA8)
+[2014.10.25-00.12.29:715][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_189 (BGRA8)
+[2014.10.25-00.12.29:717][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_190 (BGRA8)
+[2014.10.25-00.12.29:718][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_191 (BGRA8)
+[2014.10.25-00.12.29:720][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_192 (BGRA8)
+[2014.10.25-00.12.29:721][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_193 (BGRA8)
+[2014.10.25-00.12.29:722][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_194 (BGRA8)
+[2014.10.25-00.12.29:723][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_195 (BGRA8)
+[2014.10.25-00.12.29:724][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_196 (BGRA8)
+[2014.10.25-00.12.29:725][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_197 (BGRA8)
+[2014.10.25-00.12.29:726][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_198 (BGRA8)
+[2014.10.25-00.12.29:728][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_199 (BGRA8)
+[2014.10.25-00.12.29:728][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_200 (BGRA8)
+[2014.10.25-00.12.29:730][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_201 (BGRA8)
+[2014.10.25-00.12.29:731][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_202 (BGRA8)
+[2014.10.25-00.12.29:732][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_203 (BGRA8)
+[2014.10.25-00.12.29:733][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_204 (BGRA8)
+[2014.10.25-00.12.29:735][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_205 (BGRA8)
+[2014.10.25-00.12.29:736][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_206 (BGRA8)
+[2014.10.25-00.12.29:738][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_207 (BGRA8)
+[2014.10.25-00.12.29:740][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_208 (BGRA8)
+[2014.10.25-00.12.29:741][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_209 (BGRA8)
+[2014.10.25-00.12.29:742][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_210 (BGRA8)
+[2014.10.25-00.12.29:743][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_211 (BGRA8)
+[2014.10.25-00.12.29:782][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_212 (BGRA8)
+[2014.10.25-00.12.29:785][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_213 (BGRA8)
+[2014.10.25-00.12.29:788][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_214 (BGRA8)
+[2014.10.25-00.12.29:790][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_215 (BGRA8)
+[2014.10.25-00.12.29:792][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_216 (BGRA8)
+[2014.10.25-00.12.29:795][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_217 (BGRA8)
+[2014.10.25-00.12.29:799][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_218 (BGRA8)
+[2014.10.25-00.12.29:802][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_219 (BGRA8)
+[2014.10.25-00.12.29:805][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_220 (BGRA8)
+[2014.10.25-00.12.29:808][ 60]LogTexture:Display: Building textures: ShadowMapTexture2D_221 (BGRA8)
+[2014.10.25-00.12.29:953][ 60]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.10.25-00.12.29:953][ 60]LogAIModule: Creating AISystem for world Level_1
+[2014.10.25-00.12.29:974][ 60]Cmd: MAP CHECKDEP
+[2014.10.25-00.12.29:974][ 60]MapCheck: New page: Level_1 - Oct 24, 2014, 4:12:29 PM
+[2014.10.25-00.12.30:010][ 60]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [36.248ms] ==========
+[2014.10.25-00.12.30:010][ 60]LogFileHelpers: Loading map 'Level_1' took 6.329
+[2014.10.25-00.12.30:111][ 61]Cmd: UpdateLandscapeEditorData -warnings
+[2014.10.25-00.12.30:117][ 61]Cmd: UpdateLandscapeEditorData
+[2014.10.25-00.25.37:782][503]LogSavePackage: Save=13.003119ms
+[2014.10.25-00.25.37:782][503]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_LightsAC9DA5234FE8C9E8BBE4A7B268F38F76.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Lights.umap'
+[2014.10.25-00.25.37:790][503]LogFileHelpers: Saving map 'Level_1_Lights' took 0.484
+[2014.10.25-00.25.37:801][503]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F4378A0EA0
+[2014.10.25-00.27.47:898][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F41566D800
+[2014.10.25-00.28.22:228][210]LogSavePackage: Save=8.033912ms
+[2014.10.25-00.28.22:228][210]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_TerrainA67D1E184224744105A0FDA9D1241E06.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Terrain.umap'
+[2014.10.25-00.28.22:231][210]LogFileHelpers: Saving map 'Level_1_Terrain' took 0.085
+[2014.10.25-00.28.22:243][210]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F41C75DF80
+[2014.10.25-00.28.38:025][521]LogSavePackage: Save=8.238268ms
+[2014.10.25-00.28.38:026][521]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_BlueprintsD1852DBC465953138E4B608DB0E26881.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Blueprints.umap'
+[2014.10.25-00.28.38:029][521]LogFileHelpers: Saving map 'Level_1_Blueprints' took 0.078
+[2014.10.25-00.28.38:039][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F414100400
+[2014.10.25-00.28.57:774][ 77]LogSavePackage: Save=7.275995ms
+[2014.10.25-00.28.57:774][ 77]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_Meshes48F14A59423E69673BC0B5BBCBCA67F7.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Meshes.umap'
+[2014.10.25-00.28.57:777][ 77]LogFileHelpers: Saving map 'Level_1_Meshes' took 0.076
+[2014.10.25-00.28.57:788][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F42162DC60
+[2014.10.25-00.29.08:116][302]LogSavePackage: Save=7.336757ms
+[2014.10.25-00.29.08:116][302]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_Particles560C49ED4F57AE8AC25BF997F374F74D.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Particles.umap'
+[2014.10.25-00.29.08:120][302]LogFileHelpers: Saving map 'Level_1_Particles' took 0.077
+[2014.10.25-00.29.08:131][302]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F42162DD00
+[2014.10.25-00.29.22:231][970]LogSavePackage: Save=7.793099ms
+[2014.10.25-00.29.22:231][970]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_1_ParticlesA71AD937497665A1BCFAAA84649734CB.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_1_Particles.umap'
+[2014.10.25-00.30.52:490][250]LogSavePackage: Save=7.478325ms
+[2014.10.25-00.30.52:490][250]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3A_Blueprints777A31A54378FD8C5B675C9A1FA99F93.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3A_Blueprints.umap'
+[2014.10.25-00.30.52:493][250]LogFileHelpers: Saving map 'Level_3A_Blueprints' took 0.090
+[2014.10.25-00.30.52:505][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F41C75FA60
+[2014.10.25-00.31.08:657][471]LogSavePackage: Save=7.432579ms
+[2014.10.25-00.31.08:657][471]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3A_Lights59D3B48D4E9E58A445AF2B836822854A.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3A_Lights.umap'
+[2014.10.25-00.31.08:659][471]LogFileHelpers: Saving map 'Level_3A_Lights' took 0.078
+[2014.10.25-00.31.08:671][471]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F421519260
+[2014.10.25-00.31.18:730][629]LogSavePackage: Save=8.263411ms
+[2014.10.25-00.31.18:730][629]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3A_MeshesB05CADE64E9152D61AD303929C10D3D8.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3A_Meshes.umap'
+[2014.10.25-00.31.18:733][629]LogFileHelpers: Saving map 'Level_3A_Meshes' took 0.082
+[2014.10.25-00.31.18:745][629]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F437BB0180
+[2014.10.25-00.31.38:381][807]LogSavePackage: Save=8.814808ms
+[2014.10.25-00.31.38:381][807]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3A_Particles7B64296A44E2BB526F05D1AD16BBE126.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3A_Particles.umap'
+[2014.10.25-00.31.38:384][807]LogFileHelpers: Saving map 'Level_3A_Particles' took 0.089
+[2014.10.25-00.31.38:396][807]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F414100C20
+[2014.10.25-00.31.48:069][120]LogSavePackage: Save=7.117385ms
+[2014.10.25-00.31.48:069][120]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3A_Terrain4108A2E24C154BB927E2F1A1A25509E8.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3A_Terrain.umap'
+[2014.10.25-00.31.48:072][120]LogFileHelpers: Saving map 'Level_3A_Terrain' took 0.085
+[2014.10.25-00.31.48:083][120]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F415655760
+[2014.10.25-00.32.28:404][449]LogSavePackage: Save=7.622477ms
+[2014.10.25-00.32.28:404][449]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Saved/Level_3B_BlueprintsEC44CFD845C9F5F7A08BE3A64044C7D7.tmp' to '../../../../../../Users/ParkerJoseph/Documents/GitHub/Phobophobia 4.4/Content/Maps/Level_3B_Blueprints.umap'
+[2014.10.25-00.32.28:408][449]LogFileHelpers: S
