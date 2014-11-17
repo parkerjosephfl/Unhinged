@@ -1,0 +1,1043 @@
+Log file open, 11/17/14 16:40:24
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.17-21.40.24:563][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.17-21.40.24:619][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.17-21.40.24:658][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.17-21.40.24:687][  0]LogInit: Object subsystem initialized
+[2014.11.17-21.40.24:694][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.17-21.40.24:694][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.17-21.40.24:712][  0]LogInit: Computer: PAIGE
+[2014.11.17-21.40.24:712][  0]LogInit: User: Rodrigo
+[2014.11.17-21.40.24:715][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.17-21.40.24:715][  0]LogInit: High frequency timer resolution =2.046956 MHz
+[2014.11.17-21.40.24:715][  0]LogMemory: Memory total: Physical=7.2GB (8GB approx) Virtual=131072.0GB
+[2014.11.17-21.40.24:716][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-21.40.24:716][  0]LogMemory: Process Physical Memory: 59.84 MB used, 59.84 MB peak
+[2014.11.17-21.40.24:716][  0]LogMemory: Process Virtual Memory: 36.04 MB used, 36.04 MB peak
+[2014.11.17-21.40.24:716][  0]LogMemory: Physical Memory: 2271.03 MB used, 7365.01 MB total
+[2014.11.17-21.40.24:716][  0]LogMemory: Virtual Memory: 264.89 MB used, 134217728.00 MB total
+[2014.11.17-21.40.24:770][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 8610G (Feature Level 11_0)
+[2014.11.17-21.40.24:770][  0]LogD3D11RHI: Adapter has 735MB of dedicated video memory, 0MB of dedicated system memory, and 3456MB of shared system memory, 1 output[s]
+[2014.11.17-21.40.24:775][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.17-21.40.24:775][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.17-21.40.24:775][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.17-21.40.24:791][  0]LogRHI: Texture pool is 514 MB (70% of 735 MB)
+[2014.11.17-21.40.24:812][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.17-21.40.25:148][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.17-21.40.30:838][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.40.32:665][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.40.32:791][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.17-21.40.33:415][  0]LogDerivedDataCache: Loaded boot cache 0.62s 39MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.17-21.40.33:415][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.17-21.40.33:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.17-21.40.33:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.17-21.40.33:517][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.17-21.40.33:533][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.17-21.40.36:963][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.17-21.40.36:963][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.17-21.40.39:694][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.17-21.40.56:651][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_260c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_16b4_0///////STATCAT_Advanced////
+[2014.11.17-21.40.56:651][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.17-21.40.57:105][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.40.57:105][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.40.57:134][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.40.58:736][  0]BlueprintLog: New page: Editor Load
+[2014.11.17-21.40.59:394][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.17-21.40.59:395][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.17-21.41.00:140][  0]LogEngine: Initializing Engine...
+[2014.11.17-21.41.00:950][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.11.17-21.41.01:526][  0]LogInit: FAudioDevice initialized.
+[2014.11.17-21.41.01:695][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.17-21.41.01:813][  0]LogDerivedDataCache: Saved boot cache 0.11s 39MB C:/Users/Rodrigo/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.17-21.41.01:837][  0]LogInit: Texture streaming: Enabled
+[2014.11.17-21.41.02:058][  0]LogInit: Transaction tracking system initialized
+[2014.11.17-21.41.02:716][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2014.11.17-21.41.05:903][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.41.07:201][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.41.08:563][  0]LogConsoleResponse:Display: 
+[2014.11.17-21.41.12:085][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_7c0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_16b4_0///////STATCAT_Advanced////
+[2014.11.17-21.41.12:085][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_273c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_16b4_0///////STATCAT_Advanced////
+[2014.11.17-21.41.12:085][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.41.12:086][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.17-21.41.12:144][  0]LightingResults: New page: Lighting Build
+[2014.11.17-21.41.12:318][  0]MapCheck: New page: Map Check
+[2014.11.17-21.41.12:318][  0]LightingResults: New page: Lighting Build
+[2014.11.17-21.41.13:654][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF2FD2D300
+[2014.11.17-21.41.14:040][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.17-21.41.14:041][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.17-21.41.14:042][  0]Cmd: MAP CHECKDEP
+[2014.11.17-21.41.14:042][  0]MapCheck: New page: Main_Menu - Nov 17, 2014, 11:41:14 AM
+[2014.11.17-21.41.14:408][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [365.463ms] ==========
+[2014.11.17-21.41.14:408][  0]LogFileHelpers: Loading map 'Main_Menu' took 2.322
+[2014.11.17-21.41.15:379][  0]LogCollectionManager: Loaded 0 collections in 0.005982 seconds
+[2014.11.17-21.41.15:925][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.17-21.41.16:171][  0]LogLoad: Full Startup: 55.44 seconds (BP compile: 1.00 seconds)
+[2014.11.17-21.41.16:796][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x584.
+[2014.11.17-21.41.17:061][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMG'
+[2014.11.17-21.41.45:287][984]Cmd: MAP LOAD FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.17-21.41.45:289][984]LightingResults: New page: Lighting Build
+[2014.11.17-21.41.45:343][984]LoadErrors: New page: Loading map: Programming.umap
+[2014.11.17-21.41.45:345][984]MapCheck: New page: Map Check
+[2014.11.17-21.41.45:345][984]LightingResults: New page: Lighting Build
+[2014.11.17-21.41.45:397][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF310E0860
+[2014.11.17-21.41.50:591][984]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf51191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbf4d8254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xc2d94adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2ddffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dcebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2da1f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e0426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de0179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2ddfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2ddfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfc972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e55f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2df3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e55e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xbeef92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbeeec4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbeeda291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbf1df0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbef52834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbef53335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xb7ca92aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0244dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-21.41.54:562][984]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf534bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xc0938e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xc2d380cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de0183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2ddfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2ddfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2dfc972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e55f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e1a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2de12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2df3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xc2e55e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0xbeef92e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbeeec4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbeeda291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbf1df0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbef52834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbef53335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xb7ca92aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0244dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-21.42.01:934][984]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.17-21.42.02:025][984]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-21.42.02:134][984]Cmd: MAP CHECKDEP
+[2014.11.17-21.42.02:135][984]MapCheck: New page: Programming - Nov 17, 2014, 11:42:02 AM
+[2014.11.17-21.42.02:747][984]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [612.807ms] ==========
+[2014.11.17-21.42.02:748][984]LogFileHelpers: Loading map 'Programming' took 17.527
+[2014.11.17-21.42.03:129][985]LogAssetRegistry: Asset discovery search completed in 60.4247 seconds
+[2014.11.17-21.42.14:666][502]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (plankTrigger)
+[2014.11.17-21.42.50:276][380]LogEditorViewport: Clicking on Actor (LMB): TriggerVolume (matineeTrigger)
+[2014.11.17-21.54.45:447][147]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.17-21.54.47:019][194]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-21.55.01:947][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.01:955][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:003][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:004][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:004][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:004][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:004][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:005][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:005][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:005][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:005][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:005][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:006][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:006][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:006][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:006][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:007][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.02:007][335]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.06:257][360]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.17-21.55.06:574][360]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 0.317
+[2014.11.17-21.55.06:622][360]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.11.17-21.55.06:716][360]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.11.17-21.55.06:716][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.11.17-21.55.09:194][360]LogSavePackage: Save=2341.966309ms
+[2014.11.17-21.55.09:194][360]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto1F938884345FCC958AF04CCBCEDF2C405.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto1.uasset'
+[2014.11.17-21.55.09:242][360]LogFileHelpers: Auto-saving content packages took 2.666
+[2014.11.17-21.55.12:395][390]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.12:395][390]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.12:395][390]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.12:396][390]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:256][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:257][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:257][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:257][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:258][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.55.49:258][741]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-22.00.46:116][613]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.17-22.00.55:661][690]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.17-22.01.03:081][750]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.17-22.01.33:040][  9]BlueprintLog: New page: Compile blueprintCharacter
+[2014.11.17-22.01.34:891][  9]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf51191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbe301727 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe33bc1d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe340b57 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023c2ad (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020d0ec (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-22.01.36:480][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.17-22.01.37:014][  9]BlueprintEditorCompileResults: Info [1275.47] Compile of blueprintCharacter successful! [in 1,833 ms]
+[2014.11.17-22.04.05:652][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.17-22.04.10:905][354]BlueprintLog: New page: Compile blueprintCharacter
+[2014.11.17-22.04.12:644][354]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf51191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbe301727 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe33bc1d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe340b57 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023c2ad (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020d0ec (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-22.04.13:000][354]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.17-22.04.13:171][354]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF63D747C0
+[2014.11.17-22.04.13:547][354]BlueprintEditorCompileResults: Info [1431.94] Compile of blueprintCharacter successful! [in 520 ms]
+[2014.11.17-22.04.27:028][538]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-22.04.38:581][750]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-22.04.38:582][750]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-22.04.38:583][750]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-22.05.11:196][301]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.17-22.05.12:326][301]LogSavePackage: Save=663.348877ms
+[2014.11.17-22.05.12:326][301]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Programming_Auto2F6A0F42C4D8069C0FCF350B79EDB6059.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Maps/Programming_Auto2.umap'
+[2014.11.17-22.05.12:362][301]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Programming' took 1.166
+[2014.11.17-22.05.12:362][301]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.166
+[2014.11.17-22.05.12:389][301]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/blueprintCharacter] ([1] browsable assets)...
+[2014.11.17-22.05.12:475][301]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/blueprintCharacter.blueprintCharacter]
+[2014.11.17-22.05.12:475][301]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/blueprintCharacter]
+[2014.11.17-22.05.14:969][301]LogSavePackage: Save=2367.994141ms
+[2014.11.17-22.05.14:969][301]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter_Auto29E51D4D041D1CF362A420B916F57C840.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Autosaves/Game/Blueprints/blueprintCharacter_Auto2.uasset'
+[2014.11.17-22.05.14:991][301]LogFileHelpers: Auto-saving content packages took 2.629
+[2014.11.17-22.06.59:864][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.17-22.07.06:091][778]BlueprintLog: New page: Compile blueprintCharacter
+[2014.11.17-22.07.07:803][778]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf51191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbe301727 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe33bc1d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe340b57 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023c2ad (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020d0ec (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-22.07.08:190][778]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.17-22.07.08:692][778]BlueprintEditorCompileResults: Info [1607.16] Compile of blueprintCharacter successful! [in 572 ms]
+[2014.11.17-22.07.44:974][421]BlueprintLog: New page: Compile Programming
+[2014.11.17-22.07.45:283][421]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.17-22.07.45:547][421]BlueprintEditorCompileResults: Info [1644.32] Compile of Programming successful! [in 16 ms]
+[2014.11.17-22.08.14:705][841]LogSavePackage: Save=670.921631ms
+[2014.11.17-22.08.14:705][841]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Programming0078624442DB3C5F58806CBFE35313E6.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.11.17-22.08.14:859][841]LogFileHelpers: Saving map 'Programming' took 1.743
+[2014.11.17-22.08.14:925][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.11.17-22.08.17:351][841]LogSavePackage: Save=2351.535156ms
+[2014.11.17-22.08.17:354][841]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter98B1DA684458353C463C9F87D3E91254.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.11.17-22.08.42:197][205]LogBlueprint:Warning: Blueprint blueprintCharacter (child of/implements blueprintCharacterInterface) has a member variable with a conflicting name (CurrentLevel). Changing to CurrentLevel_0.
+[2014.11.17-22.08.42:687][205]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.17-22.08.52:746][428]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.17-22.08.53:033][428]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.11.17-22.08.55:412][428]LogSavePackage: Save=2304.808594ms
+[2014.11.17-22.08.55:412][428]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacter30D17F2547BC669A184129968B1241FE.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.11.17-22.08.55:561][428]LogSavePackage: Save=34.329021ms
+[2014.11.17-22.08.55:562][428]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacterInterface50495AA6438953B0832158A9D3A0B5B2.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacterInterface.uasset'
+[2014.11.17-22.08.55:879][435]BlueprintLog: New page: Compile blueprintCharacterInterface
+[2014.11.17-22.08.56:058][435]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.17-22.08.57:303][435]BlueprintEditorCompileResults: Info [1715.15] Compile of blueprintCharacterInterface successful! [in 1 ms]
+[2014.11.17-22.09.11:138][548]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.17-22.09.37:123][719]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.17-22.09.46:444][802]BlueprintLog: New page: Compile blueprintCharacter
+[2014.11.17-22.09.48:146][802]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xbc5f8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5f803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc607b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbc5e383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0xbf51191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbe301727 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe33bc1d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xbe340b57 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Kismet.dll]
+Address = 0xc00f5246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc023c2ad (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc020d0ec (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc02d569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc030f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0131ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc0121989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc32534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc325461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7952297 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xc3254ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x7f6d708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x7f6cca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x7f6ccaaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x7f6d88c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x7f6d96f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0xf58416ad (filename not found) [in C:\Windows\system32\KERNEL32.DLL]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7eb4409 (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+
+[2014.11.17-22.09.48:534][802]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.17-22.09.48:978][802]BlueprintEditorCompileResults: Info [1767.50] Compile of blueprintCharacter successful! [in 567 ms]
+[2014.11.17-22.10.18:496][251]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.17-22.10.18:626][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF38F607C0
+[2014.11.17-22.10.20:095][251]LogSavePackage: Save=578.214661ms
+[2014.11.17-22.10.20:095][251]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Programming0E7C3023473F0655212E2986727C131E.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.11.17-22.10.20:258][251]LogFileHelpers: Saving map 'Programming' took 1.553
+[2014.11.17-22.10.20:323][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.11.17-22.10.22:703][251]LogSavePackage: Save=2293.630615ms
+[2014.11.17-22.10.22:703][251]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacterB1A29C714CBF5C670DC63B8B521A9898.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.11.17-22.10.22:737][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HUD/blueprintHUD" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/HUD/blueprintHUD.uasset" SILENT=true
+[2014.11.17-22.10.23:012][251]LogSavePackage: Save=195.964645ms
+[2014.11.17-22.10.23:012][251]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintHUD46EE841D42FB6BF530BB88AB765B8410.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/HUD/blueprintHUD.uasset'
+[2014.11.17-22.10.26:855][309]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.10.26:856][309]LogPlayLevel: [PIE] Compiling blueprintHUD before PIE...
+[2014.11.17-22.10.27:250][309]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.10.27:546][309]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.17-22.10.27:711][309]LogPlayLevel: PIE:  Blueprint regeneration took 855 ms (2 blueprints)
+[2014.11.17-22.10.27:711][309]PIE: New page: PIE session: Programming (Nov 17, 2014, 12:10:27 PM)
+[2014.11.17-22.10.27:843][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.131248s)
+[2014.11.17-22.10.27:846][309]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2014.11.17-22.10.27:846][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.133776s)
+[2014.11.17-22.10.27:933][309]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.10.27:940][309]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.10.27:968][309]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.10.27:968][309]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.10.27
+[2014.11.17-22.10.28:020][309]LogWorld: Bringing up level for play took: 0.080655
+[2014.11.17-22.10.28:025][309]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.10.28:025][309]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.10.28:027][309]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.312
+[2014.11.17-22.10.28:351][310]LogRenderer:Warning: Reallocating scene render targets to support 808x592.
+[2014.11.17-22.10.30:684][342]LogPackageName: SearchForPackageOnDisk took   0.366s to resolve None.umap
+[2014.11.17-22.10.31:086][343]LogPackageName: SearchForPackageOnDisk took   0.354s to resolve None.umap
+[2014.11.17-22.10.31:096][343]LogNet: Browse: /Game/Maps/Main_Menu
+[2014.11.17-22.10.31:096][343]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.10.31:097][343]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.10.31:113][343]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.10.31:113][343]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.10.31:163][344]LogNet: Browse: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.10.31:163][344]LogNet: Failed; returning to Entry
+[2014.11.17-22.10.31:182][344]LogLoad: LoadMap: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.10.31:301][344]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF6622F600
+[2014.11.17-22.10.31:301][344]Cmd: MEM
+[2014.11.17-22.10.31:408][344]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.10.31:408][344]LogMemory: Process Physical Memory: 796.77 MB used, 815.36 MB peak
+[2014.11.17-22.10.31:408][344]LogMemory: Process Virtual Memory: 694.82 MB used, 714.05 MB peak
+[2014.11.17-22.10.31:408][344]LogMemory: Physical Memory: 3049.89 MB used, 7365.01 MB total
+[2014.11.17-22.10.31:408][344]LogMemory: Virtual Memory: 1748.59 MB used, 134217728.00 MB total
+[2014.11.17-22.10.31:409][344]LogMemory: 
+[2014.11.17-22.10.31:409][344]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.10.35:929][344]LoadErrors:Error: Error Failed import: Function /Game/Blueprints/blueprintCharacterInterface.blueprintCharacterInterface_C:CurrentLevel  in /Game/Blueprints/blueprintCharacter
+[2014.11.17-22.10.36:100][344]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.10.36:105][344]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.17-22.10.36:107][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2014.11.17-17.10.36
+[2014.11.17-22.10.36:107][344]LogWorld: Bringing up level for play took: 0.001888
+[2014.11.17-22.10.36:108][344]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.17-22.10.41:462][521]LogPackageName: SearchForPackageOnDisk took   0.349s to resolve Tutorial_Map.umap
+[2014.11.17-22.10.41:805][521]LogPackageName: SearchForPackageOnDisk took   0.341s to resolve Tutorial_Map.umap
+[2014.11.17-22.10.41:805][521]LogNet: Browse: /Game/Maps/Tutorial_Map
+[2014.11.17-22.10.41:805][521]LogLoad: LoadMap: /Game/Maps/Tutorial_Map
+[2014.11.17-22.10.41:885][521]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF238F44A0
+[2014.11.17-22.10.41:916][521]Cmd: MEM
+[2014.11.17-22.10.42:027][521]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.10.42:027][521]LogMemory: Process Physical Memory: 1026.64 MB used, 1065.76 MB peak
+[2014.11.17-22.10.42:027][521]LogMemory: Process Virtual Memory: 925.84 MB used, 966.43 MB peak
+[2014.11.17-22.10.42:027][521]LogMemory: Physical Memory: 3269.76 MB used, 7365.01 MB total
+[2014.11.17-22.10.42:027][521]LogMemory: Virtual Memory: 1982.84 MB used, 134217728.00 MB total
+[2014.11.17-22.10.42:027][521]LogMemory: 
+[2014.11.17-22.10.42:027][521]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.10.52:813][521]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.10.52:814][521]LogLevelStreaming: World to duplicate for PIE '/Game/Maps/Tutorial_Map_Terrain' not found. Attempting load.
+[2014.11.17-22.10.54:428][521]LogMaterial: Missing cached shader map for material materialTerrain1, compiling.
+[2014.11.17-22.10.57:154][521]LogMaterial:Warning: Material /Game/Materials/Level_3/Material/t3_b_Mat.t3_b_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2014.11.17-22.10.57:154][521]LogMaterial:Warning: Material /Game/Materials/Level_3/Material/t3_c_Mat.t3_c_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2014.11.17-22.10.57:154][521]LogMaterial:Warning: Material /Game/Materials/Level_3/Material/t4_b_Mat.t4_b_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2014.11.17-22.10.57:154][521]LogMaterial:Warning: Material /Game/Materials/Level_3/Material/t4_c_Mat.t4_c_Mat missing bUsedWithInstancedStaticMeshes=True! Default Material will be used in game.
+[2014.11.17-22.10.57:175][521]LogAIModule: Creating AISystem for world Tutorial_Map
+[2014.11.17-22.10.57:178][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Monitor/Monitor_Screen.Monitor_Screen missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:179][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Monitor/Monitor_Bezel.Monitor_Bezel missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:179][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Filing_Tray/Filing_Tray_Plastic.Filing_Tray_Plastic missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:179][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Filing_Tray/Filing_Tray_Paper.Filing_Tray_Paper missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:179][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Table/Table_Material.Table_Material missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:179][521]LogMaterial:Warning: Material /Game/PJ-Test-Assets/Table/Table_Metal.Table_Metal missing bUsedWithStaticLighting=True! Default Material will be used in game.
+[2014.11.17-22.10.57:183][521]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Map.Tutorial_Map up for play (max tick rate 60) at 2014.11.17-17.10.57
+[2014.11.17-22.10.57:185][521]LogWorld: Bringing up level for play took: 0.009927
+[2014.11.17-22.10.57:188][521]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.10.57:280][522]Set new viewmode: Wireframe
+[2014.11.17-22.10.57:280][522]Set new viewmode: Wireframe
+[2014.11.17-22.10.57:281][522]Set new viewmode: Wireframe
+[2014.11.17-22.10.57:857][522]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF336F8220
+[2014.11.17-22.11.07:752][901]LogSavePackage: Save=303.820892ms
+[2014.11.17-22.11.07:752][901]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/ProgrammingEFDFF5EF4C299A760C2C5AA5C1AE5BA9.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.11.17-22.11.22:793][ 99]LogShaderCompilers:Warning: Failed to compile Material /Game/Materials/Level_3/Material/TerrainMaterial/materialTerrain1.materialTerrain1 for platform PCD3D_SM5, Default Material will be used in game.
+[2014.11.17-22.11.31:598][270]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.11.31:599][270]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.11.31:904][270]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.17-22.11.32:040][270]LogPlayLevel: PIE:  Blueprint regeneration took 442 ms (1 blueprints)
+[2014.11.17-22.11.32:040][270]PIE: New page: SIE session: Programming (Nov 17, 2014, 12:11:32 PM)
+[2014.11.17-22.11.32:168][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127278s)
+[2014.11.17-22.11.32:170][270]LogPlayLevel: PIE: World Init took: (0.002157s)
+[2014.11.17-22.11.32:170][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.130026s)
+[2014.11.17-22.11.32:171][270]LogSelection:Warning: PIE object was selected: "TriggerVolume /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.matineeTrigger"
+[2014.11.17-22.11.32:214][270]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.11.32:219][270]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.11.32:247][270]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.11.32:248][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.11.32
+[2014.11.17-22.11.32:253][270]LogWorld: Bringing up level for play took: 0.033483
+[2014.11.17-22.11.32:256][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.541
+[2014.11.17-22.11.32:377][270]LogSelection:Warning: PIE object was selected: "TriggerVolume /Game/Maps/UEDPIE_0_Programming.Programming:PersistentLevel.matineeTrigger"
+[2014.11.17-22.11.35:690][343]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF38F707C0
+[2014.11.17-22.11.36:366][359]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.11.36:367][359]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.11.36:727][359]LogPlayLevel: PIE:  Blueprint regeneration took 360 ms (1 blueprints)
+[2014.11.17-22.11.36:727][359]PIE: New page: PIE session: Programming (Nov 17, 2014, 12:11:36 PM)
+[2014.11.17-22.11.36:851][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.122943s)
+[2014.11.17-22.11.36:853][359]LogPlayLevel: PIE: World Init took: (0.002344s)
+[2014.11.17-22.11.36:854][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.125881s)
+[2014.11.17-22.11.36:890][359]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.11.36:895][359]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.11.36:921][359]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.11.36:922][359]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.11.36
+[2014.11.17-22.11.36:926][359]LogWorld: Bringing up level for play took: 0.030731
+[2014.11.17-22.11.36:930][359]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.11.36:931][359]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.11.36:933][359]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.217
+[2014.11.17-22.11.40:490][447]LogPackageName: SearchForPackageOnDisk took   0.347s to resolve None.umap
+[2014.11.17-22.11.40:878][448]LogPackageName: SearchForPackageOnDisk took   0.347s to resolve None.umap
+[2014.11.17-22.11.40:878][448]LogNet: Browse: /Game/Maps/Main_Menu
+[2014.11.17-22.11.40:878][448]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.11.40:878][448]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.11.40:878][448]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.11.40:878][448]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.11.40:927][449]LogNet: Browse: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.11.40:928][449]LogNet: Failed; returning to Entry
+[2014.11.17-22.11.40:928][449]LogLoad: LoadMap: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.11.41:054][449]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF5FEB1080
+[2014.11.17-22.11.41:055][449]Cmd: MEM
+[2014.11.17-22.11.41:169][449]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.11.41:169][449]LogMemory: Process Physical Memory: 1473.30 MB used, 1482.43 MB peak
+[2014.11.17-22.11.41:169][449]LogMemory: Process Virtual Memory: 1373.93 MB used, 1383.80 MB peak
+[2014.11.17-22.11.41:169][449]LogMemory: Physical Memory: 3729.31 MB used, 7365.01 MB total
+[2014.11.17-22.11.41:169][449]LogMemory: Virtual Memory: 2422.68 MB used, 134217728.00 MB total
+[2014.11.17-22.11.41:169][449]LogMemory: 
+[2014.11.17-22.11.41:169][449]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.11.42:748][449]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.11.42:754][449]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.17-22.11.42:755][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2014.11.17-17.11.42
+[2014.11.17-22.11.42:756][449]LogWorld: Bringing up level for play took: 0.002073
+[2014.11.17-22.11.42:757][449]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.17-22.11.46:208][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF349427A0
+[2014.11.17-22.11.54:273][776]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.17-22.11.54:273][776]Aligned camera to fit all selected actors.
+[2014.11.17-22.12.26:659][589]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.11.17-22.12.30:085][680]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.12.30:085][680]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.12.30:462][680]LogPlayLevel: PIE:  Blueprint regeneration took 378 ms (1 blueprints)
+[2014.11.17-22.12.30:463][680]PIE: New page: PIE session: Programming (Nov 17, 2014, 12:12:30 PM)
+[2014.11.17-22.12.30:591][680]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127816s)
+[2014.11.17-22.12.30:593][680]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2014.11.17-22.12.30:593][680]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.130311s)
+[2014.11.17-22.12.30:631][680]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.12.30:637][680]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.12.30:668][680]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.12.30:668][680]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.12.30
+[2014.11.17-22.12.30:673][680]LogWorld: Bringing up level for play took: 0.035493
+[2014.11.17-22.12.30:677][680]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.12.30:677][680]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.12.30:679][680]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 0.964
+[2014.11.17-22.12.34:641][783]LogPackageName: SearchForPackageOnDisk took   0.339s to resolve None.umap
+[2014.11.17-22.12.35:025][784]LogPackageName: SearchForPackageOnDisk took   0.346s to resolve None.umap
+[2014.11.17-22.12.35:025][784]LogNet: Browse: /Game/Maps/Main_Menu
+[2014.11.17-22.12.35:025][784]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.12.35:025][784]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.12.35:025][784]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.12.35:025][784]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.12.35:063][785]LogNet: Browse: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.12.35:063][785]LogNet: Failed; returning to Entry
+[2014.11.17-22.12.35:067][785]LogLoad: LoadMap: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.12.35:193][785]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF5FEB2AC0
+[2014.11.17-22.12.35:193][785]Cmd: MEM
+[2014.11.17-22.12.35:306][785]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.12.35:306][785]LogMemory: Process Physical Memory: 1502.75 MB used, 1509.31 MB peak
+[2014.11.17-22.12.35:306][785]LogMemory: Process Virtual Memory: 1401.73 MB used, 1408.58 MB peak
+[2014.11.17-22.12.35:306][785]LogMemory: Physical Memory: 3603.56 MB used, 7365.01 MB total
+[2014.11.17-22.12.35:306][785]LogMemory: Virtual Memory: 2445.98 MB used, 134217728.00 MB total
+[2014.11.17-22.12.35:306][785]LogMemory: 
+[2014.11.17-22.12.35:306][785]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.12.35:900][785]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.12.35:906][785]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.17-22.12.35:907][785]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2014.11.17-17.12.35
+[2014.11.17-22.12.35:908][785]LogWorld: Bringing up level for play took: 0.001888
+[2014.11.17-22.12.35:909][785]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.17-22.12.44:402][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF2C14A2A0
+[2014.11.17-22.14.01:271][452]BlueprintLog: New page: Compile Programming
+[2014.11.17-22.14.01:743][452]BlueprintEditorCompileResults: Info [2020.62] Compile of Programming successful! [in 18 ms]
+[2014.11.17-22.14.04:539][495]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.14.04:563][495]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.14.04:965][495]LogPlayLevel: PIE:  Blueprint regeneration took 426 ms (1 blueprints)
+[2014.11.17-22.14.04:966][495]PIE: New page: PIE session: Programming (Nov 17, 2014, 12:14:04 PM)
+[2014.11.17-22.14.05:093][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.127105s)
+[2014.11.17-22.14.05:095][495]LogPlayLevel: PIE: World Init took: (0.002017s)
+[2014.11.17-22.14.05:096][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.129662s)
+[2014.11.17-22.14.05:133][495]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.14.05:140][495]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.14.05:170][495]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.14.05:170][495]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.14.05
+[2014.11.17-22.14.05:175][495]LogWorld: Bringing up level for play took: 0.036448
+[2014.11.17-22.14.05:179][495]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.14.05:179][495]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.14.05:181][495]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.466
+[2014.11.17-22.14.07:444][545]LogPackageName: SearchForPackageOnDisk took   0.345s to resolve None.umap
+[2014.11.17-22.14.07:831][546]LogPackageName: SearchForPackageOnDisk took   0.349s to resolve None.umap
+[2014.11.17-22.14.07:831][546]LogNet: Browse: /Game/Maps/Main_Menu
+[2014.11.17-22.14.07:831][546]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.14.07:832][546]LogNet: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.14.07:832][546]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Main_Menu
+[2014.11.17-22.14.07:832][546]LogNet: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Main_Menu'
+[2014.11.17-22.14.07:878][547]LogNet: Browse: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.14.07:878][547]LogNet: Failed; returning to Entry
+[2014.11.17-22.14.07:879][547]LogLoad: LoadMap: /Game/Maps/Main_Menu?closed
+[2014.11.17-22.14.08:007][547]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF349422A0
+[2014.11.17-22.14.08:008][547]Cmd: MEM
+[2014.11.17-22.14.08:125][547]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.14.08:125][547]LogMemory: Process Physical Memory: 1514.38 MB used, 1520.64 MB peak
+[2014.11.17-22.14.08:125][547]LogMemory: Process Virtual Memory: 1413.79 MB used, 1420.38 MB peak
+[2014.11.17-22.14.08:125][547]LogMemory: Physical Memory: 3616.16 MB used, 7365.01 MB total
+[2014.11.17-22.14.08:125][547]LogMemory: Virtual Memory: 2463.01 MB used, 134217728.00 MB total
+[2014.11.17-22.14.08:125][547]LogMemory: 
+[2014.11.17-22.14.08:125][547]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.14.08:735][547]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.14.08:740][547]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.17-22.14.08:741][547]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main_Menu.Main_Menu up for play (max tick rate 60) at 2014.11.17-17.14.08
+[2014.11.17-22.14.08:742][547]LogWorld: Bringing up level for play took: 0.002204
+[2014.11.17-22.14.08:743][547]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2014.11.17-22.14.10:499][597]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF34940180
+[2014.11.17-22.14.23:859][900]LogSavePackage: Save=597.035767ms
+[2014.11.17-22.14.23:859][900]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/ProgrammingB2AF086C48584067C4CDB8B8EF3E75E4.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.11.17-22.14.23:983][900]LogFileHelpers: Saving map 'Programming' took 1.781
+[2014.11.17-22.14.23:993][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/blueprintCharacter" FILE="../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset" SILENT=true
+[2014.11.17-22.14.25:818][900]LogSavePackage: Save=1746.448364ms
+[2014.11.17-22.14.25:821][900]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/blueprintCharacterAE795EBD485A55754920C8ADF13F8382.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Blueprints/blueprintCharacter.uasset'
+[2014.11.17-22.15.58:155][451]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.15.58:180][451]LogPlayLevel: [PIE] Compiling Programming before PIE...
+[2014.11.17-22.15.58:635][451]LogPlayLevel: PIE:  Blueprint regeneration took 479 ms (1 blueprints)
+[2014.11.17-22.15.58:635][451]PIE: New page: PIE session: Programming (Nov 17, 2014, 12:15:58 PM)
+[2014.11.17-22.15.58:765][451]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129507s)
+[2014.11.17-22.15.58:767][451]LogPlayLevel: PIE: World Init took: (0.002119s)
+[2014.11.17-22.15.58:768][451]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.132253s)
+[2014.11.17-22.15.58:803][451]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.15.58:808][451]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.15.58:840][451]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.15.58:840][451]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.15.58
+[2014.11.17-22.15.58:845][451]LogWorld: Bringing up level for play took: 0.036118
+[2014.11.17-22.15.58:849][451]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.15.58:849][451]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.15.58:851][451]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Programming 1.135
+[2014.11.17-22.16.00:673][486]LogPackageName: SearchForPackageOnDisk took   0.364s to resolve Programming.umap
+[2014.11.17-22.16.01:058][487]LogPackageName: SearchForPackageOnDisk took   0.337s to resolve Programming.umap
+[2014.11.17-22.16.01:058][487]LogNet: Browse: /Game/Maps/Programming
+[2014.11.17-22.16.01:059][487]LogLoad: LoadMap: /Game/Maps/Programming
+[2014.11.17-22.16.01:187][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF34A422A0
+[2014.11.17-22.16.01:188][487]Cmd: MEM
+[2014.11.17-22.16.01:308][487]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-22.16.01:308][487]LogMemory: Process Physical Memory: 1540.59 MB used, 1545.03 MB peak
+[2014.11.17-22.16.01:308][487]LogMemory: Process Virtual Memory: 1447.62 MB used, 1449.33 MB peak
+[2014.11.17-22.16.01:308][487]LogMemory: Physical Memory: 3671.18 MB used, 7365.01 MB total
+[2014.11.17-22.16.01:308][487]LogMemory: Virtual Memory: 2490.52 MB used, 134217728.00 MB total
+[2014.11.17-22.16.01:308][487]LogMemory: 
+[2014.11.17-22.16.01:308][487]Allocator Stats for TBB: (not implemented)
+[2014.11.17-22.16.01:435][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.126374s)
+[2014.11.17-22.16.01:437][487]LogPlayLevel: PIE: World Init took: (0.001970s)
+[2014.11.17-22.16.01:437][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Programming.Programming to /Game/Maps/UEDPIE_0_Programming.Programming (0.128947s)
+[2014.11.17-22.16.01:437][487]LogWorld: Game class is 'MyGame_C'
+[2014.11.17-22.16.01:443][487]LogAIModule: Creating AISystem for world Programming
+[2014.11.17-22.16.01:472][487]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.17-22.16.01:473][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Programming.Programming up for play (max tick rate 60) at 2014.11.17-17.16.01
+[2014.11.17-22.16.01:477][487]LogWorld: Bringing up level for play took: 0.034307
+[2014.11.17-22.16.01:481][487]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.16.01:481][487]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.17-22.16.18:106][668]LogSavePackage: Save=578.157043ms
+[2014.11.17-22.16.18:107][668]LogSavePackage: Moving '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Saved/Programming48CE4F9241A11E781AC56B86CED8A520.tmp' to '../../../../../../Users/Rodrigo/Documents/GitHub/Unhinged/Phobophobia 4.4/Content/Maps/Programming.umap'
+[2014.11.17-22.16.18:227][668]LogFileHelpers: Saving map 'Programming' took 1.795
+[2014.11.17-22.16.19:888][668]LogOutputDevice: === Handled error: ===
+Ensure condition failed: NewObject->IsA(this->GeneratedClass) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 479]
+
+Stack: Address = 0xc32e5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc31719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc096dc07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xc10628ff (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0xbf0a7840 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xbf051477 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0xb7c2b5f4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xb7c499c0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xb7c2baef (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xb7bd6c62 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xb7c2d8d8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xb7c4ad34 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc02a87c6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3264 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe940dc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a16c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7565 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3347 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9415c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a202 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7b15 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d2267 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00ef934 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00b2dac (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc03593ff (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d21e7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00ef934 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00b2dac (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc03593ff (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3264 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe940dc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a16c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7565 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d202a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3347 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9415c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a202 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xb7c4acb5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xb7c4a6d4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc02a87c6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3264 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe940dc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a16c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7565 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3347 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9415c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a202 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7b15 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d2267 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00ef934 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc00b2dac (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc03593ff (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3264 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe940dc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a16c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d7565 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xc00d202a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xbfed3347 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9415c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfea7cfe (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfed3347 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9415c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfea7cfe (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfed3264 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe940dc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfea7be8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9844b (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xbfe9a0d6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-SlateCore.dll]
+Address = 0xb88cb095 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-MainFrame.dll]
+Address = 0xc0125968 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0xc3252c57 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc3253d6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc323c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xf7952434 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7953992 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7953a4d (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7ef348f (filename not found) [in C:\Windows\SYSTEM32\ntdll.dll]
+Address = 0xf7951fea (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf7954c98 (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf795451e (filename not found) [in C:\Windows\system32\USER32.dll]
+Address = 0xf3ec185a (filename not found) [in C:\Windows\system32\uxtheme.dll]
+Address = 0x1e46bc64 (filename not found) 
+Address = 0xc32dc8fa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0xc3566c00 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+
+[2014.11.17-22.16.20:064][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF38F62C00
+[2014.11.17-22.16.20:108][668]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF34A43600
+[2014.11.17-22.16.20:229][669]Cmd: QUIT_EDITOR
+[2014.11.17-22.16.20:702][669]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.17-22.16.20:705][669]LogExit: Preparing to exit.
+[2014.11.17-22.16.21:311][669]LogExit: Editor shut down
+[2014.11.17-22.16.21:316][669]LogExit: Transaction tracking system shut down
+[2014.11.17-22.16.21:318][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF358BEAC0
+[2014.11.17-22.16.21:334][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF60923060
+[2014.11.17-22.16.21:335][669]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EF5FEB3C40
+[2014.11.17-22.16.21:853][669]LogExit: Object subsystem successfully closed.
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (162)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module HTTP (161)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module CrashTracker (160)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module SuperSearch (159)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module SceneOutliner (158)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module EditorWidgets (157)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module CollectionManager (156)
+[2014.11.17-22.16.22:041][669]LogModuleManager: Shutting down and abandoning module WorldBrowser (155)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.11.17-22.16.22:042][669]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.11.17-22.16.22:043][669]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.11.17-22.16.22:044][669]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.11.17-22.16.22:045][669]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.11.17-22.16.22:045][669]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.11.17-22.16.22:045][669]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.11.17-22.16.22:045][669]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.11.17-22.16.22:046][669]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.11.17-22.16.22:213][669]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.11.17-22.16.22:213][669]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.11.17-22.16.22:214][669]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.11.17-22.16.22:231][669]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.11.17-22.16.22:231][669]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.11.17-22.16.22:231][669]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.11.17-22.16.22:232][669]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.11.17-22.16.22:235][669]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.11.17-22.16.22:235][669]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.11.17-22.16.22:235][669]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.11.17-22.16.22:235][669]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.11.17-22.16.22:236][669]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.11.17-22.16.22:337][669]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.11.17-22.16.22:337][669]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.11.17-22.16.22:354][669]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.11.17-22.16.22:354][669]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.11.17-22.16.22:354][669]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.11.17-22.16.22:354][669]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.11.17-22.16.22:354][669]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.11.17-22.16.22:355][669]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.11.17-22.16.22:355][669]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.11.17-22.16.22:355][669]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.11.17-22.16.22:355][669]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.11.17-22.16.22:356][669]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.11.17-22.16.22:361][669]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.11.17-22.16.22:399][669]LogDerivedDataCache: Shutdown
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.11.17-22.16.22:399][669]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.17-22.16.22:400][669]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.17-22.16.22:401][669]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.17-22.16.22:401][669]LogExit: Exiting.
+[2014.11.17-22.16.22:459][669]Log file closed, 11/17/14 17:16:22
