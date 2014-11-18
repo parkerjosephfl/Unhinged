@@ -1,0 +1,644 @@
+Log file open, 11/18/14 12:11:19
+LogInit:Display: Running engine for game: Phobophobia
+LogInit: Version: 4.4.3-2296771+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Sep 13 2014 22:30:58
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.11.18-17.11.19:322][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.18-17.11.19:349][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.18-17.11.19:374][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.18-17.11.19:402][  0]LogInit: Object subsystem initialized
+[2014.11.18-17.11.19:418][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.18-17.11.19:418][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.18-17.11.19:427][  0]LogInit: Computer: PJ
+[2014.11.18-17.11.19:427][  0]LogInit: User: ParkerJoseph
+[2014.11.18-17.11.19:427][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.11.18-17.11.19:427][  0]LogInit: High frequency timer resolution =2.143572 MHz
+[2014.11.18-17.11.19:427][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx) Virtual=131072.0GB
+[2014.11.18-17.11.19:428][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.18-17.11.19:428][  0]LogMemory: Process Physical Memory: 59.81 MB used, 59.81 MB peak
+[2014.11.18-17.11.19:428][  0]LogMemory: Process Virtual Memory: 35.98 MB used, 35.98 MB peak
+[2014.11.18-17.11.19:428][  0]LogMemory: Physical Memory: 1305.17 MB used, 8169.40 MB total
+[2014.11.18-17.11.19:428][  0]LogMemory: Virtual Memory: 269.31 MB used, 134217728.00 MB total
+[2014.11.18-17.11.19:443][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6900M Series (Feature Level 11_0)
+[2014.11.18-17.11.19:443][  0]LogD3D11RHI: Adapter has 2035MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2014.11.18-17.11.19:444][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.18-17.11.19:444][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.18-17.11.19:444][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.18-17.11.19:449][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.18-17.11.19:454][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2014.11.18-17.11.19:716][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.18-17.11.21:234][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-17.11.21:631][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-17.11.22:107][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.18-17.11.22:245][  0]LogDerivedDataCache: Loaded boot cache 0.14s 44MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.18-17.11.22:245][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.11.18-17.11.22:245][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.18-17.11.22:245][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.18-17.11.22:268][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.11.18-17.11.22:280][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.11.18-17.11.22:823][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.18-17.11.22:823][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.18-17.11.23:436][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.18-17.11.24:906][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1318_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_808_0///////STATCAT_Advanced////
+[2014.11.18-17.11.24:906][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.18-17.11.25:060][  0]SourceControl: Info Source control is disabled
+[2014.11.18-17.11.25:060][  0]SourceControl: Info Source control is disabled
+[2014.11.18-17.11.25:065][  0]SourceControl: Info Source control is disabled
+[2014.11.18-17.11.25:400][  0]BlueprintLog: New page: Editor Load
+[2014.11.18-17.11.25:521][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.18-17.11.25:521][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.11.18-17.11.25:721][  0]LogEngine: Initializing Engine...
+[2014.11.18-17.11.25:897][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2014.11.18-17.11.25:911][  0]LogInit: FAudioDevice initialized.
+[2014.11.18-17.11.25:955][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.18-17.11.25:983][  0]LogDerivedDataCache: Saved boot cache 0.02s 44MB C:/Users/ParkerJoseph/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.11.18-17.11.25:991][  0]LogInit: Texture streaming: Enabled
+[2014.11.18-17.11.26:036][  0]LogInit: Transaction tracking system initialized
+[2014.11.18-17.11.26:175][  0]LogAssetRegistry: FAssetRegistry took 0.0136 seconds to start up
+[2014.11.18-17.11.26:689][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-17.11.26:989][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-17.11.27:142][  0]LogConsoleResponse:Display: 
+[2014.11.18-17.11.27:376][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_12c0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_808_0///////STATCAT_Advanced////
+[2014.11.18-17.11.27:376][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_54c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_808_0///////STATCAT_Advanced////
+[2014.11.18-17.11.27:376][  0]SourceControl: Info Source control is disabled
+[2014.11.18-17.11.27:379][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Content/Maps/Main_Menu.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.18-17.11.27:379][  0]LightingResults: New page: Lighting Build
+[2014.11.18-17.11.27:391][  0]MapCheck: New page: Map Check
+[2014.11.18-17.11.27:391][  0]LightingResults: New page: Lighting Build
+[2014.11.18-17.11.27:409][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEB4075300
+[2014.11.18-17.11.27:537][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.18-17.11.27:538][  0]LogAIModule: Creating AISystem for world Main_Menu
+[2014.11.18-17.11.27:538][  0]Cmd: MAP CHECKDEP
+[2014.11.18-17.11.27:538][  0]MapCheck: New page: Main_Menu - Nov 18, 2014, 7:11:27 AM
+[2014.11.18-17.11.27:593][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [54.453ms] ==========
+[2014.11.18-17.11.27:593][  0]LogFileHelpers: Loading map 'Main_Menu' took 0.215
+[2014.11.18-17.11.27:813][  0]LogCollectionManager: Loaded 0 collections in 0.001050 seconds
+[2014.11.18-17.11.27:963][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.18-17.11.28:008][  0]LogLoad: Full Startup: 10.08 seconds (BP compile: 0.06 seconds)
+[2014.11.18-17.11.28:036][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/UMG'
+[2014.11.18-17.11.28:213][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x912.
+[2014.11.18-17.11.28:756][ 25]LogAssetRegistry: Asset discovery search completed in 2.5953 seconds
+[2014.11.18-17.12.58:183][290]Cmd: MAP LOAD FILE="../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Content/Maps/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.18-17.12.58:184][290]LightingResults: New page: Lighting Build
+[2014.11.18-17.12.58:197][290]LoadErrors: New page: Loading map: Level_1.umap
+[2014.11.18-17.12.58:199][290]MapCheck: New page: Map Check
+[2014.11.18-17.12.58:199][290]LightingResults: New page: Lighting Build
+[2014.11.18-17.12.58:212][290]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEB7D18860
+[2014.11.18-17.12.58:572][290]LoadErrors:Error: Error Failed import: Function /Game/Blueprints/blueprintCharacterInterface.blueprintCharacterInterface_C:CurrentLevel  in /Game/Blueprints/blueprintCharacter
+[2014.11.18-17.12.59:254][290]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0x26ee5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26d719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x1f7c8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7c803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7d7938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7d7b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x2233191a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x222f8254 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x26994adb (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269dffe6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269cebc4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269a1f68 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a0426f (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e0179 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269dfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269dfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fc972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a55f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269f3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a55e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x21d192e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d0c4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21cfa291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21fff0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d72834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d73335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x1a9692aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0x26315246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2645be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26464dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2642cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x264f569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2652f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26351ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26341989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26e534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e3f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e5461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e3c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x47c52434 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x47c52297 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x26e54ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x5d94708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x5d93ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x5d93caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x5d9488c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x5d9496f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x47df16ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x4a094409 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x4a094409 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.11.18-17.13.00:104][290]LogOutputDevice: === Handled error: ===
+Ensure condition failed: 1 == StructProperty->ArrayDim [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.4\Engine\Source\Editor\KismetCompiler\Private\KismetCompilerVMBackend.cpp] [Line: 460]
+
+Stack: Address = 0x26ee5216 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26d719d1 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x1f7c8874 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7c803c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7d7938 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b78f7 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7d7b8d (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b31a3 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b3ccc (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x1f7b383e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-KismetCompiler.dll]
+Address = 0x22354bf8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x22e78e07 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Engine.dll]
+Address = 0x269380cf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e0183 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269dfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fab54 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269dfa5e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269fc972 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a55f5a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1c1ae (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1c2da (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b535 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1b44a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e7ce0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a1a7b0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269e12c8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x269f3b6a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x26a55e92 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-CoreUObject.dll]
+Address = 0x21d192e4 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d0c4ed (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21cfa291 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21fff0f0 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d72834 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x21d73335 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-UnrealEd.dll]
+Address = 0x1a9692aa (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-LevelEditor.dll]
+Address = 0x26315246 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2645be27 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26464dd8 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2642cd5c (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x264f569a (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x2652f169 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26351ddf (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26341989 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Slate.dll]
+Address = 0x26e534d5 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e3f871 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e5461e (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x26e3c6e2 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+Address = 0x47c52434 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x47c52297 (filename not found) [in C:\WINDOWS\system32\USER32.dll]
+Address = 0x26e54ac6 (filename not found) [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::Tick() 0x5d94708d + 8 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launchengineloop.cpp:2080] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0x5d93ca3c + 0 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\launch.cpp:133] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0x5d93caaa + 5 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:125] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+WinMain() 0x5d9488c9 + 17 bytes [File=d:\buildfarm\buildmachine_++depot+ue4-releases+4.4\engine\source\runtime\launch\private\windows\launchwindows.cpp:201] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+__tmainCRTStartup() 0x5d9496f9 + 21 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618] [in C:\Program Files\Unreal Engine\4.4\Engine\Binaries\Win64\UE4Editor.exe]
+Address = 0x47df16ad (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0x4a094409 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0x4a094409 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+
+[2014.11.18-17.13.00:943][290]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2014.11.18-17.13.01:002][290]LogTexture:Display: Building textures: HQ_Lightmap0_81 (AutoDXT)
+[2014.11.18-17.13.01:032][290]LogTexture:Display: Building textures: HQ_Lightmap0_83 (AutoDXT)
+[2014.11.18-17.13.01:038][290]LogTexture:Display: Building textures: HQ_Lightmap0_84 (AutoDXT)
+[2014.11.18-17.13.01:041][290]LogTexture:Display: Building textures: HQ_Lightmap1_82 (AutoDXT)
+[2014.11.18-17.13.01:063][290]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2014.11.18-17.13.01:092][290]LogTexture:Display: Building textures: LQ_Lightmap_0_81 (DXT1)
+[2014.11.18-17.13.01:109][290]LogTexture:Display: Building textures: LQ_Lightmap_0_83 (DXT1)
+[2014.11.18-17.13.01:113][290]LogTexture:Display: Building textures: LQ_Lightmap_0_84 (DXT1)
+[2014.11.18-17.13.01:116][290]LogTexture:Display: Building textures: LQ_Lightmap_1_82 (DXT1)
+[2014.11.18-17.13.01:502][290]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.11.18-17.13.01:701][290]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2014.11.18-17.13.01:955][290]LogTexture:Display: Building textures: HQ_Lightmap1_60 (AutoDXT)
+[2014.11.18-17.13.01:994][290]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2014.11.18-17.13.02:332][290]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.18-17.13.02:997][290]LogTexture:Display: Building textures: HQ_Lightmap0_59 (AutoDXT)
+[2014.11.18-17.13.03:024][290]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT)
+[2014.11.18-17.13.03:201][290]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.11.18-17.13.03:489][290]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.18-17.13.03:866][290]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT)
+[2014.11.18-17.13.04:248][290]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.18-17.13.04:693][290]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2014.11.18-17.13.05:035][290]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT)
+[2014.11.18-17.13.05:242][290]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT)
+[2014.11.18-17.13.05:504][290]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.11.18-17.13.05:829][290]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.11.18-17.13.06:240][290]LogTexture:Display: Building textures: HQ_Lightmap0_57 (AutoDXT)
+[2014.11.18-17.13.06:257][290]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.11.18-17.13.06:335][290]LogTexture:Display: Building textures: HQ_Lightmap0_56 (AutoDXT)
+[2014.11.18-17.13.06:386][290]LogTexture:Display: Building textures: HQ_Lightmap0_58 (AutoDXT)
+[2014.11.18-17.13.06:404][290]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2014.11.18-17.13.06:465][290]LogTexture:Display: Building textures: HQ_Lightmap0_55 (AutoDXT)
+[2014.11.18-17.13.06:563][290]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.11.18-17.13.06:804][290]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.11.18-17.13.06:986][290]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2014.11.18-17.13.07:186][290]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2014.11.18-17.13.07:385][290]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2014.11.18-17.13.07:541][290]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2014.11.18-17.13.07:597][290]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.18-17.13.07:843][290]LogTexture:Display: Building textures: LQ_Lightmap_0_55 (DXT1)
+[2014.11.18-17.13.07:888][290]LogTexture:Display: Building textures: LQ_Lightmap_0_56 (DXT1)
+[2014.11.18-17.13.07:922][290]LogTexture:Display: Building textures: LQ_Lightmap_0_57 (DXT1)
+[2014.11.18-17.13.07:929][290]LogTexture:Display: Building textures: LQ_Lightmap_0_58 (DXT1)
+[2014.11.18-17.13.07:937][290]LogTexture:Display: Building textures: LQ_Lightmap_0_59 (DXT1)
+[2014.11.18-17.13.07:974][290]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.18-17.13.08:411][290]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.11.18-17.13.08:526][290]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.11.18-17.13.08:578][290]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1)
+[2014.11.18-17.13.08:691][290]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1)
+[2014.11.18-17.13.08:903][290]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1)
+[2014.11.18-17.13.09:002][290]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1)
+[2014.11.18-17.13.09:155][290]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.11.18-17.13.09:290][290]LogTexture:Display: Building textures: LQ_Lightmap_1_60 (DXT1)
+[2014.11.18-17.13.09:323][290]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.18-17.13.09:646][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/texturePlatformWood_Mat.texturePlatformWood_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.09:662][290]LogMaterial: Missing cached shader map for material texturePlatformWood_Mat, compiling.
+[2014.11.18-17.13.09:697][290]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.10:101][290]LogTexture:Display: Building textures: HQ_Lightmap0_93 (AutoDXT)
+[2014.11.18-17.13.10:110][290]LogTexture:Display: Building textures: LQ_Lightmap_0_93 (DXT1)
+[2014.11.18-17.13.10:116][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/textureArrowDiffuse_Mat.textureArrowDiffuse_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.10:120][290]LogMaterial: Missing cached shader map for material textureArrowDiffuse_Mat, compiling.
+[2014.11.18-17.13.10:126][290]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.10:314][290]LogTexture:Display: Building textures: HQ_Lightmap0_51 (AutoDXT)
+[2014.11.18-17.13.10:338][290]LogTexture:Display: Building textures: LQ_Lightmap_0_51 (DXT1)
+[2014.11.18-17.13.10:362][290]LogTexture:Display: Building textures: HQ_Lightmap0_50 (AutoDXT)
+[2014.11.18-17.13.10:386][290]LogTexture:Display: Building textures: LQ_Lightmap_0_50 (DXT1)
+[2014.11.18-17.13.10:414][290]LogTexture:Display: Building textures: HQ_Lightmap1_41 (AutoDXT)
+[2014.11.18-17.13.10:434][290]LogTexture:Display: Building textures: LQ_Lightmap_1_41 (DXT1)
+[2014.11.18-17.13.10:464][290]LogTexture:Display: Building textures: HQ_Lightmap1_54 (AutoDXT)
+[2014.11.18-17.13.10:484][290]LogTexture:Display: Building textures: LQ_Lightmap_1_54 (DXT1)
+[2014.11.18-17.13.10:508][290]LogTexture:Display: Building textures: HQ_Lightmap0_39 (AutoDXT)
+[2014.11.18-17.13.10:531][290]LogTexture:Display: Building textures: LQ_Lightmap_0_39 (DXT1)
+[2014.11.18-17.13.10:558][290]LogTexture:Display: Building textures: HQ_Lightmap0_38 (AutoDXT)
+[2014.11.18-17.13.10:574][290]LogTexture:Display: Building textures: LQ_Lightmap_0_38 (DXT1)
+[2014.11.18-17.13.10:596][290]LogTexture:Display: Building textures: HQ_Lightmap0_37 (AutoDXT)
+[2014.11.18-17.13.10:599][290]LogTexture:Display: Building textures: LQ_Lightmap_0_37 (DXT1)
+[2014.11.18-17.13.10:604][290]LogTexture:Display: Building textures: HQ_Lightmap0_36 (AutoDXT)
+[2014.11.18-17.13.10:609][290]LogTexture:Display: Building textures: LQ_Lightmap_0_36 (DXT1)
+[2014.11.18-17.13.10:613][290]LogTexture:Display: Building textures: HQ_Lightmap1_35 (AutoDXT)
+[2014.11.18-17.13.10:641][290]LogTexture:Display: Building textures: LQ_Lightmap_1_35 (DXT1)
+[2014.11.18-17.13.10:663][290]LogTexture:Display: Building textures: HQ_Lightmap1_34 (AutoDXT)
+[2014.11.18-17.13.10:687][290]LogTexture:Display: Building textures: LQ_Lightmap_1_34 (DXT1)
+[2014.11.18-17.13.10:712][290]LogTexture:Display: Building textures: HQ_Lightmap0_33 (AutoDXT)
+[2014.11.18-17.13.10:735][290]LogTexture:Display: Building textures: LQ_Lightmap_0_33 (DXT1)
+[2014.11.18-17.13.10:759][290]LogTexture:Display: Building textures: HQ_Lightmap1_32 (AutoDXT)
+[2014.11.18-17.13.10:784][290]LogTexture:Display: Building textures: LQ_Lightmap_1_32 (DXT1)
+[2014.11.18-17.13.10:807][290]LogTexture:Display: Building textures: HQ_Lightmap0_49 (AutoDXT)
+[2014.11.18-17.13.10:832][290]LogTexture:Display: Building textures: LQ_Lightmap_0_49 (DXT1)
+[2014.11.18-17.13.10:856][290]LogTexture:Display: Building textures: HQ_Lightmap1_31 (AutoDXT)
+[2014.11.18-17.13.10:876][290]LogTexture:Display: Building textures: LQ_Lightmap_1_31 (DXT1)
+[2014.11.18-17.13.10:897][290]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT)
+[2014.11.18-17.13.10:916][290]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1)
+[2014.11.18-17.13.10:931][290]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT)
+[2014.11.18-17.13.10:935][290]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1)
+[2014.11.18-17.13.10:940][290]LogTexture:Display: Building textures: HQ_Lightmap1_28 (AutoDXT)
+[2014.11.18-17.13.10:944][290]LogTexture:Display: Building textures: LQ_Lightmap_1_28 (DXT1)
+[2014.11.18-17.13.10:948][290]LogTexture:Display: Building textures: HQ_Lightmap0_52 (AutoDXT)
+[2014.11.18-17.13.10:975][290]LogTexture:Display: Building textures: LQ_Lightmap_0_52 (DXT1)
+[2014.11.18-17.13.10:997][290]LogTexture:Display: Building textures: HQ_Lightmap0_53 (AutoDXT)
+[2014.11.18-17.13.11:021][290]LogTexture:Display: Building textures: LQ_Lightmap_0_53 (DXT1)
+[2014.11.18-17.13.11:044][290]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT)
+[2014.11.18-17.13.11:067][290]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1)
+[2014.11.18-17.13.11:090][290]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2014.11.18-17.13.11:114][290]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2014.11.18-17.13.11:136][290]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2014.11.18-17.13.11:160][290]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2014.11.18-17.13.11:182][290]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT)
+[2014.11.18-17.13.11:191][290]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1)
+[2014.11.18-17.13.11:200][290]LogTexture:Display: Building textures: HQ_Lightmap1_48 (AutoDXT)
+[2014.11.18-17.13.11:224][290]LogTexture:Display: Building textures: LQ_Lightmap_1_48 (DXT1)
+[2014.11.18-17.13.11:245][290]LogTexture:Display: Building textures: HQ_Lightmap0_40 (AutoDXT)
+[2014.11.18-17.13.11:248][290]LogTexture:Display: Building textures: LQ_Lightmap_0_40 (DXT1)
+[2014.11.18-17.13.11:252][290]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2014.11.18-17.13.11:258][290]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2014.11.18-17.13.11:262][290]LogTexture:Display: Building textures: HQ_Lightmap1_47 (AutoDXT)
+[2014.11.18-17.13.11:292][290]LogTexture:Display: Building textures: LQ_Lightmap_1_47 (DXT1)
+[2014.11.18-17.13.11:314][290]LogTexture:Display: Building textures: HQ_Lightmap1_46 (AutoDXT)
+[2014.11.18-17.13.11:326][290]LogTexture:Display: Building textures: LQ_Lightmap_1_46 (DXT1)
+[2014.11.18-17.13.11:339][290]LogTexture:Display: Building textures: HQ_Lightmap1_45 (AutoDXT)
+[2014.11.18-17.13.11:343][290]LogTexture:Display: Building textures: LQ_Lightmap_1_45 (DXT1)
+[2014.11.18-17.13.11:346][290]LogTexture:Display: Building textures: HQ_Lightmap1_44 (AutoDXT)
+[2014.11.18-17.13.11:350][290]LogTexture:Display: Building textures: LQ_Lightmap_1_44 (DXT1)
+[2014.11.18-17.13.11:354][290]LogTexture:Display: Building textures: HQ_Lightmap1_43 (AutoDXT)
+[2014.11.18-17.13.11:386][290]LogTexture:Display: Building textures: LQ_Lightmap_1_43 (DXT1)
+[2014.11.18-17.13.11:417][290]LogTexture:Display: Building textures: HQ_Lightmap1_42 (AutoDXT)
+[2014.11.18-17.13.11:439][290]LogTexture:Display: Building textures: LQ_Lightmap_1_42 (DXT1)
+[2014.11.18-17.13.11:819][290]LogTexture:Display: Building textures: HQ_Lightmap1_92 (AutoDXT)
+[2014.11.18-17.13.11:832][290]LogTexture:Display: Building textures: HQ_Lightmap0_91 (AutoDXT)
+[2014.11.18-17.13.11:874][290]LogTexture:Display: Building textures: HQ_Lightmap1_88 (AutoDXT)
+[2014.11.18-17.13.11:908][290]LogTexture:Display: Building textures: HQ_Lightmap1_90 (AutoDXT)
+[2014.11.18-17.13.11:931][290]LogTexture:Display: Building textures: HQ_Lightmap0_85 (AutoDXT)
+[2014.11.18-17.13.11:965][290]LogTexture:Display: Building textures: HQ_Lightmap0_89 (AutoDXT)
+[2014.11.18-17.13.11:980][290]LogTexture:Display: Building textures: HQ_Lightmap1_87 (AutoDXT)
+[2014.11.18-17.13.12:009][290]LogTexture:Display: Building textures: HQ_Lightmap0_86 (AutoDXT)
+[2014.11.18-17.13.12:042][290]LogTexture:Display: Building textures: LQ_Lightmap_0_85 (DXT1)
+[2014.11.18-17.13.12:066][290]LogTexture:Display: Building textures: LQ_Lightmap_0_86 (DXT1)
+[2014.11.18-17.13.12:085][290]LogTexture:Display: Building textures: LQ_Lightmap_0_89 (DXT1)
+[2014.11.18-17.13.12:096][290]LogTexture:Display: Building textures: LQ_Lightmap_0_91 (DXT1)
+[2014.11.18-17.13.12:125][290]LogTexture:Display: Building textures: LQ_Lightmap_1_87 (DXT1)
+[2014.11.18-17.13.12:156][290]LogTexture:Display: Building textures: LQ_Lightmap_1_88 (DXT1)
+[2014.11.18-17.13.12:180][290]LogTexture:Display: Building textures: LQ_Lightmap_1_90 (DXT1)
+[2014.11.18-17.13.12:194][290]LogTexture:Display: Building textures: LQ_Lightmap_1_92 (DXT1)
+[2014.11.18-17.13.13:292][290]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.18-17.13.13:436][290]LogTexture:Display: Building textures: HQ_Lightmap1_65 (AutoDXT)
+[2014.11.18-17.13.13:514][290]LogTexture:Display: Building textures: HQ_Lightmap0_64 (AutoDXT)
+[2014.11.18-17.13.13:617][290]LogTexture:Display: Building textures: HQ_Lightmap1_72 (AutoDXT)
+[2014.11.18-17.13.13:655][290]LogTexture:Display: Building textures: HQ_Lightmap0_63 (AutoDXT)
+[2014.11.18-17.13.13:783][290]LogTexture:Display: Building textures: HQ_Lightmap1_61 (AutoDXT)
+[2014.11.18-17.13.13:861][290]LogTexture:Display: Building textures: HQ_Lightmap1_79 (AutoDXT)
+[2014.11.18-17.13.13:881][290]LogTexture:Display: Building textures: HQ_Lightmap0_77 (AutoDXT)
+[2014.11.18-17.13.13:930][290]LogTexture:Display: Building textures: HQ_Lightmap0_68 (AutoDXT)
+[2014.11.18-17.13.13:944][290]LogTexture:Display: Building textures: HQ_Lightmap1_76 (AutoDXT)
+[2014.11.18-17.13.13:951][290]LogTexture:Display: Building textures: HQ_Lightmap1_66 (AutoDXT)
+[2014.11.18-17.13.13:958][290]LogTexture:Display: Building textures: HQ_Lightmap1_67 (AutoDXT)
+[2014.11.18-17.13.13:964][290]LogTexture:Display: Building textures: HQ_Lightmap0_62 (AutoDXT)
+[2014.11.18-17.13.13:999][290]LogTexture:Display: Building textures: HQ_Lightmap1_69 (AutoDXT)
+[2014.11.18-17.13.14:006][290]LogTexture:Display: Building textures: HQ_Lightmap1_70 (AutoDXT)
+[2014.11.18-17.13.14:013][290]LogTexture:Display: Building textures: HQ_Lightmap0_94 (AutoDXT)
+[2014.11.18-17.13.14:014][290]LogTexture:Display: Building textures: HQ_Lightmap1_71 (AutoDXT)
+[2014.11.18-17.13.14:021][290]LogTexture:Display: Building textures: HQ_Lightmap1_73 (AutoDXT)
+[2014.11.18-17.13.14:083][290]LogTexture:Display: Building textures: HQ_Lightmap0_74 (AutoDXT)
+[2014.11.18-17.13.14:106][290]LogTexture:Display: Building textures: HQ_Lightmap1_75 (AutoDXT)
+[2014.11.18-17.13.14:131][290]LogTexture:Display: Building textures: HQ_Lightmap1_78 (AutoDXT)
+[2014.11.18-17.13.14:141][290]LogTexture:Display: Building textures: HQ_Lightmap1_80 (AutoDXT)
+[2014.11.18-17.13.14:148][290]LogTexture:Display: Building textures: LQ_Lightmap_0_62 (DXT1)
+[2014.11.18-17.13.14:176][290]LogTexture:Display: Building textures: LQ_Lightmap_0_63 (DXT1)
+[2014.11.18-17.13.14:254][290]LogTexture:Display: Building textures: LQ_Lightmap_0_64 (DXT1)
+[2014.11.18-17.13.14:310][290]LogTexture:Display: Building textures: LQ_Lightmap_0_68 (DXT1)
+[2014.11.18-17.13.14:324][290]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.18-17.13.14:392][290]LogTexture:Display: Building textures: LQ_Lightmap_0_74 (DXT1)
+[2014.11.18-17.13.14:407][290]LogTexture:Display: Building textures: LQ_Lightmap_0_77 (DXT1)
+[2014.11.18-17.13.14:438][290]LogTexture:Display: Building textures: LQ_Lightmap_0_94 (DXT1)
+[2014.11.18-17.13.14:443][290]LogTexture:Display: Building textures: LQ_Lightmap_1_61 (DXT1)
+[2014.11.18-17.13.14:497][290]LogTexture:Display: Building textures: LQ_Lightmap_1_65 (DXT1)
+[2014.11.18-17.13.14:533][290]LogTexture:Display: Building textures: LQ_Lightmap_1_66 (DXT1)
+[2014.11.18-17.13.14:538][290]LogTexture:Display: Building textures: LQ_Lightmap_1_67 (DXT1)
+[2014.11.18-17.13.14:541][290]LogTexture:Display: Building textures: LQ_Lightmap_1_69 (DXT1)
+[2014.11.18-17.13.14:545][290]LogTexture:Display: Building textures: LQ_Lightmap_1_70 (DXT1)
+[2014.11.18-17.13.14:550][290]LogTexture:Display: Building textures: LQ_Lightmap_1_71 (DXT1)
+[2014.11.18-17.13.14:554][290]LogTexture:Display: Building textures: LQ_Lightmap_1_72 (DXT1)
+[2014.11.18-17.13.14:578][290]LogTexture:Display: Building textures: LQ_Lightmap_1_73 (DXT1)
+[2014.11.18-17.13.14:623][290]LogTexture:Display: Building textures: LQ_Lightmap_1_75 (DXT1)
+[2014.11.18-17.13.14:638][290]LogTexture:Display: Building textures: LQ_Lightmap_1_76 (DXT1)
+[2014.11.18-17.13.14:643][290]LogTexture:Display: Building textures: LQ_Lightmap_1_78 (DXT1)
+[2014.11.18-17.13.14:648][290]LogTexture:Display: Building textures: LQ_Lightmap_1_79 (DXT1)
+[2014.11.18-17.13.14:657][290]LogTexture:Display: Building textures: LQ_Lightmap_1_80 (DXT1)
+[2014.11.18-17.13.14:664][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/Texture_Platform_Concrete_Mat.Texture_Platform_Concrete_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:671][290]LogMaterial: Missing cached shader map for material Texture_Platform_Concrete_Mat, compiling.
+[2014.11.18-17.13.14:675][290]LogMaterial: 0.000221 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:676][290]LogMaterial:Warning: Material /Game/Materials/Level_3/Material/materialUnderwaterGate.materialUnderwaterGate needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:679][290]LogMaterial: Missing cached shader map for material materialUnderwaterGate, compiling.
+[2014.11.18-17.13.14:683][290]LogMaterial: 0.000107 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:685][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/textureBenchDiffuse_Mat.textureBenchDiffuse_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:693][290]LogMaterial: Missing cached shader map for material textureBenchDiffuse_Mat, compiling.
+[2014.11.18-17.13.14:699][290]LogMaterial: 0.000128 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:699][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/materialSkiliftTower.materialSkiliftTower needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:701][290]LogMaterial: Missing cached shader map for material materialSkiliftTower, compiling.
+[2014.11.18-17.13.14:706][290]LogMaterial: 0.000116 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:706][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/textureStreetlightDiffuse_Mat.textureStreetlightDiffuse_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:708][290]LogMaterial: Missing cached shader map for material textureStreetlightDiffuse_Mat, compiling.
+[2014.11.18-17.13.14:712][290]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:713][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/materialSkiliftBullwheel.materialSkiliftBullwheel needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:716][290]LogMaterial: Missing cached shader map for material materialSkiliftBullwheel, compiling.
+[2014.11.18-17.13.14:722][290]LogMaterial: 0.000097 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:722][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/materialSkiLodge.materialSkiLodge needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:724][290]LogMaterial: Missing cached shader map for material materialSkiLodge, compiling.
+[2014.11.18-17.13.14:728][290]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:733][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/brick_Mat.brick_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:745][290]LogMaterial: Missing cached shader map for material brick_Mat, compiling.
+[2014.11.18-17.13.14:751][290]LogMaterial: 0.000108 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:751][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/pipe_diffuse2_Mat.pipe_diffuse2_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:753][290]LogMaterial: Missing cached shader map for material pipe_diffuse2_Mat, compiling.
+[2014.11.18-17.13.14:757][290]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:757][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/pipe_Mat.pipe_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:761][290]LogMaterial: Missing cached shader map for material pipe_Mat, compiling.
+[2014.11.18-17.13.14:768][290]LogMaterial: 0.000121 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.14:771][290]LogMaterial:Warning: Material /Game/Materials/Level_1/Materials/manhole_diffuse2_Mat.manhole_diffuse2_Mat needed to have new flag set bUsedWithStaticLighting !
+[2014.11.18-17.13.14:782][290]LogMaterial: Missing cached shader map for material manhole_diffuse2_Mat, compiling.
+[2014.11.18-17.13.14:790][290]LogMaterial: 0.000093 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.18-17.13.15:046][290]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.18-17.13.15:050][290]LogAIModule: Creating AISystem for world Level_1
+[2014.11.18-17.13.15:097][290]Cmd: MAP CHECKDEP
+[2014.11.18-17.13.15:098][290]MapCheck: New page: Level_1 - Nov 18, 2014, 7:13:15 AM
+[2014.11.18-17.13.15:281][290]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [183.268ms] ==========
+[2014.11.18-17.13.15:281][290]LogFileHelpers: Loading map 'Level_1' took 17.099
+[2014.11.18-17.13.15:509][291]Cmd: UpdateLandscapeEditorData -warnings
+[2014.11.18-17.13.15:511][291]Cmd: UpdateLandscapeEditorData
+[2014.11.18-17.13.36:915][546]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-17.13.36:915][546]LogPlayLevel: [PIE] Compiling Level_1 before PIE...
+[2014.11.18-17.13.37:068][546]LogPlayLevel: [PIE] Compiling Level_1_WallsPlus before PIE...
+[2014.11.18-17.13.37:313][546]LogPlayLevel: [PIE] Compiling Level_1_Audio before PIE...
+[2014.11.18-17.13.37:446][546]LogPlayLevel: [PIE] Compiling Level_1_Assets before PIE...
+[2014.11.18-17.13.37:705][546]LogPlayLevel: PIE:  Blueprint regeneration took 790 ms (4 blueprints)
+[2014.11.18-17.13.37:705][546]PIE: New page: PIE session: Level_1 (Nov 18, 2014, 7:13:37 AM)
+[2014.11.18-17.13.37:724][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019337s)
+[2014.11.18-17.13.37:725][546]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2014.11.18-17.13.37:726][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.020504s)
+[2014.11.18-17.13.37:904][546]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-17.13.37:965][546]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_WallsPlus.Level_1_WallsPlus to /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.13.38:001][546]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Audio.Level_1_Audio to /Game/Maps/UEDPIE_0_Level_1_Audio.Level_1_Audio. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.13.38:010][546]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Terrain.Level_1_Terrain to /Game/Maps/UEDPIE_0_Level_1_Terrain.Level_1_Terrain. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.13.38:017][546]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Lighting.Level_1_Lighting to /Game/Maps/UEDPIE_0_Level_1_Lighting.Level_1_Lighting. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.13.38:071][546]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Assets.Level_1_Assets to /Game/Maps/UEDPIE_0_Level_1_Assets.Level_1_Assets. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.13.38:105][546]LogAIModule: Creating AISystem for world Level_1
+[2014.11.18-17.13.38:111][546]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.18-17.13.38:112][546]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.11.18-12.13.38
+[2014.11.18-17.13.38:120][546]LogWorld: Bringing up level for play took: 0.014962
+[2014.11.18-17.13.38:129][546]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 0.905
+[2014.11.18-17.13.41:702][747]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.41:753][750]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.41:968][763]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.42:019][766]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.42:252][780]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.42:353][786]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.44:072][889]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.44:072][889]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.50:303][261]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.50:304][261]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.50:592][277]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.50:878][294]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.13.55:402][554]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEE6748AE0
+[2014.11.18-17.14.39:548][166]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.14.39:548][166]Aligned camera to fit all selected actors.
+[2014.11.18-17.14.44:741][463]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleSnow_2)
+[2014.11.18-17.14.45:514][508]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.14.46:168][546]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.14.46:830][585]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleSnow_2)
+[2014.11.18-17.14.47:371][616]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.14.47:826][642]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.14.48:421][677]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.14.49:116][718]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.15.02:224][477]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.15.04:991][641]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modelCoveredBridge)
+[2014.11.18-17.15.05:360][662]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.15.05:360][662]Aligned camera to fit all selected actors.
+[2014.11.18-17.15.09:036][881]LogEditorViewport: Clicking on Actor (LMB): Landscape (landscapeArea3)
+[2014.11.18-17.15.11:043][  0]LogEditorViewport: Clicking on Actor (LMB): Emitter (particleSnow_2)
+[2014.11.18-17.15.11:765][ 42]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (meshManholeCover)
+[2014.11.18-17.15.12:390][ 77]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.15.12:390][ 77]Aligned camera to fit all selected actors.
+[2014.11.18-17.16.22:576][961]BlueprintLog: New page: Compile Level_1
+[2014.11.18-17.16.22:709][961]BlueprintEditorCompileResults: Info [0304.67] Compile of Level_1 successful! [in 5 ms]
+[2014.11.18-17.16.26:381][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level_1" FILE="../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Content/Maps/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.18-17.16.26:589][156]LogSavePackage: Save=143.632217ms
+[2014.11.18-17.16.26:589][156]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Saved/Level_110234DA14D07BFA6477EE6BE11FABD00.tmp' to '../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Content/Maps/Level_1.umap'
+[2014.11.18-17.16.29:957][249]LogSavePackage: Save=1478.899658ms
+[2014.11.18-17.16.29:957][249]LogSavePackage: Moving '../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Saved/Level_1_WallsPlusC1FFF4FB49E503B53B2C3DBC0BA84CCD.tmp' to '../../../../../../Users/ParkerJoseph/Documents/UnhingedTest/Phobophobia 4.4/Content/Maps/Level_1_WallsPlus.umap'
+[2014.11.18-17.16.29:963][249]LogFileHelpers: Saving map 'Level_1_WallsPlus' took 1.708
+[2014.11.18-17.16.35:313][568]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.16.35:313][568]Aligned camera to fit all selected actors.
+[2014.11.18-17.16.40:096][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x379)
+[2014.11.18-17.16.40:403][865]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.16.40:403][865]Aligned camera to fit all selected actors.
+[2014.11.18-17.16.42:674][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modelPlatformConcrete_45)
+[2014.11.18-17.16.42:992][  6]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.16.42:992][  6]Aligned camera to fit all selected actors.
+[2014.11.18-17.16.45:317][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x703)
+[2014.11.18-17.16.45:904][174]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.16.45:904][174]Aligned camera to fit all selected actors.
+[2014.11.18-17.16.53:943][644]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-17.16.53:943][644]LogPlayLevel: [PIE] Compiling Level_1 before PIE...
+[2014.11.18-17.16.54:023][644]LogPlayLevel: [PIE] Compiling Level_1_WallsPlus before PIE...
+[2014.11.18-17.16.54:093][644]LogPlayLevel: [PIE] Compiling Level_1_Audio before PIE...
+[2014.11.18-17.16.54:171][644]LogPlayLevel: [PIE] Compiling Level_1_Assets before PIE...
+[2014.11.18-17.16.54:277][644]LogPlayLevel: PIE:  Blueprint regeneration took 334 ms (4 blueprints)
+[2014.11.18-17.16.54:278][644]PIE: New page: PIE session: Level_1 (Nov 18, 2014, 7:16:54 AM)
+[2014.11.18-17.16.54:297][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019382s)
+[2014.11.18-17.16.54:298][644]LogPlayLevel: PIE: World Init took: (0.000639s)
+[2014.11.18-17.16.54:298][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.020305s)
+[2014.11.18-17.16.54:328][644]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-17.16.54:388][644]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_WallsPlus.Level_1_WallsPlus to /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.16.54:422][644]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus:PersistentLevel.Wall_400x703"
+[2014.11.18-17.16.54:426][644]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Audio.Level_1_Audio to /Game/Maps/UEDPIE_0_Level_1_Audio.Level_1_Audio. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.16.54:435][644]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Terrain.Level_1_Terrain to /Game/Maps/UEDPIE_0_Level_1_Terrain.Level_1_Terrain. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.16.54:442][644]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Lighting.Level_1_Lighting to /Game/Maps/UEDPIE_0_Level_1_Lighting.Level_1_Lighting. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.16.54:495][644]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Assets.Level_1_Assets to /Game/Maps/UEDPIE_0_Level_1_Assets.Level_1_Assets. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.16.54:521][644]LogAIModule: Creating AISystem for world Level_1
+[2014.11.18-17.16.54:528][644]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.18-17.16.54:528][644]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.11.18-12.16.54
+[2014.11.18-17.16.54:533][644]LogWorld: Bringing up level for play took: 0.012166
+[2014.11.18-17.16.54:535][644]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.54:535][644]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.54:537][644]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 1.313
+[2014.11.18-17.16.54:826][654]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.54:843][655]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:076][669]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:093][670]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:677][705]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:677][705]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:677][705]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.55:677][705]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.59:527][936]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.59:978][963]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.59:978][963]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.16.59:978][963]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.17.05:020][254]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEBD728180
+[2014.11.18-17.17.07:171][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.17.07:171][381]Aligned camera to fit all selected actors.
+[2014.11.18-17.17.23:045][316]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (audioSwitch)
+[2014.11.18-17.17.24:344][390]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (audioSwitch)
+[2014.11.18-17.17.24:999][427]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (audioSwitch)
+[2014.11.18-17.17.25:631][461]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (audioSwitch)
+[2014.11.18-17.17.26:526][511]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x703)
+[2014.11.18-17.17.27:540][567]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox4)
+[2014.11.18-17.17.52:118][898]BlueprintLog: New page: Compile Level_1
+[2014.11.18-17.17.52:258][898]BlueprintEditorCompileResults: Info [0394.22] Compile of Level_1 successful! [in 5 ms]
+[2014.11.18-17.17.54:438][  3]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-17.17.54:438][  3]LogPlayLevel: [PIE] Compiling Level_1 before PIE...
+[2014.11.18-17.17.54:529][  3]LogPlayLevel: [PIE] Compiling Level_1_WallsPlus before PIE...
+[2014.11.18-17.17.54:604][  3]LogPlayLevel: [PIE] Compiling Level_1_Audio before PIE...
+[2014.11.18-17.17.54:687][  3]LogPlayLevel: [PIE] Compiling Level_1_Assets before PIE...
+[2014.11.18-17.17.54:802][  3]LogPlayLevel: PIE:  Blueprint regeneration took 364 ms (4 blueprints)
+[2014.11.18-17.17.54:802][  3]PIE: New page: PIE session: Level_1 (Nov 18, 2014, 7:17:54 AM)
+[2014.11.18-17.17.54:822][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019201s)
+[2014.11.18-17.17.54:823][  3]LogPlayLevel: PIE: World Init took: (0.000914s)
+[2014.11.18-17.17.54:823][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.020387s)
+[2014.11.18-17.17.54:853][  3]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-17.17.54:912][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_WallsPlus.Level_1_WallsPlus to /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.17.54:949][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Audio.Level_1_Audio to /Game/Maps/UEDPIE_0_Level_1_Audio.Level_1_Audio. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.17.54:959][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Terrain.Level_1_Terrain to /Game/Maps/UEDPIE_0_Level_1_Terrain.Level_1_Terrain. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.17.54:967][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Lighting.Level_1_Lighting to /Game/Maps/UEDPIE_0_Level_1_Lighting.Level_1_Lighting. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.17.55:020][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Assets.Level_1_Assets to /Game/Maps/UEDPIE_0_Level_1_Assets.Level_1_Assets. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.17.55:047][  3]LogAIModule: Creating AISystem for world Level_1
+[2014.11.18-17.17.55:053][  3]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.18-17.17.55:053][  3]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2014.11.18-12.17.55
+[2014.11.18-17.17.55:059][  3]LogWorld: Bringing up level for play took: 0.012326
+[2014.11.18-17.17.55:061][  3]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.17.55:061][  3]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.17.55:063][  3]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level_1 -0.161
+[2014.11.18-17.17.55:180][  4]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.061745 > MaxSimulationTimeStep (0.050) for 'blueprintCharacter_C_2'
+[2014.11.18-17.18.00:641][331]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.18.01:108][359]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.18.01:108][359]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.18.01:108][359]LogArray:Warning: Attempted to get an item from array actorTags out of bounds [5/4]!
+[2014.11.18-17.18.01:125][360]LogCharacterMovement: blueprintCharacter_C_2 is stuck and failed to move!
+[2014.11.18-17.18.05:296][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BEBD7713A0
+[2014.11.18-17.18.12:984][ 55]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (meshManholeCover)
+[2014.11.18-17.18.19:117][420]Cmd: TRANSACTION UNDO
+[2014.11.18-17.18.19:117][420]LogEditorTransaction: Undo Move Actors
+[2014.11.18-17.18.28:701][908]BlueprintLog: New page: Compile Level_1
+[2014.11.18-17.18.28:831][908]BlueprintEditorCompileResults: Info [0430.80] Compile of Level_1 successful! [in 5 ms]
+[2014.11.18-17.18.35:513][284]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.35:513][284]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.40:295][567]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x466)
+[2014.11.18-17.18.40:529][580]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.40:529][580]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.43:563][760]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor_31)
+[2014.11.18-17.18.43:782][772]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.43:782][772]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.46:365][926]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modelPlatformConcrete_47)
+[2014.11.18-17.18.46:634][941]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.46:634][941]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.47:564][992]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (waterSurface4)
+[2014.11.18-17.18.47:749][  2]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.47:749][  2]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.50:999][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x402)
+[2014.11.18-17.18.54:176][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (waterSurface4)
+[2014.11.18-17.18.54:343][385]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.54:343][385]Aligned camera to fit all selected actors.
+[2014.11.18-17.18.58:510][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (modelPlatformConcrete_41)
+[2014.11.18-17.18.58:845][640]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.18.58:845][640]Aligned camera to fit all selected actors.
+[2014.11.18-17.19.01:565][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x703)
+[2014.11.18-17.19.02:042][829]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2014.11.18-17.19.02:042][829]Aligned camera to fit all selected actors.
+[2014.11.18-17.19.05:088][993]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.18-17.19.05:088][993]LogPlayLevel: [PIE] Compiling Level_1 before PIE...
+[2014.11.18-17.19.05:176][993]LogPlayLevel: [PIE] Compiling Level_1_WallsPlus before PIE...
+[2014.11.18-17.19.05:252][993]LogPlayLevel: [PIE] Compiling Level_1_Audio before PIE...
+[2014.11.18-17.19.05:353][993]LogPlayLevel: [PIE] Compiling Level_1_Assets before PIE...
+[2014.11.18-17.19.05:469][993]LogPlayLevel: PIE:  Blueprint regeneration took 381 ms (4 blueprints)
+[2014.11.18-17.19.05:469][993]PIE: New page: PIE session: Level_1 (Nov 18, 2014, 7:19:05 AM)
+[2014.11.18-17.19.05:490][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020211s)
+[2014.11.18-17.19.05:490][993]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2014.11.18-17.19.05:491][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level_1.Level_1 to /Game/Maps/UEDPIE_0_Level_1.Level_1 (0.021060s)
+[2014.11.18-17.19.05:516][993]LogWorld: Game class is 'MyGame_C'
+[2014.11.18-17.19.05:576][993]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_WallsPlus.Level_1_WallsPlus to /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus. OwningWorld: /Game/Maps/UEDPIE_0_Level_1.Level_1
+[2014.11.18-17.19.05:610][993]LogSelection:Warning: PIE object was selected: "StaticMeshActor /Game/Maps/UEDPIE_0_Level_1_WallsPlus.Level_1_WallsPlus:PersistentLevel.Wall_400x703"
+[2014.11.18-17.19.05:614][993]LogWorld: PIE: Copying PIE streaming level from /Game/Maps/Level_1_Audio.Level_1_Audio to /Game/Maps/UEDPIE_0
